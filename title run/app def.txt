@@ -1,0 +1,1 @@
+functionbuttoncolor=#e6d3171e;pagetabsselectioncolor=#09679B;pagetabsfillmode=auto;headercolor=#e62e2e2e;topareaheight=26%;backgroundimage=https://oaafiles.blob.core.windows.net/images/themes/sportyGreen_top.jpeg

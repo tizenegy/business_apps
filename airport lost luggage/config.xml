@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns="urn:WunderApp">
+    <page pageid="5" caption="Home">
+        <excelcontent>
+            <items>
+                <item id="RSYOw5yO" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=25%;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+                <item id="HGsTYX08" caption="HGsTYX08" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="MaGWZwBd" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=15%;backgroundcolor=#00000000;groupname=HGsTYX08</itemdefinitions>
+                </item>
+                <item id="V6eYjHCx" caption="" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#00d5d5d5;linkinfo=page:1;textfontsize=16;groupname=HGsTYX08;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/f8afd774-92d7-41bd-93e9-8059a33e79d2/public/field-j3hkmNqr.png?v=o9Zwdb9I;buttonheight=20%</itemdefinitions>
+                </item>
+                <item id="0hk3wCYD" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=5%;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+                <item id="pJ7S3emK" caption="pJ7S3emK" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="8gQbffty" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=15%;backgroundcolor=#00000000;groupname=pJ7S3emK</itemdefinitions>
+                </item>
+                <item id="GSmSaQg8" caption="" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#00d5d5d5;runapp=19fc19ff-87e2-4a5c-bac4-212508efcedb;textfontsize=16;groupname=pJ7S3emK;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/f8afd774-92d7-41bd-93e9-8059a33e79d2/public/field-3kv1bOBV.png?v=gajH2MPM;buttonheight=20%</itemdefinitions>
+                </item>
+                <item id="aplZ6QRz" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=25%;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+                <item id="rd7vszgb" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=15%;backgroundcolor=#00000000;groupname=HGsTYX08</itemdefinitions>
+                </item>
+                <item id="bMDaejQE" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=15%;backgroundcolor=#00000000;groupname=pJ7S3emK</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="1" caption="Map" definitions="sheetname=app;summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D;actionbuttontype=none">
+        <excelcontent>
+            <items>
+                <item id="hE4lUlsa" caption="hE4lUlsa" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="TOX2PzJq" caption="Luggage origin" inputtype="input" contenttype="toggle" address="app!A2">
+                    <itemdefinitions>usecellformat=true;groupname=hE4lUlsa;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=16;valuefontstyle=regular</itemdefinitions>
+                </item>
+                <item id="z5EKHqOU" caption="IATA code" inputtype="output" contenttype="result" address="app!B2">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=hE4lUlsa;elementwidth=30%;backgroundcolor=#cc12ba98;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff;valuefontstyle=regular;valuefontsize=16</itemdefinitions>
+                </item>
+                <item id="ycjNCSEz" caption="ycjNCSEz" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="C0jHU9hU" caption="Luggage destination" inputtype="input" contenttype="toggle" address="app!A3">
+                    <itemdefinitions>usecellformat=true;groupname=ycjNCSEz;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=16</itemdefinitions>
+                </item>
+                <item id="0z3FECjt" caption="IATA code" inputtype="output" contenttype="result" address="app!B3">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=ycjNCSEz;elementwidth=30%;backgroundcolor=#cc12ba98;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff;valuefontsize=16;valuefontstyle=regular</itemdefinitions>
+                </item>
+                <item id="5QWGM0ZD" caption="" inputtype="" contenttype="map" address="app!A1">
+                    <itemdefinitions>componentname=map;detailcolumns=1::,2::,map::;locationcolumns=3,4;namecolumn=2;showsearchpanel=false;buttonheight=50%;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=16</itemdefinitions>
+                </item>
+                <item id="lq6eGeoS" caption="Next" inputtype="actionbutton" address="">
+                    <itemdefinitions>linkinfo=page:2;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;textcolor=#4c4c4c;valuefontsize=16;textfontsize=16</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="2" caption="Flight" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D;actionbuttontype=none">
+        <excelcontent>
+            <items>
+                <item id="AwBR3gD7" caption="AwBR3gD7" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="pXca4DI9" caption="Search flight number" inputtype="input" contenttype="string" address="app!B10">
+                    <itemdefinitions>usecellformat=true;groupname=AwBR3gD7;backgroundcolor=#e6ffffff;buttonradius=8;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=16</itemdefinitions>
+                </item>
+                <item id="VDv5FqsY" caption="Hits" inputtype="output" contenttype="result" address="app!E10">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=AwBR3gD7;elementwidth=30%;backgroundcolor=#cc12ba98;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff;valuefontsize=16</itemdefinitions>
+                </item>
+                <item id="WkB8ILwM" caption="Pick flight" inputtype="input" contenttype="toggle" address="app!B12">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=16</itemdefinitions>
+                </item>
+                <item id="y9zzqTJf" caption="y9zzqTJf" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="39zPqCLq" caption="Carrier" inputtype="output" contenttype="result" address="app!B14">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=y9zzqTJf;backgroundcolor=#cc12ba98;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff;valuefontsize=16</itemdefinitions>
+                </item>
+                <item id="9hgUIqbK" caption="Origin" inputtype="output" contenttype="result" address="app!B15">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=y9zzqTJf;backgroundcolor=#cc12ba98;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff;valuefontsize=16</itemdefinitions>
+                </item>
+                <item id="Brb8oWRs" caption="Arrival" inputtype="output" contenttype="result" address="app!B16">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=y9zzqTJf;backgroundcolor=#cc12ba98;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff;valuefontsize=16</itemdefinitions>
+                </item>
+                <item id="7LBJLe9Y" caption="7LBJLe9Y" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="K0nklJBP" caption="Please confirm" inputtype="output" contenttype="result" address="app!B24">
+                    <itemdefinitions>nocaption=true;usecellformat=true;buttonheight=15%;backgroundcolor=#cc12ba98;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff;valuefontsize=16;valuefontstyle=regular;groupname=7LBJLe9Y</itemdefinitions>
+                </item>
+                <item id="x5XEfLHf" caption="" inputtype="input" contenttype="checkbox" address="app!B25">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;groupname=7LBJLe9Y;valuefontsize=16;elementwidth=15%</itemdefinitions>
+                </item>
+                <item id="rdVayDX2" caption="Next" inputtype="actionbutton" address="app!A26">
+                    <itemdefinitions>isvisiblecell=app!B25;linkinfo=page:3;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;textcolor=#4c4c4c;valuefontsize=16;textfontsize=16</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="3" caption="Photo" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D;actionbuttontype=none">
+        <excelcontent>
+            <items>
+                <item id="0FKI2fv1" caption="Photo luggage" inputtype="output" contenttype="imageupload" address="app!B27">
+                    <itemdefinitions>backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="0FKI2fv2" caption="Photo name tag (if available)" inputtype="output" contenttype="imageupload" address="app!B28">
+                    <itemdefinitions>backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontstyle=regular</itemdefinitions>
+                </item>
+                <item id="v2Jg4gsX" caption="Next" inputtype="actionbutton" address="">
+                    <itemdefinitions>linkinfo=page:4;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;textcolor=#4c4c4c;valuefontsize=16;textfontsize=16</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="4" caption="Submit" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item id="5aHsOGT5" caption="5aHsOGT5" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="E8L8NF8c" caption="Name" inputtype="output" contenttype="string" address="app!B33">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=8;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontstyle=regular;valuefontsize=16;groupname=5aHsOGT5</itemdefinitions>
+                </item>
+                <item id="Tv1g74SL" caption="" inputtype="output" contenttype="string" address="app!H39">
+                    <itemdefinitions>usecellformat=true;backgroundimage=https://oaa-web.azureedge.net/home/assets/images/kai_bielenberg.png;backgroundcolor=#e6ffffff;buttonradius=8;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontstyle=regular;isvisiblecell=app!C33;buttonheight=30%;groupname=5aHsOGT5</itemdefinitions>
+                </item>
+                <item id="4DdG0E4F" caption="ID" inputtype="output" contenttype="string" address="app!B34">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=8;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=16</itemdefinitions>
+                </item>
+                <item id="GSmSaQg9" caption="View all found items" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#e6ffffff;runapp=19fc19ff-87e2-4a5c-bac4-212508efcedb;valuefontsize=16;textfontsize=16;buttonradius=6;textcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="3xQ0ElhU" caption="" inputtype="output" contenttype="string" address="app!H40">
+                    <itemdefinitions>usecellformat=true;backgroundimage=https://oaa-web.azureedge.net/home/assets/images/bastian.jpg;backgroundcolor=#e6ffffff;buttonradius=8;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;isvisiblecell=app!D33;valuefontstyle=regular;buttonheight=30%;valuefontsize=16;groupname=5aHsOGT5</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+</pages>

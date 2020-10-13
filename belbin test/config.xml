@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages>
+    <page pageid="1" caption="I" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent id="2">
+            <items>
+                <item caption="" inputtype="output" contenttype="string" address="&apos;Part I&apos;!B3" id="olMnBJKd">
+                    <itemdefinitions>usecellformat=true</itemdefinitions>
+                </item>
+                <item caption="I think I can quickly see and take advantage of opportunities." inputtype="input" contenttype="toggle" address="&apos;Part I&apos;!D5" id="TXuvY76h">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I can work well with a very wide range of people." inputtype="input" contenttype="toggle" address="&apos;Part I&apos;!D7" id="W57uxcR5">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I can usually sense what is realistic and likely to work." inputtype="input" contenttype="toggle" address="&apos;Part I&apos;!D9" id="JOkCfVw6">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="My capacity to follow through has much to do with my personal effectiveness." inputtype="input" contenttype="toggle" address="&apos;Part I&apos;!D11" id="aveqeVBh">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="My ability rests in being able to draw people out whenever I detect they have something of value to contribute to group activities." inputtype="input" contenttype="toggle" address="&apos;Part I&apos;!D13" id="fYEZfcK6">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="My technical knowledge and experience is usually my major asset." inputtype="input" contenttype="toggle" address="&apos;Part I&apos;!D15" id="LNSXHMAB">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I can offer a reasoned case for alternative courses of action without introducing bias or prejudice." inputtype="input" contenttype="toggle" address="&apos;Part I&apos;!D17" id="vbOCAJcy">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="Producing ideas is one of my natural assets." inputtype="input" contenttype="toggle" address="&apos;Part I&apos;!D19" id="s6OzHRbv">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I am ready to face temporary unpopularity if it leads to worthwhile results in the end." inputtype="input" contenttype="toggle" address="&apos;Part I&apos;!D21" id="pnUiMqif">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="result" address="&apos;Part I&apos;!J11" id="1vXHn40f">
+                    <itemdefinitions>nocaption=true;usecellformat=true;showinsummary=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#ffffff;backgroundcolor=#cc12ba98</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="2" caption="II" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent id="2">
+            <items>
+                <item caption="" inputtype="output" contenttype="string" address="&apos;Part II&apos;!B3" id="21tdRuwX">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item caption="I am not at ease unless meetings are well structured and controlled and generally well conducted." inputtype="input" contenttype="toggle" address="&apos;Part II&apos;!D5" id="aOXvSnc3">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="My objective outlook makes it difficult for me to join in readily and enthusiastically with colleagues." inputtype="input" contenttype="toggle" address="&apos;Part II&apos;!D7" id="UsPiztkA">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I find it difficult to lead from the front, perhaps because I am over-responsive to group atmosphere." inputtype="input" contenttype="toggle" address="&apos;Part II&apos;!D9" id="nXqWlqUY">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I am apt to get too caught up in ideas that occur to me and so lose track of what is happening." inputtype="input" contenttype="toggle" address="&apos;Part II&apos;!D11" id="TkNr13ry">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="My colleagues tend to see me as worrying unnecessarily over detail and the possibility that things may go wrong." inputtype="input" contenttype="toggle" address="&apos;Part II&apos;!D13" id="AoW95Zg1">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I am sometimes seen as forceful and authoritarian if there is a need to get something done." inputtype="input" contenttype="toggle" address="&apos;Part II&apos;!D15" id="A5WNBZDj">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I am inclined to be generous towards others who have a valid viewpoint that has not been given a proper airing." inputtype="input" contenttype="toggle" address="&apos;Part II&apos;!D17" id="8mst7GmL">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I am reluctant to contribute unless the subject being discussed deals with an area I know well." inputtype="input" contenttype="toggle" address="&apos;Part II&apos;!D19" id="mkyED2iQ">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I have a tendency to talk too much once the group gets on to new ideas." inputtype="input" contenttype="toggle" address="&apos;Part II&apos;!D21" id="CEVtCYFY">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="Points Remaining:" inputtype="output" contenttype="result" address="&apos;Part II&apos;!J11" id="y2UnGDtW">
+                    <itemdefinitions>nocaption=true;usecellformat=true;showinsummary=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#ffffff;backgroundcolor=#cc12ba98</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="3" caption="III" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent id="2">
+            <items>
+                <item caption="I can be counted on to contribute something original." inputtype="input" contenttype="string" address="&apos;Part III&apos;!B3" id="8UKXEbOA">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I can be counted on to contribute something original." inputtype="input" contenttype="toggle" address="&apos;Part III&apos;!D5" id="ZmRUCNbk">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="My general vigilance prevents careless mistakes and omissions being made." inputtype="input" contenttype="toggle" address="&apos;Part III&apos;!D7" id="vOtCKGPm">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I have an aptitude for influencing people without pressurizing them." inputtype="input" contenttype="toggle" address="&apos;Part III&apos;!D9" id="IfJKoB6A">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I am keen to look for the latest in new ideas and developments." inputtype="input" contenttype="toggle" address="&apos;Part III&apos;!D11" id="KEJsW10c">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I try to maintain my sense of professionalism." inputtype="input" contenttype="toggle" address="&apos;Part III&apos;!D13" id="YB5BYqOH">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I believe that my capacity for judgements can help to bring about the right decisions." inputtype="input" contenttype="toggle" address="&apos;Part III&apos;!D15" id="Op4rQeUv">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I am always ready to back a good suggestion in the common interest." inputtype="input" contenttype="toggle" address="&apos;Part III&apos;!D17" id="WbEUIqya">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I am ready to press for action to make sure the meeting does not waste time or lose sight of the main objective." inputtype="input" contenttype="toggle" address="&apos;Part III&apos;!D19" id="F7vAJxiQ">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I can be relied upon to see that all essential work is organized." inputtype="input" contenttype="toggle" address="&apos;Part III&apos;!D21" id="sZiYBWpf">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="Points Remaining:" inputtype="output" contenttype="result" address="&apos;Part III&apos;!J11" id="AjSXgoFP">
+                    <itemdefinitions>nocaption=true;usecellformat=true;showinsummary=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#ffffff;backgroundcolor=#cc12ba98</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="4" caption="IV" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent id="2">
+            <items>
+                <item caption="I have a quiet interest in getting to know colleagues better." inputtype="input" contenttype="string" address="&apos;Part IV&apos;!B3" id="18nnYfWt">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I have a quiet interest in getting to know colleagues better." inputtype="input" contenttype="toggle" address="&apos;Part IV&apos;!D5" id="KaBEs4Tp">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="While I am interested in all views, I have no hesitation in making up my mind once a decision has to be made." inputtype="input" contenttype="toggle" address="&apos;Part IV&apos;!D7" id="puWHthnD">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I am not reluctant to challenge the views of others or to hold a minority view myself." inputtype="input" contenttype="toggle" address="&apos;Part IV&apos;!D9" id="C2TnGLW4">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I think I have a talent for making things work once a plan has to be put into operation." inputtype="input" contenttype="toggle" address="&apos;Part IV&apos;!D11" id="2ifzDrHF">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I have a tendency to avoid the obvious and come out with the unexpected." inputtype="input" contenttype="toggle" address="&apos;Part IV&apos;!D13" id="OutYPbEn">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I am ready to make use of contacts outside of the group itself." inputtype="input" contenttype="toggle" address="&apos;Part IV&apos;!D15" id="weJaWQhU">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I bring a touch of perfectionism to any job I undertake." inputtype="input" contenttype="toggle" address="&apos;Part IV&apos;!D17" id="1pSCPYmt">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I can usually find a line of argument to refute unsound propositions." inputtype="input" contenttype="toggle" address="&apos;Part IV&apos;!D19" id="iEm4NyCz">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I contribute when I know what I&apos;m talking about." inputtype="input" contenttype="toggle" address="&apos;Part IV&apos;!D21" id="c4XMPOfm">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="result" address="&apos;Part IV&apos;!J11" id="Mo2dkG32">
+                    <itemdefinitions>nocaption=true;usecellformat=true;showinsummary=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#ffffff;backgroundcolor=#cc12ba98</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="5" caption="V" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent id="2">
+            <items>
+                <item caption="I enjoy analyzing situations and weighing up all the possible choices." inputtype="input" contenttype="string" address="&apos;Part V&apos;!B3" id="sb3Be0z2">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I enjoy analyzing situations and weighing up all the possible choices." inputtype="input" contenttype="toggle" address="&apos;Part V&apos;!D5" id="6sUrVEk0">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I feel that I am using my special qualifications and training to advantage." inputtype="input" contenttype="toggle" address="&apos;Part V&apos;!D7" id="Z50Avt2j">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I like to find a field that stretches my imagination." inputtype="input" contenttype="toggle" address="&apos;Part V&apos;!D9" id="ZTYm6lhO">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I feel in my element when I can give a task my full attention." inputtype="input" contenttype="toggle" address="&apos;Part V&apos;!D11" id="PhwzNIzx">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I am interested in finding practical solutions to problems." inputtype="input" contenttype="toggle" address="&apos;Part V&apos;!D13" id="FGTL7VuW">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I like to feel I am fostering good working relationships." inputtype="input" contenttype="toggle" address="&apos;Part V&apos;!D15" id="LFmBas9I">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I can meet people who may have something new to offer." inputtype="input" contenttype="toggle" address="&apos;Part V&apos;!D17" id="bjusZfBq">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I can get people to agree on a necessary course of action." inputtype="input" contenttype="toggle" address="&apos;Part V&apos;!D19" id="z9dN3um6">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I can have a strong influence on decisions." inputtype="input" contenttype="toggle" address="&apos;Part V&apos;!D21" id="EpH3QKRt">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="result" address="&apos;Part V&apos;!J11" id="rSwvwRHB">
+                    <itemdefinitions>nocaption=true;usecellformat=true;showinsummary=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#ffffff;backgroundcolor=#cc12ba98</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="6" caption="VI" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent id="2">
+            <items>
+                <item caption="I am apt to show my impatience with those who are obstructing progress." inputtype="input" contenttype="string" address="&apos;Part VI&apos;!B3" id="VnrkVYUX">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I am apt to show my impatience with those who are obstructing progress." inputtype="input" contenttype="toggle" address="&apos;Part VI&apos;!D5" id="c26RYszy">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I hesitate to get my points across when I run up against real opposition." inputtype="input" contenttype="toggle" address="&apos;Part VI&apos;!D7" id="UncIXfqB">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I am inclined to feel I am wasting my time and would do better on my own." inputtype="input" contenttype="toggle" address="&apos;Part VI&apos;!D9" id="vTeu96b9">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I am conscious of demanding from others the things I cannot do myself." inputtype="input" contenttype="toggle" address="&apos;Part VI&apos;!D11" id="M57cshuU">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I am tend to get bored rather easily and rely on one or two stimulating members to spark me off." inputtype="input" contenttype="toggle" address="&apos;Part VI&apos;!D13" id="2pN2a1is">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="My desire to ensure that work is properly done can hold up proceedings." inputtype="input" contenttype="toggle" address="&apos;Part VI&apos;!D15" id="MWCC6wgX">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="Others may criticise me for being too analytical and insufficiently intuitive." inputtype="input" contenttype="toggle" address="&apos;Part VI&apos;!D17" id="ewfW7d69">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I find it difficult to get started unless the goals are clear." inputtype="input" contenttype="toggle" address="&apos;Part VI&apos;!D19" id="zG7J8oMo">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I am sometimes poor at explaining and clarifying complex points that occur to me." inputtype="input" contenttype="toggle" address="&apos;Part VI&apos;!D21" id="lOmKgOH5">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="result" address="&apos;Part VI&apos;!J11" id="yizt1S0p">
+                    <itemdefinitions>nocaption=true;usecellformat=true;showinsummary=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#ffffff;backgroundcolor=#cc12ba98</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="7" caption="VII" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent id="2">
+            <items>
+                <item caption="I am apt to show my impatience with those who are obstructing progress." inputtype="input" contenttype="string" address="&apos;Part VII&apos;!B3" id="8J6NI20T">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I am apt to show my impatience with those who are obstructing progress." inputtype="input" contenttype="toggle" address="&apos;Part VII&apos;!D5" id="W0Gd7xj5">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I hesitate to get my points across when I run up against real opposition." inputtype="input" contenttype="toggle" address="&apos;Part VII&apos;!D7" id="CYeKvQjN">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I am inclined to feel I am wasting my time and would do better on my own." inputtype="input" contenttype="toggle" address="&apos;Part VII&apos;!D9" id="0EnVJQy3">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I am conscious of demanding from others the things I cannot do myself." inputtype="input" contenttype="toggle" address="&apos;Part VII&apos;!D11" id="nvblQHuR">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I am tend to get bored rather easily and rely on one or two stimulating members to spark me off." inputtype="input" contenttype="toggle" address="&apos;Part VII&apos;!D13" id="pMUYop0J">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="My desire to ensure that work is properly done can hold up proceedings." inputtype="input" contenttype="toggle" address="&apos;Part VII&apos;!D15" id="tKJf32S0">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="Others may criticise me for being too analytical and insufficiently intuitive." inputtype="input" contenttype="toggle" address="&apos;Part VII&apos;!D17" id="2mhFZvfY">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I find it difficult to get started unless the goals are clear." inputtype="input" contenttype="toggle" address="&apos;Part VII&apos;!D19" id="zJA4904H">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="I am sometimes poor at explaining and clarifying complex points that occur to me." inputtype="input" contenttype="toggle" address="&apos;Part VII&apos;!D21" id="Al9LKU9h">
+                    <itemdefinitions>usecellformat=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="result" address="&apos;Part VII&apos;!J11" id="GApaVFxK">
+                    <itemdefinitions>nocaption=true;usecellformat=true;showinsummary=true;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#ffffff;backgroundcolor=#cc12ba98</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="8" caption="Results" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent id="2">
+            <items>
+                <item id="dfOxsqzB" caption="dfOxsqzB" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item caption="Implementor" inputtype="output" contenttype="result" address="Results!E18" id="lhZ21A7R">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=dfOxsqzB;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#ffffff;backgroundcolor=#cc12ba98</itemdefinitions>
+                </item>
+                <item caption="Coordinator" inputtype="output" contenttype="result" address="Results!E19" id="TjUNH8F9">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=dfOxsqzB;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#ffffff;backgroundcolor=#cc12ba98</itemdefinitions>
+                </item>
+                <item id="zEsjKsF4" caption="zEsjKsF4" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item caption="Shaper" inputtype="output" contenttype="result" address="Results!E20" id="IxrDDsYu">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=zEsjKsF4;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#ffffff;backgroundcolor=#cc12ba98</itemdefinitions>
+                </item>
+                <item caption="Plant" inputtype="output" contenttype="result" address="Results!E21" id="v7ZQ0PSC">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=zEsjKsF4;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#ffffff;backgroundcolor=#cc12ba98</itemdefinitions>
+                </item>
+                <item id="bWWrqM7H" caption="bWWrqM7H" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item caption="Resource Investigator" inputtype="output" contenttype="result" address="Results!E22" id="oYetfyeK">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=bWWrqM7H;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#ffffff;backgroundcolor=#cc12ba98</itemdefinitions>
+                </item>
+                <item caption="Monitor Evaluator" inputtype="output" contenttype="result" address="Results!E23" id="F7gEmORN">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=bWWrqM7H;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#ffffff;backgroundcolor=#cc12ba98</itemdefinitions>
+                </item>
+                <item id="PDdBexit" caption="PDdBexit" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item caption="Team Worker" inputtype="output" contenttype="result" address="Results!E24" id="GQvEDor8">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=PDdBexit;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#ffffff;backgroundcolor=#cc12ba98</itemdefinitions>
+                </item>
+                <item caption="Complete Finisher" inputtype="output" contenttype="result" address="Results!E25" id="X3HTMrPA">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=PDdBexit;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#ffffff;backgroundcolor=#cc12ba98</itemdefinitions>
+                </item>
+                <item id="7YQKD7nV" caption="7YQKD7nV" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item caption="Specialist" inputtype="output" contenttype="result" address="Results!E26" id="Mq0c6u9c">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=7YQKD7nV;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#ffffff;backgroundcolor=#cc12ba98</itemdefinitions>
+                </item>
+                <item id="uLSmZpFc" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=25%;groupname=7YQKD7nV</itemdefinitions>
+                </item>
+                <item caption="Your Personal Role Inventory" inputtype="output" contenttype="chart" address="Results!C18:C26;Results!E18:E26" id="jE4DVNKa">
+                    <itemdefinitions>charttype=polar;chartseriestypes=polar;seriescaptions=Serie1;height=600;showlegend=true;showdatamarker=true;helperheightorbuttonheight=300;colorpalette=#d1dabe,#92aa9d,#4c4c4c,#12ba98,#537780,#323232,#1e6262,#2b2e4a;backgroundcolor=#e6ffffff</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+</pages>

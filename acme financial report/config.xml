@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages
+    xmlns="urn:WunderApp"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <page pageid="1" caption="Main" definitions="sheetname=Chart Area;summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent id="1">
+            <caption>Main</caption>
+            <description>Main</description>
+            <definitions>buttonopacity=9;separatorcolor=CFCFCF;elementcolor=39A83C;valuetextcolor=39A83C;</definitions>
+            <items>
+                <item caption="Delta in € m" inputtype="output" contenttype="chart" address="U6:U12;W6:W12;V6:V12" id="NPaxigVr">
+                    <itemdefinitions>charttype=column;showlegend=true;seriescaptions=10/20/2020,10/27/2020;buttonradius=0;backgroundcolor=#2a2a2a;elementcolor=#09679b;valuetextcolor=#46b5f6;valuefontsize=38;valuehorzalign=left;metrictextcolor=#aaaaaa;metricfontsize=12;seriescolor=#09679b;colorpalette=#a6a6a6,#f8cc55;legendtextcolor=#ffffff;titletextcolor=#ffffff;axiscolor=#aaaaaa;height=300</itemdefinitions>
+                </item>
+                <item id="2zSdjmUA" caption="2zSdjmUA" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=90;metrictext=;separatorcolor=transparent;bordercolor=transparent;buttonradius=0;backgroundcolor=ff0000;elementcolor=000000;valuetextcolor=000000;</itemdefinitions>
+                </item>
+                <item caption="Vega in € k " inputtype="output" contenttype="chart" address="U34:U40;W34:W40;V34:V40" id="vpEa8Yka">
+                    <itemdefinitions>charttype=spline;showlegend=false;seriescaptions=1/20/2017,1/27/2017;backgroundcolor=#2a2a2a;elementcolor=#09679b;valuetextcolor=#46b5f6;valuefontsize=38;valuehorzalign=left;metrictextcolor=#aaaaaa;metricfontsize=12;seriescolor=#09679b;colorpalette=#a6a6a6,#f8cc55;legendtextcolor=#ffffff;titletextcolor=#ffffff;axiscolor=#aaaaaa;groupname=2zSdjmUA;height=300</itemdefinitions>
+                </item>
+                <item caption="MaV in € k " inputtype="output" contenttype="chart" address="U20:U26;W20:W26;V20:V26" id="wBOcz7bs">
+                    <itemdefinitions>charttype=donut;showlegend=true;seriescaptions=1/20/2017,1/27/2017;backgroundcolor=#2a2a2a;elementcolor=#09679b;valuetextcolor=#46b5f6;valuefontsize=38;valuehorzalign=left;metrictextcolor=#aaaaaa;metricfontsize=12;seriescolor=#09679b;colorpalette=#a6a6a6,#f8cc55;legendtextcolor=#ffffff;titletextcolor=#ffffff;axiscolor=#aaaaaa;yaxiscaption=MaV in € k;showdatamarker=false;groupname=2zSdjmUA;height=300</itemdefinitions>
+                </item>
+                <item caption="Rho in € k " inputtype="output" contenttype="chart" address="U48:U54;W48:W54;V48:V54" id="tEeAoCVK">
+                    <itemdefinitions>charttype=areastacked;showlegend=true;seriescaptions=10/20/2020,10/27/2020;backgroundcolor=#2a2a2a;elementcolor=#09679b;valuetextcolor=#46b5f6;valuefontsize=38;valuehorzalign=left;seriescolor=#09679b;colorpalette=#a6a6a6,#f8cc55;legendtextcolor=#ffffff;titletextcolor=#ffffff;axiscolor=#aaaaaa;height=300</itemdefinitions>
+                </item>
+                <item caption="TOP 5 FX Vega position in € K " inputtype="output" contenttype="chart" address="U62:U67;W62:W67;V62:V67" id="OXt2xItK">
+                    <itemdefinitions>charttype=column;showlegend=true;seriescaptions=10/20/2020,10/27/2020;backgroundcolor=#2a2a2a;elementcolor=#09679b;valuetextcolor=#46b5f6;valuefontsize=38;valuehorzalign=left;metrictextcolor=#aaaaaa;metricfontsize=12;seriescolor=#09679b;colorpalette=#a6a6a6,#f8cc55;legendtextcolor=#ffffff;titletextcolor=#ffffff;axiscolor=#aaaaaa;height=300</itemdefinitions>
+                </item>
+                <item caption="Total and Top 7 FX Delta positions in € m" inputtype="output" contenttype="chart" address="U76:U83;W76:W83;V76:V83" id="JIhiBg1u">
+                    <itemdefinitions>charttype=column;showlegend=true;seriescaptions=10/20/2020,10/27/2020;backgroundcolor=#2a2a2a;elementcolor=#09679b;valuetextcolor=#46b5f6;valuefontsize=38;valuehorzalign=left;metrictextcolor=#aaaaaa;metricfontsize=12;seriescolor=#09679b;colorpalette=#a6a6a6,#f8cc55;legendtextcolor=#ffffff;titletextcolor=#ffffff;axiscolor=#aaaaaa;height=300</itemdefinitions>
+                </item>
+                <item caption="Delta in € m " inputtype="output" contenttype="chart" address="U6:U12;W6:W12;V6:V12" id="O8mLsVGt">
+                    <itemdefinitions>charttype=column;showlegend=true;seriescaptions=10/20/2020,10/27/2020;backgroundcolor=#2a2a2a;elementcolor=#09679b;valuetextcolor=#46b5f6;valuefontsize=38;valuehorzalign=left;metrictextcolor=#aaaaaa;metricfontsize=12;seriescolor=#09679b;colorpalette=#a6a6a6,#f8cc55;legendtextcolor=#ffffff;titletextcolor=#ffffff;axiscolor=#aaaaaa;height=300</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+</pages>
