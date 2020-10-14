@@ -1,0 +1,1326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages
+    xmlns="urn:WunderApp"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <page pageid="1" caption="Main" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D;actionbuttontype=none">
+        <excelcontent id="1">
+            <items>
+                <item id="uB3LBprY" contenttype="image" caption="Image">
+                    <itemdefinitions>imageclickevent=true;imagefile=https://images.unsplash.com/photo-1507537362848-9c7e70b7b5c1?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjQ5ODg4fQ</itemdefinitions>
+                </item>
+                <item id="zGq1LVnX" caption="Wie professionell ist Ihre Vertriebsorganisation?" contenttype="header">
+                    <itemdefinitions>textfontsize=24;captionhorzalign=center;height=15%</itemdefinitions>
+                </item>
+                <item id="qX5d2zav" caption="qX5d2zav" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="v0QeF3MO" caption="Vertriebsstrategie" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;groupname=qX5d2zav;linkinfo=page:23;textfontsize=18</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="23"/>
+                </item>
+                <item id="9aURCEfK" caption="Vertriebsmanagement" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;groupname=qX5d2zav;linkinfo=page:24;textfontsize=18</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="24"/>
+                </item>
+                <item id="ufq01Go5" caption="ufq01Go5" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="4248m06M" caption="Informationen" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;groupname=ufq01Go5;linkinfo=page:25;textfontsize=18</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="25"/>
+                </item>
+                <item id="JJ2Rf7F8" caption="Kundenbeziehung" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;groupname=ufq01Go5;linkinfo=page:26;textfontsize=18</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="26"/>
+                </item>
+                <item id="KEKtgcaP" contenttype="spacer">
+                    <itemdefinitions>height=10</itemdefinitions>
+                </item>
+                <item id="AnJb8TqF" caption="Auswertung" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:2</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="2"/>
+                </item>
+                <item id="aD50CHKN" contenttype="spacer">
+                    <itemdefinitions>height=50</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="23" caption="Vertriebsstrategie" definitions="actionbuttontype=home">
+        <excelcontent id="1">
+            <items>
+                <item id="vlMX8vbF" contenttype="image" caption="Image">
+                    <itemdefinitions>imageclickevent=true;imagefile=https://images.unsplash.com/photo-1529699211952-734e80c4d42b?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjQ5ODg4fQ</itemdefinitions>
+                </item>
+                <item id="yt0yAC1U" caption="Wie professionell ist Ihre Vertriebsstrategie?" contenttype="header">
+                    <itemdefinitions>textfontsize=24;captionhorzalign=center;height=15%</itemdefinitions>
+                </item>
+                <item id="8Th6cVMx" caption="8Th6cVMx" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="sHcYY2x4" caption="Kunden" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:3;textfontsize=18;groupname=8Th6cVMx</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="3"/>
+                </item>
+                <item id="xX37cqrA" caption="Wettbewerbsvorteile" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:4;textfontsize=18;groupname=8Th6cVMx</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="4"/>
+                </item>
+                <item id="yTFgL2vO" caption="yTFgL2vO" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="kss7w66X" caption="Vertriebswege" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:5;textfontsize=18;groupname=yTFgL2vO</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="5"/>
+                </item>
+                <item id="rPmTP2Uy" caption="Preispolitik" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:6;textfontsize=18;groupname=yTFgL2vO</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="6"/>
+                </item>
+                <item id="lFWQlnHl" caption="lFWQlnHl" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="35QEdGkN" caption="Zahlengerüst" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:7;textfontsize=18;groupname=lFWQlnHl</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="7"/>
+                </item>
+                <item id="3aH8zIPe" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=lFWQlnHl</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="24" caption="Vertriebsmanagement" definitions="actionbuttontype=home">
+        <excelcontent id="1">
+            <items>
+                <item id="WpjBTVdB" contenttype="image" caption="Image">
+                    <itemdefinitions>imageclickevent=true;imagefile=https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjQ5ODg4fQ</itemdefinitions>
+                </item>
+                <item id="8X7wAU1y" caption="Wie professionell ist Ihr Vertriebsmanagement?" contenttype="header">
+                    <itemdefinitions>textfontsize=24;captionhorzalign=center;height=15%</itemdefinitions>
+                </item>
+                <item id="AudNqbag" caption="AudNqbag" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="9SixVyC8" caption="Planung und Kontrolle" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:9;textfontsize=18;groupname=AudNqbag</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="9"/>
+                </item>
+                <item id="fGnqcVW6" caption="Vertriebsorganisation" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:8;textfontsize=18;groupname=AudNqbag</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="8"/>
+                </item>
+                <item id="hNYTtpVR" caption="hNYTtpVR" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="FISFggBz" caption="Kultur" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:11;textfontsize=18;groupname=hNYTtpVR</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="11"/>
+                </item>
+                <item id="SwjJU4FX" caption="Personalmanagement" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:10;textfontsize=18;groupname=hNYTtpVR</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="10"/>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="25" caption="Informationsmanagement" definitions="actionbuttontype=home">
+        <excelcontent id="1">
+            <items>
+                <item id="GuDL61TI" contenttype="image" caption="Image">
+                    <itemdefinitions>imageclickevent=true;imagefile=https://images.unsplash.com/photo-1427751840561-9852520f8ce8?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjQ5ODg4fQ</itemdefinitions>
+                </item>
+                <item id="4YISXI6W" caption="Wie professionell ist Ihr Informationsmanagement?" contenttype="header">
+                    <itemdefinitions>textfontsize=24;captionhorzalign=center;height=15%</itemdefinitions>
+                </item>
+                <item id="IgDdw8LS" caption="IgDdw8LS" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="quD0GFk8" caption="Der Kunde" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:13;textfontsize=18;groupname=IgDdw8LS</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="13"/>
+                </item>
+                <item id="l4KEzcXj" caption="Informationssysteme" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:12;textfontsize=18;groupname=IgDdw8LS</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="12"/>
+                </item>
+                <item id="5fgvyO5w" caption="5fgvyO5w" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="zblln9To" caption="Der Markt" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:15;textfontsize=18;groupname=5fgvyO5w</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="15"/>
+                </item>
+                <item id="GCrlovaY" caption="Wettbewerbsinformationen" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:14;textfontsize=18;groupname=5fgvyO5w</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="14"/>
+                </item>
+                <item id="WNJoEUUX" caption="WNJoEUUX" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="Rtef5GSL" caption="CRM und CAS" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:17;textfontsize=18;groupname=WNJoEUUX</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="17"/>
+                </item>
+                <item id="SZLJ4J4O" caption="Interne Prozesse" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:16;textfontsize=18;groupname=WNJoEUUX</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="16"/>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="26" caption="Kundenbeziehungsmanagement" definitions="actionbuttontype=home">
+        <excelcontent id="1">
+            <items>
+                <item id="uXG4CWyL" contenttype="image" caption="Image">
+                    <itemdefinitions>imageclickevent=true;imagefile=https://images.unsplash.com/photo-1481669624812-c47721341026?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjQ5ODg4fQ</itemdefinitions>
+                </item>
+                <item id="T8p0Y97L" caption="Wie professionell ist Ihr Kundenbeziehungsmanagement?" contenttype="header">
+                    <itemdefinitions>textfontsize=24;captionhorzalign=center;height=15%</itemdefinitions>
+                </item>
+                <item id="pNIWEf3z" caption="pNIWEf3z" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="Maov6kgQ" caption="Beziehungsmanagement" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:19;textfontsize=18;groupname=pNIWEf3z</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="19"/>
+                </item>
+                <item id="IPHZDLB8" caption="Verkäuferpersönlichkeit" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:18;textfontsize=18;groupname=pNIWEf3z</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="18"/>
+                </item>
+                <item id="rrLHPKNP" caption="rrLHPKNP" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="VJ0w0CtH" caption="Key Account Management" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:28;textfontsize=18;groupname=rrLHPKNP</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="28"/>
+                </item>
+                <item id="fSFJO07J" caption="Kundenbindungsmanagement" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:27;textfontsize=18;groupname=rrLHPKNP</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="27"/>
+                </item>
+                <item id="wDjnSkwh" caption="wDjnSkwh" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="53Udi7b1" caption="Relationship Modelling" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:29;textfontsize=18;groupname=wDjnSkwh</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="29"/>
+                </item>
+                <item id="c8MVEnEg" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=wDjnSkwh</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="3" caption="Kunden" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D;actionbuttontype=home">
+        <excelcontent id="1">
+            <items>
+                <item id="n5MyuY8t" caption="Unser Unternehmen..." contenttype="header">
+                    <itemdefinitions>textfontsize=24;captionhorzalign=center;height=15%</itemdefinitions>
+                </item>
+                <item caption="hat präzise definiert, welche Gruppen im Absatzkanal als Kunden betrachtet werden sollen, und bearbeitet diese." inputtype="input" contenttype="toggle" address="questions!D2" id="2GH9Eh1W">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;valuefontsize=22</itemdefinitions>
+                </item>
+                <item caption="hat ein präzises Verständnis von den grundlegenden Bedürfnissen seiner Kunden." inputtype="input" contenttype="toggle" address="questions!D3" id="DIcGRQLX">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="hat klar definiert, welchen Nutzen es für seine Kunden schaffen will." inputtype="input" contenttype="toggle" address="questions!D4" id="FYJNuJrd">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="arbeitet mit einer Kundensegmentierung, die greifbar und eindeutig ist." inputtype="input" contenttype="toggle" address="questions!D5" id="dSR2reqK">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="arbeitet mit einer Kundensegmentierung, bei der klare Unterschiede im Verhalten zwischen den Segmenten erkennbar sind." inputtype="input" contenttype="toggle" address="questions!D6" id="eX9QMDzG">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="arbeitet unternehmensweit mit einem einheitlichen Segmentierungsansatz." inputtype="input" contenttype="toggle" address="questions!D7" id="RIHRBz76">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="richtet seine Marktbearbeitung differenziert auf die Bedürfnisse der verschiedenen Segmente aus." inputtype="input" contenttype="toggle" address="questions!D8" id="mSv85g3m">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="hat eindeutig definiert, welche Kunden an das Unternehmen gebunden werden." inputtype="input" contenttype="toggle" address="questions!D9" id="xKr8wBrd">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="hat eindeutig definiert, welche Instrumente/Ressourcen zur Bindung welcher Kunden eingesetzt werden sollen." inputtype="input" contenttype="toggle" address="questions!D10" id="3IXVWl7X">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="betreibt Kundenbindungsmanagement auf der Basis von klaren Wirtschaftlichkeitsbetrachtungen." inputtype="input" contenttype="toggle" address="questions!D11" id="dz9fJBZS">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item id="f4KEB4R3" caption="f4KEB4R3" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="4JNnChNC" caption="Zurück" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:28;groupname=f4KEB4R3</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="28"/>
+                </item>
+                <item id="Mv1JrIB3" caption="Weiter" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;groupname=f4KEB4R3;linkinfo=page:4</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="4"/>
+                </item>
+                <item id="neLYIa9t" caption="Auswertung" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:2</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="2"/>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="4" caption="Wettbewerbsvorteile" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D;actionbuttontype=home">
+        <excelcontent id="1">
+            <items>
+                <item id="g8uHBU8g" caption="Unser Unternehmen..." contenttype="header">
+                    <itemdefinitions>textfontsize=24;captionhorzalign=center;height=15%</itemdefinitions>
+                </item>
+                <item caption="hat klar definiert und im Unternehmen kommuniziert, welchen vertriebsbezogenen Wettbewerbsvorteil es anstrebt." inputtype="input" contenttype="toggle" address="questions!D12" id="imBdZoX8">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="richtet die gesamte Vertriebsarbeit konsequent auf die Erreichung des definierten Wettbewerbsvorteils aus." inputtype="input" contenttype="toggle" address="questions!D13" id="JE8J304P">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item id="f4KEB4R4" caption="f4KEB4R4" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="ofE56Kz7" caption="Zurück" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;groupname=f4KEB4R4;linkinfo=page:3</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="3"/>
+                </item>
+                <item id="nnmaxKNn" caption="Weiter" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;groupname=f4KEB4R4;linkinfo=page:5</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="5"/>
+                </item>
+                <item id="x12hHmOQ" caption="Auswertung" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:2</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="2"/>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="5" caption="Vertriebswege" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D;actionbuttontype=home">
+        <excelcontent id="1">
+            <items>
+                <item id="BB5i3QEw" caption="Unser Unternehmen..." contenttype="header">
+                    <itemdefinitions>textfontsize=24;captionhorzalign=center;height=15%</itemdefinitions>
+                </item>
+                <item caption="hat auf Basis der aktuellen bzw. zukünftigen Rahmenbedingungen klar festgelegt, inwieweit ein direkter und/oder indirekter Vertrieb genutzt werden soll." inputtype="input" contenttype="toggle" address="questions!D14" id="Z71M8pEI">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;;buttonheight=30%;valuefontsize=22;buttonheight=30%</itemdefinitions>
+                </item>
+                <item caption="hat analysiert, inwiefern die Nutzung zusätzlicher Vertriebskanäle den Vertriebserfolg erhöhen kann  (z. B. durch Erhöhung der Marktabdeckung, Erschließung neuer Kundengruppen)." inputtype="input" contenttype="toggle" address="questions!D15" id="OmA0JHXl">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;;buttonheight=30%;valuefontsize=22;captionvertalign=center</itemdefinitions>
+                </item>
+                <item caption="hat klar definiert, welche Ziele mit der Nutzung zusätzlicher Vertriebskanäle verfolgt werden und verfolgt die Zielerreichung systematisch." inputtype="input" contenttype="toggle" address="questions!D16" id="v1DK81Nx">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;;buttonheight=30%;valuefontsize=22;captionvertalign=center</itemdefinitions>
+                </item>
+                <item caption="hat bei der Nutzung mehrerer Vertriebskanäle ein klares und funktionierendes Konzept, mit dem Konflikte zwischen den Kanälen begrenzt werden." inputtype="input" contenttype="toggle" address="questions!D17" id="Wzf67ekw">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;;buttonheight=30%;valuefontsize=22;captionvertalign=center</itemdefinitions>
+                </item>
+                <item caption="hat bei der Nutzung mehrerer Vertriebskanäle klar definiert, welcher Vertriebskanal welche Funktionen für welche Kundengruppen erfüllen soll und kontrolliert die Funktionserfüllung systematisch." inputtype="input" contenttype="toggle" address="questions!D18" id="9NtZm7uv">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="kooperiert im Fall des indirekten Vertriebs nur mit Vertriebspartnern, die ein anspruchsvolles Anforderungsprofil erfüllen  (z. B. ähnliche Geschäftsphilosophie, gute Reputation, hohe Marktabdeckung)." inputtype="input" contenttype="toggle" address="questions!D19" id="tgT4fWNe">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="hat im Fall des indirekten Vertriebs klar definiert, welche Funktionen der Wertschöpfungskette ein Vertriebspartner übernehmen soll, und stellt die Einhaltung der Aufgabenteilung sicher." inputtype="input" contenttype="toggle" address="questions!D20" id="2OHEcFYt">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="verfolgt im Fall des indirekten Vertriebs partnerschaftliche Beziehungen zu seinen Absatzmittlern." inputtype="input" contenttype="toggle" address="questions!D21" id="Fniu59aX">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="gewichtet im Fall des indirekten Vertriebs Pull-Aktivitäten ausreichend stark im Vergleich zu Push-Aktivitäten." inputtype="input" contenttype="toggle" address="questions!D22" id="Ktczwmn2">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item id="f4KEB4R5" caption="f4KEB4R5" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="Ctp91zbv" caption="Zurück" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;groupname=f4KEB4R5;linkinfo=page:4</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="4"/>
+                </item>
+                <item id="QdGe4MFv" caption="Weiter" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;groupname=f4KEB4R5;linkinfo=page:6</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="6"/>
+                </item>
+                <item id="lh6jfu1D" caption="Auswertung" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:2</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="2"/>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="6" caption="Preispolitik" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D;actionbuttontype=home">
+        <excelcontent id="1">
+            <items>
+                <item id="0lbyqvrj" caption="Unser Unternehmen..." contenttype="header">
+                    <itemdefinitions>textfontsize=24;captionhorzalign=center;height=15%</itemdefinitions>
+                </item>
+                <item caption="hat klar definiert, welche Preispositionierung es anstrebt  (Premium, Mittelklasse, Economy) und richtet seine Vertriebsarbeit konsequent darauf aus." inputtype="input" contenttype="toggle" address="questions!D23" id="u716UZyH">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="stellt sicher, dass die Preisbildung im Tagesgeschäft mit der angestrebten Preispositionierung konsistent ist." inputtype="input" contenttype="toggle" address="questions!D24" id="0wXsVyiw">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="stellt im Fall des indirekten Vertriebs sicher, dass die Preispositionierung der Absatzmittler mit der eigenen konsistent ist." inputtype="input" contenttype="toggle" address="questions!D25" id="H6LPRmiX">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="berücksichtigt bei der Preisbildung den Kundennutzen/die Zahlungsbereitschaft des Kunden ausreichend stark." inputtype="input" contenttype="toggle" address="questions!D26" id="VDP3pSLK">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="nutzt gegebene Möglichkeiten zur Preisdifferenzierung  (z. B. zwischen Kundensegmenten, in zeitlicher Hinsicht)." inputtype="input" contenttype="toggle" address="questions!D27" id="8BPb4Jot">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="hat klar definiert, nach welchen Kriterien Preis differenzierung betrieben werden soll." inputtype="input" contenttype="toggle" address="questions!D28" id="mO6qWgrd">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="verpreist produktbegleitende Services separat und verschenkt sie nicht." inputtype="input" contenttype="toggle" address="questions!D29" id="X8da2pye">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="vergibt Rabatte und Boni nur für klar definierte Gegenleistungen" inputtype="input" contenttype="toggle" address="questions!D30" id="x4HeASOv">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="beschränkt sich auf wenige Rabatt- und Bonusarten." inputtype="input" contenttype="toggle" address="questions!D31" id="dIQsqgox">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="setzt zeitlich begrenzte Preisaktionen  (Sonderpreise) sehr restriktiv ein." inputtype="input" contenttype="toggle" address="questions!D32" id="ubmFQn00">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="achtet in der Art des Preissystems und der Darstellung der Preise auf eine niedrige Komplexität" inputtype="input" contenttype="toggle" address="questions!D33" id="BzcHJMS1">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="stellt sicher, dass die Beteiligung an Ausschreibungen im Internet) nicht zur Fokussierung auf den Preis als einziges Wettbewerbsinstrument führt." inputtype="input" contenttype="toggle" address="questions!D34" id="1izny2Bt">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="greift bei der Bekämpfung von Reimporten entweder auf eine länderspezifische Leistungsdifferenzierung oder auf eine länderübergreifende Preisharmonisierung zurück." inputtype="input" contenttype="toggle" address="questions!D35" id="GGQkwxKl">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item id="f4KEB4R6" caption="f4KEB4R6" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="4JNnChN6" caption="Zurück" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;groupname=f4KEB4R6;linkinfo=page:5</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="5"/>
+                </item>
+                <item id="DC441W2T" caption="Weiter" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;groupname=f4KEB4R6;linkinfo=page:7</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="7"/>
+                </item>
+                <item id="iWh24t2m" caption="Auswertung" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:2</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="2"/>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="7" caption="Zahlengerüst" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D;actionbuttontype=home">
+        <excelcontent id="1">
+            <items>
+                <item id="knkkS5Hc" caption="Unser Unternehmen..." contenttype="header">
+                    <itemdefinitions>textfontsize=24;captionhorzalign=center;height=15%</itemdefinitions>
+                </item>
+                <item caption="hat in der Vertriebsstrategie quantifiziert, welche Absatzmengen es in welchen Segmenten langfristig erreichen will." inputtype="input" contenttype="toggle" address="questions!D36" id="gCwGuNBa">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="hat in der Vertriebsstrategie quantifiziert, welche Marktanteile es in welchen Segmenten langfristig erreichen will." inputtype="input" contenttype="toggle" address="questions!D37" id="R2QodmLS">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="hat in der Vertriebsstrategie quantifiziert, welche Preisniveaus  (im Vergleich zum Basisjahr) in welchen Segmenten gehalten werden sollen." inputtype="input" contenttype="toggle" address="questions!D38" id="kMdLHDGX">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="richtet seine Vertriebsarbeit konsequent auf die Realisierung der quantifizierten Ziele aus." inputtype="input" contenttype="toggle" address="questions!D39" id="Z5oZOMgz">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="hat klar definiert, welche Vertriebsressourcen  (Human- und Sachressourcen) in welcher Qualität und in welcher Quantität vorgehalten werden sollen." inputtype="input" contenttype="toggle" address="questions!D40" id="sgZfIE3u">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="achtet darauf, dass in keinem Vertriebsbereich überschüssige Vertriebsressourcen vorgehalten werden." inputtype="input" contenttype="toggle" address="questions!D41" id="ZmbRp3nf">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="hat klar definiert, für welche Zielgruppen und Zwecke die vorhandenen Vertriebsressourcen  (z. B. Call Center, Innen- und Außendienst) eingesetzt werden sollen." inputtype="input" contenttype="toggle" address="questions!D42" id="ldHHbiSx">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="hat klar definiert, mit welchem Gewichtdie Ressourcen für Neukundengewinnung vs. Kundenbindung einzusetzen sind." inputtype="input" contenttype="toggle" address="questions!D43" id="bdIhDGlP">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item id="f4KEB4R7" caption="f4KEB4R7" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="Ip0h75Ff" caption="Zurück" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;groupname=f4KEB4R7;linkinfo=page:6</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="6"/>
+                </item>
+                <item id="wk6VW8hS" caption="Weiter" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;groupname=f4KEB4R7;linkinfo=page:8</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="8"/>
+                </item>
+                <item id="5t0B4XfA" caption="Auswertung" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:2</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="2"/>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="8" caption="Vertriebsorganisation" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D;actionbuttontype=home">
+        <excelcontent id="1">
+            <items>
+                <item id="vR1zDtIK" caption="Unser Unternehmen..." contenttype="header">
+                    <itemdefinitions>textfontsize=24;captionhorzalign=center;height=15%</itemdefinitions>
+                </item>
+                <item caption="hat die Vor- und Nachteile unterschiedlicher Organisationsstrukturen  (z. B. nach Produkten oder Regionen) bei der Gestaltung der Strukturen im Vertrieb sorgfältig gegeneinander abgewogen." inputtype="input" contenttype="toggle" address="questions!D44" id="Xw5xC5mX">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="hat kundenbezogene Aspekte bei der Gestaltung der Organisationsstruktur im Vertrieb ausreichend berücksichtigt." inputtype="input" contenttype="toggle" address="questions!D45" id="wSlOTKnv">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="setzt in ausreichendem Umfang strukturbezogene Instrumente zur Reduzierung von vertriebsrelevanten Schnittstellenproblemen ein  (z. B. Verringerung der räumlichen Distanz zwischen Abteilungen, Koordinationsgremien, funktionsübergreifende Teams)." inputtype="input" contenttype="toggle" address="questions!D46" id="1IJoLWX2">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%</itemdefinitions>
+                </item>
+                <item caption="setzt in ausreichendem Umfang prozessbezogene Instrumente zur Reduzierung von vertriebsrelevanten Schnittstellenproblemen ein  (z. B. klare Aufgaben- und Kompetenzverteilung, Definition von Standards der Zusammenarbeit)." inputtype="input" contenttype="toggle" address="questions!D47" id="66YRpMzr">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="setzt in ausreichendem Umfang personalführungsbezogene Instrumente zur Reduzierung von vertriebsrelevanten Schnittstellenproblemen ein  (z. B. Job Rotation, Schulungen)." inputtype="input" contenttype="toggle" address="questions!D48" id="Iwt1FJI7">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="setzt in ausreichendem Umfang kulturbezogene Instrumente zur Reduzierung von vertriebsrelevanten Schnittstellenproblemen ein  (z. B. Einrichtung von Zonen für informelle Kontakte, Verankerung des Prinzips des internen Kunden&quot;)." inputtype="input" contenttype="toggle" address="questions!D49" id="n9VLAPDd">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="formuliert präzise Ziele für die Arbeit von Teams, in die Vertriebsmitarbeiter involviert sind." inputtype="input" contenttype="toggle" address="questions!D50" id="7uZ3J0Zh">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="berücksichtigt den Erfolg von Teamarbeit bei der Leistungsbewertung von Vertriebsmitarbeitern." inputtype="input" contenttype="toggle" address="questions!D51" id="WEsnpjeu">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="begrenzt das Ausmaß der Bürokratie im Vertrieb  (z. B. durch angemessene Delegation von Verantwortung, Vermeidung von Überregulierung)." inputtype="input" contenttype="toggle" address="questions!D52" id="wZGcfkxq">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="hat für Kunden eindeutige Anlaufstellen bei Fragen / Problemen definiert." inputtype="input" contenttype="toggle" address="questions!D53" id="qqk4UypB">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="hat den Kunden die Anlaufstellen für Fragen / Probleme kommuniziert." inputtype="input" contenttype="toggle" address="questions!D54" id="4W2dRxfC">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="stellt die Erreichbarkeit der Anlaufstellen  für Kunden sicher" inputtype="input" contenttype="toggle" address="questions!D55" id="BuzGtXj3">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="setzt an den Anlaufstellen kompetente Mitarbeiter ein" inputtype="input" contenttype="toggle" address="questions!D56" id="a9Jm4Lk5">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item id="f4KEB4R8" caption="f4KEB4R8" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="u8cYTJOO" caption="Zurück" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;groupname=f4KEB4R8;linkinfo=page:7</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="7"/>
+                </item>
+                <item id="0JJNwXOP" caption="Weiter" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;groupname=f4KEB4R8;linkinfo=page:9</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="9"/>
+                </item>
+                <item id="gh6arBya" caption="Auswertung" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:2</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="2"/>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="9" caption="Planung und Kontrolle" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D;actionbuttontype=home">
+        <excelcontent id="1">
+            <items>
+                <item id="TuDsNy3N" caption="Unser Unternehmen..." contenttype="header">
+                    <itemdefinitions>textfontsize=24;captionhorzalign=center;height=15%</itemdefinitions>
+                </item>
+                <item caption="leitet die Inhalte der Vertriebsplanung aus der Vertriebsstrategie ab." inputtype="input" contenttype="toggle" address="questions!D57" id="cldwBZyk">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="berücksichtigt bei der Vertriebsplanung einen ausgewogenen Mix an harten  (z. B. Umsatz) und weichen Zielgroßen" inputtype="input" contenttype="toggle" address="questions!D58" id="VuMqREFz">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="plant im Vertrieb nicht nur nach Produkten, sondern auch nach Kunden (segmenten)" inputtype="input" contenttype="toggle" address="questions!D59" id="c66cIT6q">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="sanktioniert eine unrealistische Vertriebsplanung" inputtype="input" contenttype="toggle" address="questions!D60" id="FjJF5Qq7">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="plant nach dem Gegenstromprinzip  (d. H. Verbindung von Top-down-Planung mit Bottom-up-Planung)." inputtype="input" contenttype="toggle" address="questions!D61" id="Ke3ptlLL">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="konsolidiert die Ergebnisse aus Top-down- und Bottom-up-Planung sorgfältig" inputtype="input" contenttype="toggle" address="questions!D62" id="ErxgtcIL">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="bricht Vertriebspläne auch auf unterjährige Perioden herunter." inputtype="input" contenttype="toggle" address="questions!D63" id="Aib8bxVB">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="berücksichtigt bei der unterjährigen Planung auch saisonale Effekte" inputtype="input" contenttype="toggle" address="questions!D64" id="Qmd2vCNW">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="analysiert Planabweichungen sorgfältig." inputtype="input" contenttype="toggle" address="questions!D65" id="ClLTBEQL">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="toleriert nicht, dass Planabweichungen vorschnell mit externen Ursachen begründet werden." inputtype="input" contenttype="toggle" address="questions!D66" id="CUNIOi0n">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="plant mit angemessenem Aufwand." inputtype="input" contenttype="toggle" address="questions!D67" id="lP1RCuFn">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="konzentriert sich bei der Planung auf eine geringe Anzahl aussagekräftiger Kennzahlen." inputtype="input" contenttype="toggle" address="questions!D68" id="gDCQyL5M">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="passt die Planungsinhalte regelmäßig an veränderte Rahmenbedingungen an" inputtype="input" contenttype="toggle" address="questions!D69" id="pyT7gQAD">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item id="f4KEB4R9" caption="f4KEB4R9" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="ojd4JwVS" caption="Zurück" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;groupname=f4KEB4R9;linkinfo=page:8</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="8"/>
+                </item>
+                <item id="Z9XCgBq6" caption="Weiter" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;groupname=f4KEB4R9;linkinfo=page:10</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="10"/>
+                </item>
+                <item id="0AeVWNi1" caption="Auswertung" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:2</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="2"/>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="10" caption="Personalmanagement" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D;actionbuttontype=home">
+        <excelcontent id="1">
+            <items>
+                <item id="yQ7ksVue" caption="Unser Unternehmen..." contenttype="header">
+                    <itemdefinitions>textfontsize=24;captionhorzalign=center;height=15%</itemdefinitions>
+                </item>
+                <item caption="berücksichtigt klare Anforderungsprofile bei der Personalauswahl." inputtype="input" contenttype="toggle" address="questions!D70" id="XDzUJXxA">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="definiert die Anforderungsprofile für Vertriebspositionen auf Basis einer sorgfältigen Aufgabenanalyse." inputtype="input" contenttype="toggle" address="questions!D71" id="BgN7j3gC">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="betreibt professionelles Personalmarketing zur Gewinnung exzellenter Vertriebsmitarbeiter" inputtype="input" contenttype="toggle" address="questions!D72" id="JJXi6qq0">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="unterstützt die Personalauswahl systematisch durch verschiedene Instrumente  (z. B. persönliche Interviews, formale Tests)." inputtype="input" contenttype="toggle" address="questions!D73" id="WtBVMMc0">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="leitet den Personalweiterbildungsbedarf aus der Vertriebsstrategie ab." inputtype="input" contenttype="toggle" address="questions!D74" id="4kjml2ly">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="analysiert den Weiterbildungsbedarf aller Vertriebsmitarbeiter individuell" inputtype="input" contenttype="toggle" address="questions!D75" id="cOaoSeAF">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="definiert klare Ziele für Personalentwicklungsmaßnahmen  (z. B. Seminare)." inputtype="input" contenttype="toggle" address="questions!D76" id="ExrnUMxM">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="kontrolliert regelmäßig den Erfolg von Personalentwicklungsmaßnahmen" inputtype="input" contenttype="toggle" address="questions!D77" id="qPuBFSlw">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="beschäftigt im Vertrieb Führungskräfte mit einem leistungsorientierten Führungsstil" inputtype="input" contenttype="toggle" address="questions!D78" id="Pj5wv8qJ">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="beschäftigt im Vertrieb Führungskräfte mit einem mitarbeiterorientierten Führungsstil" inputtype="input" contenttype="toggle" address="questions!D79" id="lBgMre3J">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="beschäftigt im Vertrieb Führungskräfte mit einem kundenorientierten Führungsstil." inputtype="input" contenttype="toggle" address="questions!D80" id="l504RkHM">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="setzt im Rahmen der Personalsteuerung im Vertrieb Zielvereinbarungen für Führungskräfte und Mitarbeiter ein." inputtype="input" contenttype="toggle" address="questions!D81" id="r2EHY83g">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="arbeitet im Rahmen der Zielvereinbarung im Vertrieb mit präzisen, herausfordernden und realistischen Zielen." inputtype="input" contenttype="toggle" address="questions!D82" id="BEN9Vr85">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="stellt sicher, dass die Inhalte der Zielvereinbarungen verstanden und akzeptiert werden." inputtype="input" contenttype="toggle" address="questions!D83" id="VKKsVt3J">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="bewertet die Zielerreichung der einzelnen Führungskräfte und Mitarbeiter auch unterjährig." inputtype="input" contenttype="toggle" address="questions!D84" id="kva3bT0l">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="nutzt leistungsorientierte Vergütungssysteme im Vertrieb für Führungskräfte und Mitarbeiter." inputtype="input" contenttype="toggle" address="questions!D85" id="d10fEuv8">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="stellt sicher, dass die Bemessungsgrundlagen der leistungsorientierten Vergütungssysteme mit den langfristigen Zielen des Unternehmens konsistent sind." inputtype="input" contenttype="toggle" address="questions!D86" id="MIRoalZt">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="stützt die leistungsorientierte Vergütung im Vertrieb auf einen ausgewogenen Mix an harten  (z B. Umsatz) und weichen" inputtype="input" contenttype="toggle" address="questions!D87" id="NI8x4Gyp">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="stützt die leistungsorientierte Vergütung im Vertrieb neben wirtschaftlichen Zielen auch auf Ziele, die sich auf Kunden, intere Prozesse sowie Lern- und Entwicklungsprozesse im Unternehmen beziehen." inputtype="input" contenttype="toggle" address="questions!D88" id="PCkH3eFe">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="stützt die leistungsorientierte Vergütung im Vertrieb neben Ergebniszielen auch auf Verhaltensziele" inputtype="input" contenttype="toggle" address="questions!D89" id="Tfi0F4PZ">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="begrenzt kompensatorische Effekte in den Vergütungssystemen  (z. B. den Ausgleich sinkender Kundenzufriedenheit durch steigende Umsätze)" inputtype="input" contenttype="toggle" address="questions!D90" id="BqO1grs1">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item id="f4KEB410" caption="f4KEB410" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="agLjoIe8" caption="Zurück" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;groupname=f4KEB410;linkinfo=page:9</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="9"/>
+                </item>
+                <item id="Sk9ZiEPf" caption="Weiter" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;groupname=f4KEB410;linkinfo=page:11</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="11"/>
+                </item>
+                <item id="etLuJQ2R" caption="Auswertung" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:2</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="2"/>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="11" caption="Kultur" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D;actionbuttontype=home">
+        <excelcontent id="1">
+            <items>
+                <item id="dSVNmX4U" caption="Unser Unternehmen..." contenttype="header">
+                    <itemdefinitions>textfontsize=24;captionhorzalign=center;height=15%</itemdefinitions>
+                </item>
+                <item caption="hat eine Vertriebskultur, bei der Kunden im Zentrum des Denkens und Handelns stehen" inputtype="input" contenttype="toggle" address="questions!D91" id="YVT3rJ3D">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="hat eine Vertriebskultur, in der wichtige Entscheidungen systematisch und nicht nur intuitiv gefallt werden." inputtype="input" contenttype="toggle" address="questions!D92" id="znnHIpap">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="hat eine Vertriebskultur, die sich durch offenen Informationsaustausch innerhalb des Vertriebs  (z. B. zwischen verschiedenen Vertriebsbereichen) auszeichnet." inputtype="input" contenttype="toggle" address="questions!D93" id="5wr6ibYc">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="hat eine Kultur, die sich durch offenen Informationsaustausch zwischen dem Vertrieb und anderen Funktionsbereichen  (z. B. Marketing, Produktion) auszeichnet" inputtype="input" contenttype="toggle" address="questions!D94" id="veGxkOt6">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="hat eine Kultur, die sich durch intensive Kooperation zwischen dem Vertrieb und anderen Funktionsbereichen  (z. B. Marketing, Produktion) auszeichnet." inputtype="input" contenttype="toggle" address="questions!D95" id="UkxmUIZf">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="hat eine Vertriebskultur, in der Kundenkontakte von Angehörigen anderer Funktionsbereiche  (z. B. Technik, Controlling) gefördert werden." inputtype="input" contenttype="toggle" address="questions!D96" id="a5V0drBG">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="hat eine Vertriebskultur, die auf gegen seitigem Vertrauen basiert und Eigenverantwortung von Mitarbeitern fordert." inputtype="input" contenttype="toggle" address="questions!D97" id="XXHR3a2a">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="hat eine Vertriebskultur, die durch ein hohes Maß an Verbundenheit  (Commitment) der Führungskräfte und Mitarbeiter mit dem Unternehmen gekennzeichnet ist." inputtype="input" contenttype="toggle" address="questions!D98" id="GFw8vjev">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="bekämpft Defizite der Vertriebskultur systematisch" inputtype="input" contenttype="toggle" address="questions!D99" id="VTMZ5UV5">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="setzt regelmäßig Instrumente zur Förderung einer effektiven Vertriebskultur ein  (z. B. Leitsätze, Workshops)." inputtype="input" contenttype="toggle" address="questions!D100" id="pwPm8pP5">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item id="f4KEB411" caption="f4KEB411" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="cWPOWiVR" caption="Zurück" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;groupname=f4KEB411;linkinfo=page:10</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="10"/>
+                </item>
+                <item id="GRGybiBt" caption="Weiter" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;groupname=f4KEB411;linkinfo=page:12</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="12"/>
+                </item>
+                <item id="ul3EWW2B" caption="Auswertung" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:2</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="2"/>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="12" caption="Informationssysteme" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D;actionbuttontype=home">
+        <excelcontent id="1">
+            <items>
+                <item id="ZB9hJqsY" caption="Unser Unternehmen..." contenttype="header">
+                    <itemdefinitions>textfontsize=24;captionhorzalign=center;height=15%</itemdefinitions>
+                </item>
+                <item caption="verfügt über ein integriertes Informationssystem, in dem die vertriebsrelevanten Informationen enthalten sind." inputtype="input" contenttype="toggle" address="questions!D101" id="bDuiQxSs">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="verfügt über ein Vertriebsinformationssystem, dessen Inhalte stets aktuell sind." inputtype="input" contenttype="toggle" address="questions!D102" id="4AABIobJ">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="verfügt über ein Vertriebsinformationssystem, das Informationen bedarfsgerecht bereitstellt, anstatt die Nutzer mit Informationen zu überfluten." inputtype="input" contenttype="toggle" address="questions!D103" id="xkjUScjC">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="verfügt über ein Vertriebsinformationssystem, auf das jederzeit einfach und schnell zugegriffen werden kann." inputtype="input" contenttype="toggle" address="questions!D104" id="7DA9Cs18">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="passt das Vertriebsinformationssystem regelmäßig an die Bedürfnisse  (potenzieller) Nutzer an." inputtype="input" contenttype="toggle" address="questions!D105" id="vCbqWWIs">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="hat systematisch dafür gesorgt, dass das Vertriebsinformationssystem von den Mitarbeitern akzeptiert wird." inputtype="input" contenttype="toggle" address="questions!D106" id="YWGlncEM">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="schult die betroffenen Mitarbeiter systematisch in der Anwendung des Vertriebsinformationssystems." inputtype="input" contenttype="toggle" address="questions!D107" id="YS2QiKzS">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="motiviert Mitarbeiter über die Anreizsysteme zur Nutzung und Pflege des Vertriebsinformationssystems." inputtype="input" contenttype="toggle" address="questions!D108" id="ihXxBLFH">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item id="f4KEB412" caption="f4KEB412" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="pK2tE9HY" caption="Zurück" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;groupname=f4KEB412;linkinfo=page:11</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="11"/>
+                </item>
+                <item id="rVouc1uF" caption="Weiter" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;groupname=f4KEB412;linkinfo=page:13</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="13"/>
+                </item>
+                <item id="RdMeGxwv" caption="Auswertung" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:2</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="2"/>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="13" caption="Der Kunde" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D;actionbuttontype=home">
+        <excelcontent id="1">
+            <items>
+                <item id="oT8Y5CMD" caption="Unser Unternehmen..." contenttype="header">
+                    <itemdefinitions>textfontsize=24;captionhorzalign=center;height=15%</itemdefinitions>
+                </item>
+                <item caption="verfügt über umfangreiche und aktuelle Grunddaten über seine Kunden  (z. B. Adressen, Namen, Segmentzugehörigkeit)." inputtype="input" contenttype="toggle" address="questions!D109" id="7le2oEQF">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="hat aussagefähige Informationen über Absatzpotenziale seiner Kunden." inputtype="input" contenttype="toggle" address="questions!D110" id="7MFSXkT6">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="analysiert bei potenzialstarken Kunden systematisch die Cross-Selling-Potenziale." inputtype="input" contenttype="toggle" address="questions!D111" id="8SYGDuq6">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="analysiert regelmäßig und systematisch die Bedürfnisse und Erwartungen der Kunden erfasst und analysiert regelmäßig den Aufwand für die Bearbeitung einzelner Kunden (segmente)" inputtype="input" contenttype="toggle" address="questions!D112" id="LARwQel9">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="kennt bei wichtigen Kunden den Bedarfsdeckungsanteil  (Share of Customer)." inputtype="input" contenttype="toggle" address="questions!D113" id="ua9kEs4C">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="analysiert seine Kundenstruktur regelmäßig mit Hilfe des Kundenportfolios" inputtype="input" contenttype="toggle" address="questions!D114" id="FhvznQm6">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="orientiert sich beim Einsatz von Vertriebsressourcen konsequent an der Positionierung verschiedener Kunden (-segmente) im Kundenportfolio." inputtype="input" contenttype="toggle" address="questions!D115" id="VQArN0WN">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="fuhrt für Kundensegmente und für wichtige Einzelkunden regelmäßig eine Deckungsbeitragsrechnung durch." inputtype="input" contenttype="toggle" address="questions!D116" id="UMGd7Cg8">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="führt für Kundensegmente und für wichtige Einzelkunden regelmäßig eine gestufte Deckungsbeitragsrechnung mit kunden (-segment)spezifischer Zuordnung von Fixkosten durch." inputtype="input" contenttype="toggle" address="questions!D117" id="FKqkoi7G">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="schätzt die langfristige Profitabilität wichtiger Kunden-segmente) mit Hilfe des Customer Liftetime Value ab." inputtype="input" contenttype="toggle" address="questions!D118" id="eqLfHfwu">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="misst regelmäßig die Kundenzufriedenheit" inputtype="input" contenttype="toggle" address="questions!D119" id="muLccNkr">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="berücksichtigt bei der Messung der Kundenzufriedenheit auch die Kundenbindung" inputtype="input" contenttype="toggle" address="questions!D120" id="mbfiJZAs">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="misst sowohl die Gesamtzufriedenheit der Kunden als auch deren Zufriedenheit mit einzelnen Leistungskomponenten des Unternehmens  (zB. Service, Beschwerdemanagement, Produktqualitat)." inputtype="input" contenttype="toggle" address="questions!D121" id="wawGZ4dr">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="legt bei Kundenzufriedenheitsmessungen systematisch die Zielgruppe fest." inputtype="input" contenttype="toggle" address="questions!D122" id="NiAxZLwT">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="stellt bei der Messung der Kundenzufriedenheit eine ausreichende Stichprobengröße sicher." inputtype="input" contenttype="toggle" address="questions!D123" id="tEYJibVX">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="wertet die Kundenzufriedenheit differenziert aus  (z. B. nach Regionen oder Kundengruppen)." inputtype="input" contenttype="toggle" address="questions!D124" id="VOSs8poO">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="lässt die Ergebnisse der Kundenzufriedenheitsmessungen systematisch in interne Verbesserungsprozesse einfließen." inputtype="input" contenttype="toggle" address="questions!D125" id="zM0YxZVH">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item id="f4KEB413" caption="f4KEB413" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="2TdFA5sf" caption="Zurück" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;groupname=f4KEB413;linkinfo=page:12</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="12"/>
+                </item>
+                <item id="XB6ZS2N9" caption="Weiter" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;groupname=f4KEB413;linkinfo=page:14</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="14"/>
+                </item>
+                <item id="FJb1ZE8h" caption="Auswertung" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:2</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="2"/>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="14" caption="Wettbewerbsinformationen" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D;actionbuttontype=home">
+        <excelcontent id="1">
+            <items>
+                <item id="HPr8BNHi" caption="Unser Unternehmen..." contenttype="header">
+                    <itemdefinitions>textfontsize=24;captionhorzalign=center;height=15%</itemdefinitions>
+                </item>
+                <item caption="hat seine  (potenziellen) Wettbewerber klar identifiziert." inputtype="input" contenttype="toggle" address="questions!D126" id="j0EV3kW4">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="verfügt über umfassende Basisinformationen über seine Wettbewerber  (z. B. Eigentümer- und Organisationsstruktur, wichtige Manager) und aktualisiert diese regelmäßig und systematisch." inputtype="input" contenttype="toggle" address="questions!D127" id="r2Q29WFF">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="verfügt über umfassende Informationen über die Marktposition seiner Wettbewerber  (z. B. Marktanteile, Ertragslage, Kundenzufriedenheit) und aktualisiert diese regelmäßig und systematisch." inputtype="input" contenttype="toggle" address="questions!D128" id="sapi2L66">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="verfügt über umfassende Informationen über Ressourcen seiner Wettbewerber  (z. B. Qualität und Quantitat von Vertriebs-/Servicemitarbeitern, finanzielle Ressourcen) und aktualisiert diese regelmäßig und systematisch." inputtype="input" contenttype="toggle" address="questions!D129" id="RK1LxUEU">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="verfügt über umfassende Informationen über die Strategien seiner Wettbewerber  (z. B. Ziele, Zeitplane, Zielsegmente) und aktualisiert diese regelmäßig und systematisch" inputtype="input" contenttype="toggle" address="questions!D130" id="EHXOzBQt">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="verfügt über umfassende Informationen über die Marktbearbeitung seiner Wettbewerber  (z. B. Leistungsspektrum, Preispositionierung, Verkaufsförderung) und aktualisiert diese regelmäßig und systematisch" inputtype="input" contenttype="toggle" address="questions!D131" id="Rk2fisLC">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="hat eine für Wettbewerbsinformationen verantwortliche Einheit/Person, die vorhandene Informationen bündelt, systematisch aufbereitet und allen relevanten Unternehmensbereichen zur Verfügung stellt  (z. B. als Wettbewerbsprofile)." inputtype="input" contenttype="toggle" address="questions!D132" id="ynqgESmN">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item id="f4KEB414" caption="f4KEB414" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="Mp76eBJG" caption="Zurück" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;groupname=f4KEB414;linkinfo=page:13</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="13"/>
+                </item>
+                <item id="bjWLMFG6" caption="Weiter" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;groupname=f4KEB414;linkinfo=page:15</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="15"/>
+                </item>
+                <item id="0Sl5ZHkP" caption="Auswertung" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:2</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="2"/>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="15" caption="Der Markt" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D;actionbuttontype=home">
+        <excelcontent id="1">
+            <items>
+                <item id="TWdBONKo" caption="Unser Unternehmen..." contenttype="header">
+                    <itemdefinitions>textfontsize=24;captionhorzalign=center;height=15%</itemdefinitions>
+                </item>
+                <item caption="verfügt über umfassende Informationen über Veränderungen der eigenen Stellung im Markt  (z. B. Marktanteile, Bekanntheitsgrad Image) und aktualisiert diese regelmäßig und systematisch" inputtype="input" contenttype="toggle" address="questions!D133" id="RkDeLksN">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="verfügt aber umfassende Informationen über Veränderungen des Wettbewerbsverhaltens  (z. B. Eintritt neuer Wettbewerber, Austritt alter Wettbewerber) und aktualisiert diese regelmäßig und systematisch" inputtype="input" contenttype="toggle" address="questions!D134" id="8c5OanDD">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="verfügt über umfassende Informationen über Veränderungen des Kundenverhaltens  (z. B. Informations- und Kaufverhalten) und aktualisiert diese regelmäßig und systematisch" inputtype="input" contenttype="toggle" address="questions!D135" id="mpTgiiHn">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="verfügt über umfassende Informationen über  (zu erwartende) Veränderungen allgemeiner Marktcharakteristika" inputtype="input" contenttype="toggle" address="questions!D136" id="FCiwoGMp">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="verfügt über umfassende Informationen über Veränderungen bei sonstigen Umweltfaktoren  (z. B. technologische, gesellschaftliche, gesamtwirtschaftliche Veränderungen) und aktualisiert diese regelmäßig und systematisch." inputtype="input" contenttype="toggle" address="questions!D137" id="yZn7J19u">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item id="f4KEB415" caption="f4KEB415" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="7LIsGmpR" caption="Zurück" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;groupname=f4KEB415;linkinfo=page:14</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="14"/>
+                </item>
+                <item id="zFTsEz4Y" caption="Weiter" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;groupname=f4KEB415;linkinfo=page:16</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="16"/>
+                </item>
+                <item id="CPhK3N10" caption="Auswertung" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:2</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="2"/>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="16" caption="Interne Prozesse" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D;actionbuttontype=home">
+        <excelcontent id="1">
+            <items>
+                <item id="8bTVwbRr" caption="Unser Unternehmen..." contenttype="header">
+                    <itemdefinitions>textfontsize=24;captionhorzalign=center;height=15%</itemdefinitions>
+                </item>
+                <item caption="analysiert regelmaßig und systematisch die Qualität der Kundenakquisitionsaktivitäten  (z. B. Zahl der gewonnenen Kunden pro Akquisitionsaktivität, Kosten der Akquisitionsaktivitäten) und leitet daraus Verbesserungsmaßnahmen ab." inputtype="input" contenttype="toggle" address="questions!D138" id="X76pHbc8">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="analysiert regelmäßig und systematisch die Qualität der Angebotserstellung  (z. B. Dauer, Fehlerfreiheit, Kosten, Trefferquote der Angebotserstellung) und leitet daraus Verbesserungsmaßnahmen ab." inputtype="input" contenttype="toggle" address="questions!D139" id="NQyacSxk">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="analysiert regelmäßig und systematisch die Qualität der Auftragsbearbeitung  (z. B. Dauer, Fehlerfreiheit, Kosten der Auftragsbearbeitung) und leitet daraus Verbesserungsmaßnahmen ab." inputtype="input" contenttype="toggle" address="questions!D140" id="EuzFEkso">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="analysiert regelmäßig und systematisch die Qualität der Leistungserstellung/Lieferung  (z. B. Liefertreue, Lieferqualitat) und leitet daraus Verbesserungsmaßnahmen ab." inputtype="input" contenttype="toggle" address="questions!D141" id="0Tofai8i">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="analysiert regelmäßig und systematisch die Qualität der Nachkaufbetreuung  (z. B. Erreichbarkeit von Servicemitarbeitern, Cross-Selling-Erfolg) und leitet daraus Verbesserungsmaßnahmen ab." inputtype="input" contenttype="toggle" address="questions!D142" id="jqm6sTtQ">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item id="f4KEB416" caption="f4KEB416" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="LWwP0qhq" caption="Zurück" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;groupname=f4KEB416;linkinfo=page:15</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="15"/>
+                </item>
+                <item id="DXLjdnWT" caption="Weiter" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;groupname=f4KEB416;linkinfo=page:17</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="17"/>
+                </item>
+                <item id="o3pBV1nX" caption="Auswertung" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:2</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="2"/>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="17" caption="CRM und CAS" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D;actionbuttontype=home">
+        <excelcontent id="1">
+            <items>
+                <item id="X5I4qnNH" caption="Unser Unternehmen..." contenttype="header">
+                    <itemdefinitions>textfontsize=24;captionhorzalign=center;height=15%</itemdefinitions>
+                </item>
+                <item caption="setzt ein Computer-Aided-Selling-System/Customer-Relationship Management-System zur Professionalisierung des Vertriebsprozesses ein." inputtype="input" contenttype="toggle" address="questions!D143" id="RgNmcRAd">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="hat ein Computer-Aided-Selling-System, das die Vorbereitung des Kundenkontaktes unterstützt  (z. B. durch Kundenanalyse, Kundenzielplanung, Termin- und Tourenplanung)." inputtype="input" contenttype="toggle" address="questions!D144" id="surYi0if">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="hat ein Computer-Aided-Selling-System, das die Durchführung des Kundengespräches unterstützt  (z. B. durch Produktpräsentation, Kalkulations- und Konfigurationsmodule)." inputtype="input" contenttype="toggle" address="questions!D145" id="10z2n1Xe">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="hat ein Computer-Aided-Selling-System, das die Angebotserstellung und Auftragsbearbeitung unterstützt  (z. B. durch Textbausteine, Auftragsverfolgung)." inputtype="input" contenttype="toggle" address="questions!D146" id="tmw1PWNU">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="hat ein Computer-Aided-Selling-System, das die Nachbereitung des Kundenkontaktes unterstützt  (z. B. durch Besuchsberichte, Analysen)." inputtype="input" contenttype="toggle" address="questions!D147" id="PBx2JaX2">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item id="f4KEB417" caption="f4KEB417" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="xHdh6vOD" caption="Zurück" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;groupname=f4KEB417;linkinfo=page:16</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="16"/>
+                </item>
+                <item id="vCDbE7h6" caption="Weiter" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;groupname=f4KEB417;linkinfo=page:18</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="18"/>
+                </item>
+                <item id="hjSQM3r4" caption="Auswertung" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:2</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="2"/>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="18" caption="Verkäuferpersönlichkeit" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D;actionbuttontype=home">
+        <excelcontent id="1">
+            <items>
+                <item id="mJiiKSa6" caption="Unser Unternehmen..." contenttype="header">
+                    <itemdefinitions>textfontsize=24;captionhorzalign=center;height=15%</itemdefinitions>
+                </item>
+                <item caption="beschäftigt Vertriebsmitarbeiter, die Spaß am Kundenkontakt haben." inputtype="input" contenttype="toggle" address="questions!D148" id="pbwnFat6">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="beschäftigt Vertriebsmitarbeiter, die ihre Aufgaben stets mit einem gesunden Optimismus angehen." inputtype="input" contenttype="toggle" address="questions!D149" id="VFMzHkuJ">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="beschäftigt Vertriebsmitarbeiter, die über ein hohes Maß an Einfühlungsvermögen verfügen  (d. h. sich in den Kunden hineinversetzen können, die Kundenperspektive einnehmen können usw.)." inputtype="input" contenttype="toggle" address="questions!D150" id="kbOXnoiA">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="beschäftigt Vertriebsmitarbeiter, die über ein gesundes Selbstwertgefühl verfügen  (d. H. Kompetenz ausstrahlen, von ihren Fähigkeiten überzeugt sind usw.)." inputtype="input" contenttype="toggle" address="questions!D151" id="Ihgg2zk2">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="beschäftigt Vertriebsmitarbeiter, die kompetent in der sprachlichen Kommunikation sind  (d. h. sich einfach und präzise ausdrücken und gezielte Fragen stellen können usw.)." inputtype="input" contenttype="toggle" address="questions!D152" id="2dL9QJz5">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="beschäftigt Vertriebsmitarbeiter, die dem Kunden aktiv zuhören." inputtype="input" contenttype="toggle" address="questions!D153" id="Fp2wH53d">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="beschäftigt Vertriebsmitarbeiter, die die nicht-sprachliche Kommunikation beherrschen  (d. h. Körpersprache gezielt einsetzen können und Signale in der Körpersprache des Gesprächspartners wahrnehmen usw.)." inputtype="input" contenttype="toggle" address="questions!D154" id="bZv7Kt3P">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="beschäftigt Vertriebsmitarbeiter, die stets freundlich zu den Kunden sind." inputtype="input" contenttype="toggle" address="questions!D155" id="T5ghZkT8">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="beschäftigt Vertriebsmitarbeiter, die flexibel sind  (d. h. sich und ihr Verkaufsverhalten auf unterschiedliche Kundentypen und Situationen einstellen können)." inputtype="input" contenttype="toggle" address="questions!D156" id="exaKSvVB">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="beschäftigt Vertriebsmitarbeiter, die teamfähig sind  (d. h. sich in Teams einordnen können, Freude an Teamarbeit haben usw.)." inputtype="input" contenttype="toggle" address="questions!D157" id="qHRrGYKo">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="beschäftigt Vertriebsmitarbeiter, die sich selbst gut organisieren können  (Zeitmanagement, Setzen von Prioritäten, Ablagesysteme usw.)." inputtype="input" contenttype="toggle" address="questions!D158" id="2HqxnrpZ">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="beschäftigt Vertriebsmitarbeiter, die über umfassende Produktkenntnisse verfügen  (sowohl aber eigene als auch Wettbewerbsprodukte)." inputtype="input" contenttype="toggle" address="questions!D159" id="veT8T2KS">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="beschäftigt Vertriebsmitarbeiter, die ihre Kunden sehr gut kennen und verstehen  (d, h. deren Bedürfnisse, Wertschöpfungsprozesse, Produktnutzung)." inputtype="input" contenttype="toggle" address="questions!D160" id="0WU5PumR">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="beschäftigt Vertriebsmitarbeiter, die über umfassende Marktkenntnisse verfügen  (d. h. Über die Position des eigenen Unternehmens oder Trends im Markt)." inputtype="input" contenttype="toggle" address="questions!D161" id="f6xfD9p0">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="beschäftigt Vertriebsmitarbeiter, die über fundierte betriebswirtschaftliche Kenntnisse verfügen  (d. H. Kostenauswirkungen von Entscheidungen bewerten können, Kostenstrukturen des eigenen Unternehmens kennen usw.)." inputtype="input" contenttype="toggle" address="questions!D162" id="SPrNn4Bj">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="beschäftigt Vertriebsmitarbeiter, die den Verkaufsprozess erfolgreich gestalten und sich auf Basis ihres Erfahrungsschatzes auf jeden Kunden einstellen können." inputtype="input" contenttype="toggle" address="questions!D163" id="7XUmbq7u">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item id="f4KEB418" caption="f4KEB418" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="gfYzCx1W" caption="Zurück" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;groupname=f4KEB418;linkinfo=page:17</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="17"/>
+                </item>
+                <item id="8vSiXA42" caption="Weiter" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;groupname=f4KEB418;linkinfo=page:19</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="19"/>
+                </item>
+                <item id="jfemBUfV" caption="Auswertung" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:2</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="2"/>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="19" caption="Beziehungsmanagement" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D;actionbuttontype=home">
+        <excelcontent id="1">
+            <items>
+                <item id="S2Cue5Ls" caption="Unser Unternehmen..." contenttype="header">
+                    <itemdefinitions>textfontsize=24;captionhorzalign=center;height=15%</itemdefinitions>
+                </item>
+                <item caption="plant Messen systematisch  (d. h. Auswahl der Messen, Bestimmung des Gesamtbudgets für Messen usw.)." inputtype="input" contenttype="toggle" address="questions!D164" id="c4ragnnl">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="formuliert präzise, quantifizierte Ziele für jede Messe." inputtype="input" contenttype="toggle" address="questions!D165" id="V5cAFJOU">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="kontrolliert das Erreichen der Messeziele." inputtype="input" contenttype="toggle" address="questions!D166" id="ocfqvBxC">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="hat die Aufgaben eines Call Centers klar definiert." inputtype="input" contenttype="toggle" address="questions!D167" id="NMmOtOXB">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="hat die für die Aufgabenerfüllung notwendigen Ressourcen für das Call Center bereitgestellt  (z. B. technische Ausstattung, Anzahl der Mitarbeiter). setzt im Call Center nur angemessen qualifizierte Mitarbeiter ein." inputtype="input" contenttype="toggle" address="questions!D168" id="pdi47w7C">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="hat auf Basis sorgfältiger Überlegungen entschieden, ob das Call Center selbst oder durch einen externen Dienstleister betrieben werden soll." inputtype="input" contenttype="toggle" address="questions!D169" id="vZNKsKav">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="hat klar festgelegt, wer im Unternehmen für den reibungslosen Ablauf der Call Center-gestützten Aktivitäten verantwortlich ist." inputtype="input" contenttype="toggle" address="questions!D170" id="HxMf5l0p">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="hat präzise definiert, welche Funktionen der Internet-Auftritt primar erfüllen soll  (z. B. Informations-, Transaktions- oder Kundenbindungsfunktion)." inputtype="input" contenttype="toggle" address="questions!D171" id="KQ4spLE9">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="hat präzise definiert, auf welchen Typen von Internet-Seiten es präsent sein will  (z. B. Community Sites, Electronic Malls, Suchmaschinen)" inputtype="input" contenttype="toggle" address="questions!D172" id="HymwdDJv">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="tritt ausschließlich auf professionell und benutzerfreundlich gestalteten Internetseiten auf." inputtype="input" contenttype="toggle" address="questions!D173" id="gGunaidM">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="stellt bei Transaktionen über das Internet den reibungslosen Ablauf der notwendigen Logistikprozesse sicher." inputtype="input" contenttype="toggle" address="questions!D174" id="UGHxiAsz">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item id="f4KEB419" caption="f4KEB419" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="Hlf1ui3m" caption="Zurück" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;groupname=f4KEB419;linkinfo=page:18</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="18"/>
+                </item>
+                <item id="vmp58uwp" caption="Weiter" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;groupname=f4KEB419;linkinfo=page:27</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="27"/>
+                </item>
+                <item id="yz4X6AL8" caption="Auswertung" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:2</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="2"/>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="27" caption="Kundenbindungsmanagement" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D;actionbuttontype=home">
+        <excelcontent id="1">
+            <items>
+                <item id="e2J0Btn9" caption="Unser Unternehmen..." contenttype="header">
+                    <itemdefinitions>textfontsize=24;captionhorzalign=center;height=15%</itemdefinitions>
+                </item>
+                <item caption="orientiert sich beim Einsatz von Kundenbindungsinstrumenten  (z. B. Kundenclubs, -karten,-zeitschriften) an der Wertigkeit der Kunden für das Unternehmen" inputtype="input" contenttype="toggle" address="questions!D175" id="LEKPfbgs">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="kontrolliert regelmäßig und systematisch den Erfolg  (Effektivität und Effizienz) des Einsatzes von Kundenbindungsinstrumenten" inputtype="input" contenttype="toggle" address="questions!D176" id="9lo1JxW7">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="hat systematisch definiert, welche ValueAdded Services welchen Kunden angeboten werden sollen." inputtype="input" contenttype="toggle" address="questions!D177" id="6YRa7ZTh">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="vermarktet seine produktbegleitenden Dienstleistungen aktiv." inputtype="input" contenttype="toggle" address="questions!D178" id="2cHlWDOh">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="teilt den Kunden in monetären Größen Nutzen und Kosten von Dienstleistungen mit und betreibt aktiv den Verkauf  (im Gegensatz zum Verschenken&apos;) von Dienstleistungen" inputtype="input" contenttype="toggle" address="questions!D179" id="BXU5mHTA">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="hat eine Kultur, in der Dienstleistungsorientierung eine große Rolle spielt." inputtype="input" contenttype="toggle" address="questions!D180" id="qO25jUUj">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="setzt im Dienstleistungsbereich hoch qualifizierte Mitarbeiter ein" inputtype="input" contenttype="toggle" address="questions!D181" id="eZnaPHAj">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="honoriert Dienstleistungsorientierung durch die Anreizsysteme" inputtype="input" contenttype="toggle" address="questions!D182" id="b2snMuFA">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="kontrolliert regelmäßig die Profitabilität von Dienstleistungen" inputtype="input" contenttype="toggle" address="questions!D183" id="dOmfGg5c">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="nutzt geeignete Instrumente für Qualitätsmessung und -management im Dienstleistungsbereich" inputtype="input" contenttype="toggle" address="questions!D184" id="RxpoB9G7">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="hat die Verantwortung für die Erbringung von Dienstleistungen im Unternehmen klar geregelt." inputtype="input" contenttype="toggle" address="questions!D185" id="S48KmPyx">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="arbeitet mit einer unternehmensweit einheitlichen, nicht restriktiven Definition, was unter einer Beschwerde zu verstehen ist" inputtype="input" contenttype="toggle" address="questions!D186" id="1A6nWDAq">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="hat klar definiert, wie Beschwerden im Unternehmen angenommen und bearbeitet werden sollen." inputtype="input" contenttype="toggle" address="questions!D187" id="LwjFmWX3">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="hat klar definiert, wer für die Lösung einer Beschwerde verantwortlich ist." inputtype="input" contenttype="toggle" address="questions!D188" id="9EMqQcGz">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="sorgt aktiv dafür, dass Mitarbeiter eine konstruktive Einstellung zum Umgang mit Beschwerden haben" inputtype="input" contenttype="toggle" address="questions!D189" id="ZSPMnJyX">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item id="f4KEB427" caption="f4KEB427" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="ITIThvBO" caption="Zurück" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;groupname=f4KEB427;linkinfo=page:19</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="19"/>
+                </item>
+                <item id="hJngcEak" caption="Weiter" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;groupname=f4KEB427;linkinfo=page:28</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="28"/>
+                </item>
+                <item id="fFCTrGg2" caption="Auswertung" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:2</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="2"/>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="28" caption="KAM" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D;actionbuttontype=home">
+        <excelcontent id="1">
+            <items>
+                <item id="UAPa6GRo" caption="Unser Unternehmen..." contenttype="header">
+                    <itemdefinitions>textfontsize=24;captionhorzalign=center;height=15%</itemdefinitions>
+                </item>
+                <item caption="betreibt proaktives KAM  (u. a. Auswahl der Key Accounts und Initiierung von Kooperationsmaßnahmen)." inputtype="input" contenttype="toggle" address="questions!D190" id="g8O5uATI">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="betreibt KAM systematisch  (d. h. Analyse der Key Accounts, Definition von Zielen, Erfolgskontrolle)." inputtype="input" contenttype="toggle" address="questions!D191" id="wXjJxPka">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="setzt Key Account Manager ein, die über Erfahrungen in anderen Funktionsbereichen  (z. B. Marketing, Logistik, Technik) verfügen" inputtype="input" contenttype="toggle" address="questions!D192" id="MWGAx0VC">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="setzt Key Account Manager mit starker Persönlichkeit und Sozialkompetenz ein." inputtype="input" contenttype="toggle" address="questions!D193" id="DnADYWWX">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="setzt Key Account Manager mit umfassender Fachkompetenz  (nicht nur Vertriebskenntnisse) ein." inputtype="input" contenttype="toggle" address="questions!D194" id="idYHScY5">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="verschafft Key Account Manager den Zugang zu den zur Aufgabenerfüllung notwendigen Ressourcen" inputtype="input" contenttype="toggle" address="questions!D195" id="Ohllbedp">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="nutzt für Key Account Manager in hohem Maße leistungsorientierte Vergütungssysteme." inputtype="input" contenttype="toggle" address="questions!D196" id="IpVVUjXV">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="stellt sicher, dass die Key Account Manager die Unterstützung des Top Managements haben." inputtype="input" contenttype="toggle" address="questions!D197" id="IJ2GxNPw">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item id="f4KEB428" caption="f4KEB428" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="w8ES1GXG" caption="Zurück" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;groupname=f4KEB428;linkinfo=page:27</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="27"/>
+                </item>
+                <item id="Np5gTrWE" caption="Weiter" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;groupname=f4KEB428;linkinfo=page:29</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="29"/>
+                </item>
+                <item id="kumnJIIo" caption="Auswertung" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:2</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="2"/>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="29" caption="Relationship Modelling" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D;actionbuttontype=home">
+        <excelcontent id="1">
+            <items>
+                <item id="3mYNtMHE" caption="Unser Unternehmen..." contenttype="header">
+                    <itemdefinitions>textfontsize=24;captionhorzalign=center;height=15%</itemdefinitions>
+                </item>
+                <item caption="hat den typischen Verlauf einer Geschäftsbeziehung mit einem Kunden analysiert und dokumentiert." inputtype="input" contenttype="toggle" address="questions!D198" id="Pp67UdrQ">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="überwacht kontinuierlich die Geschäftsbeziehungen hinsichtlich Abweichungen vom typischen Verlauf." inputtype="input" contenttype="toggle" address="questions!D199" id="JvgKPlRf">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item caption="hat definiert, mit welchen Maßnahmen auf Abweichungen vom typischen Verlauf reagiert werden soll." inputtype="input" contenttype="toggle" address="questions!D200" id="hYdsYHsY">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;buttonheight=30%;valuefontsize=22;</itemdefinitions>
+                </item>
+                <item id="f4KEB429" caption="f4KEB429" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="wh7sZnZw" caption="Zurück" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:28;groupname=f4KEB429</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="28"/>
+                </item>
+                <item id="yXS2lBJ8" caption="Weiter" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:2;groupname=f4KEB429</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="2"/>
+                </item>
+                <item id="ARg60cPP" caption="Auswertung" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;textfontsize=18;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;linkinfo=page:2</itemdefinitions>
+                    <action xsi:type="jumpto" pageid="2"/>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="2" caption="Auswertung" definitions="actionbuttontype=home;summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D;actionbuttontype=home">
+        <excelcontent id="1">
+            <items>
+                <item caption="Total" inputtype="output" contenttype="result" address="analysis!F10" id="F4STSJwf">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#66cacf;elementcolor=white;valuetextcolor=#ffffff;valuefontstyle=regular;captiontextcolor=#ffffff;metrictextcolor=#ffffff;markertextcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="OwXiYokT" caption="OwXiYokT" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item caption="Vertriebsstrategie" inputtype="output" contenttype="result" address="analysis!J7" id="HHJONAPL">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#66cacf;elementcolor=white;valuetextcolor=#ffffff;groupname=OwXiYokT;valuefontstyle=regular;captiontextcolor=#ffffff;captionvertalign=center;markertextcolor=#ffffff;metrictextcolor=#ffffff</itemdefinitions>
+                </item>
+                <item caption="Vertriebsmanagement" inputtype="output" contenttype="result" address="analysis!J8" id="L7V1HPRF">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#66cacf;elementcolor=white;valuetextcolor=#ffffff;groupname=OwXiYokT;valuefontstyle=regular;captiontextcolor=#ffffff;captionvertalign=center;markertextcolor=#ffffff;metrictextcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="WIemzy9l" caption="WIemzy9l" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item caption="Informationsmanagement" inputtype="output" contenttype="result" address="analysis!J9" id="uQEMG2IR">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#66cacf;elementcolor=white;valuetextcolor=#ffffff;groupname=WIemzy9l;valuefontstyle=regular;captiontextcolor=#ffffff;captionvertalign=center;markertextcolor=#ffffff;metrictextcolor=#ffffff</itemdefinitions>
+                </item>
+                <item caption="Kundenbeziehungsmanagement" inputtype="output" contenttype="result" address="analysis!J10" id="GfLJhLFJ">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#66cacf;elementcolor=white;valuetextcolor=#ffffff;groupname=WIemzy9l;valuefontstyle=regular;captiontextcolor=#ffffff;captionvertalign=center;markertextcolor=#ffffff;metrictextcolor=#ffffff</itemdefinitions>
+                </item>
+                <item caption="Auswertung nach Kategorien" inputtype="output" contenttype="chart" address="analysis!I7:I10;analysis!J7:J10" id="0LO0fEUQ">
+                    <itemdefinitions>charttype=column;chartseriestypes=column;chartname=Diagramm 1;seriescaptions=Serie1;height=300;backgroundcolor=#ffffff;colorpalette=#66cacf,#fd6357,#33383e,#adadad;showdatamarker=true;numberformat=P0;yaxiscaption=Performance</itemdefinitions>
+                </item>
+                <item caption="Auswertung nach Bereichen" inputtype="output" contenttype="chart" address="analysis!A2:A21;analysis!B2:B21" id="otJb9YxD">
+                    <itemdefinitions>charttype=bar;chartseriestypes=bar;chartname=Diagramm 2;seriescaptions=Serie1;height=600;backgroundcolor=#ffffff;colorpalette=#66cacf,#fd6357,#33383e,#adadad;showdatamarker=true;numberformat=P0;xaxiscaption=Performance</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+</pages>

@@ -1,0 +1,1 @@
+allowuploadcalculations=true;allowpushtoserver=true;allowstorecalculations=false;theme=team-39cade4c-25a4-4847-bb4d-3fe6414c44fc;functionbuttoncolor=#fd6357;headercolor=#555555;pagetabsselectioncolor=#fd6357;useremailcell=helper!h1;usenewlayoutcalculation=true;paddinghorz=6;paddingvert=6;uploadlocation=Preferred;printsheet=print;menuentries=print

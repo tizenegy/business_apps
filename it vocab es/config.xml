@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages>
+    <page pageid="1" caption="Main" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent id="2">
+            <items>
+                <item id="8ZR4xtXs" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=10%;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+                <item caption="Expression" inputtype="output" contenttype="result" address="Tabelle1!E3" id="WXYh3fEd">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#cc12ba98;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff;buttonheight=20%;captionfontsize=12;valuefontstyle=regular</itemdefinitions>
+                </item>
+                <item id="r58ZaVk0" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=30%;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+                <item id="1GvTF2TS" caption="1GvTF2TS" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="dvFWKvoP" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=20%;backgroundcolor=#00000000;groupname=1GvTF2TS</itemdefinitions>
+                </item>
+                <item id="kjiOjtI8" caption="Next" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#e6ffffff;groupname=1GvTF2TS;actioninfo=recalc;buttonradius=8;metricfontsize=12;textcolor=#4c4c4c;textfontsize=12;buttonheight=20%</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="Tabelle1!D6" id="QBpbwJ1T">
+                    <itemdefinitions>backgroundcolor=#e6ffffff;elementcolor=#09679B;valuetextcolor=#4c4c4c;usecellformat=true;groupname=1GvTF2TS;linkinfo=page:2;buttonheight=20%;elementwidth=100;captionfontsize=12;captiontextcolor=#4c4c4c;buttonradius=8;valuefontsize=12;valuefontstyle=regular</itemdefinitions>
+                </item>
+                <item id="3U3gZbdA" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=15%;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="2" caption="Translation">
+        <excelcontent id="2">
+            <items>
+                <item id="wXmr7saz" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=30;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+                <item caption="Expression" inputtype="output" contenttype="result" address="Tabelle1!E3" id="Vxh0Qi9p">
+                    <itemdefinitions>nocaption=true;buttonradius=8;backgroundcolor=#cc12ba98;usecellformat=true;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff;buttonheight=100;captionfontsize=12</itemdefinitions>
+                </item>
+                <item caption="Translation" inputtype="output" contenttype="result" address="Tabelle1!E4" id="zBWqyP3C">
+                    <itemdefinitions>nocaption=true;buttonradius=8;backgroundcolor=#cc12ba98;usecellformat=true;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff;buttonheight=100;captionfontsize=12</itemdefinitions>
+                </item>
+                <item id="MbCajRQp" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=50;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+                <item id="gB2a4lU8" caption="gB2a4lU8" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="1NNNKZYw" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=100;backgroundcolor=#00000000;groupname=gB2a4lU8</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="Tabelle1!D7" id="GnKL1PCY">
+                    <itemdefinitions>backgroundcolor=#e6ffffff;elementcolor=#09679B;valuetextcolor=#4c4c4c;usecellformat=true;groupname=gB2a4lU8;buttonheight=100;elementwidth=100;linkinfo=page:1;captiontextcolor=#4c4c4c;captionfontsize=12;buttonradius=8;valuefontsize=12</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+</pages>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages
+    xmlns="urn:WunderApp"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <page pageid="1" caption="Main" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent id="1">
+            <items>
+                <item id="H4C91Yeb" caption="Scan business card" contenttype="header">
+                    <itemdefinitions>columnindex=2;height=8%;backgroundcolor=#052b4c;textfontsize=18;textcolor=#fafafa</itemdefinitions>
+                </item>
+                <item caption="Card" inputtype="output" contenttype="imageupload" address="Report!G20" id="0FKI2fv1">
+                    <itemdefinitions>columnindex=2;buttonheight=200;buttoncolor=#052b4c;valuefontstyle=regular;valuetextcolor=#052b4c;captiontextcolor=#fafafa;backgroundcolor=#fafafa;markertextcolor=#052b4c;metrictextcolor=#052b4c;metricfontsize=18;captionfontsize=14;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="fbPWpdcN" caption="Manual entry" inputtype="actionbutton" address="">
+                    <itemdefinitions>columnindex=2;linkinfo=page:3;buttonheight=8%;backgroundcolor=#f9fafb;textfontsize=18;textcolor=#a3825b;captionhorzalign=center</itemdefinitions>
+                </item>
+                <item id="XfEZ5CQg" caption="Interested in" contenttype="header">
+                    <itemdefinitions>height=8%;textfontsize=18;backgroundcolor=#052b4c;textcolor=#fafafa</itemdefinitions>
+                </item>
+                <item id="HJWbVNoZ" caption="HJWbVNoZ" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=10%</itemdefinitions>
+                </item>
+                <item caption="Apps" inputtype="input" contenttype="checkbox" address="Report!C23" id="7ywmdWwh">
+                    <itemdefinitions>usecellformat=true;groupname=HJWbVNoZ;buttonheight=10%;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#a3825b;valuefontsize=18;captionfontsize=18;captiontextcolor=#052b4c</itemdefinitions>
+                </item>
+                <item caption="Services" inputtype="input" contenttype="checkbox" address="Report!C24" id="1cH1Xz7t">
+                    <itemdefinitions>usecellformat=true;groupname=HJWbVNoZ;buttonheight=10%;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#a3825b;valuefontsize=18;captionfontsize=18;captiontextcolor=#052b4c</itemdefinitions>
+                </item>
+                <item id="BX25qepu" caption="BX25qepu" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item caption="Flatrate" inputtype="input" contenttype="checkbox" address="Report!C25" id="bQ8P32qL">
+                    <itemdefinitions>usecellformat=true;groupname=BX25qepu;buttonheight=10%;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#a3825b;valuefontsize=18;captionfontsize=18;captiontextcolor=#052b4c</itemdefinitions>
+                </item>
+                <item caption="Reselling" inputtype="input" contenttype="checkbox" address="Report!C26" id="20w0pE0K">
+                    <itemdefinitions>usecellformat=true;groupname=BX25qepu;buttonheight=10%;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#a3825b;valuefontsize=18;captionfontsize=18;captiontextcolor=#052b4c</itemdefinitions>
+                </item>
+                <item id="Q4v3Pz3c" caption="Q4v3Pz3c" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item caption="Partnering" inputtype="input" contenttype="checkbox" address="Report!C27" id="J57ln0Bs">
+                    <itemdefinitions>usecellformat=true;groupname=Q4v3Pz3c;buttonheight=10%;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#a3825b;valuefontsize=18;captionfontsize=18;captiontextcolor=#052b4c</itemdefinitions>
+                </item>
+                <item caption="Special Case" inputtype="input" contenttype="checkbox" address="Report!C28" id="mIQ2kyUq">
+                    <itemdefinitions>usecellformat=true;groupname=Q4v3Pz3c;buttonheight=10%;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#a3825b;valuefontsize=18;captionfontsize=18;captiontextcolor=#052b4c</itemdefinitions>
+                </item>
+                <item caption="Case Detail" inputtype="input" contenttype="string" address="Report!H28" id="taoM6O1f">
+                    <itemdefinitions>usecellformat=true;isvisiblecell=Report!C28;buttonheight=10%;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#052b4c;valuefontsize=18;captionfontsize=14;captiontextcolor=#a3825b;valuefontstyle=regular</itemdefinitions>
+                </item>
+                <item caption="Other" inputtype="input" contenttype="string" address="Report!B30" id="IYkZgivg">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#052b4c;valuefontsize=18;captionfontsize=14;captiontextcolor=#a3825b;valuefontstyle=regular</itemdefinitions>
+                </item>
+                <item caption="Potential (1-10)" inputtype="input" contenttype="slider" address="Report!G7" id="vXYxoh1i">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#052b4c;usecellformat=true;valuefontstyle=regular;captiontextcolor=#a3825b;editortype=slider;minvalue=1;maxvalue=10;deltastep=1;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="uXuipI1V" caption="Area (Branch) of this lead" contenttype="header">
+                    <itemdefinitions>columnindex=2;height=8%;textfontsize=18;backgroundcolor=#052b4c;textcolor=#fafafa</itemdefinitions>
+                </item>
+                <item id="d4RvQHbW" caption="d4RvQHbW" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>columnindex=2;</itemdefinitions>
+                </item>
+                <item caption="Tech, Media &amp; Telco" inputtype="input" contenttype="checkbox" address="Report!A38" id="lgI42Pjx">
+                    <itemdefinitions>columnindex=2;usecellformat=true;groupname=d4RvQHbW;buttonheight=10%;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#a3825b;valuefontsize=18;captionfontsize=14;captiontextcolor=#052b4c</itemdefinitions>
+                </item>
+                <item caption="Financial Services" inputtype="input" contenttype="checkbox" address="Report!B38" id="JLXL0NYn">
+                    <itemdefinitions>columnindex=2;usecellformat=true;groupname=d4RvQHbW;buttonheight=10%;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#a3825b;valuefontsize=18;captionfontsize=14;captiontextcolor=#052b4c</itemdefinitions>
+                </item>
+                <item id="ohqGV0uw" caption="ohqGV0uw" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>columnindex=2;</itemdefinitions>
+                </item>
+                <item caption="Life Sciences &amp; Health Care" inputtype="input" contenttype="checkbox" address="Report!C38" id="YzrWz9KV">
+                    <itemdefinitions>columnindex=2;usecellformat=true;groupname=ohqGV0uw;buttonheight=10%;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#a3825b;valuefontsize=18;captionfontsize=14;captiontextcolor=#052b4c</itemdefinitions>
+                </item>
+                <item caption="Energy, Resources &amp; Industrials" inputtype="input" contenttype="checkbox" address="Report!D38" id="VqVWCMGg">
+                    <itemdefinitions>columnindex=2;usecellformat=true;groupname=ohqGV0uw;buttonheight=10%;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#a3825b;valuefontsize=18;captionfontsize=14;captiontextcolor=#052b4c</itemdefinitions>
+                </item>
+                <item id="ObYtXgzh" caption="ObYtXgzh" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>columnindex=2;</itemdefinitions>
+                </item>
+                <item caption="Government &amp; Public Services" inputtype="input" contenttype="checkbox" address="Report!E38" id="fFu1OeCq">
+                    <itemdefinitions>columnindex=2;usecellformat=true;groupname=ObYtXgzh;buttonheight=10%;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#a3825b;valuefontsize=18;captionfontsize=14;captiontextcolor=#052b4c</itemdefinitions>
+                </item>
+                <item caption="Consulting" inputtype="input" contenttype="checkbox" address="Report!F38" id="u7ENUvT0">
+                    <itemdefinitions>columnindex=2;usecellformat=true;groupname=ObYtXgzh;buttonheight=10%;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#a3825b;valuefontsize=18;captionfontsize=14;captiontextcolor=#052b4c</itemdefinitions>
+                </item>
+                <item id="umRnYsWA" caption="umRnYsWA" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>columnindex=2;</itemdefinitions>
+                </item>
+                <item caption="Consumer" inputtype="input" contenttype="checkbox" address="Report!G38" id="dIqjGp2A">
+                    <itemdefinitions>columnindex=2;groupname=umRnYsWA;usecellformat=true;buttonheight=10%;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#a3825b;valuefontsize=18;captionfontsize=14;captiontextcolor=#052b4c</itemdefinitions>
+                </item>
+                <item caption="Other" inputtype="input" contenttype="checkbox" address="Report!H38" id="uv8CBZcs">
+                    <itemdefinitions>columnindex=2;groupname=umRnYsWA;usecellformat=true;buttonheight=10%;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#a3825b;valuefontsize=18;captionfontsize=14;captiontextcolor=#052b4c</itemdefinitions>
+                </item>
+                <item id="GDknrKzE" caption="Next activities" contenttype="header">
+                    <itemdefinitions>columnindex=2;height=8%;textfontsize=18;backgroundcolor=#052b4c;textcolor=#fafafa</itemdefinitions>
+                </item>
+                <item caption="Send information" inputtype="input" contenttype="checkbox" address="Report!A47" id="MGhtJeak">
+                    <itemdefinitions>columnindex=2;usecellformat=true;buttonheight=10%;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#a3825b;valuefontsize=18;captionfontsize=18;captiontextcolor=#052b4c</itemdefinitions>
+                </item>
+                <item caption="Phone call" inputtype="input" contenttype="checkbox" address="Report!B47" id="tE3pIN9T">
+                    <itemdefinitions>columnindex=2;usecellformat=true;buttonheight=10%;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#a3825b;valuefontsize=18;captionfontsize=18;captiontextcolor=#052b4c</itemdefinitions>
+                </item>
+                <item caption="Call Detail" inputtype="input" contenttype="date" address="Report!F41" id="ViwJDkLl">
+                    <itemdefinitions>columnindex=2;usecellformat=true;isvisiblecell=Report!B47;buttonheight=15%;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#052b4c;valuefontsize=18;captionfontsize=14;captiontextcolor=#a3825b;valuefontstyle=regular</itemdefinitions>
+                </item>
+                <item caption="Personal visit" inputtype="input" contenttype="checkbox" address="Report!C47" id="pyvRaTem">
+                    <itemdefinitions>columnindex=2;usecellformat=true;buttonheight=10%;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#a3825b;valuefontsize=18;captionfontsize=18;captiontextcolor=#052b4c</itemdefinitions>
+                </item>
+                <item caption="Visit Detail" inputtype="input" contenttype="date" address="Report!F42" id="BkaH0SbN">
+                    <itemdefinitions>columnindex=2;usecellformat=true;isvisiblecell=Report!C47;buttonheight=15%;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#052b4c;valuefontsize=18;captionfontsize=14;captiontextcolor=#a3825b;valuefontstyle=regular</itemdefinitions>
+                </item>
+                <item caption="Presentation" inputtype="input" contenttype="checkbox" address="Report!D47" id="QBz79tOm">
+                    <itemdefinitions>columnindex=2;usecellformat=true;buttonheight=10%;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#a3825b;valuefontsize=18;captionfontsize=18;captiontextcolor=#052b4c</itemdefinitions>
+                </item>
+                <item caption="What type of presentation" inputtype="input" contenttype="string" address="Report!F43" id="055EDd3g">
+                    <itemdefinitions>columnindex=2;usecellformat=true;isvisiblecell=Report!D47;buttonheight=15%;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#052b4c;valuefontsize=18;captionfontsize=14;captiontextcolor=#a3825b;valuefontstyle=regular</itemdefinitions>
+                </item>
+                <item caption="Other" inputtype="input" contenttype="checkbox" address="Report!E47" id="IPHvMIfK">
+                    <itemdefinitions>columnindex=2;usecellformat=true;buttonheight=10%;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#a3825b;valuefontsize=18;captionfontsize=18;captiontextcolor=#052b4c</itemdefinitions>
+                </item>
+                <item caption="Other Detail" inputtype="input" contenttype="string" address="Report!F44" id="Ld8tGSb5">
+                    <itemdefinitions>columnindex=2;usecellformat=true;isvisiblecell=Report!E47;buttonheight=10%;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#052b4c;valuefontsize=18;captionfontsize=14;captiontextcolor=#a3825b;valuefontstyle=regular</itemdefinitions>
+                </item>
+                <item caption="No action wanted" inputtype="input" contenttype="checkbox" address="Report!F47" id="SeTo7RVu">
+                    <itemdefinitions>columnindex=2;usecellformat=true;buttonheight=10%;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#a3825b;valuefontsize=18;captionfontsize=18;captiontextcolor=#052b4c</itemdefinitions>
+                </item>
+                <item id="cq04FG0o" caption="Lead info" contenttype="header">
+                    <itemdefinitions>height=8%;textfontsize=18;backgroundcolor=#052b4c;textcolor=#fafafa</itemdefinitions>
+                </item>
+                <item caption="Date" inputtype="input" contenttype="date" address="Report!C7" id="aGibx2Hk">
+                    <itemdefinitions>usecellformat=true;buttonheight=15%;elementwidth=40%;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#052b4c;valuefontsize=18;captionfontsize=14;captiontextcolor=#a3825b;valuefontstyle=regular</itemdefinitions>
+                </item>
+                <item caption="Lead type" inputtype="input" contenttype="toggle" address="APP!B1" id="tWPv2wXN">
+                    <itemdefinitions>usecellformat=true;buttonheight=15%;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#052b4c;valuefontsize=18;captionfontsize=14;captiontextcolor=#a3825b;valuefontstyle=regular</itemdefinitions>
+                </item>
+                <item caption="Lead source" inputtype="input" contenttype="toggle" address="APP!Q1" id="EqBwhRCs">
+                    <itemdefinitions>usecellformat=true;buttonheight=15%;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#052b4c;valuefontsize=18;captionfontsize=14;captiontextcolor=#a3825b;valuefontstyle=regular</itemdefinitions>
+                </item>
+                <item caption="Additional participants" inputtype="input" contenttype="string" address="Report!A13" id="gkI5O4rm">
+                    <itemdefinitions>usecellformat=true;buttonheight=15%;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#052b4c;valuefontsize=18;captionfontsize=14;captiontextcolor=#a3825b;valuefontstyle=regular</itemdefinitions>
+                </item>
+                <item caption="Notes" inputtype="input" contenttype="string" address="Report!B48" id="LGXygMpB">
+                    <itemdefinitions>usecellformat=true;buttonheight=15%;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#052b4c;valuefontsize=18;captionfontsize=14;captiontextcolor=#a3825b;valuefontstyle=regular</itemdefinitions>
+                </item>
+                <item caption="Created by" inputtype="input" contenttype="string" address="Report!A10" id="PtqbYsh6">
+                    <itemdefinitions>usecellformat=true;buttonheight=15%;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#052b4c;valuefontsize=18;captionfontsize=14;captiontextcolor=#a3825b;valuefontstyle=regular</itemdefinitions>
+                </item>
+                <item id="0exKqPKh" caption="0exKqPKh" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="Hv6rKVez" caption="Send Lead" inputtype="actionbutton" address="">
+                    <itemdefinitions>actioninfo=upload;buttonheight=22%;backgroundcolor=#a3825b;groupname=0exKqPKh;elementwidth=2*;metricfontsize=22;textfontsize=22</itemdefinitions>
+                </item>
+                <item id="Hwaiu4cN" caption="Hwaiu4cN" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="FrRuWnzO" caption="Email" inputtype="actionbutton" address="">
+                    <itemdefinitions>actioninfo=send;buttonheight=22%;groupname=Hwaiu4cN;backgroundcolor=#cc052b4c;elementwidth=1*;textfontsize=22</itemdefinitions>
+                </item>
+                <item id="RpS2H6nl" caption="Print" inputtype="actionbutton" address="">
+                    <itemdefinitions>actioninfo=print;buttonheight=22%;groupname=Hwaiu4cN;backgroundcolor=#cc052b4c;elementwidth=1*;textfontsize=22</itemdefinitions>
+                </item>
+                <item id="RpS2H6n1" caption="Save" inputtype="actionbutton" address="">
+                    <itemdefinitions>actioninfo=save;buttonheight=22%;groupname=Hwaiu4cN;backgroundcolor=#cc052b4c;elementwidth=1*;textfontsize=22</itemdefinitions>
+                </item>
+                <item id="LDiIxaqI" caption="My Leads" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#cc052b4c;groupname=0exKqPKh;elementwidth=1*;metricfontsize=22;textfontsize=22;runapp=97443d48-ca40-40e3-a2ff-5ba3b42efba7</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="3" caption="Detail" definitions="actionbuttoncolor=#5f646e;summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D;actionbuttontype=none">
+        <excelcontent id="1">
+            <items>
+                <item id="u3uD7JCk" caption="&lt; back" inputtype="actionbutton" address="">
+                    <itemdefinitions>linkinfo=page:1;buttonheight=10%;backgroundcolor=#a3825b</itemdefinitions>
+                </item>
+                <item caption="Company" inputtype="input" contenttype="string" address="Report!G9" id="mTd7DnJ1">
+                    <itemdefinitions>usecellformat=true;buttonheight=15%;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#052b4c;valuefontsize=18;captionfontsize=14;captiontextcolor=#a3825b;valuefontstyle=regular</itemdefinitions>
+                </item>
+                <item caption="Additional" inputtype="input" contenttype="string" address="Report!A20" id="IeeHg8E5">
+                    <itemdefinitions>usecellformat=true;isvisiblecell=Report!C19;buttonheight=15%;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#052b4c;valuefontsize=18;captionfontsize=14;captiontextcolor=#a3825b;valuefontstyle=regular</itemdefinitions>
+                </item>
+                <item id="BY0nbYBF" caption="BY0nbYBF" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item caption="First Name" inputtype="input" contenttype="string" address="Report!G11" id="ByNgTnub">
+                    <itemdefinitions>usecellformat=true;groupname=BY0nbYBF;buttonheight=15%;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#052b4c;valuefontsize=18;captionfontsize=14;captiontextcolor=#a3825b;valuefontstyle=regular</itemdefinitions>
+                </item>
+                <item caption="Last Name" inputtype="input" contenttype="string" address="Report!G12" id="UmON30hd">
+                    <itemdefinitions>usecellformat=true;groupname=BY0nbYBF;buttonheight=15%;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#052b4c;valuefontsize=18;captionfontsize=14;captiontextcolor=#a3825b;valuefontstyle=regular</itemdefinitions>
+                </item>
+                <item caption="Job Title" inputtype="input" contenttype="string" address="Report!G10" id="7NAuSUlk">
+                    <itemdefinitions>usecellformat=true;buttonheight=15%;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#052b4c;valuefontsize=18;captionfontsize=14;captiontextcolor=#a3825b;valuefontstyle=regular</itemdefinitions>
+                </item>
+                <item caption="Address" inputtype="input" contenttype="string" address="Report!G13" id="SbytfnMR">
+                    <itemdefinitions>usecellformat=true;buttonheight=15%;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#052b4c;valuefontsize=18;captionfontsize=14;captiontextcolor=#a3825b;valuefontstyle=regular</itemdefinitions>
+                </item>
+                <item id="YI5tdqRb" caption="YI5tdqRb" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item caption="Zip Code" inputtype="input" contenttype="string" address="Report!G14" id="gP6Lh4Gy">
+                    <itemdefinitions>usecellformat=true;groupname=YI5tdqRb;showeditbuttons=false;buttonheight=15%;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#052b4c;valuefontsize=18;captionfontsize=14;captiontextcolor=#a3825b;valuefontstyle=regular</itemdefinitions>
+                </item>
+                <item caption="City" inputtype="input" contenttype="string" address="Report!G15" id="yIL2LXj9">
+                    <itemdefinitions>usecellformat=true;buttonheight=15%;groupname=YI5tdqRb;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#052b4c;valuefontsize=18;captionfontsize=14;captiontextcolor=#a3825b;valuefontstyle=regular</itemdefinitions>
+                </item>
+                <item id="r5ZLtQW1" caption="r5ZLtQW1" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item caption="Phone Mobile" inputtype="input" contenttype="string" address="Report!G17" id="Dt2Bc0GT">
+                    <itemdefinitions>usecellformat=true;buttonheight=15%;groupname=r5ZLtQW1;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#052b4c;valuefontsize=18;captionfontsize=14;captiontextcolor=#a3825b;valuefontstyle=regular</itemdefinitions>
+                </item>
+                <item caption="Phone Office" inputtype="input" contenttype="string" address="Report!G16" id="atsFfYdW">
+                    <itemdefinitions>usecellformat=true;buttonheight=15%;groupname=r5ZLtQW1;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#052b4c;valuefontsize=18;captionfontsize=14;captiontextcolor=#a3825b;valuefontstyle=regular</itemdefinitions>
+                </item>
+                <item caption="Email" inputtype="input" contenttype="string" address="Report!G18" id="er9DKbTz">
+                    <itemdefinitions>usecellformat=true;buttonheight=15%;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#052b4c;valuefontsize=18;captionfontsize=14;captiontextcolor=#a3825b</itemdefinitions>
+                </item>
+                <item caption="Homepage" inputtype="input" contenttype="string" address="Report!G19" id="i5xGyI6T">
+                    <itemdefinitions>usecellformat=true;buttonheight=15%;backgroundcolor=#ffffff;elementcolor=#052b4c;valuetextcolor=#052b4c;valuefontsize=18;captionfontsize=14;captiontextcolor=#a3825b</itemdefinitions>
+                </item>
+                <item id="ocrDetails" caption="OCR Details" inputtype="output">
+                    <itemdefinitions>valuefontstyle=regular;buttonheight=0</itemdefinitions>
+                </item>
+                <item id="0JQ3MR7B" caption="enrich data" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=d5d5d5</itemdefinitions>
+                    <action xsi:type="webhook" webhookid="ocr"/>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+</pages>
