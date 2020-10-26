@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages
+    xmlns="urn:WunderApp">
+    <page pageid="1" caption="Main" definitions="sheetname=tasks;summarywidth=110;summaryopacity=6;summarybackgroundcolor=AC190D;">
+        <excelcontent id="1">
+            <items>
+                <item id="a5VvSb0A" caption="" inputtype="" contenttype="list" address="tasks!A1">
+                    <itemdefinitions>componentname=list;gridtheme=light;gridalternaterowbackgroundcolor=#f5f5f5;gridrowheight=40;gridcollapsegroups=false;gridallowedit=false;headeravailable=true;showcolumnheader=true;listcolumns=1::text,2::text,3::text,4::web,5::text;detailcolumns=1:text,2:text,3:text,4:web,5:text;drilldowncolumns=1,6</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+</pages>

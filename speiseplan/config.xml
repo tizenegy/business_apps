@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns="urn:WunderApp">
+    <page pageid="6" caption="Home" definitions="actionbuttontype=none">
+        <excelcontent>
+            <items>
+                <item caption="" inputtype="output" contenttype="string" address="Tabelle1!K1" id="8EiQsegP">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#ffffff;usecellformat=true;valuefontstyle=regular;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/6208a078-fc1a-4524-89eb-1208230717ec/public/field-l1bPyjtH.jpeg?v=sQ0b6d3J;buttonheight=3*</itemdefinitions>
+                </item>
+                <item id="syORr4ow" contenttype="spacer">
+                    <itemdefinitions>height=1*</itemdefinitions>
+                </item>
+                <item id="fS3OAgOU" caption="Heutiges Menü" inputtype="actionbutton" address="HW!E2">
+                    <itemdefinitions>captiontextcolor=white;backgroundcolor=#49b29d;linkinfo=page:1;captionhorzalign=center;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/6208a078-fc1a-4524-89eb-1208230717ec/public/field-gg6q65Xm.jpeg?v=bUDfPWYA;buttonheight=2*</itemdefinitions>
+                </item>
+                <item id="0g5MPU5Q" caption="Salat" inputtype="actionbutton" address="HW!E3">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#49b29d;linkinfo=page:2;captionhorzalign=center;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/6208a078-fc1a-4524-89eb-1208230717ec/public/field-67OMilL1.jpeg?v=Rmn06Zfq;buttonheight=2*</itemdefinitions>
+                </item>
+                <item id="Ytpwim8M" caption="Rechner" inputtype="actionbutton" address="HW!E4">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#49b29d;linkinfo=page:rx;captionhorzalign=center;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/6208a078-fc1a-4524-89eb-1208230717ec/public/field-iHtrVjGN.png?v=MEYTVmiT;textcolor=#010101;buttonheight=2*</itemdefinitions>
+                </item>
+                <item id="pzBss24P" caption="Feedback" inputtype="actionbutton" address="HW!E5">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#49b29d;linkinfo=page:4;captionhorzalign=center;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/6208a078-fc1a-4524-89eb-1208230717ec/public/field-Z9f7z5oX.jpeg?v=Cd2gGsR0;textcolor=#010101;buttonheight=2*</itemdefinitions>
+                </item>
+                <item id="QiTe6lJS" caption="Anfahrt" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#d5d5d5;linkinfo=page:8;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/6208a078-fc1a-4524-89eb-1208230717ec/public/field-tqFB8TuX.png?v=XILok02h;textcolor=#010101;buttonheight=2*</itemdefinitions>
+                </item>
+                <item id="e5GzpGEX" contenttype="spacer">
+                    <itemdefinitions>height=1*</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="1" caption="Heutiges Menü" definitions="actionbuttontype=none">
+        <excelcontent>
+            <items>
+                <item id="kOSm3Fef" caption="Menü für" inputtype="output" contenttype="result" address="app!B47">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=26;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/6208a078-fc1a-4524-89eb-1208230717ec/public/field-gg6q65Xm.jpeg?v=bUDfPWYA;metrictext=fromcell:app!b46</itemdefinitions>
+                </item>
+                <item id="O9mKSAqh" contenttype="spacer">
+                    <itemdefinitions>height=20</itemdefinitions>
+                </item>
+                <item id="5r9NVnn3" caption="5r9NVnn3" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>isvisiblecell=app!F3</itemdefinitions>
+                </item>
+                <item id="QKyI60KA" caption="Tagesmenü 1" inputtype="output" contenttype="result" address="app!C3">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#49b29d;usecellformat=true;groupname=5r9NVnn3;valuefontstyle=regular;isvisiblecell=app!F3;valuefontsize=20</itemdefinitions>
+                </item>
+                <item id="ARuFvHim" caption="ARuFvHim" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>isvisiblecell=app!F3</itemdefinitions>
+                </item>
+                <item id="kRlGuZNF" caption="Tagesmenü 2" inputtype="output" contenttype="result" address="app!C4">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#49b29d;usecellformat=true;groupname=ARuFvHim;isvisiblecell=app!F3;valuefontstyle=regular;valuefontsize=20</itemdefinitions>
+                </item>
+                <item id="vHTltJp5" caption="vHTltJp5" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>isvisiblecell=app!F3</itemdefinitions>
+                </item>
+                <item id="Q1tOHbtE" caption="Vegetarisches Menü" inputtype="output" contenttype="result" address="app!C5">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#49b29d;usecellformat=true;groupname=vHTltJp5;isvisiblecell=app!F3;valuefontstyle=regular;valuefontsize=20</itemdefinitions>
+                </item>
+                <item id="DsRLTFhM" caption="DsRLTFhM" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>isvisiblecell=app!F3</itemdefinitions>
+                </item>
+                <item id="YDjY2Flj" caption="Spezialitäten" inputtype="output" contenttype="result" address="app!C6">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#49b29d;usecellformat=true;groupname=DsRLTFhM;isvisiblecell=app!F3;valuefontstyle=regular;valuefontsize=20;valuetextcolor=#ffffff;captiontextcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="qjSyh0TZ" caption="qjSyh0TZ" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>isvisiblecell=app!F3</itemdefinitions>
+                </item>
+                <item id="2qDy3IhO" caption="Pastatheke" inputtype="output" contenttype="result" address="app!C7">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#49b29d;usecellformat=true;groupname=qjSyh0TZ;isvisiblecell=app!F3;valuefontstyle=regular;valuefontsize=20</itemdefinitions>
+                </item>
+                <item id="Glab5jZv" caption="" inputtype="infobutton" address="app!K3">
+                    <itemdefinitions>elementcolor=#ffffff;groupname=5r9NVnn3;captionvertalign=center;captionhorzalign=left;backgroundcolor=#49b29d;elementwidth=10%;isvisiblecell=app!F3</itemdefinitions>
+                </item>
+                <item id="Roft2hrS" caption="" inputtype="infobutton" address="app!K4">
+                    <itemdefinitions>elementcolor=#ffffff;groupname=ARuFvHim;captionvertalign=center;captionhorzalign=left;backgroundcolor=#49b29d;elementwidth=10%;isvisiblecell=app!F3</itemdefinitions>
+                </item>
+                <item id="edEz3bc6" caption="" inputtype="infobutton" address="app!K5">
+                    <itemdefinitions>elementcolor=#ffffff;groupname=vHTltJp5;captionvertalign=center;captionhorzalign=left;backgroundcolor=#49b29d;elementwidth=10%;isvisiblecell=app!F3</itemdefinitions>
+                </item>
+                <item id="AsRzDrG9" caption="" inputtype="infobutton" address="app!K6">
+                    <itemdefinitions>elementcolor=#ffffff;groupname=DsRLTFhM;captionvertalign=center;captionhorzalign=left;backgroundcolor=#49b29d;elementwidth=10%;isvisiblecell=app!F3</itemdefinitions>
+                </item>
+                <item id="h7VXAv05" caption="" inputtype="infobutton" address="app!K7">
+                    <itemdefinitions>elementcolor=#ffffff;groupname=qjSyh0TZ;captionvertalign=center;captionhorzalign=left;backgroundcolor=#49b29d;elementwidth=10%;isvisiblecell=app!F3</itemdefinitions>
+                </item>
+                <item id="YopAV9Wn" contenttype="spacer">
+                    <itemdefinitions>height=20;isvisiblecell=app!F3</itemdefinitions>
+                </item>
+                <item id="Uo26jue1" caption="Beilagen" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ffffff;textcolor=#49b29d;isvisiblecell=app!F3;textfontsize=20</itemdefinitions>
+                </item>
+                <item id="JGtdierL" caption="JGtdierL" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>isvisiblecell=app!F3</itemdefinitions>
+                </item>
+                <item id="gVew582x" caption="" inputtype="output" contenttype="result" address="app!C8">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#3349b29d;usecellformat=true;valuefontstyle=regular;groupname=JGtdierL;isvisiblecell=app!F3;valuefontsize=16;captionhorzalign=left;valuetextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="p0HzxBIg" caption="" inputtype="infobutton" address="app!K8">
+                    <itemdefinitions>elementcolor=#49b29d;captionvertalign=center;captionhorzalign=left;backgroundcolor=#3349b29d;elementwidth=10%;isvisiblecell=app!F3;groupname=JGtdierL;metrictextcolor=#49b29d;captiontextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="9OuZaPUJ" caption="" inputtype="output" contenttype="result" address="app!D8">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#3349b29d;usecellformat=true;groupname=JGtdierL;isvisiblecell=app!F3;valuefontstyle=regular;valuefontsize=16;captionhorzalign=left;valuetextcolor=#49b29d;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="mWYUiCgj" caption="" inputtype="infobutton" address="app!L8">
+                    <itemdefinitions>elementcolor=#49b29d;captionvertalign=center;captionhorzalign=left;backgroundcolor=#3349b29d;elementwidth=10%;isvisiblecell=app!F3;groupname=JGtdierL;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="0HNdsary" caption="" inputtype="output" contenttype="result" address="app!E8">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#3349b29d;usecellformat=true;groupname=JGtdierL;isvisiblecell=app!F3;valuefontstyle=regular;valuefontsize=16;captionhorzalign=left;valuetextcolor=#49b29d;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="fnh4YwxI" caption="Gemüse" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ffffff;textcolor=#49b29d;isvisiblecell=app!F3;textfontsize=20</itemdefinitions>
+                </item>
+                <item id="g4fTbneu" caption="g4fTbneu" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>isvisiblecell=app!F3</itemdefinitions>
+                </item>
+                <item id="a0fkLQfi" caption="" inputtype="output" contenttype="result" address="app!C9">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#3349b29d;usecellformat=true;valuefontstyle=regular;isvisiblecell=app!F3;valuefontsize=16;groupname=g4fTbneu;captionhorzalign=left;captionvertalign=center;valuetextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="zS4I5aCo" caption="" inputtype="infobutton" address="app!K9">
+                    <itemdefinitions>elementcolor=#49b29d;captionvertalign=center;captionhorzalign=left;backgroundcolor=#3349b29d;elementwidth=10%;isvisiblecell=app!F3;groupname=g4fTbneu;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="kF6fjtg3" caption="" inputtype="output" contenttype="result" address="app!D9">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#3349b29d;usecellformat=true;valuefontstyle=regular;isvisiblecell=app!F3;valuefontsize=16;groupname=g4fTbneu;captionhorzalign=left;captionvertalign=center;valuetextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="yJdmFzH9" caption="Dessert" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ffffff;textcolor=#49b29d;isvisiblecell=app!F3;textfontsize=20</itemdefinitions>
+                </item>
+                <item id="hdQlcgZy" caption="hdQlcgZy" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>isvisiblecell=app!F3</itemdefinitions>
+                </item>
+                <item id="deDfCqE8" caption="" inputtype="output" contenttype="result" address="app!C10">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#3349b29d;usecellformat=true;valuefontstyle=regular;isvisiblecell=app!F3;valuefontsize=16;groupname=hdQlcgZy;captionhorzalign=left;valuetextcolor=#49b29d;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="7Bf18PaE" caption="" inputtype="infobutton" address="app!K10">
+                    <itemdefinitions>elementcolor=#49b29d;captionvertalign=center;captionhorzalign=left;backgroundcolor=#3349b29d;elementwidth=10%;isvisiblecell=app!F3;groupname=hdQlcgZy;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="Z2M3OOQT" caption="" inputtype="output" contenttype="result" address="app!D10">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#3349b29d;usecellformat=true;valuefontstyle=regular;isvisiblecell=app!F3;valuefontsize=16;groupname=hdQlcgZy;captionhorzalign=left;captionvertalign=center;valuetextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="8BXlmU3j" caption="" inputtype="infobutton" address="app!L10">
+                    <itemdefinitions>elementcolor=#49b29d;captionvertalign=center;captionhorzalign=left;backgroundcolor=#3349b29d;elementwidth=10%;isvisiblecell=app!F3;groupname=hdQlcgZy;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="JvyZTbgA" caption="" inputtype="output" contenttype="result" address="app!E10">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#3349b29d;usecellformat=true;valuefontstyle=regular;isvisiblecell=app!F3;valuefontsize=16;groupname=hdQlcgZy;captionhorzalign=left;captionvertalign=center;valuetextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="wSvwQz0U" caption="wSvwQz0U" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>isvisiblecell=app!F11</itemdefinitions>
+                </item>
+                <item id="JflhkCqH" caption="Tagesmenü 1" inputtype="output" contenttype="result" address="app!C11">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#49b29d;usecellformat=true;groupname=wSvwQz0U;valuefontstyle=regular;isvisiblecell=app!F11;valuefontsize=20</itemdefinitions>
+                </item>
+                <item id="PwJTRYvT" caption="PwJTRYvT" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>isvisiblecell=app!F11</itemdefinitions>
+                </item>
+                <item id="QakIIAsz" caption="Tagesmenü 2" inputtype="output" contenttype="result" address="app!C12">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#49b29d;usecellformat=true;valuefontstyle=regular;groupname=PwJTRYvT;isvisiblecell=app!F11;valuefontsize=20</itemdefinitions>
+                </item>
+                <item id="yLhS2duu" caption="" inputtype="infobutton" address="app!K12">
+                    <itemdefinitions>elementcolor=#ffffff;groupname=PwJTRYvT;captionvertalign=center;captionhorzalign=left;backgroundcolor=#49b29d;isvisiblecell=app!F11;elementwidth=10%</itemdefinitions>
+                </item>
+                <item id="Uu0eIbsN" caption="Uu0eIbsN" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>isvisiblecell=app!F11</itemdefinitions>
+                </item>
+                <item id="oIV9jmgV" caption="Vegetarisches Menü" inputtype="output" contenttype="result" address="app!C13">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#49b29d;usecellformat=true;groupname=Uu0eIbsN;isvisiblecell=app!F11;valuefontstyle=regular;valuefontsize=20</itemdefinitions>
+                </item>
+                <item id="IAiMa4Ab" caption="IAiMa4Ab" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>isvisiblecell=app!F11</itemdefinitions>
+                </item>
+                <item id="2OavTfbp" caption="Spezialitäten" inputtype="output" contenttype="result" address="app!C14">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#49b29d;usecellformat=true;groupname=IAiMa4Ab;isvisiblecell=app!F11;valuefontstyle=regular;valuefontsize=20;captionvertalign=center;captionhorzalign=left;valuetextcolor=#ffffff;captiontextcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="HUwr4SBN" caption="" inputtype="infobutton" address="app!K11">
+                    <itemdefinitions>elementcolor=#ffffff;groupname=wSvwQz0U;captionvertalign=center;captionhorzalign=left;backgroundcolor=#49b29d;isvisiblecell=app!F11;elementwidth=10%</itemdefinitions>
+                </item>
+                <item id="QEQafkjI" caption="" inputtype="infobutton" address="app!K13">
+                    <itemdefinitions>elementcolor=#ffffff;groupname=Uu0eIbsN;captionvertalign=center;captionhorzalign=left;backgroundcolor=#49b29d;isvisiblecell=app!F11;elementwidth=10%</itemdefinitions>
+                </item>
+                <item id="Gw5OcWNF" caption="" inputtype="infobutton" address="app!K14">
+                    <itemdefinitions>elementcolor=#ffffff;groupname=IAiMa4Ab;captionvertalign=center;captionhorzalign=left;backgroundcolor=#49b29d;isvisiblecell=app!F11;elementwidth=10%</itemdefinitions>
+                </item>
+                <item id="5KN0SGMY" caption="5KN0SGMY" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>isvisiblecell=app!F11</itemdefinitions>
+                </item>
+                <item id="h96PHREo" caption="Pastatheke" inputtype="output" contenttype="result" address="app!C15">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#49b29d;usecellformat=true;groupname=5KN0SGMY;isvisiblecell=app!F11;valuefontstyle=regular;valuefontsize=20;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="EUbxtLWP" caption="" inputtype="infobutton" address="app!K15">
+                    <itemdefinitions>elementcolor=#ffffff;groupname=5KN0SGMY;captionvertalign=center;captionhorzalign=left;backgroundcolor=#49b29d;isvisiblecell=app!F11;elementwidth=10%</itemdefinitions>
+                </item>
+                <item id="mLE7Lx0d" contenttype="spacer">
+                    <itemdefinitions>height=20;isvisiblecell=app!F11</itemdefinitions>
+                </item>
+                <item id="nxChgbjK" caption="Beilagen" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ffffff;textcolor=#49b29d;isvisiblecell=app!F11;textfontsize=20</itemdefinitions>
+                </item>
+                <item id="gKJw4EXK" caption="gKJw4EXK" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>isvisiblecell=app!F11</itemdefinitions>
+                </item>
+                <item id="kn3jdHZO" caption="" inputtype="output" contenttype="result" address="app!C16">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#3349b29d;usecellformat=true;groupname=gKJw4EXK;valuefontstyle=regular;isvisiblecell=app!F11;valuefontsize=16;captionhorzalign=left;valuetextcolor=#49b29d;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="DMRawLRO" caption="" inputtype="infobutton" address="app!K16">
+                    <itemdefinitions>elementcolor=#49b29d;captionvertalign=center;captionhorzalign=left;backgroundcolor=#3349b29d;elementwidth=10%;isvisiblecell=app!F11;groupname=gKJw4EXK;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="izu9B5wu" caption="Gemüse" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ffffff;textcolor=#49b29d;isvisiblecell=app!F11;textfontsize=20</itemdefinitions>
+                </item>
+                <item id="UxJ690Et" caption="UxJ690Et" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>isvisiblecell=app!F11</itemdefinitions>
+                </item>
+                <item id="tS8OGD4b" caption="" inputtype="output" contenttype="result" address="app!C17">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#3349b29d;usecellformat=true;groupname=UxJ690Et;isvisiblecell=app!F11;valuefontstyle=regular;valuefontsize=16;captionhorzalign=left;valuetextcolor=#49b29d;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="lYbAij1v" caption="" inputtype="infobutton" address="app!K17">
+                    <itemdefinitions>elementcolor=#49b29d;captionvertalign=center;captionhorzalign=left;backgroundcolor=#3349b29d;elementwidth=10%;isvisiblecell=app!F11;groupname=UxJ690Et;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="it9cSOzN" caption="" inputtype="output" contenttype="result" address="app!D17">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#3349b29d;usecellformat=true;groupname=UxJ690Et;isvisiblecell=app!F11;valuefontstyle=regular;valuefontsize=16;captionhorzalign=left;valuetextcolor=#49b29d;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="ThbxYpZO" caption="Dessert" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ffffff;textcolor=#49b29d;isvisiblecell=app!F11;textfontsize=20</itemdefinitions>
+                </item>
+                <item id="VFdBFZ5N" caption="VFdBFZ5N" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>isvisiblecell=app!F11</itemdefinitions>
+                </item>
+                <item id="OPmf0nqs" caption="" inputtype="output" contenttype="result" address="app!C18">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#3349b29d;usecellformat=true;groupname=VFdBFZ5N;valuefontstyle=regular;isvisiblecell=app!F11;valuefontsize=16;captionhorzalign=left;valuetextcolor=#49b29d;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="B2Z9zNmS" caption="" inputtype="infobutton" address="app!K18">
+                    <itemdefinitions>elementcolor=#49b29d;captionvertalign=center;captionhorzalign=left;backgroundcolor=#3349b29d;elementwidth=10%;isvisiblecell=app!F11;groupname=VFdBFZ5N;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="cUQxqndK" caption="" inputtype="output" contenttype="result" address="app!D18">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#3349b29d;usecellformat=true;groupname=VFdBFZ5N;valuefontstyle=regular;isvisiblecell=app!F11;valuefontsize=16;captionhorzalign=left;valuetextcolor=#49b29d;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="W97h38fd" caption="" inputtype="infobutton" address="app!L18">
+                    <itemdefinitions>elementcolor=#49b29d;captionvertalign=center;captionhorzalign=left;backgroundcolor=#3349b29d;elementwidth=10%;isvisiblecell=app!F11;groupname=VFdBFZ5N;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="cd3Fwr0W" caption="" inputtype="output" contenttype="result" address="app!E18">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#3349b29d;usecellformat=true;valuefontstyle=regular;isvisiblecell=app!F11;valuefontsize=16;groupname=VFdBFZ5N;captionhorzalign=left;valuetextcolor=#49b29d;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="N9VUHteC" caption="N9VUHteC" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>isvisiblecell=app!F19</itemdefinitions>
+                </item>
+                <item id="IJYzbLMc" caption="Tagesmenü 1" inputtype="output" contenttype="result" address="app!C19">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#49b29d;usecellformat=true;groupname=N9VUHteC;valuefontstyle=regular;valuefontsize=20;isvisiblecell=app!F19</itemdefinitions>
+                </item>
+                <item id="ED3eSkFm" caption="ED3eSkFm" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>isvisiblecell=app!F19</itemdefinitions>
+                </item>
+                <item id="Ncv8TPMQ" caption="Tagesmenü 2" inputtype="output" contenttype="result" address="app!C20">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#49b29d;usecellformat=true;groupname=ED3eSkFm;isvisiblecell=app!F19;valuefontstyle=regular;valuefontsize=20</itemdefinitions>
+                </item>
+                <item id="5vSuFbkH" caption="" inputtype="infobutton" address="app!K20">
+                    <itemdefinitions>elementcolor=#ffffff;captionvertalign=center;captionhorzalign=left;backgroundcolor=#49b29d;elementwidth=10%;isvisiblecell=app!F19;groupname=ED3eSkFm</itemdefinitions>
+                </item>
+                <item id="GfTlqvTF" caption="GfTlqvTF" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>isvisiblecell=app!F19</itemdefinitions>
+                </item>
+                <item id="5mfa3Mkp" caption="Vegetarisches Menü" inputtype="output" contenttype="result" address="app!C21">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#49b29d;usecellformat=true;groupname=GfTlqvTF;isvisiblecell=app!F19;valuefontstyle=regular;valuefontsize=20</itemdefinitions>
+                </item>
+                <item id="XmoLMu7p" caption="" inputtype="infobutton" address="app!K21">
+                    <itemdefinitions>elementcolor=#ffffff;captionvertalign=center;captionhorzalign=left;backgroundcolor=#49b29d;elementwidth=10%;isvisiblecell=app!F19;groupname=GfTlqvTF</itemdefinitions>
+                </item>
+                <item id="4jJI7aq0" caption="4jJI7aq0" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>isvisiblecell=app!F19</itemdefinitions>
+                </item>
+                <item id="JJyZsG8q" caption="Spezialitäten" inputtype="output" contenttype="result" address="app!C22">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#49b29d;usecellformat=true;groupname=4jJI7aq0;isvisiblecell=app!F19;valuefontstyle=regular;valuefontsize=20;captionvertalign=center;captionhorzalign=left;valuetextcolor=#ffffff;captiontextcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="mt2omxUT" caption="" inputtype="infobutton" address="app!K22">
+                    <itemdefinitions>elementcolor=#ffffff;captionvertalign=center;captionhorzalign=left;backgroundcolor=#49b29d;elementwidth=10%;isvisiblecell=app!F19;groupname=4jJI7aq0</itemdefinitions>
+                </item>
+                <item id="Uj85l1q4" caption="Uj85l1q4" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>isvisiblecell=app!F19</itemdefinitions>
+                </item>
+                <item id="FguGeoOk" caption="Pastatheke" inputtype="output" contenttype="result" address="app!C23">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#49b29d;usecellformat=true;groupname=Uj85l1q4;isvisiblecell=app!F19;valuefontstyle=regular;valuefontsize=20;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="fvUTlwBT" caption="" inputtype="infobutton" address="app!K23">
+                    <itemdefinitions>elementcolor=#ffffff;captionvertalign=center;captionhorzalign=left;backgroundcolor=#49b29d;elementwidth=10%;isvisiblecell=app!F19;groupname=Uj85l1q4</itemdefinitions>
+                </item>
+                <item id="FhsumdnY" caption="" inputtype="infobutton" address="app!K19">
+                    <itemdefinitions>elementcolor=#ffffff;captionvertalign=center;captionhorzalign=left;backgroundcolor=#49b29d;elementwidth=10%;isvisiblecell=app!F19;groupname=N9VUHteC</itemdefinitions>
+                </item>
+                <item id="W5r1Cm2G" contenttype="spacer">
+                    <itemdefinitions>height=20;isvisiblecell=app!F19</itemdefinitions>
+                </item>
+                <item id="mgFZkGfP" caption="Beilagen" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ffffff;textcolor=#49b29d;isvisiblecell=app!F19;textfontsize=20</itemdefinitions>
+                </item>
+                <item id="u1w5baK8" caption="u1w5baK8" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>isvisiblecell=app!F19</itemdefinitions>
+                </item>
+                <item id="MTChA1zq" caption="" inputtype="output" contenttype="result" address="app!C24">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#3349b29d;usecellformat=true;valuefontstyle=regular;isvisiblecell=app!F19;valuefontsize=16;groupname=u1w5baK8;captionhorzalign=left;valuetextcolor=#49b29d;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="QEDT31YD" caption="" inputtype="infobutton" address="app!K24">
+                    <itemdefinitions>elementcolor=#49b29d;captionvertalign=center;captionhorzalign=left;backgroundcolor=#3349b29d;elementwidth=10%;isvisiblecell=app!F19;groupname=u1w5baK8;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="2AgoZHqs" caption="" inputtype="output" contenttype="result" address="app!D24">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#3349b29d;usecellformat=true;isvisiblecell=app!F19;valuefontstyle=regular;valuefontsize=16;groupname=u1w5baK8;captionhorzalign=left;valuetextcolor=#49b29d;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="Lljn7yha" caption="" inputtype="infobutton" address="app!L24">
+                    <itemdefinitions>elementcolor=#49b29d;captionvertalign=center;captionhorzalign=left;backgroundcolor=#3349b29d;elementwidth=10%;isvisiblecell=app!F19;groupname=u1w5baK8;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="WHR2UxDZ" caption="" inputtype="output" contenttype="result" address="app!E24">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#3349b29d;usecellformat=true;isvisiblecell=app!F19;valuefontstyle=regular;valuefontsize=16;groupname=u1w5baK8;captionhorzalign=left;valuetextcolor=#49b29d;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="KXjudWZm" caption="Gemüse" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ffffff;textcolor=#49b29d;isvisiblecell=app!F19;textfontsize=20</itemdefinitions>
+                </item>
+                <item id="CqBMBSXt" caption="CqBMBSXt" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>isvisiblecell=app!F19</itemdefinitions>
+                </item>
+                <item id="huQViCdv" caption="" inputtype="output" contenttype="result" address="app!C25">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#3349b29d;usecellformat=true;valuefontstyle=regular;isvisiblecell=app!F19;valuefontsize=16;groupname=CqBMBSXt;captionhorzalign=left;valuetextcolor=#49b29d;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="wZbpvZ5a" caption="" inputtype="infobutton" address="app!K25">
+                    <itemdefinitions>elementcolor=#49b29d;captionvertalign=center;captionhorzalign=left;backgroundcolor=#3349b29d;elementwidth=10%;isvisiblecell=app!F19;groupname=CqBMBSXt;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="Bt2Hiak4" caption="" inputtype="output" contenttype="result" address="app!D25">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#3349b29d;usecellformat=true;valuefontstyle=regular;isvisiblecell=app!F19;valuefontsize=16;groupname=CqBMBSXt;captionhorzalign=left;valuetextcolor=#49b29d;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="mf0evyOR" caption="Dessert" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ffffff;textcolor=#49b29d;isvisiblecell=app!F19;textfontsize=20</itemdefinitions>
+                </item>
+                <item id="bAjuSmW0" caption="bAjuSmW0" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>isvisiblecell=app!F19</itemdefinitions>
+                </item>
+                <item id="HvMFjS8s" caption="" inputtype="output" contenttype="result" address="app!C26">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#3349b29d;usecellformat=true;valuefontstyle=regular;isvisiblecell=app!F19;valuefontsize=16;groupname=bAjuSmW0;captionhorzalign=left;valuetextcolor=#49b29d;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="173xsQ4n" caption="" inputtype="infobutton" address="app!K26">
+                    <itemdefinitions>elementcolor=#49b29d;captionvertalign=center;captionhorzalign=left;backgroundcolor=#3349b29d;elementwidth=10%;isvisiblecell=app!F19;groupname=bAjuSmW0;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="MtAd1god" caption="" inputtype="output" contenttype="result" address="app!D26">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#3349b29d;usecellformat=true;valuefontstyle=regular;isvisiblecell=app!F19;valuefontsize=16;groupname=bAjuSmW0;captionhorzalign=left;valuetextcolor=#49b29d;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="9m6RfBoX" caption="" inputtype="infobutton" address="app!L26">
+                    <itemdefinitions>elementcolor=#49b29d;captionvertalign=center;captionhorzalign=left;backgroundcolor=#3349b29d;elementwidth=10%;isvisiblecell=app!F19;groupname=bAjuSmW0;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="wNy5tv2h" caption="" inputtype="output" contenttype="result" address="app!E26">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#3349b29d;usecellformat=true;valuefontstyle=regular;isvisiblecell=app!F19;valuefontsize=16;groupname=bAjuSmW0;captionhorzalign=left;valuetextcolor=#49b29d;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="DSywtSnC" caption="DSywtSnC" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>isvisiblecell=app!F27</itemdefinitions>
+                </item>
+                <item id="kyV5OTRL" caption="Tagesmenü 1" inputtype="output" contenttype="result" address="app!C27">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=20;isvisiblecell=app!F27;groupname=DSywtSnC</itemdefinitions>
+                </item>
+                <item id="ICpkdyqG" caption="" inputtype="infobutton" address="app!K27">
+                    <itemdefinitions>elementcolor=#ffffff;captionvertalign=center;captionhorzalign=left;backgroundcolor=#49b29d;elementwidth=10%;isvisiblecell=app!F27;groupname=DSywtSnC</itemdefinitions>
+                </item>
+                <item id="RQUmVOM1" caption="RQUmVOM1" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>isvisiblecell=app!F27</itemdefinitions>
+                </item>
+                <item id="EIhr5gR1" caption="Tagesmenü 2" inputtype="output" contenttype="result" address="app!C28">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#49b29d;usecellformat=true;isvisiblecell=app!F27;valuefontstyle=regular;valuefontsize=20;groupname=RQUmVOM1</itemdefinitions>
+                </item>
+                <item id="BCTR0V3N" caption="" inputtype="infobutton" address="app!K28">
+                    <itemdefinitions>elementcolor=#ffffff;captionvertalign=center;captionhorzalign=left;backgroundcolor=#49b29d;elementwidth=10%;isvisiblecell=app!F27;groupname=RQUmVOM1</itemdefinitions>
+                </item>
+                <item id="CyHahIBQ" caption="CyHahIBQ" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>isvisiblecell=app!F27</itemdefinitions>
+                </item>
+                <item id="HkkpyZ20" caption="Vegetarisches Menü" inputtype="output" contenttype="result" address="app!C29">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#49b29d;usecellformat=true;isvisiblecell=app!F27;valuefontstyle=regular;valuefontsize=20;groupname=CyHahIBQ</itemdefinitions>
+                </item>
+                <item id="UQ8P6lyo" caption="" inputtype="infobutton" address="app!K29">
+                    <itemdefinitions>elementcolor=#ffffff;captionvertalign=center;captionhorzalign=left;backgroundcolor=#49b29d;elementwidth=10%;isvisiblecell=app!F27;groupname=CyHahIBQ</itemdefinitions>
+                </item>
+                <item id="HinmlGBm" caption="HinmlGBm" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>isvisiblecell=app!F27</itemdefinitions>
+                </item>
+                <item id="QwvuB7ht" caption="Spezialitäten" inputtype="output" contenttype="result" address="app!C30">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#49b29d;usecellformat=true;isvisiblecell=app!F27;valuefontstyle=regular;valuefontsize=20;groupname=HinmlGBm;captionvertalign=center;captionhorzalign=left;valuetextcolor=#ffffff;captiontextcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="HWdrUrLq" caption="" inputtype="infobutton" address="app!K30">
+                    <itemdefinitions>elementcolor=#ffffff;captionvertalign=center;captionhorzalign=left;backgroundcolor=#49b29d;elementwidth=10%;isvisiblecell=app!F27;groupname=HinmlGBm</itemdefinitions>
+                </item>
+                <item id="DJg6pjm5" caption="DJg6pjm5" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>isvisiblecell=app!F27</itemdefinitions>
+                </item>
+                <item id="XjCQ6Y35" caption="Pastatheke" inputtype="output" contenttype="result" address="app!C31">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#49b29d;usecellformat=true;isvisiblecell=app!F27;valuefontstyle=regular;valuefontsize=20;groupname=DJg6pjm5;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="BdGUev42" caption="" inputtype="infobutton" address="app!K31">
+                    <itemdefinitions>elementcolor=#ffffff;captionvertalign=center;captionhorzalign=left;backgroundcolor=#49b29d;elementwidth=10%;isvisiblecell=app!F27;groupname=DJg6pjm5</itemdefinitions>
+                </item>
+                <item id="B9ZrOfw2" contenttype="spacer">
+                    <itemdefinitions>height=20;isvisiblecell=app!F27</itemdefinitions>
+                </item>
+                <item id="E7NMJy59" caption="Beilagen" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ffffff;textcolor=#49b29d;isvisiblecell=app!F27;textfontsize=20</itemdefinitions>
+                </item>
+                <item id="Rbvl98a2" caption="Rbvl98a2" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>isvisiblecell=app!F27</itemdefinitions>
+                </item>
+                <item id="2tUBBfxD" caption="" inputtype="output" contenttype="result" address="app!C32">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#3349b29d;usecellformat=true;valuefontstyle=regular;isvisiblecell=app!F27;valuefontsize=16;groupname=Rbvl98a2;captionhorzalign=left;valuetextcolor=#49b29d;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="xDgjFCLb" caption="" inputtype="infobutton" address="app!K32">
+                    <itemdefinitions>elementcolor=#49b29d;captionvertalign=center;captionhorzalign=left;backgroundcolor=#3349b29d;elementwidth=10%;isvisiblecell=app!F27;groupname=Rbvl98a2;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="v3T9WCTK" caption="" inputtype="output" contenttype="result" address="app!D32">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#3349b29d;usecellformat=true;isvisiblecell=app!F27;valuefontstyle=regular;valuefontsize=16;groupname=Rbvl98a2;captionhorzalign=left;valuetextcolor=#49b29d;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="DhN63raI" caption="" inputtype="infobutton" address="app!L32">
+                    <itemdefinitions>elementcolor=#49b29d;captionvertalign=center;captionhorzalign=left;backgroundcolor=#3349b29d;elementwidth=10%;isvisiblecell=app!F27;groupname=Rbvl98a2;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="DnwiNdHY" caption="" inputtype="output" contenttype="result" address="app!E32">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#3349b29d;usecellformat=true;isvisiblecell=app!F27;valuefontstyle=regular;valuefontsize=16;groupname=Rbvl98a2;captionhorzalign=left;valuetextcolor=#49b29d;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="zINTQAAv" caption="Gemüse" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ffffff;textcolor=#49b29d;isvisiblecell=app!F27;textfontsize=20</itemdefinitions>
+                </item>
+                <item id="Rg2zUR45" caption="Rg2zUR45" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>isvisiblecell=app!F27</itemdefinitions>
+                </item>
+                <item id="y9XoWkqJ" caption="" inputtype="output" contenttype="result" address="app!C33">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#3349b29d;usecellformat=true;valuefontstyle=regular;isvisiblecell=app!F27;valuefontsize=16;groupname=Rg2zUR45;captionhorzalign=left;valuetextcolor=#49b29d;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="WCEV0R6O" caption="" inputtype="infobutton" address="app!K33">
+                    <itemdefinitions>elementcolor=#49b29d;captionvertalign=center;captionhorzalign=left;backgroundcolor=#3349b29d;elementwidth=10%;isvisiblecell=app!F27;groupname=Rg2zUR45;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="NkQQAhvW" caption="" inputtype="output" contenttype="result" address="app!D33">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#3349b29d;usecellformat=true;valuefontstyle=regular;isvisiblecell=app!F27;valuefontsize=16;groupname=Rg2zUR45;captionhorzalign=left;valuetextcolor=#49b29d;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="qpxuqoB6" caption="Dessert" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ffffff;textcolor=#49b29d;isvisiblecell=app!F27;textfontsize=20</itemdefinitions>
+                </item>
+                <item id="YzEoumiG" caption="YzEoumiG" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>isvisiblecell=app!F27</itemdefinitions>
+                </item>
+                <item id="PhNSxvCJ" caption="" inputtype="output" contenttype="result" address="app!C34">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#3349b29d;usecellformat=true;valuefontstyle=regular;isvisiblecell=app!F27;valuefontsize=16;groupname=YzEoumiG;captionhorzalign=left;valuetextcolor=#49b29d;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="aLcz9jVG" caption="" inputtype="infobutton" address="app!K34">
+                    <itemdefinitions>elementcolor=#49b29d;captionvertalign=center;captionhorzalign=left;backgroundcolor=#3349b29d;elementwidth=10%;isvisiblecell=app!F27;groupname=YzEoumiG;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="LRIcwQkV" caption="" inputtype="output" contenttype="result" address="app!D34">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#3349b29d;usecellformat=true;valuefontstyle=regular;isvisiblecell=app!F27;valuefontsize=16;groupname=YzEoumiG;captionhorzalign=left;valuetextcolor=#49b29d;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="5ljPpNbZ" caption="" inputtype="infobutton" address="app!L34">
+                    <itemdefinitions>elementcolor=#49b29d;captionvertalign=center;captionhorzalign=left;backgroundcolor=#3349b29d;elementwidth=10%;isvisiblecell=app!F27;groupname=YzEoumiG;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="4izu46qt" caption="" inputtype="output" contenttype="result" address="app!E34">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#3349b29d;usecellformat=true;valuefontstyle=regular;isvisiblecell=app!F27;valuefontsize=16;groupname=YzEoumiG;captionhorzalign=left;valuetextcolor=#49b29d;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="C64SI5SM" caption="C64SI5SM" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>isvisiblecell=app!F35</itemdefinitions>
+                </item>
+                <item id="i1BnSOem" caption="Tagesmenü 1" inputtype="output" contenttype="result" address="app!C35">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=20;isvisiblecell=app!F35;groupname=C64SI5SM</itemdefinitions>
+                </item>
+                <item id="ngD6JTLU" caption="" inputtype="infobutton" address="app!K35">
+                    <itemdefinitions>elementcolor=#ffffff;captionvertalign=center;captionhorzalign=left;backgroundcolor=#49b29d;elementwidth=10%;isvisiblecell=app!F35;groupname=C64SI5SM</itemdefinitions>
+                </item>
+                <item id="lNz5yFUK" caption="lNz5yFUK" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>isvisiblecell=app!F35</itemdefinitions>
+                </item>
+                <item id="zvScwcHi" caption="Tagesmenü 2" inputtype="output" contenttype="result" address="app!C36">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#49b29d;usecellformat=true;isvisiblecell=app!F35;valuefontstyle=regular;valuefontsize=20;groupname=lNz5yFUK</itemdefinitions>
+                </item>
+                <item id="2tMGKRnG" caption="" inputtype="infobutton" address="app!K36">
+                    <itemdefinitions>elementcolor=#ffffff;captionvertalign=center;captionhorzalign=left;backgroundcolor=#49b29d;elementwidth=10%;isvisiblecell=app!F35;groupname=lNz5yFUK</itemdefinitions>
+                </item>
+                <item id="uwgL02qk" caption="uwgL02qk" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>isvisiblecell=app!F35</itemdefinitions>
+                </item>
+                <item id="qdP2zaaA" caption="Vegetarisches Menü" inputtype="output" contenttype="result" address="app!C37">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#49b29d;usecellformat=true;isvisiblecell=app!F35;valuefontstyle=regular;valuefontsize=20;groupname=uwgL02qk</itemdefinitions>
+                </item>
+                <item id="MKDJnElV" caption="" inputtype="infobutton" address="app!K37">
+                    <itemdefinitions>elementcolor=#ffffff;captionvertalign=center;captionhorzalign=left;backgroundcolor=#49b29d;elementwidth=10%;isvisiblecell=app!F35;groupname=uwgL02qk</itemdefinitions>
+                </item>
+                <item id="XaDEHweS" caption="XaDEHweS" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>isvisiblecell=app!F35</itemdefinitions>
+                </item>
+                <item id="3mfitbI6" caption="Spezialitäten" inputtype="output" contenttype="result" address="app!C38">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#49b29d;usecellformat=true;isvisiblecell=app!F35;valuefontstyle=regular;valuefontsize=20;groupname=XaDEHweS;captionvertalign=center;captionhorzalign=left;valuetextcolor=#ffffff;captiontextcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="5Jvq6uGg" caption="" inputtype="infobutton" address="app!K38">
+                    <itemdefinitions>elementcolor=#ffffff;captionvertalign=center;captionhorzalign=left;backgroundcolor=#49b29d;elementwidth=10%;isvisiblecell=app!F35;groupname=XaDEHweS</itemdefinitions>
+                </item>
+                <item id="7NImie65" caption="7NImie65" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>isvisiblecell=app!F35</itemdefinitions>
+                </item>
+                <item id="I9fpJyru" caption="Pastatheke" inputtype="output" contenttype="result" address="app!C39">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#49b29d;usecellformat=true;isvisiblecell=app!F35;valuefontstyle=regular;valuefontsize=20;groupname=7NImie65;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="BjvUxMXY" caption="" inputtype="infobutton" address="app!K39">
+                    <itemdefinitions>elementcolor=#ffffff;captionvertalign=center;captionhorzalign=left;backgroundcolor=#49b29d;elementwidth=10%;isvisiblecell=app!F35;groupname=7NImie65</itemdefinitions>
+                </item>
+                <item id="cRevynRZ" contenttype="spacer">
+                    <itemdefinitions>height=20;isvisiblecell=app!F35</itemdefinitions>
+                </item>
+                <item id="VgXC4xyU" caption="Beilagen" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ffffff;textcolor=#49b29d;isvisiblecell=app!F35;textfontsize=20;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="i02SMPQS" caption="i02SMPQS" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>isvisiblecell=app!F35</itemdefinitions>
+                </item>
+                <item id="mSDlvYIk" caption="" inputtype="output" contenttype="result" address="app!C40">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#3349b29d;usecellformat=true;valuefontstyle=regular;isvisiblecell=app!F35;valuefontsize=16;groupname=i02SMPQS;captionhorzalign=left;valuetextcolor=#49b29d;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="MwQ5bKmI" caption="" inputtype="infobutton" address="app!K40">
+                    <itemdefinitions>elementcolor=#49b29d;captionvertalign=center;captionhorzalign=left;backgroundcolor=#3349b29d;elementwidth=10%;isvisiblecell=app!F35;groupname=i02SMPQS;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="4IkZIRJs" caption="" inputtype="output" contenttype="result" address="app!D40">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#3349b29d;usecellformat=true;isvisiblecell=app!F35;valuefontstyle=regular;valuefontsize=16;groupname=i02SMPQS;captionhorzalign=left;valuetextcolor=#49b29d;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="R0Qc5uDH" caption="" inputtype="infobutton" address="app!L40">
+                    <itemdefinitions>elementcolor=#49b29d;captionvertalign=center;captionhorzalign=left;backgroundcolor=#3349b29d;elementwidth=10%;isvisiblecell=app!F35;groupname=i02SMPQS;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="CWHYt022" caption="" inputtype="output" contenttype="result" address="app!E40">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#3349b29d;usecellformat=true;isvisiblecell=app!F35;valuefontstyle=regular;valuefontsize=16;groupname=i02SMPQS;captionhorzalign=left;valuetextcolor=#49b29d;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="1YWrukOe" caption="Gemüse" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ffffff;textcolor=#49b29d;isvisiblecell=app!F35;textfontsize=20</itemdefinitions>
+                </item>
+                <item id="p1dw8JPa" caption="p1dw8JPa" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>isvisiblecell=app!F35</itemdefinitions>
+                </item>
+                <item id="91fyQ9Jm" caption="" inputtype="output" contenttype="result" address="app!C41">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#3349b29d;usecellformat=true;valuefontstyle=regular;isvisiblecell=app!F35;valuefontsize=16;groupname=p1dw8JPa;captionhorzalign=left;valuetextcolor=#49b29d;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="MLwKdUXR" caption="" inputtype="infobutton" address="app!K41">
+                    <itemdefinitions>elementcolor=#49b29d;captionvertalign=center;captionhorzalign=left;backgroundcolor=#3349b29d;elementwidth=10%;isvisiblecell=app!F35;groupname=p1dw8JPa;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="uhxbJzeW" caption="" inputtype="output" contenttype="result" address="app!D41">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#3349b29d;usecellformat=true;valuefontstyle=regular;isvisiblecell=app!F35;valuefontsize=16;groupname=p1dw8JPa;captionhorzalign=left;valuetextcolor=#49b29d;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="kZujptDS" caption="Dessert" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ffffff;textcolor=#49b29d;isvisiblecell=app!F35;textfontsize=20</itemdefinitions>
+                </item>
+                <item id="KbGxu3yy" caption="KbGxu3yy" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>isvisiblecell=app!F35</itemdefinitions>
+                </item>
+                <item id="DD7eIe9R" caption="" inputtype="output" contenttype="result" address="app!C42">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#3349b29d;usecellformat=true;valuefontstyle=regular;isvisiblecell=app!F35;valuefontsize=16;groupname=KbGxu3yy;captionhorzalign=left;valuetextcolor=#49b29d;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="op611BcL" caption="" inputtype="infobutton" address="app!K42">
+                    <itemdefinitions>elementcolor=#49b29d;captionvertalign=center;captionhorzalign=left;backgroundcolor=#3349b29d;elementwidth=10%;isvisiblecell=app!F35;groupname=KbGxu3yy;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="uFWHOUzv" caption="" inputtype="output" contenttype="result" address="app!D42">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#3349b29d;usecellformat=true;valuefontstyle=regular;isvisiblecell=app!F35;valuefontsize=16;groupname=KbGxu3yy;captionhorzalign=left;valuetextcolor=#49b29d;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="4AI67aEF" caption="" inputtype="infobutton" address="app!L42">
+                    <itemdefinitions>elementcolor=#49b29d;captionvertalign=center;captionhorzalign=left;backgroundcolor=#3349b29d;elementwidth=10%;isvisiblecell=app!F35;groupname=KbGxu3yy;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="z4meNNT4" caption="" inputtype="output" contenttype="result" address="app!E42">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#3349b29d;usecellformat=true;valuefontstyle=regular;isvisiblecell=app!F35;valuefontsize=16;groupname=KbGxu3yy;captionhorzalign=left;valuetextcolor=#49b29d;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="8vlLMANJ" caption="" inputtype="infobutton" address="app!M42">
+                    <itemdefinitions>elementcolor=#49b29d;captionvertalign=center;captionhorzalign=left;backgroundcolor=#3349b29d;elementwidth=10%;isvisiblecell=app!F35;groupname=KbGxu3yy;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="dBSGw8Rl" caption="" inputtype="infobutton" address="app!L41">
+                    <itemdefinitions>elementcolor=#49b29d;captionvertalign=center;captionhorzalign=left;backgroundcolor=#3349b29d;elementwidth=10%;isvisiblecell=app!F35;groupname=p1dw8JPa;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="539fuxPA" caption="" inputtype="infobutton" address="app!M40">
+                    <itemdefinitions>elementcolor=#49b29d;captionvertalign=center;captionhorzalign=left;backgroundcolor=#3349b29d;elementwidth=10%;isvisiblecell=app!F35;groupname=i02SMPQS;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="thZwX0to" caption="" inputtype="infobutton" address="app!M34">
+                    <itemdefinitions>elementcolor=#49b29d;captionvertalign=center;captionhorzalign=left;backgroundcolor=#3349b29d;elementwidth=10%;isvisiblecell=app!F27;groupname=YzEoumiG;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="cqgIAP7U" caption="" inputtype="infobutton" address="app!L33">
+                    <itemdefinitions>elementcolor=#49b29d;captionvertalign=center;captionhorzalign=left;backgroundcolor=#3349b29d;elementwidth=10%;isvisiblecell=app!F27;groupname=Rg2zUR45;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="LvQ2nzVv" caption="" inputtype="infobutton" address="app!M32">
+                    <itemdefinitions>elementcolor=#49b29d;captionvertalign=center;captionhorzalign=left;backgroundcolor=#3349b29d;elementwidth=10%;isvisiblecell=app!F27;groupname=Rbvl98a2;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="gDrpMIdN" caption="" inputtype="infobutton" address="app!M26">
+                    <itemdefinitions>elementcolor=#49b29d;captionvertalign=center;captionhorzalign=left;backgroundcolor=#3349b29d;elementwidth=10%;isvisiblecell=app!F19;groupname=bAjuSmW0;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="i1OcW14y" caption="" inputtype="infobutton" address="app!L25">
+                    <itemdefinitions>elementcolor=#49b29d;captionvertalign=center;captionhorzalign=left;backgroundcolor=#3349b29d;elementwidth=10%;isvisiblecell=app!F19;groupname=CqBMBSXt;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="aOAXbctt" caption="" inputtype="infobutton" address="app!M24">
+                    <itemdefinitions>elementcolor=#49b29d;captionvertalign=center;captionhorzalign=left;backgroundcolor=#3349b29d;elementwidth=10%;isvisiblecell=app!F19;groupname=u1w5baK8;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="kBuCjhaP" caption="" inputtype="infobutton" address="app!M18">
+                    <itemdefinitions>elementcolor=#49b29d;captionvertalign=center;captionhorzalign=left;backgroundcolor=#3349b29d;elementwidth=10%;isvisiblecell=app!F11;groupname=VFdBFZ5N;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="uQzB3lmA" caption="" inputtype="infobutton" address="app!L17">
+                    <itemdefinitions>elementcolor=#49b29d;captionvertalign=center;captionhorzalign=left;backgroundcolor=#3349b29d;elementwidth=10%;isvisiblecell=app!F11;groupname=UxJ690Et;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="WcoSk0Py" caption="" inputtype="infobutton" address="app!M8">
+                    <itemdefinitions>elementcolor=#49b29d;captionvertalign=center;captionhorzalign=left;backgroundcolor=#3349b29d;elementwidth=10%;isvisiblecell=app!F3;groupname=JGtdierL;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="9yPoWHrL" caption="" inputtype="infobutton" address="app!M9">
+                    <itemdefinitions>elementcolor=#49b29d;captionvertalign=center;captionhorzalign=left;backgroundcolor=#3349b29d;elementwidth=10%;isvisiblecell=app!F3;groupname=g4fTbneu;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="JaYmOV1h" caption="" inputtype="infobutton" address="app!M10">
+                    <itemdefinitions>elementcolor=#49b29d;captionvertalign=center;captionhorzalign=left;backgroundcolor=#3349b29d;elementwidth=10%;isvisiblecell=app!F3;groupname=hdQlcgZy;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="shOdD6MU" caption="" inputtype="output" contenttype="result" address="app!C50">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#f50a0a;usecellformat=true;valuefontstyle=regular;isvisiblecell=app!D50</itemdefinitions>
+                </item>
+                <item id="nZL82yoe" caption="" inputtype="output" contenttype="result" address="app!C51">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#f50a0a;usecellformat=true;isvisiblecell=app!D51;valuefontstyle=regular;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="CL7IOkxy" contenttype="spacer">
+                    <itemdefinitions>height=20</itemdefinitions>
+                </item>
+                <item id="z0wV62eb" caption="Salat" inputtype="actionbutton" address="HW!E3">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#49b29d;linkinfo=page:2;captionhorzalign=center;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/6208a078-fc1a-4524-89eb-1208230717ec/public/field-67OMilL1.jpeg?v=Rmn06Zfq</itemdefinitions>
+                </item>
+                <item id="AIZ9reYb" caption="" inputtype="output" contenttype="result" address="app!D16">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#3349b29d;usecellformat=true;isvisiblecell=app!F11;valuefontstyle=regular;captionhorzalign=left;valuetextcolor=#49b29d;groupname=gKJw4EXK;valuefontsize=16;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="B6iAGqDJ" caption="" inputtype="infobutton" address="app!L16">
+                    <itemdefinitions>elementcolor=#49b29d;captionvertalign=center;captionhorzalign=left;backgroundcolor=#3349b29d;elementwidth=10%;isvisiblecell=app!F11;groupname=gKJw4EXK;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="ePj2niqH" caption="" inputtype="output" contenttype="result" address="app!E16">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#3349b29d;usecellformat=true;isvisiblecell=app!F11;valuefontstyle=regular;valuefontsize=16;captionhorzalign=left;valuetextcolor=#49b29d;groupname=gKJw4EXK;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="rATjMMax" caption="" inputtype="infobutton" address="app!M16">
+                    <itemdefinitions>elementcolor=#49b29d;captionvertalign=center;captionhorzalign=left;backgroundcolor=#3349b29d;elementwidth=10%;isvisiblecell=app!F11;groupname=gKJw4EXK;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="ltTJQEAm" caption="ltTJQEAm" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="Z83Xwnzt" caption="Home" inputtype="actionbutton" address="HW!E1">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#49b29d;linkinfo=page:6;captionhorzalign=center;groupname=ltTJQEAm</itemdefinitions>
+                </item>
+                <item id="WX3t5eGc" caption="Hinweise" inputtype="actionbutton" address="HW!E2">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#49b29d;linkinfo=page:7;captionhorzalign=center;groupname=ltTJQEAm</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="2" caption="Salat" definitions="actionbuttontype=none">
+        <excelcontent>
+            <items>
+                <item id="zz5BWNry" caption="" inputtype="output" contenttype="string" address="app!B53">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#ffffff;usecellformat=true;valuefontstyle=regular;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/6208a078-fc1a-4524-89eb-1208230717ec/public/field-67OMilL1.jpeg?v=Rmn06Zfq</itemdefinitions>
+                </item>
+                <item id="CmMIHYCa" contenttype="spacer">
+                    <itemdefinitions>height=20</itemdefinitions>
+                </item>
+                <item id="0BHCtUQG" caption="Preise für" inputtype="input" contenttype="toggle" address="Salat!B7">
+                    <itemdefinitions>backgroundcolor=#3349b29d;elementcolor=#49b29d;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=20</itemdefinitions>
+                </item>
+                <item id="zjLLs6W4" caption="zjLLs6W4" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="2MFEr0Bj" caption="" inputtype="output" contenttype="result" address="Salat!A8">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#49b29d;usecellformat=true;groupname=zjLLs6W4;valuefontstyle=regular;valuefontsize=20</itemdefinitions>
+                </item>
+                <item id="vShXOIpx" caption="vShXOIpx" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="2lCAUWIe" caption="" inputtype="output" contenttype="result" address="Salat!A9">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#49b29d;usecellformat=true;groupname=vShXOIpx;valuefontstyle=regular;valuefontsize=20</itemdefinitions>
+                </item>
+                <item id="XMKDJdTq" caption="XMKDJdTq" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="a2XuPttN" caption="" inputtype="output" contenttype="result" address="Salat!A10">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#49b29d;usecellformat=true;groupname=XMKDJdTq;valuefontstyle=regular;valuefontsize=20</itemdefinitions>
+                </item>
+                <item id="heoOaf7x" caption="" inputtype="output" contenttype="result" address="Salat!B10">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#49b29d;usecellformat=true;groupname=XMKDJdTq;valuefontstyle=regular;valuefontsize=20;elementwidth=20%</itemdefinitions>
+                </item>
+                <item id="T23v51qd" caption="" inputtype="output" contenttype="result" address="Salat!B9">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#49b29d;usecellformat=true;groupname=vShXOIpx;valuefontstyle=regular;valuefontsize=20;elementwidth=20%</itemdefinitions>
+                </item>
+                <item id="MobzaMB8" caption="" inputtype="output" contenttype="result" address="Salat!B8">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#49b29d;usecellformat=true;groupname=zjLLs6W4;valuefontstyle=regular;valuefontsize=20;elementwidth=20%</itemdefinitions>
+                </item>
+                <item id="TsqyXEtp" contenttype="spacer">
+                    <itemdefinitions>height=20</itemdefinitions>
+                </item>
+                <item id="dFNPkI60" caption="Heutiges Menü" inputtype="actionbutton" address="HW!E2">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#49b29d;linkinfo=page:1;captionhorzalign=center;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/6208a078-fc1a-4524-89eb-1208230717ec/public/field-gg6q65Xm.jpeg?v=bUDfPWYA</itemdefinitions>
+                </item>
+                <item id="mJxYSH8c" contenttype="spacer">
+                    <itemdefinitions>height=20</itemdefinitions>
+                </item>
+                <item id="mWs7GKQL" caption="Home" inputtype="actionbutton" address="HW!E1">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#49b29d;linkinfo=page:6;captionhorzalign=center</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="rx" caption="Rechner" definitions="actionbuttontype=none">
+        <excelcontent>
+            <items>
+                <item id="QL4Yel2G" caption="" inputtype="output" contenttype="string" address="app!B54">
+                    <itemdefinitions>backgroundcolor=white;elementcolor=#09679B;valuetextcolor=#000000;usecellformat=true;valuefontstyle=regular;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/6208a078-fc1a-4524-89eb-1208230717ec/public/field-iHtrVjGN.png?v=MEYTVmiT</itemdefinitions>
+                </item>
+                <item id="XTzSp4GJ" contenttype="spacer">
+                    <itemdefinitions>height=20</itemdefinitions>
+                </item>
+                <item id="6qlbkXKe" caption="Preise für" inputtype="input" contenttype="toggle" address="Rate!B11">
+                    <itemdefinitions>backgroundcolor=#3349b29d;elementcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=20;captionvertalign=center;captionhorzalign=left;valuetextcolor=#49b29d;captiontextcolor=#000000;metrictextcolor=#000000</itemdefinitions>
+                </item>
+                <item id="nVku4Mz7" caption="Ich esse heute..." inputtype="input" contenttype="toggle" address="Rate!A12">
+                    <itemdefinitions>backgroundcolor=#3349b29d;elementcolor=#49b29d;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;isvisiblecell=Rate!C12;captionvertalign=center;captionhorzalign=left;valuefontsize=20;captiontextcolor=#000000;metrictextcolor=#000000</itemdefinitions>
+                </item>
+                <item id="eGChtmeP" caption="Ich esse heute..." inputtype="input" contenttype="toggle" address="Rate!A13">
+                    <itemdefinitions>backgroundcolor=#3349b29d;elementcolor=#49b29d;valuetextcolor=#49b29d;usecellformat=true;isvisiblecell=Rate!C13;valuefontstyle=regular;captionvertalign=center;captionhorzalign=left;valuefontsize=20;captiontextcolor=#000000;metrictextcolor=#000000</itemdefinitions>
+                </item>
+                <item id="ru4H709U" caption="Ich esse heute..." inputtype="input" contenttype="toggle" address="Rate!A14">
+                    <itemdefinitions>backgroundcolor=#3349b29d;elementcolor=#49b29d;valuetextcolor=#49b29d;usecellformat=true;isvisiblecell=Rate!C14;valuefontstyle=regular;captionvertalign=center;captionhorzalign=left;valuefontsize=20;captiontextcolor=#000000;metrictextcolor=#000000</itemdefinitions>
+                </item>
+                <item id="SdlO4YvN" caption="Ich esse heute..." inputtype="input" contenttype="toggle" address="Rate!A15">
+                    <itemdefinitions>backgroundcolor=#3349b29d;elementcolor=#49b29d;valuetextcolor=#49b29d;usecellformat=true;isvisiblecell=Rate!C15;valuefontstyle=regular;captionvertalign=center;captionhorzalign=left;valuefontsize=20;captiontextcolor=#000000;metrictextcolor=#000000</itemdefinitions>
+                </item>
+                <item id="MCauVAHe" caption="Ich esse heute..." inputtype="input" contenttype="toggle" address="Rate!A16">
+                    <itemdefinitions>backgroundcolor=#3349b29d;elementcolor=#49b29d;valuetextcolor=#49b29d;usecellformat=true;isvisiblecell=Rate!C16;valuefontstyle=regular;captionvertalign=center;captionhorzalign=left;valuefontsize=20;captiontextcolor=#000000;metrictextcolor=#000000</itemdefinitions>
+                </item>
+                <item id="DWvluTCD" caption="Ich esse heute..." inputtype="input" contenttype="toggle" address="Rate!A17">
+                    <itemdefinitions>backgroundcolor=#3349b29d;elementcolor=#49b29d;valuetextcolor=#49b29d;usecellformat=true;isvisiblecell=Rate!C17;valuefontstyle=regular;captionvertalign=center;captionhorzalign=left;valuefontsize=20;captiontextcolor=#000000;metrictextcolor=#000000</itemdefinitions>
+                </item>
+                <item id="vzbJyCqC" caption="Ich esse heute..." inputtype="input" contenttype="toggle" address="Rate!A18">
+                    <itemdefinitions>backgroundcolor=#3349b29d;elementcolor=#49b29d;valuetextcolor=#49b29d;usecellformat=true;isvisiblecell=Rate!C18;valuefontstyle=regular;captionvertalign=center;captionhorzalign=left;valuefontsize=20;captiontextcolor=#000000;metrictextcolor=#000000</itemdefinitions>
+                </item>
+                <item id="FLErZO9x" caption="Ich esse heute..." inputtype="input" contenttype="toggle" address="Rate!A19">
+                    <itemdefinitions>backgroundcolor=#3349b29d;elementcolor=#49b29d;valuetextcolor=#49b29d;usecellformat=true;isvisiblecell=Rate!C19;valuefontstyle=regular;captionvertalign=center;captionhorzalign=left;valuefontsize=20;captiontextcolor=#000000;metrictextcolor=#000000</itemdefinitions>
+                </item>
+                <item id="bGul2WJJ" caption="Ich esse heute..." inputtype="input" contenttype="toggle" address="Rate!A20">
+                    <itemdefinitions>backgroundcolor=#3349b29d;elementcolor=#49b29d;valuetextcolor=#49b29d;usecellformat=true;isvisiblecell=Rate!C20;valuefontstyle=regular;captionvertalign=center;captionhorzalign=left;valuefontsize=20;captiontextcolor=#000000;metrictextcolor=#000000</itemdefinitions>
+                </item>
+                <item id="hAHRYQPP" caption="Preis gesamt" inputtype="output" contenttype="result" address="Rate!B22">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#49b29d;usecellformat=true;captionhorzalign=left;valuefontstyle=regular;valuefontsize=20</itemdefinitions>
+                </item>
+                <item id="HXDZzeA1" contenttype="spacer">
+                    <itemdefinitions>height=20</itemdefinitions>
+                </item>
+                <item id="jwu45Oil" caption="Home" inputtype="actionbutton" address="HW!E1">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#49b29d;linkinfo=page:6;captionhorzalign=center</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="4" caption="Feedback" definitions="actionbuttontype=none">
+        <excelcontent>
+            <items>
+                <item id="oJVFt2zl" caption="" inputtype="output" contenttype="string" address="app!B55">
+                    <itemdefinitions>backgroundcolor=white;elementcolor=#09679B;valuetextcolor=#000000;usecellformat=true;valuefontstyle=regular;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/6208a078-fc1a-4524-89eb-1208230717ec/public/field-Z9f7z5oX.jpeg?v=Cd2gGsR0</itemdefinitions>
+                </item>
+                <item id="0g7jWy1p" contenttype="spacer">
+                    <itemdefinitions>height=20</itemdefinitions>
+                </item>
+                <item id="jSRnJ8tm" caption="Wie hat es Ihnen geschmeckt?" inputtype="input" contenttype="toggle" address="feedback!B1">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#49b29d;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=20</itemdefinitions>
+                </item>
+                <item id="GmeEd3Yn" caption="Wie zufrieden waren Sie mit der Sauberkeit (1-10)?" inputtype="input" contenttype="toggle" address="feedback!B2">
+                    <itemdefinitions>backgroundcolor=white;elementcolor=#49b29d;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=20</itemdefinitions>
+                </item>
+                <item id="57lRYetz" caption="Wie war unser Service?" inputtype="input" contenttype="toggle" address="feedback!B3">
+                    <itemdefinitions>backgroundcolor=white;elementcolor=#49b29d;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=20</itemdefinitions>
+                </item>
+                <item id="9T4tkhGS" caption="Würden Sie uns weiterempfehlen?" inputtype="input" contenttype="toggle" address="feedback!B4">
+                    <itemdefinitions>backgroundcolor=white;elementcolor=#49b29d;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=20</itemdefinitions>
+                </item>
+                <item id="i12dWMWt" caption="Kommen Sie wieder?" inputtype="input" contenttype="checkbox" address="feedback!B5">
+                    <itemdefinitions>backgroundcolor=white;elementcolor=#09679B;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular</itemdefinitions>
+                </item>
+                <item id="ExxkOh5T" caption="Haben Sie Anregungen?" inputtype="input" contenttype="string" address="feedback!B6">
+                    <itemdefinitions>backgroundcolor=white;elementcolor=#09679B;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=20</itemdefinitions>
+                </item>
+                <item id="hZJLxjxD" caption="Send" inputtype="actionbutton" address="HW!E7">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#49b29d;actioninfo=upload;captionhorzalign=center</itemdefinitions>
+                </item>
+                <item id="DW6iwfb6" contenttype="spacer">
+                    <itemdefinitions>height=20</itemdefinitions>
+                </item>
+                <item id="wrsrWa0B" caption="Home" inputtype="actionbutton" address="HW!E1">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#49b29d;linkinfo=page:6;captionhorzalign=center</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="7" caption="Hinweise" definitions="actionbuttontype=none">
+        <excelcontent>
+            <items>
+                <item id="xW9XkIfM" contenttype="spacer">
+                    <itemdefinitions>height=20</itemdefinitions>
+                </item>
+                <item id="Ecb04SHx" caption="Zusatzstoffe" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#49b29d;captionhorzalign=center;textcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="UZQssFOq" caption="UZQssFOq" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="GwVEkzwU" caption="1" inputtype="output" contenttype="string" address="HW!B1">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=10;groupname=UZQssFOq;captionhorzalign=left;buttonheight=40;captionvertalign=center;metrictextcolor=#49b29d;captiontextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="h3Pd0tjh" caption="h3Pd0tjh" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="HYiamRaU" caption="4" inputtype="output" contenttype="string" address="HW!B4">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=10;groupname=h3Pd0tjh;captionhorzalign=left;buttonheight=40;captionvertalign=center;metrictextcolor=#49b29d;captiontextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="JrzmkF6U" caption="5" inputtype="output" contenttype="string" address="HW!B5">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=10;groupname=h3Pd0tjh;captionhorzalign=left;buttonheight=40;captionvertalign=center;metrictextcolor=#49b29d;captiontextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="rGf5ouAA" caption="rGf5ouAA" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="XivvGtWd" caption="7" inputtype="output" contenttype="string" address="HW!B7">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=10;groupname=rGf5ouAA;captionhorzalign=left;buttonheight=40;captionvertalign=center;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="Cj0GVj83" caption="8" inputtype="output" contenttype="string" address="HW!B8">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=10;groupname=rGf5ouAA;captionhorzalign=left;buttonheight=40;captionvertalign=center;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="7EPk4sEp" caption="7EPk4sEp" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="jUKSSL1O" caption="11" inputtype="output" contenttype="string" address="HW!B10">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=10;groupname=7EPk4sEp;captionhorzalign=left;buttonheight=40;captionvertalign=center;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="sh6dKcBi" caption="13" inputtype="output" contenttype="string" address="HW!B11">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=10;groupname=7EPk4sEp;captionhorzalign=left;buttonheight=40;captionvertalign=center;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="8Sg2hnhi" contenttype="spacer">
+                    <itemdefinitions>height=20</itemdefinitions>
+                </item>
+                <item id="CA0WYzfz" caption="Allergene" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#49b29d;captionhorzalign=center;textcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="N7qk7MUR" caption="N7qk7MUR" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="zqAoLgWK" caption="a" inputtype="output" contenttype="string" address="HW!B12">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=10;groupname=N7qk7MUR;captionhorzalign=left;buttonheight=40;captionvertalign=center;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="NyCBYWQv" caption="a1" inputtype="output" contenttype="string" address="HW!B13">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=10;groupname=N7qk7MUR;captionhorzalign=left;buttonheight=40;captionvertalign=center;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="3XN5C245" caption="3XN5C245" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="aWH3gR8u" caption="a3" inputtype="output" contenttype="string" address="HW!B15">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=10;groupname=3XN5C245;captionhorzalign=left;buttonheight=40;captionvertalign=center;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="OKRsWGP0" caption="a4" inputtype="output" contenttype="string" address="HW!B16">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=10;groupname=3XN5C245;captionhorzalign=left;buttonheight=40;captionvertalign=center;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="ab9xPuGi" caption="ab9xPuGi" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="g8sWSjFc" caption="c" inputtype="output" contenttype="string" address="HW!B18">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=10;groupname=ab9xPuGi;captionvertalign=center;captionhorzalign=left;buttonheight=40;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="fOR8978Z" caption="d" inputtype="output" contenttype="string" address="HW!B19">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=10;groupname=ab9xPuGi;captionvertalign=center;captionhorzalign=left;buttonheight=40;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="5tSWP4UW" caption="5tSWP4UW" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="9kwOwtmF" caption="f" inputtype="output" contenttype="string" address="HW!B21">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=10;groupname=5tSWP4UW;captionvertalign=center;captionhorzalign=left;buttonheight=40;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="IG1KTQrM" caption="g" inputtype="output" contenttype="string" address="HW!B22">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=10;groupname=5tSWP4UW;captionvertalign=center;captionhorzalign=left;buttonheight=40;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="ldjMICY7" caption="ldjMICY7" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="vEk6dbLW" caption="h1" inputtype="output" contenttype="string" address="HW!B24">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=10;groupname=ldjMICY7;captionvertalign=center;captionhorzalign=left;buttonheight=40;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="0L7ZLP0o" caption="h2" inputtype="output" contenttype="string" address="HW!B25">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=10;groupname=ldjMICY7;captionvertalign=center;captionhorzalign=left;buttonheight=40;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="AKcdEaYV" caption="AKcdEaYV" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="68voIPlu" caption="h4" inputtype="output" contenttype="string" address="HW!B27">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=10;groupname=AKcdEaYV;captionvertalign=center;captionhorzalign=left;buttonheight=40;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="odLBzK2K" caption="h5" inputtype="output" contenttype="string" address="HW!B28">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=10;groupname=AKcdEaYV;captionvertalign=center;captionhorzalign=left;buttonheight=40;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="AVTs5Os5" caption="AVTs5Os5" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="uUIXX756" caption="h7" inputtype="output" contenttype="string" address="HW!B30">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=10;groupname=AVTs5Os5;captionvertalign=center;captionhorzalign=left;buttonheight=40;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="pA3xmZ0e" caption="h8" inputtype="output" contenttype="string" address="HW!B31">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=10;groupname=AVTs5Os5;captionvertalign=center;captionhorzalign=left;buttonheight=40;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="wmG8YOso" caption="wmG8YOso" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="BXxxXMMo" caption="j" inputtype="output" contenttype="string" address="HW!B33">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=10;groupname=wmG8YOso;captionvertalign=center;captionhorzalign=left;buttonheight=40;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="3XxNx3rX" caption="k" inputtype="output" contenttype="string" address="HW!B34">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=10;groupname=wmG8YOso;captionvertalign=center;captionhorzalign=left;buttonheight=40;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="nfjcNeW8" caption="nfjcNeW8" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="VoHU7gAg" caption="m" inputtype="output" contenttype="string" address="HW!B36">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=10;groupname=nfjcNeW8;captionvertalign=center;captionhorzalign=left;buttonheight=40;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="Bc5dCeyy" caption="n" inputtype="output" contenttype="string" address="HW!B37">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=10;groupname=nfjcNeW8;captionvertalign=center;captionhorzalign=left;buttonheight=40;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="mqhsC4cR" caption="2" inputtype="output" contenttype="string" address="HW!B2">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=10;groupname=UZQssFOq;captionhorzalign=left;buttonheight=40;captionvertalign=center;metrictextcolor=#49b29d;captiontextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="M50n2oGG" caption="3" inputtype="output" contenttype="string" address="HW!B3">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=10;groupname=UZQssFOq;captionhorzalign=left;buttonheight=40;captionvertalign=center;metrictextcolor=#49b29d;captiontextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="XcuvWrIg" caption="6" inputtype="output" contenttype="string" address="HW!B6">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=10;groupname=h3Pd0tjh;captionhorzalign=left;buttonheight=40;captionvertalign=center;metrictextcolor=#49b29d;captiontextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="rlty7KLU" caption="9" inputtype="output" contenttype="string" address="HW!B9">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=10;groupname=rGf5ouAA;captionhorzalign=left;buttonheight=40;captionvertalign=center;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="Y3bgOmYp" caption="a2" inputtype="output" contenttype="string" address="HW!B14">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=10;groupname=N7qk7MUR;captionhorzalign=left;buttonheight=40;captionvertalign=center;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="BQjXT93D" caption="b" inputtype="output" contenttype="string" address="HW!B17">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=10;groupname=3XN5C245;captionvertalign=center;captionhorzalign=left;buttonheight=40;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="8hgpwQRM" caption="e" inputtype="output" contenttype="string" address="HW!B20">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=10;groupname=ab9xPuGi;captionvertalign=center;captionhorzalign=left;buttonheight=40;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="R4juY7tQ" caption="h" inputtype="output" contenttype="string" address="HW!B23">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=10;groupname=5tSWP4UW;captionvertalign=center;captionhorzalign=left;buttonheight=40;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="aJGqE49p" caption="h3" inputtype="output" contenttype="string" address="HW!B26">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=10;groupname=ldjMICY7;captionvertalign=center;captionhorzalign=left;buttonheight=40;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="aVtbKpen" caption="h6" inputtype="output" contenttype="string" address="HW!B29">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=10;groupname=AKcdEaYV;captionvertalign=center;captionhorzalign=left;buttonheight=40;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="X0Au9Fgx" caption="i" inputtype="output" contenttype="string" address="HW!B32">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=10;groupname=AVTs5Os5;captionvertalign=center;captionhorzalign=left;buttonheight=40;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="4n1Qhxa3" caption="l" inputtype="output" contenttype="string" address="HW!B35">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#49b29d;usecellformat=true;valuefontstyle=regular;valuefontsize=10;groupname=wmG8YOso;captionvertalign=center;captionhorzalign=left;buttonheight=40;captiontextcolor=#49b29d;metrictextcolor=#49b29d</itemdefinitions>
+                </item>
+                <item id="pQsIQz9z" caption="" inputtype="output" contenttype="string" address="HW!F2">
+                    <itemdefinitions>backgroundcolor=#00000000;elementcolor=#09679B;valuetextcolor=#00b29d00;usecellformat=true;valuefontstyle=regular;valuefontsize=10;captionhorzalign=left;buttonheight=40;captionvertalign=center;captiontextcolor=#00b29d00;metrictextcolor=#49b29d00;groupname=7EPk4sEp;markertextcolor=#49b29d00</itemdefinitions>
+                </item>
+                <item id="QUsh8xZf" caption="" inputtype="output" contenttype="string" address="HW!F1">
+                    <itemdefinitions>backgroundcolor=#00000000;elementcolor=#09679B;valuetextcolor=#00b29d00;usecellformat=true;valuefontstyle=regular;valuefontsize=10;captionhorzalign=left;buttonheight=40;captionvertalign=center;captiontextcolor=#00b29d00;metrictextcolor=#49b29d00;groupname=nfjcNeW8;markertextcolor=#49b29d00</itemdefinitions>
+                </item>
+                <item id="5r1belz1" contenttype="spacer">
+                    <itemdefinitions>height=20</itemdefinitions>
+                </item>
+                <item id="fHksFzZt" caption="fHksFzZt" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="PCVmSmoH" caption="Home" inputtype="actionbutton" address="HW!E1">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#49b29d;groupname=fHksFzZt;linkinfo=page:6;captionhorzalign=center</itemdefinitions>
+                </item>
+                <item id="M6HmrAM4" caption="Heutiges Menü" inputtype="actionbutton" address="HW!E2">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#49b29d;groupname=fHksFzZt;linkinfo=page:1;captionhorzalign=center;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/6208a078-fc1a-4524-89eb-1208230717ec/public/field-gg6q65Xm.jpeg?v=bUDfPWYA</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="8" caption="Anfahrt" definitions="actionbuttontype=none;">
+        <excelcontent>
+            <items>
+                <item id="dmmPRVdJ" caption="" inputtype="" contenttype="map" address="location!A1">
+                    <itemdefinitions>padding=0;componentname=map;namecolumn=3;detailcolumns=3:text,map;locationcolumns=1,2;showsearchpanel=false;buttonheight=7*</itemdefinitions>
+                </item>
+                <item id="CVXZ1lHE" caption="Home" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#49b29d;linkinfo=page:6;buttonheight=1*</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+</pages>

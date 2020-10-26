@@ -1,0 +1,1 @@
+paddinghorz=0;paddingvert=0;functionbuttoncolor=#4d3d3d;pagecount=1;allowpushtoserver=false;backgroundcolor=#5bd5e3;headercolor=#00ffffff;headercaptioncolor=#ffffff;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/bb0468f0-00fe-476f-b864-a5a9d0c1d967/public/backgroundImage.png?v=NAIOXfUt

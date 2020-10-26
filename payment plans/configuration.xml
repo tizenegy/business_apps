@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages>
+    <page pageid="1" caption="configuration" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent id="2">
+            <items>
+                <item id="FC4TN75i" caption="FC4TN75i" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>columnspacing=5</itemdefinitions>
+                </item>
+                <item caption="Number of users" inputtype="input" contenttype="integer" address="calc!A8" id="9pE3vbig">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=16;groupname=FC4TN75i;buttonheight=60;minvalue=0;deltastep=1</itemdefinitions>
+                </item>
+                <item id="AXPNygdq" caption="AXPNygdq" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>columnspacing=5</itemdefinitions>
+                </item>
+                <item caption="Pick your plan" inputtype="input" contenttype="toggle" address="calc!A2" id="eLQlO5Z9">
+                    <itemdefinitions>backgroundcolor=#e6ffffff;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;usecellformat=true;buttonradius=6;valuefontsize=16;buttonheight=60;groupname=AXPNygdq</itemdefinitions>
+                </item>
+                <item id="gZQ0BQUi" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=16;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+                <item id="BcpgJSOE" caption="BcpgJSOE" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="admin!E77" id="Dyb2z2Im">
+                    <itemdefinitions>backgroundcolor=#e6ffffff;elementcolor=#09679B;valuetextcolor=#4c4c4c;usecellformat=true;buttonheight=60;buttonradius=6;valuefontsize=16;markertextcolor=#e6ffffff;groupname=BcpgJSOE</itemdefinitions>
+                </item>
+                <item id="HHLRUEU3" caption="HHLRUEU3" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>columnspacing=5;buttonheight=50</itemdefinitions>
+                </item>
+                <item caption="Add a high number of users to one app" inputtype="input" contenttype="checkbox" address="admin!i80" id="jZqcR3xI">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=16;buttonheight=50;groupname=HHLRUEU3;isvisiblecell=admin!f80</itemdefinitions>
+                </item>
+                <item caption="" inputtype="input" contenttype="integer" address="admin!j80" id="MDF7Ivn6">
+                    <itemdefinitions>backgroundcolor=#e6ffffff;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;usecellformat=true;groupname=HHLRUEU3;buttonheight=50;buttonradius=6;valuefontsize=16;elementwidth=150;isvisiblecell=admin!l80;minvalue=0;deltastep=1</itemdefinitions>
+                </item>
+                <item id="imUZWIpW" caption="imUZWIpW" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>columnspacing=5;buttonheight=50</itemdefinitions>
+                </item>
+                <item caption="Embed an App into your website" inputtype="input" contenttype="checkbox" address="admin!i81" id="yQoghBW8">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=16;buttonheight=50;groupname=imUZWIpW;isvisiblecell=admin!f81</itemdefinitions>
+                </item>
+                <item caption="" inputtype="input" contenttype="integer" address="admin!j81" id="SfOn5CkG">
+                    <itemdefinitions>backgroundcolor=#e6ffffff;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;usecellformat=true;groupname=imUZWIpW;buttonheight=50;buttonradius=6;valuefontsize=16;elementwidth=150;isvisiblecell=admin!l81;minvalue=0;deltastep=1</itemdefinitions>
+                </item>
+                <item caption="monthly billing" inputtype="input" contenttype="checkbox" address="calc!A5" id="mJAaraiD">
+                    <itemdefinitions>usecellformat=true;groupname=FC4TN75i;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=60</itemdefinitions>
+                </item>
+                <item id="MW6t9Nbe" caption="MW6t9Nbe" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>columnspacing=5;buttonheight=50</itemdefinitions>
+                </item>
+                <item caption="Brand your app client" inputtype="input" contenttype="checkbox" address="admin!i104" id="UY4K3jYQ">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=16;buttonheight=50;isvisiblecell=admin!f104;groupname=MW6t9Nbe</itemdefinitions>
+                </item>
+                <item caption="" inputtype="input" contenttype="integer" address="admin!j104" id="Rm5UaFHV">
+                    <itemdefinitions>backgroundcolor=#e6ffffff;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;usecellformat=true;groupname=MW6t9Nbe;buttonheight=50;buttonradius=6;valuefontsize=16;elementwidth=150;isvisiblecell=admin!l104;minvalue=0;deltastep=1</itemdefinitions>
+                </item>
+                <item id="eOqMLHNM" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=15;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+                <item id="nrviDhJJ" caption="nrviDhJJ" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>columnspacing=5</itemdefinitions>
+                </item>
+                <item caption="Non-recurring services" inputtype="input" contenttype="toggle" address="calc!H31" id="KVO3dhKF">
+                    <itemdefinitions>backgroundcolor=#e6ffffff;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;usecellformat=true;buttonradius=6;valuefontsize=16;buttonheight=60;groupname=nrviDhJJ</itemdefinitions>
+                </item>
+                <item caption="Description" inputtype="input" contenttype="string" address="calc!H32" id="0LpYFhvt">
+                    <itemdefinitions>backgroundcolor=#e6ffffff;elementcolor=#09679B;valuetextcolor=#4c4c4c;usecellformat=true;isvisiblecell=calc!i32;groupname=nrviDhJJ;buttonheight=60;buttonradius=6;valuefontsize=16</itemdefinitions>
+                </item>
+                <item id="yHpQRzxJ" caption="yHpQRzxJ" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>columnspacing=5</itemdefinitions>
+                </item>
+                <item caption="Man days" inputtype="input" contenttype="integer" address="calc!H33" id="oRg0iB0O">
+                    <itemdefinitions>backgroundcolor=#e6ffffff;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;usecellformat=true;groupname=yHpQRzxJ;isvisiblecell=calc!i33;buttonheight=60;buttonradius=6;valuefontsize=16;captiontextcolor=#4c4c4c;minvalue=0;deltastep=1</itemdefinitions>
+                </item>
+                <item caption="Price in € / unit" inputtype="input" contenttype="integer" address="calc!H34" id="H6JjOtwL">
+                    <itemdefinitions>backgroundcolor=#e6ffffff;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;usecellformat=true;groupname=yHpQRzxJ;isvisiblecell=calc!i34;buttonheight=60;buttonradius=6;valuefontsize=16;minvalue=0;captiontextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="airQTMfZ" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=15;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+                <item id="AYZgsYoB" caption="AYZgsYoB" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>columnspacing=5</itemdefinitions>
+                </item>
+                <item caption="Monthly payment" inputtype="output" contenttype="result" address="calc!e13" id="ePKHkegA">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#cc12ba98;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#4c4c4c;valuetextcolor=#ffffff;valuefontsize=16;buttonheight=60;markertextcolor=#ffffff;groupname=AYZgsYoB</itemdefinitions>
+                </item>
+                <item caption="Yearly payment" inputtype="output" contenttype="result" address="calc!e14" id="bKIwgAcX">
+                    <itemdefinitions>nocaption=true;buttonradius=8;backgroundcolor=#cc12ba98;usecellformat=true;buttonheight=60;valuefontsize=16;groupname=AYZgsYoB</itemdefinitions>
+                </item>
+                <item id="4aFC8XGb" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>backgroundcolor=#00000000;groupname=MW6t9Nbe;height=60;elementwidth=1</itemdefinitions>
+                </item>
+                <item id="a1LEqgJS" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=60;backgroundcolor=#00000000;groupname=FC4TN75i;elementwidth=1</itemdefinitions>
+                </item>
+                <item id="z91yhfQo" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=60;backgroundcolor=#00000000;groupname=AXPNygdq;elementwidth=1</itemdefinitions>
+                </item>
+                <item id="taIoNDpd" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=60;backgroundcolor=#00000000;groupname=HHLRUEU3;elementwidth=1</itemdefinitions>
+                </item>
+                <item id="JbohI0hb" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=60;backgroundcolor=#00000000;groupname=imUZWIpW;elementwidth=1</itemdefinitions>
+                </item>
+                <item id="mi6F3nMt" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=60;backgroundcolor=#00000000;groupname=AYZgsYoB;elementwidth=1</itemdefinitions>
+                </item>
+                <item id="xjA6Q22p" caption="xjA6Q22p" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>columnspacing=5;buttonheight=75</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="result" address="calc!G19" id="FVgJvxii">
+                    <itemdefinitions>nocaption=true;buttonradius=6;backgroundcolor=#ccff5600;usecellformat=true;buttonheight=60;valuefontsize=16;valuetextcolor=#ffffff;captiontextcolor=#ffffff;markertextcolor=#ffffff;valuefontstyle=bold;captionhorzalign=center;groupname=xjA6Q22p</itemdefinitions>
+                </item>
+                <item id="m9DKtGrl" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=60;backgroundcolor=#00000000;groupname=xjA6Q22p;elementwidth=1</itemdefinitions>
+                </item>
+                <item id="9GqqlhVe" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=60;backgroundcolor=#00000000;groupname=BcpgJSOE;elementwidth=5</itemdefinitions>
+                </item>
+                <item id="xH1seG2W" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=60;backgroundcolor=#00000000;groupname=nrviDhJJ;elementwidth=1</itemdefinitions>
+                </item>
+                <item id="04EfY1aV" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=60;backgroundcolor=#00000000;groupname=yHpQRzxJ;elementwidth=1</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="2" caption="packages">
+        <excelcontent id="2">
+            <items>
+                <item caption="Monthly payment by users" inputtype="output" contenttype="chart" address="chart!A2:A62;chart!B2:B62;chart!C2:C62;chart!D2:D62;chart!E2:E62" id="lk42U7fJ">
+                    <itemdefinitions>backgroundcolor=#e6ffffff;charttype=line;chartseriestypes=line,line,line,line;showlegend=true;seriescaptions=Business Basic,Business Pro,Business Enterprise,Your selection;colorpalette=#d1dabe,#92aa9d,#4c4c4c,#12ba98,#537780,#323232,#1e6262,#2b2e4a;height=50%;xaxiscaption=number of users;yaxiscaption=€ monthly;buttonradius=8;legendtextcolor=#4c4c4c;titletextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item caption="Pick your plan" inputtype="input" contenttype="toggle" address="calc!a2" id="a6LSCgnK">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=16;buttonheight=75</itemdefinitions>
+                </item>
+                <item id="Qd57oJlo" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=15;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="admin!e8" id="F8WrZGe2">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#6612ba98;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#4c4c4c;valuetextcolor=#ffffff;valuefontsize=16;buttonheight=50;markertextcolor=#ffffff;isvisiblecell=admin!f8</itemdefinitions>
+                </item>
+                <item id="stv9J0Pr" caption="stv9J0Pr" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>columnspacing=5</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="admin!e9" id="7CuDu8zv">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#6612ba98;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#4c4c4c;valuetextcolor=#ffffff;valuefontsize=16;buttonheight=50;groupname=stv9J0Pr;isvisiblecell=admin!f9</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="admin!e10" id="iZ7ZPqhL">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#6612ba98;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#4c4c4c;valuetextcolor=#ffffff;valuefontsize=16;buttonheight=50;isvisiblecell=admin!f10;groupname=stv9J0Pr</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="admin!e32" id="CQMR04ZU">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#9912ba98;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#4c4c4c;valuetextcolor=#ffffff;valuefontsize=16;buttonheight=50;isvisiblecell=admin!f32</itemdefinitions>
+                </item>
+                <item id="Te4t900w" caption="Te4t900w" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>columnspacing=5</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="admin!e33" id="h2L5FRCi">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#9912ba98;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#4c4c4c;valuetextcolor=#ffffff;valuefontsize=16;buttonheight=50;groupname=Te4t900w;isvisiblecell=admin!f33</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="admin!e34" id="QIKVGdJk">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#9912ba98;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#4c4c4c;valuetextcolor=#ffffff;valuefontsize=16;buttonheight=50;isvisiblecell=admin!f34;groupname=Te4t900w</itemdefinitions>
+                </item>
+                <item id="cujGQuPT" caption="cujGQuPT" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>columnspacing=5</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="admin!e35" id="Qgh6yX02">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#9912ba98;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#4c4c4c;valuetextcolor=#ffffff;valuefontsize=16;buttonheight=50;groupname=cujGQuPT;isvisiblecell=admin!f35</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="admin!e36" id="w2ZhVJYU">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#9912ba98;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#4c4c4c;valuetextcolor=#ffffff;valuefontsize=16;buttonheight=50;isvisiblecell=admin!f36;groupname=cujGQuPT</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="admin!e56" id="yW4B3Lve">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#cc12ba98;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#4c4c4c;valuetextcolor=#ffffff;valuefontsize=16;buttonheight=50;isvisiblecell=admin!f56</itemdefinitions>
+                </item>
+                <item id="5kjDumBk" caption="5kjDumBk" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>columnspacing=5</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="admin!e57" id="FuuiTyNt">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#cc12ba98;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#4c4c4c;valuetextcolor=#ffffff;valuefontsize=16;buttonheight=50;isvisiblecell=admin!f57;groupname=5kjDumBk</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="admin!e58" id="ppSUZod9">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#cc12ba98;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#4c4c4c;valuetextcolor=#ffffff;valuefontsize=16;buttonheight=50;isvisiblecell=admin!f58;groupname=5kjDumBk</itemdefinitions>
+                </item>
+                <item id="w1cvyhQE" caption="w1cvyhQE" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>columnspacing=5</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="admin!e59" id="ChABE2oO">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#cc12ba98;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#4c4c4c;valuetextcolor=#ffffff;valuefontsize=16;buttonheight=50;isvisiblecell=admin!f59;groupname=w1cvyhQE</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="admin!e60" id="y2CH9aPv">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#cc12ba98;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#4c4c4c;valuetextcolor=#ffffff;valuefontsize=16;buttonheight=50;isvisiblecell=admin!f60;groupname=w1cvyhQE</itemdefinitions>
+                </item>
+                <item id="PERqGDX0" caption="PERqGDX0" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>columnspacing=5</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="admin!e61" id="y2CH9afv">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#cc12ba98;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#4c4c4c;valuetextcolor=#ffffff;valuefontsize=16;buttonheight=50;isvisiblecell=admin!f61;groupname=PERqGDX0</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="admin!e62" id="y2CH0afv">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#cc12ba98;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#4c4c4c;valuetextcolor=#ffffff;valuefontsize=16;buttonheight=50;isvisiblecell=admin!f62;groupname=PERqGDX0</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="3" caption="features">
+        <excelcontent id="2">
+            <items>
+                <item caption="" inputtype="" contenttype="cardlist" address="features!A1" id="qmYg1KjG">
+                    <itemdefinitions>componentname=qmYg1KjG;gridtheme=light;gridalternaterowbackgroundcolor=#f5f5f5;padding=0;gridrowheight=40;gridcollapsegroups=false;gridallowedit=false;height=400;headeravailable=true;showcolumnheader=true;listcolumns=1::,3::,4::;detailcolumns=1::,3::,4::;showsearchpanel=false;categorycolumn=4;categorycolorpalette=#cc12ba98</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="4" caption="offer">
+        <excelcontent id="2">
+            <items>
+                <item caption="Company" inputtype="input" contenttype="string" address="calc!B19" id="85NbVpaB">
+                    <itemdefinitions>backgroundcolor=#e6ffffff;elementcolor=#09679B;valuetextcolor=#4c4c4c;usecellformat=true;buttonheight=75;buttonradius=6;valuefontsize=16;captiontextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item caption="Name" inputtype="input" contenttype="string" address="calc!B20" id="fXcsbJzU">
+                    <itemdefinitions>backgroundcolor=#e6ffffff;elementcolor=#09679B;valuetextcolor=#4c4c4c;usecellformat=true;buttonheight=75;buttonradius=6;valuefontsize=16</itemdefinitions>
+                </item>
+                <item caption="Address" inputtype="input" contenttype="string" address="calc!B21" id="gJdxbmHJ">
+                    <itemdefinitions>backgroundcolor=#e6ffffff;elementcolor=#09679B;valuetextcolor=#4c4c4c;usecellformat=true;buttonheight=75;buttonradius=6;valuefontsize=16</itemdefinitions>
+                </item>
+                <item id="KUNPy9vd" caption="KUNPy9vd" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>columnspacing=5</itemdefinitions>
+                </item>
+                <item caption="ZIP and City" inputtype="input" contenttype="string" address="calc!B22" id="cTRzZKnl">
+                    <itemdefinitions>backgroundcolor=#e6ffffff;elementcolor=#09679B;valuetextcolor=#4c4c4c;usecellformat=true;buttonheight=75;buttonradius=6;valuefontsize=16;groupname=KUNPy9vd</itemdefinitions>
+                </item>
+                <item caption="Country" inputtype="input" contenttype="string" address="calc!B23" id="9gtcyrcq">
+                    <itemdefinitions>backgroundcolor=#e6ffffff;elementcolor=#09679B;valuetextcolor=#4c4c4c;usecellformat=true;buttonheight=75;buttonradius=6;valuefontsize=16;groupname=KUNPy9vd</itemdefinitions>
+                </item>
+                <item caption="Offer number (if available)" inputtype="input" contenttype="string" address="calc!B24" id="uN1LL0NG">
+                    <itemdefinitions>backgroundcolor=#e6ffffff;elementcolor=#09679B;valuetextcolor=#4c4c4c;usecellformat=true;buttonheight=75;buttonradius=6;valuefontsize=16</itemdefinitions>
+                </item>
+                <item caption="Comment" inputtype="input" contenttype="string" address="calc!B25" id="wVFrSN6q">
+                    <itemdefinitions>backgroundcolor=#e6ffffff;elementcolor=#09679B;valuetextcolor=#4c4c4c;usecellformat=true;buttonheight=75;buttonradius=6;valuefontsize=16</itemdefinitions>
+                </item>
+                <item caption="Customer ID (if available)" inputtype="input" contenttype="string" address="calc!B26" id="wVF4SN6q">
+                    <itemdefinitions>backgroundcolor=#e6ffffff;elementcolor=#09679B;valuetextcolor=#4c4c4c;usecellformat=true;buttonheight=75;buttonradius=6;valuefontsize=16</itemdefinitions>
+                </item>
+                <item caption="Offer issued by" inputtype="input" contenttype="string" address="calc!B27" id="wVF47N6q">
+                    <itemdefinitions>backgroundcolor=#e6ffffff;elementcolor=#09679B;valuetextcolor=#4c4c4c;usecellformat=true;buttonheight=75;buttonradius=6;valuefontsize=16</itemdefinitions>
+                </item>
+                <item id="tLZdgxMk" caption="🖨️ Create PDF" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=#ffffff;valuetextcolor=#ffffff;backgroundcolor=#cc12ba98;actioninfo=print;buttonradius=6;buttonheight=75;captionfontsize=16;textfontsize=20;valuefontsize=16</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+</pages>

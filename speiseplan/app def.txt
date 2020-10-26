@@ -1,0 +1,1 @@
+autorecalc=true;backgroundcolor=white;pagetabsselectioncolor=#49b29d;headeropacity=8;paddinghorz=12;paddingvert=12;spacing=5;pagetabsfillmode=auto;forceupdates=true;disablepageselection=true;allowstorecalculations=true;showsurveyhistory=false;allowuploadcalculations=true;functionbuttoncolor=#49b29d;headercolor=#66000000
