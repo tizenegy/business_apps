@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns="urn:WunderApp">
+    <page pageid="1" caption="Main" definitions="actionbuttontype=none;sheetname=Customer;summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item id="Kec9PV11" caption="Image" inputtype="output" contenttype="image" address="">
+                    <itemdefinitions>backgroundcolor=#80000000;buttonradius=6;captiontextcolor=#1182cb;elementcolor=#1182cb;valuetextcolor=#1182cb;imagefile=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/b839d8c9-51c8-49ae-bc04-13725c60fd1a/public/field-Kec9PV11.png?v=uecRrNzz;buttonheight=8*</itemdefinitions>
+                </item>
+                <item id="Mm5BRCF0" caption="Start" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#80000000;linkinfo=page:2;buttonradius=8;textfontsize=20;captionhorzalign=center;buttonheight=1*</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="2" caption="Augmented reality" definitions="actionbuttontype=none;summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item id="FafaiYaU" caption="Image" inputtype="output" contenttype="image" address="">
+                    <itemdefinitions>imagefile=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/b839d8c9-51c8-49ae-bc04-13725c60fd1a/public/field-FafaiYaU.jpeg?v=uRGK0tAF;backgroundcolor=#80000000;buttonradius=6;captiontextcolor=#1182cb;elementcolor=#1182cb;valuetextcolor=#1182cb;buttonheight=30%</itemdefinitions>
+                </item>
+                <item id="7NJPHyJb" caption="" inputtype="output" contenttype="string" address="Tabelle1!A1">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#80000000;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#1182cb;valuetextcolor=#ffffff;valuefontstyle=regular;valuefontsize=20;buttonheight=8%</itemdefinitions>
+                </item>
+                <item id="xGhDmowo" caption="" inputtype="output" contenttype="string" address="Tabelle1!B1">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#80000000;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#1182cb;valuetextcolor=#ffffff;valuefontstyle=regular;valuefontsize=16;buttonheight=30%;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="HERFgam6" caption="HERFgam6" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="vXYxoh1i" caption="Interesting?" inputtype="input" contenttype="slider" address="Tabelle1!G1">
+                    <itemdefinitions>usecellformat=true;editortype=slider;minvalue=1;maxvalue=10;deltastep=1;backgroundcolor=#80000000;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff;valuefontstyle=regular;buttonheight=15%;valuefontsize=20;captionvertalign=center;captionhorzalign=left;groupname=HERFgam6;elementwidth=4*</itemdefinitions>
+                </item>
+                <item id="xTNlRXD3" caption="Next" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#80000000;buttonradius=8;captionhorzalign=center;textfontsize=20;groupname=HERFgam6;elementwidth=1*;linkinfo=page:3</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="3" caption="Smart fabrics" definitions="actionbuttontype=none;summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item id="U2irz6l2" caption="Image" inputtype="output" contenttype="image" address="">
+                    <itemdefinitions>imagefile=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/b839d8c9-51c8-49ae-bc04-13725c60fd1a/public/field-NzJkX2GF.jpeg?v=l7uREdn7;backgroundcolor=#80ffffff;buttonradius=6;captiontextcolor=#1182cb;elementcolor=#1182cb;valuetextcolor=#1182cb;buttonheight=30%</itemdefinitions>
+                </item>
+                <item id="KzlDoyVv" caption="" inputtype="output" contenttype="string" address="Tabelle1!A2">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#80000000;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#1182cb;valuetextcolor=#ffffff;valuefontstyle=regular;valuefontsize=20;buttonheight=8%</itemdefinitions>
+                </item>
+                <item id="f8gLm2Sd" caption="" inputtype="output" contenttype="string" address="Tabelle1!B2">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#80000000;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#1182cb;valuetextcolor=#ffffff;valuefontstyle=regular;valuefontsize=16;buttonheight=30%;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="sp9dnpB3" caption="HERFgam6" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="3DmaY77a" caption="Interesting?" inputtype="input" contenttype="slider" address="Tabelle1!G2">
+                    <itemdefinitions>usecellformat=true;editortype=slider;minvalue=1;maxvalue=10;deltastep=1;backgroundcolor=#80000000;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff;valuefontstyle=regular;buttonheight=15%;valuefontsize=20;captionvertalign=center;captionhorzalign=left;groupname=HERFgam6;elementwidth=4*</itemdefinitions>
+                </item>
+                <item id="PsbH1nRB" caption="Next" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#80000000;buttonradius=8;captionhorzalign=center;textfontsize=20;groupname=HERFgam6;elementwidth=1*;linkinfo=page:4</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="4" caption="Autonomous driving" definitions="actionbuttontype=none;summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item id="4Cl9JLNx" caption="Image" inputtype="output" contenttype="image" address="">
+                    <itemdefinitions>imagefile=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/b839d8c9-51c8-49ae-bc04-13725c60fd1a/public/field-Kec9PVAV.jpeg?v=Ni9nf1SQ;backgroundcolor=#80ffffff;buttonradius=6;captiontextcolor=#1182cb;elementcolor=#1182cb;valuetextcolor=#1182cb;buttonheight=30%</itemdefinitions>
+                </item>
+                <item id="T5FVxAGz" caption="" inputtype="output" contenttype="string" address="Tabelle1!A3">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#80000000;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#1182cb;valuetextcolor=#ffffff;valuefontstyle=regular;valuefontsize=20;buttonheight=8%</itemdefinitions>
+                </item>
+                <item id="MJ9dGuwI" caption="" inputtype="output" contenttype="string" address="Tabelle1!B3">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#80000000;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#1182cb;valuetextcolor=#ffffff;valuefontstyle=regular;valuefontsize=16;buttonheight=30%;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="GXubU0Ff" caption="HERFgam6" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="9ZrYt4lr" caption="Interesting?" inputtype="input" contenttype="slider" address="Tabelle1!G3">
+                    <itemdefinitions>usecellformat=true;editortype=slider;minvalue=1;maxvalue=10;deltastep=1;backgroundcolor=#80000000;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff;valuefontstyle=regular;buttonheight=15%;valuefontsize=20;captionvertalign=center;captionhorzalign=left;groupname=HERFgam6;elementwidth=4*</itemdefinitions>
+                </item>
+                <item id="ZlrWCKOC" caption="Next" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#80000000;buttonradius=8;captionhorzalign=center;textfontsize=20;groupname=HERFgam6;elementwidth=1*;linkinfo=page:5</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="5" caption="Blockchain" definitions="actionbuttontype=none;summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item id="DDP23TX1" caption="Image" inputtype="output" contenttype="image" address="">
+                    <itemdefinitions>imagefile=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/b839d8c9-51c8-49ae-bc04-13725c60fd1a/public/field-FafaiY05.jpeg?v=i66hSsdn;backgroundcolor=#80ffffff;buttonradius=6;captiontextcolor=#1182cb;elementcolor=#1182cb;valuetextcolor=#1182cb;buttonheight=30%</itemdefinitions>
+                </item>
+                <item id="AJ9aOSIc" caption="" inputtype="output" contenttype="string" address="Tabelle1!A4">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#80000000;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#1182cb;valuetextcolor=#ffffff;valuefontstyle=regular;valuefontsize=20;buttonheight=8%</itemdefinitions>
+                </item>
+                <item id="ZEARIKiL" caption="" inputtype="output" contenttype="string" address="Tabelle1!B4">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#80000000;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#1182cb;valuetextcolor=#ffffff;valuefontstyle=regular;valuefontsize=16;buttonheight=30%;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="Ym15pPwy" caption="HERFgam6" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="BYXuyrvv" caption="Interesting?" inputtype="input" contenttype="slider" address="Tabelle1!G4">
+                    <itemdefinitions>usecellformat=true;editortype=slider;minvalue=1;maxvalue=10;deltastep=1;backgroundcolor=#80000000;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff;valuefontstyle=regular;buttonheight=15%;valuefontsize=20;captionvertalign=center;captionhorzalign=left;groupname=HERFgam6;elementwidth=4*</itemdefinitions>
+                </item>
+                <item id="27XPxh5w" caption="Next" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#80000000;buttonradius=8;captionhorzalign=center;textfontsize=20;groupname=HERFgam6;elementwidth=1*;linkinfo=page:6</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="6" caption="Deep neural nets" definitions="actionbuttontype=none;summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item id="d1RP72MI" caption="Image" inputtype="output" contenttype="image" address="">
+                    <itemdefinitions>imagefile=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/b839d8c9-51c8-49ae-bc04-13725c60fd1a/public/field-Kec9PV07.jpeg?v=da89twrP;backgroundcolor=#80ffffff;buttonradius=6;captiontextcolor=#1182cb;elementcolor=#1182cb;valuetextcolor=#1182cb;buttonheight=30%</itemdefinitions>
+                </item>
+                <item id="nMWiNqBI" caption="" inputtype="output" contenttype="string" address="Tabelle1!A5">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#80000000;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#1182cb;valuetextcolor=#ffffff;valuefontstyle=regular;valuefontsize=20;buttonheight=8%</itemdefinitions>
+                </item>
+                <item id="ZB7gu9rH" caption="" inputtype="output" contenttype="string" address="Tabelle1!B5">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#80000000;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#1182cb;valuetextcolor=#ffffff;valuefontstyle=regular;valuefontsize=16;buttonheight=30%;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="YGbgfw2z" caption="HERFgam6" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="KqLHMGS4" caption="Interesting?" inputtype="input" contenttype="slider" address="Tabelle1!G5">
+                    <itemdefinitions>usecellformat=true;editortype=slider;minvalue=1;maxvalue=10;deltastep=1;backgroundcolor=#80000000;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff;valuefontstyle=regular;buttonheight=15%;valuefontsize=20;captionvertalign=center;captionhorzalign=left;groupname=HERFgam6;elementwidth=4*</itemdefinitions>
+                </item>
+                <item id="hISKqPpE" caption="Next" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#80000000;buttonradius=8;captionhorzalign=center;textfontsize=20;groupname=HERFgam6;elementwidth=1*;linkinfo=page:7</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="7" caption="Brain-computer interface" definitions="actionbuttontype=none;summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item id="XG8Gy3Lo" caption="Image" inputtype="output" contenttype="image" address="">
+                    <itemdefinitions>imagefile=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/b839d8c9-51c8-49ae-bc04-13725c60fd1a/public/field-FafaiY09.png?v=f5Ixf8TU;backgroundcolor=#80ffffff;buttonradius=6;captiontextcolor=#1182cb;elementcolor=#1182cb;valuetextcolor=#1182cb;buttonheight=30%</itemdefinitions>
+                </item>
+                <item id="zai3cpRY" caption="" inputtype="output" contenttype="string" address="Tabelle1!A6">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#80000000;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#1182cb;valuetextcolor=#ffffff;valuefontstyle=regular;valuefontsize=20;buttonheight=8%</itemdefinitions>
+                </item>
+                <item id="0oPtxcov" caption="" inputtype="output" contenttype="string" address="Tabelle1!B6">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#80000000;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#1182cb;valuetextcolor=#ffffff;valuefontstyle=regular;valuefontsize=16;buttonheight=30%;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="nl1Xnu57" caption="HERFgam6" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="dIoHkaGs" caption="Interesting?" inputtype="input" contenttype="slider" address="Tabelle1!G6">
+                    <itemdefinitions>usecellformat=true;editortype=slider;minvalue=1;maxvalue=10;deltastep=1;backgroundcolor=#80000000;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff;valuefontstyle=regular;buttonheight=15%;valuefontsize=20;captionvertalign=center;captionhorzalign=left;groupname=HERFgam6;elementwidth=4*</itemdefinitions>
+                </item>
+                <item id="Jv8y4m8H" caption="Next" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#80000000;buttonradius=8;captionhorzalign=center;textfontsize=20;groupname=HERFgam6;elementwidth=1*;linkinfo=page:8</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="8" caption="Nanotubes" definitions="actionbuttontype=none;summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item id="3xYQCdQ8" caption="Image" inputtype="output" contenttype="image" address="">
+                    <itemdefinitions>imagefile=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/b839d8c9-51c8-49ae-bc04-13725c60fd1a/public/field-NzJkX206.jpeg?v=cNikJWIp;backgroundcolor=#80ffffff;buttonradius=6;captiontextcolor=#1182cb;elementcolor=#1182cb;valuetextcolor=#1182cb;buttonheight=30%</itemdefinitions>
+                </item>
+                <item id="njHZ4yZh" caption="" inputtype="output" contenttype="string" address="Tabelle1!A7">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#80000000;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#1182cb;valuetextcolor=#ffffff;valuefontstyle=regular;valuefontsize=20;buttonheight=8%</itemdefinitions>
+                </item>
+                <item id="bO2eImeZ" caption="" inputtype="output" contenttype="string" address="Tabelle1!B7">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#80000000;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#1182cb;valuetextcolor=#ffffff;valuefontstyle=regular;valuefontsize=16;buttonheight=30%;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="lTZuOmqV" caption="HERFgam6" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="ggk7DX0w" caption="Interesting?" inputtype="input" contenttype="slider" address="Tabelle1!G7">
+                    <itemdefinitions>usecellformat=true;editortype=slider;minvalue=1;maxvalue=10;deltastep=1;backgroundcolor=#80000000;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff;valuefontstyle=regular;buttonheight=15%;valuefontsize=20;captionvertalign=center;captionhorzalign=left;groupname=HERFgam6;elementwidth=4*</itemdefinitions>
+                </item>
+                <item id="bpExc1OB" caption="Next" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#80000000;buttonradius=8;captionhorzalign=center;textfontsize=20;groupname=HERFgam6;elementwidth=1*;linkinfo=page:9</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="9" caption="Digital twin" definitions="actionbuttontype=none;summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item id="HGlPj5ge" caption="Image" inputtype="output" contenttype="image" address="">
+                    <itemdefinitions>imagefile=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/b839d8c9-51c8-49ae-bc04-13725c60fd1a/public/field-tEXA3L08.jpeg?v=HkGqyjTZ;backgroundcolor=#80ffffff;buttonradius=6;captiontextcolor=#1182cb;elementcolor=#1182cb;valuetextcolor=#1182cb;buttonheight=30%</itemdefinitions>
+                </item>
+                <item id="4pnoLEPV" caption="" inputtype="output" contenttype="string" address="Tabelle1!A8">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#80000000;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#1182cb;valuetextcolor=#ffffff;valuefontstyle=regular;valuefontsize=20;buttonheight=8%</itemdefinitions>
+                </item>
+                <item id="wEfdw3yh" caption="" inputtype="output" contenttype="string" address="Tabelle1!B8">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#80000000;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#1182cb;valuetextcolor=#ffffff;valuefontstyle=regular;valuefontsize=16;buttonheight=30%;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="FbcYjyBn" caption="HERFgam6" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="QhV85wqo" caption="Interesting?" inputtype="input" contenttype="slider" address="Tabelle1!G8">
+                    <itemdefinitions>usecellformat=true;editortype=slider;minvalue=1;maxvalue=10;deltastep=1;backgroundcolor=#80000000;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff;valuefontstyle=regular;buttonheight=15%;valuefontsize=20;captionvertalign=center;captionhorzalign=left;groupname=HERFgam6;elementwidth=4*</itemdefinitions>
+                </item>
+                <item id="6dVl5ZdZ" caption="Next" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#80000000;buttonradius=8;captionhorzalign=center;textfontsize=20;groupname=HERFgam6;elementwidth=1*;linkinfo=page:10</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="10" caption="Smart Home" definitions="actionbuttontype=none;summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item id="9iBUAZ9a" caption="Image" inputtype="output" contenttype="image" address="">
+                    <itemdefinitions>imagefile=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/b839d8c9-51c8-49ae-bc04-13725c60fd1a/public/field-9iBUAZ9a.jpeg?v=UWoD8ZhM;backgroundcolor=#80ffffff;buttonradius=6;captiontextcolor=#1182cb;elementcolor=#1182cb;valuetextcolor=#1182cb;buttonheight=30%</itemdefinitions>
+                </item>
+                <item id="yHu3h9Rb" caption="" inputtype="output" contenttype="string" address="Tabelle1!A9">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#80000000;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#1182cb;valuetextcolor=#ffffff;valuefontstyle=regular;valuefontsize=20;buttonheight=8%</itemdefinitions>
+                </item>
+                <item id="j3bBxeCz" caption="" inputtype="output" contenttype="string" address="Tabelle1!B9">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#80000000;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#1182cb;valuetextcolor=#ffffff;valuefontstyle=regular;valuefontsize=16;buttonheight=30%;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="QPleveD1" caption="HERFgam6" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="q2brfID9" caption="Interesting?" inputtype="input" contenttype="slider" address="Tabelle1!G9">
+                    <itemdefinitions>usecellformat=true;editortype=slider;minvalue=1;maxvalue=10;deltastep=1;backgroundcolor=#80000000;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff;valuefontstyle=regular;buttonheight=15%;valuefontsize=20;captionvertalign=center;captionhorzalign=left;groupname=HERFgam6;elementwidth=4*</itemdefinitions>
+                </item>
+                <item id="jf5aKE8o" caption="Next" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#80000000;buttonradius=8;captionhorzalign=center;textfontsize=20;groupname=HERFgam6;elementwidth=1*;linkinfo=page:11</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="11" caption="Autonomous mobile robots" definitions="actionbuttontype=none;summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item id="1dATbag6" caption="Image" inputtype="output" contenttype="image" address="">
+                    <itemdefinitions>imagefile=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/b839d8c9-51c8-49ae-bc04-13725c60fd1a/public/field-NzJkX210.jpeg?v=Ds8zsDW4;backgroundcolor=#80ffffff;buttonradius=6;captiontextcolor=#1182cb;elementcolor=#1182cb;valuetextcolor=#1182cb;buttonheight=30%</itemdefinitions>
+                </item>
+                <item id="8181QsV9" caption="" inputtype="output" contenttype="string" address="Tabelle1!A10">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#80000000;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#1182cb;valuetextcolor=#ffffff;valuefontstyle=regular;valuefontsize=20;buttonheight=8%</itemdefinitions>
+                </item>
+                <item id="d1if7dO6" caption="" inputtype="output" contenttype="string" address="Tabelle1!B10">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#80000000;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#1182cb;valuetextcolor=#ffffff;valuefontstyle=regular;valuefontsize=16;buttonheight=30%;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="xi3mSA4x" caption="HERFgam6" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="megemoJL" caption="Interesting?" inputtype="input" contenttype="slider" address="Tabelle1!G10">
+                    <itemdefinitions>usecellformat=true;editortype=slider;minvalue=1;maxvalue=10;deltastep=1;backgroundcolor=#80000000;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff;valuefontstyle=regular;buttonheight=15%;valuefontsize=20;captionvertalign=center;captionhorzalign=left;groupname=HERFgam6;elementwidth=4*</itemdefinitions>
+                </item>
+                <item id="GMdJAf9I" caption="Next" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#80000000;buttonradius=8;captionhorzalign=center;textfontsize=20;groupname=HERFgam6;elementwidth=1*;linkinfo=page:12</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="12" caption="Thanks!" definitions="actionbuttontype=none;summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item id="BQ8XcXDI" contenttype="spacer">
+                    <itemdefinitions>height=3*</itemdefinitions>
+                </item>
+                <item id="EdypgCHa" caption="Upload" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#80000000;actioninfo=upload;buttonradius=8;textfontsize=20;captionhorzalign=center;buttonheight=2*</itemdefinitions>
+                </item>
+                <item id="OHaXyFJJ" caption="" inputtype="output" contenttype="string" address="Tabelle1!E1">
+                    <itemdefinitions>backgroundcolor=#80000000;elementcolor=#09679B;valuetextcolor=#ffffff;usecellformat=true;buttonradius=8;valuefontsize=20;valuefontstyle=regular;captiontextcolor=#ffffff;captionvertalign=center;captionhorzalign=center;buttonheight=2*</itemdefinitions>
+                </item>
+                <item id="mnuex679" caption="Restart" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#80000000;actioninfo=update;buttonradius=8;textfontsize=20;captionhorzalign=center;buttonheight=2*</itemdefinitions>
+                </item>
+                <item id="b7vRqWJa" contenttype="spacer">
+                    <itemdefinitions>height=3*</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+</pages>

@@ -1,0 +1,1 @@
+backgroundcolor=white;backgroundimage=https://oaafiles.blob.core.windows.net/images/themes/azulVerdeBackgroundImage.jpeg;functionbuttoncolor=#33000000;pagetabsselectioncolor=#55d777;headeropacity=8;paddinghorz=12;paddingvert=12;spacing=5;pagetabsfillmode=auto;headercolor=#33000000;disablepageselection=true;allowuploadcalculations=true
