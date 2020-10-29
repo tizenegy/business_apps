@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages
+    xmlns="urn:WunderApp">
+    <page pageid="1" caption="Menü" definitions="sheetname=app;summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D;actionbuttontype=none;">
+        <excelcontent id="1">
+            <items>
+                <item caption="Kalenderwoche 50" inputtype="actionbutton" contenttype="string" address="&apos;Woche 46&apos;!D5" id="kfOOsgcf">
+                    <itemdefinitions>backgroundcolor=#49b29d;elementcolor=white;valuetextcolor=#ffffff;usecellformat=true;valuefontsize=25;captiontextcolor=#ffffff;buttonheight=80;actioninfo=print</itemdefinitions>
+                </item>
+                <item id="sPpX0Gd7" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=15;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+                <item id="7N1WvPM8" caption="" inputtype="" contenttype="cardlist">
+                    <itemdefinitions>componentname=list;gridtheme=light;gridrowheight=40;gridcollapsegroups=false;gridallowedit=false;headeravailable=true;showcolumnheader=true;listcolumns=1::text,2::text,3::text,7::image;detailcolumns=1:text:,2:text:,7:image:,3:text:,4::,5::,6::,8:web:;categorycolumn=1;backgroundcolor=transparent;buttonradius=6;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff;categorycolorpalette=#49b29d;height=*</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="2" caption="Rechner" definitions="actionbuttontype=none;">
+        <excelcontent id="2">
+            <items>
+                <item caption="Ich esse heute..." inputtype="input" contenttype="toggle" address="rechner!A2" id="o7pjjUpb">
+                    <itemdefinitions>backgroundcolor=#49b29d;elementcolor=#ffffff;valuetextcolor=#ffffff;usecellformat=true;captiontextcolor=#ffffff;buttonheight=90</itemdefinitions>
+                </item>
+                <item caption="Ich esse heute..." inputtype="input" contenttype="toggle" address="rechner!A3" id="fzeTQsdM">
+                    <itemdefinitions>backgroundcolor=#49b29d;elementcolor=white;valuetextcolor=white;usecellformat=true;isvisiblecell=rechner!B3;captiontextcolor=#ffffff;buttonheight=90</itemdefinitions>
+                </item>
+                <item caption="Ich esse heute..." inputtype="input" contenttype="toggle" address="rechner!A4" id="dpwCHS3x">
+                    <itemdefinitions>backgroundcolor=#49b29d;elementcolor=white;valuetextcolor=white;usecellformat=true;isvisiblecell=rechner!B4;captiontextcolor=#ffffff;buttonheight=90</itemdefinitions>
+                </item>
+                <item caption="Ich esse heute..." inputtype="input" contenttype="toggle" address="rechner!A5" id="IgvXVZ37">
+                    <itemdefinitions>backgroundcolor=#49b29d;elementcolor=white;valuetextcolor=white;usecellformat=true;isvisiblecell=rechner!B5;captiontextcolor=#ffffff;buttonheight=90</itemdefinitions>
+                </item>
+                <item caption="Ich esse heute..." inputtype="input" contenttype="toggle" address="rechner!A6" id="srulB3ik">
+                    <itemdefinitions>backgroundcolor=#49b29d;elementcolor=white;valuetextcolor=white;usecellformat=true;isvisiblecell=rechner!B6;captiontextcolor=#ffffff;buttonheight=90</itemdefinitions>
+                </item>
+                <item id="n1HeLWw6" caption="n1HeLWw6" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item caption="Kalorien gesamt" inputtype="output" contenttype="result" address="rechner!C9" id="oXTxIRqK">
+                    <itemdefinitions>nocaption=true;buttonradius=0;backgroundcolor=#ffffff;usecellformat=true;valuetextcolor=#49b29d;captiontextcolor=#49b29d;groupname=n1HeLWw6</itemdefinitions>
+                </item>
+                <item caption="Preis gesamt" inputtype="output" contenttype="result" address="rechner!D9" id="NgVcqACV">
+                    <itemdefinitions>nocaption=true;buttonradius=0;backgroundcolor=#ffffff;usecellformat=true;valuetextcolor=#49b29d;captiontextcolor=#49b29d;groupname=n1HeLWw6</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="3" caption="Anfahrt" definitions="actionbuttontype=none;">
+        <excelcontent id="7">
+            <items>
+                <item caption="" inputtype="" contenttype="map" address="location!A1" id="dmmPRVdJ">
+                    <itemdefinitions>padding=0;componentname=map;namecolumn=3;detailcolumns=3:text,map;locationcolumns=1,2;showsearchpanel=false</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="4" caption="Feedback">
+        <excelcontent id="2">
+            <items>
+                <item caption="Wie hat es Ihnen geschmeckt?" inputtype="input" contenttype="toggle" address="feedback!B1" id="Otgjyp6G">
+                    <itemdefinitions>backgroundcolor=#49b29d;elementcolor=white;valuetextcolor=white;usecellformat=true;captiontextcolor=#ffffff;buttonheight=90</itemdefinitions>
+                </item>
+                <item caption="Waren Sie zufrieden mit der Sauberkeit?" inputtype="input" contenttype="toggle" address="feedback!B2" id="mYbsyvJ8">
+                    <itemdefinitions>backgroundcolor=#49b29d;elementcolor=white;valuetextcolor=white;usecellformat=true;captiontextcolor=#ffffff;buttonheight=90</itemdefinitions>
+                </item>
+                <item caption="Würden Sie uns weiterempfehlen?" inputtype="input" contenttype="toggle" address="feedback!B4" id="1SsChdqi">
+                    <itemdefinitions>backgroundcolor=#49b29d;elementcolor=#ffffff;valuetextcolor=white;usecellformat=true;captiontextcolor=#ffffff;buttonheight=90</itemdefinitions>
+                </item>
+                <item caption="Haben Sie Anregungen?" inputtype="input" contenttype="string" address="feedback!B6" id="G0AG2tWK">
+                    <itemdefinitions>backgroundcolor=#49b29d;elementcolor=white;valuetextcolor=white;usecellformat=true;captiontextcolor=#ffffff;buttonheight=90</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="5" caption="Info" definitions="actionbuttontype=none;">
+        <excelcontent id="2">
+            <items>
+                <item caption="" inputtype="output" contenttype="string" address="&apos;Woche 46&apos;!A16" id="Spdzhw5A">
+                    <itemdefinitions>backgroundcolor=#49b29d;elementcolor=white;valuetextcolor=#ffffff;usecellformat=true;valuefontsize=25;buttonheight=90</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="&apos;Woche 46&apos;!D3" id="ZXHNOJpl">
+                    <itemdefinitions>backgroundcolor=#49b29d;elementcolor=white;valuetextcolor=#ffffff;usecellformat=true;valuefontsize=25;buttonheight=90;buttonradius=8;valuefontstyle=regular</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="&apos;Woche 46&apos;!A14" id="pXogYOqL">
+                    <itemdefinitions>backgroundcolor=#49b29d;elementcolor=white;valuetextcolor=#ffffff;usecellformat=true;valuefontsize=25;buttonheight=90</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="&apos;Woche 46&apos;!A15" id="E2aUPAM3">
+                    <itemdefinitions>backgroundcolor=#49b29d;elementcolor=white;valuetextcolor=white;usecellformat=true;valuefontsize=25;buttonheight=90</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+</pages>
