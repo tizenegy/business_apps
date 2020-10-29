@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages>
+    <page pageid="1" caption="World View" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent id="2">
+            <items>
+                <item id="WEqYkkQ2" caption="WEqYkkQ2" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>columnspacing=10</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="APP!A2" id="kKSkF2gf">
+                    <itemdefinitions>backgroundcolor=#ffffff;buttonheight=15%;elementcolor=#09679B;valuetextcolor=#004355;usecellformat=true;groupname=WEqYkkQ2;captiontextcolor=#004355;linkinfo=component:home;componentname=home</itemdefinitions>
+                </item>
+                <item caption="Go to" inputtype="output" contenttype="string" address="APP!A3" id="kKSke2gf">
+                    <itemdefinitions>backgroundcolor=#ffffff;buttonheight=15%;elementcolor=#09679B;valuetextcolor=#004355;usecellformat=true;groupname=WEqYkkQ2;spacing=10;linkinfo=component:regions;markertextcolor=#004355;captiontextcolor=#004355</itemdefinitions>
+                </item>
+                <item id="UNuJhwZt" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=20;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+                <item id="a6bfN9H0" caption="a6bfN9H0" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="APP!B2" id="gShUlZcq">
+                    <itemdefinitions>backgroundcolor=#004355;buttonheight=15%;elementcolor=#09679B;valuetextcolor=#ffffff;usecellformat=true;groupname=a6bfN9H0</itemdefinitions>
+                </item>
+                <item id="RZt58XWq" caption="" inputtype="infobutton" address="APP!A17">
+                    <itemdefinitions>elementcolor=#ffffff;groupname=a6bfN9H0;elementwidth=60;backgroundcolor=#004355</itemdefinitions>
+                </item>
+                <item id="iv2fOs87" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=5;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+                <item inputtype="output" contenttype="chart" address="&apos;Overview- Matrix 2015-2016&apos;!D2:J2;&apos;Overview- Matrix 2015-2016&apos;!D3:J3;&apos;Overview- Matrix 2015-2016&apos;!D4:J4" id="PCZnnHCW" caption="World">
+                    <itemdefinitions>backgroundcolor=#ffffff;charttype=column;showlegend=true;seriescaptions=yellow Sales FY 2016,yellow new aqusitions FY 2016;colorpalette=#004355,#5097ab;height=300;numberformat=N0;showdatamarker=false</itemdefinitions>
+                </item>
+                <item id="OMOsL9gl" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=5;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+                <item id="11111111" caption="11111111" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item caption="Kanal 1" inputtype="output" contenttype="result" address="&apos;Gesamt - Matrix 2015-2016&apos;!C4" id="ETG1vsRB">
+                    <itemdefinitions>nocaption=true;buttonheight=15%;buttonradius=0;backgroundcolor=#004355;usecellformat=true;metrictext=fromcell:APP!A5;valuetextcolor=#ffffff;captiontextcolor=#ffffff;markertextcolor=#ffffff;linkinfo=component:NTLHhCKe;groupname=11111111</itemdefinitions>
+                </item>
+                <item caption="Kanal 2" inputtype="output" contenttype="result" address="&apos;Gesamt - Matrix 2015-2016&apos;!D4" id="ETG2vsRB">
+                    <itemdefinitions>nocaption=true;buttonheight=15%;buttonradius=0;backgroundcolor=#004355;usecellformat=true;metrictext=fromcell:APP!A5;valuetextcolor=#ffffff;captiontextcolor=#ffffff;markertextcolor=#ffffff;groupname=11111111</itemdefinitions>
+                </item>
+                <item caption="Kanal 3" inputtype="output" contenttype="result" address="&apos;Gesamt - Matrix 2015-2016&apos;!E4" id="ETG3vsRB">
+                    <itemdefinitions>nocaption=true;buttonheight=15%;buttonradius=0;backgroundcolor=#004355;usecellformat=true;metrictext=fromcell:APP!A5;valuetextcolor=#ffffff;captiontextcolor=#ffffff;markertextcolor=#ffffff;groupname=11111111</itemdefinitions>
+                </item>
+                <item caption="Kanal 4" inputtype="output" contenttype="result" address="&apos;Gesamt - Matrix 2015-2016&apos;!F4" id="ETG4vsRB">
+                    <itemdefinitions>nocaption=true;buttonheight=15%;buttonradius=0;backgroundcolor=#004355;usecellformat=true;metrictext=fromcell:APP!A5;valuetextcolor=#ffffff;captiontextcolor=#ffffff;markertextcolor=#ffffff;groupname=11111111</itemdefinitions>
+                </item>
+                <item id="gV4vVEu2" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>backgroundcolor=#00000000;height=1</itemdefinitions>
+                </item>
+                <item id="22222222" caption="22222222" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item caption="Kanal 5" inputtype="output" contenttype="result" address="&apos;Gesamt - Matrix 2015-2016&apos;!G4" id="rJlBrFgS">
+                    <itemdefinitions>nocaption=true;buttonheight=15%;buttonradius=0;backgroundcolor=#004355;usecellformat=true;metrictext=fromcell:APP!A6;valuetextcolor=#ffffff;captiontextcolor=#ffffff;markertextcolor=#ffffff;groupname=22222222</itemdefinitions>
+                </item>
+                <item caption="Kanal 6" inputtype="output" contenttype="result" address="&apos;Gesamt - Matrix 2015-2016&apos;!H4" id="KAL3C0YC">
+                    <itemdefinitions>nocaption=true;buttonheight=15%;buttonradius=0;backgroundcolor=#004355;usecellformat=true;metrictext=fromcell:APP!A6;valuetextcolor=#ffffff;captiontextcolor=#ffffff;markertextcolor=#ffffff;groupname=22222222</itemdefinitions>
+                </item>
+                <item caption="FY 2016" inputtype="output" contenttype="result" address="&apos;Gesamt - Matrix 2015-2016&apos;!I4" id="uABVu2lp">
+                    <itemdefinitions>nocaption=true;buttonheight=15%;buttonradius=0;backgroundcolor=#004355;usecellformat=true;metrictext=fromcell:APP!A5;valuetextcolor=#ffffff;captiontextcolor=#ffffff;markertextcolor=#ffffff;groupname=22222222</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="result" address="APP!A12" id="YYNcc0rC">
+                    <itemdefinitions>nocaption=true;buttonheight=15%;buttonradius=0;backgroundcolor=#004355;usecellformat=true;valuetextcolor=#ffffff;captiontextcolor=#ffffff;markertextcolor=#ffffff;groupname=22222222;linkinfo=component:chart1</itemdefinitions>
+                </item>
+                <item id="QUagkyuG" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=20;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="APP!B3" id="gShxxZcq">
+                    <itemdefinitions>backgroundcolor=#004355;buttonheight=15%;elementcolor=#09679B;valuetextcolor=#ffffff;usecellformat=true</itemdefinitions>
+                </item>
+                <item id="xIA4LEAk" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=5;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+                <item inputtype="output" contenttype="chart" address="&apos;Gesamt - Matrix 2015-2016&apos;!C1:I1;&apos;Gesamt - Matrix 2015-2016&apos;!C18:I18;&apos;Gesamt - Matrix 2015-2016&apos;!C19:I19" id="DDGNOBIT" caption="Market 1 - Blue">
+                    <itemdefinitions>backgroundcolor=#ffffff;charttype=column;showlegend=true;seriescaptions=blue Sales FY 2016,blue new acquisitions FY 2016;colorpalette=#004355,#5097ab;height=300;numberformat=N0</itemdefinitions>
+                </item>
+                <item id="rk0ZoeS7" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=5;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+                <item id="33333333" caption="33333333" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item caption="Kanal 1" inputtype="output" contenttype="result" address="&apos;Gesamt - Matrix 2015-2016&apos;!C4" id="pdasdTDV">
+                    <itemdefinitions>nocaption=true;buttonheight=15%;buttonradius=0;backgroundcolor=#004355;usecellformat=true;metrictext=fromcell:APP!A5;valuetextcolor=#ffffff;captiontextcolor=#ffffff;markertextcolor=#ffffff;groupname=33333333</itemdefinitions>
+                </item>
+                <item caption="Kanal 2" inputtype="output" contenttype="result" address="&apos;Gesamt - Matrix 2015-2016&apos;!D4" id="2fZvvVfi">
+                    <itemdefinitions>nocaption=true;buttonheight=15%;buttonradius=0;backgroundcolor=#004355;usecellformat=true;metrictext=fromcell:APP!A5;valuetextcolor=#ffffff;captiontextcolor=#ffffff;markertextcolor=#ffffff;groupname=33333333</itemdefinitions>
+                </item>
+                <item caption="Kanal 3" inputtype="output" contenttype="result" address="&apos;Gesamt - Matrix 2015-2016&apos;!E4" id="0oCrcc3C">
+                    <itemdefinitions>nocaption=true;buttonheight=15%;buttonradius=0;backgroundcolor=#004355;usecellformat=true;metrictext=fromcell:APP!A5;valuetextcolor=#ffffff;captiontextcolor=#ffffff;markertextcolor=#ffffff;groupname=33333333</itemdefinitions>
+                </item>
+                <item caption="Kanal 4" inputtype="output" contenttype="result" address="&apos;Gesamt - Matrix 2015-2016&apos;!F4" id="3G2NISee">
+                    <itemdefinitions>nocaption=true;buttonheight=15%;buttonradius=0;backgroundcolor=#004355;usecellformat=true;metrictext=fromcell:APP!A5;valuetextcolor=#ffffff;captiontextcolor=#ffffff;markertextcolor=#ffffff;groupname=33333333</itemdefinitions>
+                </item>
+                <item id="lMDzYQKR" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>backgroundcolor=#00000000;height=1</itemdefinitions>
+                </item>
+                <item id="44444444" caption="44444444" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item caption="Kanal 5" inputtype="output" contenttype="result" address="&apos;Gesamt - Matrix 2015-2016&apos;!G4" id="ETG5qqRB">
+                    <itemdefinitions>nocaption=true;buttonheight=15%;buttonradius=0;backgroundcolor=#004355;usecellformat=true;metrictext=fromcell:APP!A6;valuetextcolor=#ffffff;captiontextcolor=#ffffff;markertextcolor=#ffffff;groupname=44444444</itemdefinitions>
+                </item>
+                <item caption="Kanal 6" inputtype="output" contenttype="result" address="&apos;Gesamt - Matrix 2015-2016&apos;!H4" id="ETeevsRB">
+                    <itemdefinitions>nocaption=true;buttonheight=15%;buttonradius=0;backgroundcolor=#004355;usecellformat=true;metrictext=fromcell:APP!A6;valuetextcolor=#ffffff;captiontextcolor=#ffffff;markertextcolor=#ffffff;groupname=44444444</itemdefinitions>
+                </item>
+                <item caption="FY 2016" inputtype="output" contenttype="result" address="&apos;Gesamt - Matrix 2015-2016&apos;!I4" id="ETG7rdRB">
+                    <itemdefinitions>nocaption=true;buttonheight=15%;buttonradius=0;backgroundcolor=#004355;usecellformat=true;metrictext=fromcell:APP!A5;valuetextcolor=#ffffff;captiontextcolor=#ffffff;markertextcolor=#ffffff;groupname=44444444</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="result" address="APP!A13" id="ETrfvsRB">
+                    <itemdefinitions>nocaption=true;buttonheight=15%;buttonradius=0;backgroundcolor=#004355;usecellformat=true;valuetextcolor=#ffffff;captiontextcolor=#ffffff;markertextcolor=#ffffff;groupname=44444444;linkinfo=component:chart1</itemdefinitions>
+                </item>
+                <item id="i1F9ixij" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=20;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="APP!B4" id="gSsslZcq">
+                    <itemdefinitions>backgroundcolor=#004355;buttonheight=15%;elementcolor=#09679B;valuetextcolor=#ffffff;usecellformat=true</itemdefinitions>
+                </item>
+                <item id="NkKSGIQb" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=5;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+                <item inputtype="output" contenttype="chart" address="&apos;Gesamt - Matrix 2015-2016&apos;!C1:I1;&apos;Gesamt - Matrix 2015-2016&apos;!C10:I10;&apos;Gesamt - Matrix 2015-2016&apos;!C11:I11" id="cMndc00V" caption="Market 1 - Green">
+                    <itemdefinitions>backgroundcolor=#ffffff;charttype=column;showlegend=true;seriescaptions=green Sales FY 2016,green new acquisitions FY 2016;colorpalette=#004355,#5097ab;height=300;numberformat=N0</itemdefinitions>
+                </item>
+                <item id="D8M8005w" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=5;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+                <item id="55555555" caption="55555555" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item caption="Kanal 1" inputtype="output" contenttype="result" address="&apos;Gesamt - Matrix 2015-2016&apos;!C4" id="FVJedg48">
+                    <itemdefinitions>nocaption=true;buttonheight=15%;buttonradius=0;backgroundcolor=#004355;usecellformat=true;metrictext=fromcell:APP!A5;valuetextcolor=#ffffff;captiontextcolor=#ffffff;markertextcolor=#ffffff;groupname=55555555;</itemdefinitions>
+                </item>
+                <item caption="Kanal 2" inputtype="output" contenttype="result" address="&apos;Gesamt - Matrix 2015-2016&apos;!D4" id="6XUqaPgX">
+                    <itemdefinitions>nocaption=true;buttonheight=15%;buttonradius=0;backgroundcolor=#004355;usecellformat=true;metrictext=fromcell:APP!A5;valuetextcolor=#ffffff;captiontextcolor=#ffffff;markertextcolor=#ffffff;groupname=55555555</itemdefinitions>
+                </item>
+                <item caption="Kanal 3" inputtype="output" contenttype="result" address="&apos;Gesamt - Matrix 2015-2016&apos;!E4" id="QGwiwswe">
+                    <itemdefinitions>nocaption=true;buttonheight=15%;buttonradius=0;backgroundcolor=#004355;usecellformat=true;metrictext=fromcell:APP!A5;valuetextcolor=#ffffff;captiontextcolor=#ffffff;markertextcolor=#ffffff;groupname=55555555</itemdefinitions>
+                </item>
+                <item caption="Kanal 4" inputtype="output" contenttype="result" address="&apos;Gesamt - Matrix 2015-2016&apos;!F4" id="OdwWwy0k">
+                    <itemdefinitions>nocaption=true;buttonheight=15%;buttonradius=0;backgroundcolor=#004355;usecellformat=true;metrictext=fromcell:APP!A5;valuetextcolor=#ffffff;captiontextcolor=#ffffff;markertextcolor=#ffffff;groupname=55555555</itemdefinitions>
+                </item>
+                <item id="Yu3MSbxY" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>backgroundcolor=#00000000;height=1</itemdefinitions>
+                </item>
+                <item id="66666666" caption="66666666" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item caption="Kanal 5" inputtype="output" contenttype="result" address="&apos;Gesamt - Matrix 2015-2016&apos;!G4" id="0IHPex23">
+                    <itemdefinitions>nocaption=true;buttonheight=15%;buttonradius=0;backgroundcolor=#004355;usecellformat=true;metrictext=fromcell:APP!A6;valuetextcolor=#ffffff;captiontextcolor=#ffffff;markertextcolor=#ffffff;groupname=66666666</itemdefinitions>
+                </item>
+                <item caption="Kanal 6" inputtype="output" contenttype="result" address="&apos;Gesamt - Matrix 2015-2016&apos;!H4" id="9EtqaOtO">
+                    <itemdefinitions>nocaption=true;buttonheight=15%;buttonradius=0;backgroundcolor=#004355;usecellformat=true;metrictext=fromcell:APP!A6;valuetextcolor=#ffffff;captiontextcolor=#ffffff;markertextcolor=#ffffff;groupname=66666666</itemdefinitions>
+                </item>
+                <item caption="FY 2016" inputtype="output" contenttype="result" address="&apos;Gesamt - Matrix 2015-2016&apos;!I4" id="yXmOwsIk">
+                    <itemdefinitions>nocaption=true;buttonheight=15%;buttonradius=0;backgroundcolor=#004355;usecellformat=true;metrictext=fromcell:APP!A5;valuetextcolor=#ffffff;captiontextcolor=#ffffff;markertextcolor=#ffffff;groupname=66666666</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="result" address="APP!A12" id="0K3edr6A">
+                    <itemdefinitions>nocaption=true;buttonheight=15%;buttonradius=0;backgroundcolor=#004355;usecellformat=true;valuetextcolor=#ffffff;captiontextcolor=#ffffff;markertextcolor=#ffffff;groupname=66666666;linkinfo=component:chart1</itemdefinitions>
+                </item>
+                <item id="gxVT9oaW" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=20;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="APP!B5" id="gShUlffq">
+                    <itemdefinitions>backgroundcolor=#004355;buttonheight=15%;elementcolor=#09679B;valuetextcolor=#ffffff;usecellformat=true</itemdefinitions>
+                </item>
+                <item id="TA9H5tCN" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=5;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+                <item inputtype="output" contenttype="chart" address="&apos;Gesamt - Matrix 2015-2016&apos;!C1:I1;&apos;Gesamt - Matrix 2015-2016&apos;!C2:I2;&apos;Gesamt - Matrix 2015-2016&apos;!C3:I3" id="eivRcjDw" caption="Market 1 - Yellow">
+                    <itemdefinitions>backgroundcolor=#ffffff;charttype=column;showlegend=true;seriescaptions=yellow Sales FY 2016,yellow new acquisitions FY 2016;colorpalette=#004355,#5097ab;height=300;numberformat=N0</itemdefinitions>
+                </item>
+                <item id="ta0cYg4e" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=5;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+                <item id="77777777" caption="77777777" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item caption="Kanal 1" inputtype="output" contenttype="result" address="&apos;Gesamt - Matrix 2015-2016&apos;!C4" id="HXXpN41e">
+                    <itemdefinitions>nocaption=true;buttonheight=15%;buttonradius=0;backgroundcolor=#004355;usecellformat=true;metrictext=fromcell:APP!A5;valuetextcolor=#ffffff;captiontextcolor=#ffffff;markertextcolor=#ffffff;groupname=77777777;</itemdefinitions>
+                </item>
+                <item caption="Kanal 2" inputtype="output" contenttype="result" address="&apos;Gesamt - Matrix 2015-2016&apos;!D4" id="hDW21unh">
+                    <itemdefinitions>nocaption=true;buttonheight=15%;buttonradius=0;backgroundcolor=#004355;usecellformat=true;metrictext=fromcell:APP!A5;valuetextcolor=#ffffff;captiontextcolor=#ffffff;markertextcolor=#ffffff;groupname=77777777</itemdefinitions>
+                </item>
+                <item caption="Kanal 3" inputtype="output" contenttype="result" address="&apos;Gesamt - Matrix 2015-2016&apos;!E4" id="RgVe446P">
+                    <itemdefinitions>nocaption=true;buttonheight=15%;buttonradius=0;backgroundcolor=#004355;usecellformat=true;metrictext=fromcell:APP!A5;valuetextcolor=#ffffff;captiontextcolor=#ffffff;markertextcolor=#ffffff;groupname=77777777</itemdefinitions>
+                </item>
+                <item caption="Kanal 4" inputtype="output" contenttype="result" address="&apos;Gesamt - Matrix 2015-2016&apos;!F4" id="ZY333w34">
+                    <itemdefinitions>nocaption=true;buttonheight=15%;buttonradius=0;backgroundcolor=#004355;usecellformat=true;metrictext=fromcell:APP!A5;valuetextcolor=#ffffff;captiontextcolor=#ffffff;markertextcolor=#ffffff;groupname=77777777</itemdefinitions>
+                </item>
+                <item id="ZPCTrhPT" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>backgroundcolor=#00000000;height=1</itemdefinitions>
+                </item>
+                <item id="88888888" caption="88888888" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item caption="Kanal 5" inputtype="output" contenttype="result" address="&apos;Gesamt - Matrix 2015-2016&apos;!G4" id="KzW228d2">
+                    <itemdefinitions>nocaption=true;buttonheight=15%;buttonradius=0;backgroundcolor=#004355;usecellformat=true;metrictext=fromcell:APP!A6;valuetextcolor=#ffffff;captiontextcolor=#ffffff;markertextcolor=#ffffff;groupname=88888888</itemdefinitions>
+                </item>
+                <item caption="Kanal 6" inputtype="output" contenttype="result" address="&apos;Gesamt - Matrix 2015-2016&apos;!H4" id="raU11ZHw">
+                    <itemdefinitions>nocaption=true;buttonheight=15%;buttonradius=0;backgroundcolor=#004355;usecellformat=true;metrictext=fromcell:APP!A6;valuetextcolor=#ffffff;captiontextcolor=#ffffff;markertextcolor=#ffffff;groupname=88888888</itemdefinitions>
+                </item>
+                <item caption="FY 2016" inputtype="output" contenttype="result" address="&apos;Gesamt - Matrix 2015-2016&apos;!I4" id="ko8uN33J">
+                    <itemdefinitions>nocaption=true;buttonheight=15%;buttonradius=0;backgroundcolor=#004355;usecellformat=true;metrictext=fromcell:APP!A5;valuetextcolor=#ffffff;captiontextcolor=#ffffff;markertextcolor=#ffffff;groupname=88888888</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="result" address="APP!A12" id="CdC23zeb">
+                    <itemdefinitions>nocaption=true;buttonheight=15%;buttonradius=0;backgroundcolor=#004355;usecellformat=true;valuetextcolor=#ffffff;captiontextcolor=#ffffff;markertextcolor=#ffffff;groupname=88888888;linkinfo=component:chart1</itemdefinitions>
+                </item>
+                <item id="aeaONird" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=10;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="2" caption="Regions">
+        <excelcontent id="2">
+            <items>
+                <item id="ChzZJZ5r" caption="ChzZJZ5r" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>columnspacing=10</itemdefinitions>
+                </item>
+                <item caption="Go to" inputtype="output" contenttype="string" address="APP!A2" id="nnRl3lWl">
+                    <itemdefinitions>backgroundcolor=#ffffff;buttonheight=15%;elementcolor=#09679B;valuetextcolor=#004355;usecellformat=true;groupname=ChzZJZ5r;captiontextcolor=#004355;linkinfo=component:home</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="APP!A3" id="TIgV8gPc">
+                    <itemdefinitions>backgroundcolor=#ffffff;buttonheight=15%;elementcolor=#09679B;valuetextcolor=#004355;usecellformat=true;groupname=ChzZJZ5r;spacing=10;linkinfo=component:todo</itemdefinitions>
+                </item>
+                <item id="iv2fOp87" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=20;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="APP!B6" id="gSlk7Zcq">
+                    <itemdefinitions>backgroundcolor=#004355;buttonheight=15%;elementcolor=#09679B;valuetextcolor=#ffffff;usecellformat=true</itemdefinitions>
+                </item>
+                <item id="oNmMAEDM" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=5;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+                <item inputtype="output" contenttype="chart" address="&apos;Overview- Matrix 2015-2016&apos;!D32:J32;&apos;Overview- Matrix 2015-2016&apos;!D33:J33;&apos;Overview- Matrix 2015-2016&apos;!D34:J34" id="cn3BBrSQ" caption="Region 1">
+                    <itemdefinitions>backgroundcolor=#ffffff;charttype=column;showlegend=true;seriescaptions=yellow Sales FY 2016,yellow new aqusitions FY 2016;colorpalette=#004355,#5097ab;height=300;numberformat=N0;componentname=regions</itemdefinitions>
+                </item>
+                <item id="WZuxMXom" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=20;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="APP!B7" id="gS997Zcq">
+                    <itemdefinitions>backgroundcolor=#004355;buttonheight=15%;elementcolor=#09679B;valuetextcolor=#ffffff;usecellformat=true</itemdefinitions>
+                </item>
+                <item id="0TRTdHl2" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=5;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+                <item inputtype="output" contenttype="chart" address="&apos;Overview- Matrix 2015-2016&apos;!D17:J17;&apos;Overview- Matrix 2015-2016&apos;!D18:J18;&apos;Overview- Matrix 2015-2016&apos;!D19:J19" id="iy9A26VB" caption="Region 2">
+                    <itemdefinitions>backgroundcolor=#ffffff;charttype=column;showlegend=true;seriescaptions=yellow Sales FY 2016,yellow new aqusitions FY 2016;colorpalette=#004355,#5097ab;height=300;numberformat=N0</itemdefinitions>
+                </item>
+                <item id="iv2f9s87" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=20;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="APP!B8" id="g43UlZcq">
+                    <itemdefinitions>backgroundcolor=#004355;buttonheight=15%;elementcolor=#09679B;valuetextcolor=#ffffff;usecellformat=true</itemdefinitions>
+                </item>
+                <item id="uFlNLrTW" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=5;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+                <item inputtype="output" contenttype="chart" address="&apos;Overview- Matrix 2015-2016&apos;!D62:J62;&apos;Overview- Matrix 2015-2016&apos;!D63:J63;&apos;Overview- Matrix 2015-2016&apos;!D64:J64" id="56kunYj4" caption="Region 3">
+                    <itemdefinitions>backgroundcolor=#ffffff;charttype=column;showlegend=true;seriescaptions=yellow Sales FY 2016,yellow new aqusitions FY 2016;colorpalette=#004355,#5097ab;height=300;numberformat=N0</itemdefinitions>
+                </item>
+                <item id="iv2rfs87" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=20;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="APP!B9" id="gShU3Zcq">
+                    <itemdefinitions>backgroundcolor=#004355;buttonheight=15%;elementcolor=#09679B;valuetextcolor=#ffffff;usecellformat=true</itemdefinitions>
+                </item>
+                <item id="AJR4TDeH" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=5;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+                <item inputtype="output" contenttype="chart" address="&apos;Overview- Matrix 2015-2016&apos;!D47:J47;&apos;Overview- Matrix 2015-2016&apos;!D48:J48;&apos;Overview- Matrix 2015-2016&apos;!D49:J49" id="q5Ywt8Qd" caption="Region 4">
+                    <itemdefinitions>backgroundcolor=#ffffff;charttype=column;showlegend=true;seriescaptions=yellow Sales FY 2016,yellow new aqusitions FY 2016;colorpalette=#004355,#5097ab;height=300;numberformat=N0</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="3" caption="Chart 1">
+        <excelcontent id="2">
+            <items>
+                <item caption="Share of total active rate per sales channel in %" inputtype="output" contenttype="chart" address="&apos;Overview- Matrix 2015-2016&apos;!D32:I32;&apos;Overview- Matrix 2015-2016&apos;!D41:I41" id="iCUtM66S">
+                    <itemdefinitions>backgroundcolor=#ffffff;charttype=donut;showlegend=true;seriescaptions=Serie1;height=350;numberformat=P0;colorpalette=#d1dabe,#92aa9d,#3f606e,#537780,#323232,#1e6262,#2b2e4a;groupname=X6ER0Rnl;componentname=chart1;linkinfo=component:NTLHhCKe,type:filter,data:Kanal</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="4" caption="Gesamt - Matrix 2015-2016">
+        <excelcontent id="2">
+            <items>
+                <item caption="" inputtype="" contenttype="list" address="APP!A26" id="NTLHhCKe">
+                    <itemdefinitions>componentname=NTLHhCKe;gridtheme=light;padding=0;gridrowheight=60;gridcollapsegroups=false;gridallowedit=false;height=400;headeravailable=true;showcolumnheader=true;listcolumns=1::text,2::number,3::number,4::number;detailcolumns=1:text:,2:number:,3:number:,4:number:,5:number:,6:number:,7:number:,8:number:,9:number:,10:number:,11:number:,12:number:,13:number:,14:number:,15:number:,16:number:,17:number:,18:number:,26:number:,27:number:,28:number:,29:number:,30:number:,31:number:;locationcolumns=20,19;showsearchpanel=false</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+</pages>
