@@ -1,0 +1,1 @@
+functionbuttoncolor=#4b2000;pagetabsselectioncolor=#4b2000;backgroundcolor=white;headercolor=#00000000;topareaimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/c0ac312d-e41c-4f47-9cf9-e06f523c8c4b/public/topAreaImage.png?v=wIgzov7a;topareaheight=26%;headercaptioncolor=#4b2000;disablepageselection=true
