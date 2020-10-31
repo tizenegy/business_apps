@@ -1,0 +1,1 @@
+backgroundcolor=#F6F6FA;topareaheight=20%;paddinghorz=0;paddingvert=2;functionbuttoncolor=#ea001f;headeropacity=4;usenewlayoutcalculation=true;pagetabsfillmode=auto;pagetabsselectioncolor=#ea001f;headercolor=#2e2e38;printsheet=Dashboard;menuentries=print;spacing=1;autorecalc=true;disablepageselection=false
