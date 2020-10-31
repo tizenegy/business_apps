@@ -1,0 +1,1 @@
+backgroundcolor=white;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/5a956208-d887-4bf1-9222-6210d20027d3/public/backgroundImage.png?v=YZGpvqAA;functionbuttoncolor=#9e3131;headeropacity=6;paddinghorz=12;paddingvert=12;spacing=5;pagecount=1;printsheet=Angebot;menuentries=print

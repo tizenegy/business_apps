@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages>
+    <page pageid="1" caption="PAGENAME" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent id="2">
+            <items>
+                <item caption="" inputtype="output" contenttype="string" address="Rechner!A1" id="4Gke8483">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#cccccccc;buttonradius=8;captiontextcolor=#e6ffffff;elementcolor=#4c4c4c;valuetextcolor=#e6ffffff;valuefontstyle=bold;actioninfo=print;captionhorzalign=center</itemdefinitions>
+                </item>
+                <item id="16TQzzMh" caption="16TQzzMh" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item caption="Laufleistung [km/Jahr]" inputtype="input" contenttype="integer" address="Rechner!B5" id="gZZD2r0M">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;groupname=16TQzzMh;valuefontsize=18;deltastep=1000;minvalue=0</itemdefinitions>
+                </item>
+                <item caption="Anschaffungswert" inputtype="input" contenttype="currency" address="Rechner!C5" id="5IilpjDW">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;groupname=16TQzzMh;valuefontsize=18;deltastep=1000;minvalue=0</itemdefinitions>
+                </item>
+                <item id="Py2ezO8s" caption="Py2ezO8s" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item caption="Subvention" inputtype="input" contenttype="currency" address="Rechner!D5" id="JxQVshDI">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;groupname=Py2ezO8s;valuefontsize=18;deltastep=1000;minvalue=0</itemdefinitions>
+                </item>
+                <item caption="Laufzeit" inputtype="input" contenttype="toggle" address="Rechner!E5" id="3qpyJjrO">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;groupname=Py2ezO8s;valuefontsize=18;valuefontstyle=regular</itemdefinitions>
+                </item>
+                <item id="fkdXZs30" caption="fkdXZs30" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item caption="mtl. Rate" inputtype="output" contenttype="result" address="Rechner!F5" id="Ml75I4yp">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=8;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;groupname=fkdXZs30</itemdefinitions>
+                </item>
+                <item caption="" inputtype="infobutton" contenttype="string" address="app!B1" id="pScLugRv">
+                    <itemdefinitions>backgroundcolor=#e6ffffff;elementcolor=#4c4c4c;valuetextcolor=#09679b;usecellformat=true;buttonradius=8;groupname=fkdXZs30;elementwidth=60</itemdefinitions>
+                </item>
+                <item caption="CS-Vertrag" inputtype="input" contenttype="currency" address="Rechner!G5" id="D9EjbuAL">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item caption="Gesamtrate" inputtype="output" contenttype="result" address="Rechner!H5" id="fCye7c5f">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=8;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontstyle=regular</itemdefinitions>
+                </item>
+                <item caption="Kosten [pro km]" inputtype="output" contenttype="result" address="Rechner!I5" id="KJil163Y">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=8;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="ScqsYcMG" caption="ScqsYcMG" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item caption="Restwert" inputtype="input" contenttype="currency" address="Rechner!J5" id="6AuEZLjM">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;groupname=ScqsYcMG;valuefontsize=18;deltastep=100;minvalue=0</itemdefinitions>
+                </item>
+                <item caption="Zins" inputtype="input" contenttype="percent" address="Rechner!K5" id="n4aSMdrG">
+                    <itemdefinitions>usecellformat=true;deltastep=0.001;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;groupname=ScqsYcMG;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="s058qU6w" caption="s058qU6w" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="0fyaKNME" caption="&gt;" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=#4c4c4c;valuetextcolor=#4c4c4c;backgroundcolor=#e6ffffff;groupname=s058qU6w;actioninfo=print;elementwidth=100;buttonradius=8;captionfontsize=15</itemdefinitions>
+                </item>
+                <item caption="Provision" inputtype="output" contenttype="result" address="Rechner!L5" id="2QUZsgKR">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=8;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;groupname=s058qU6w</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+</pages>
