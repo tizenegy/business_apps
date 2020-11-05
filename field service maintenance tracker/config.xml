@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages>
+    <page pageid="1" caption="Main" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent id="2">
+            <items>
+                <item caption="" inputtype="output" contenttype="string" address="Eingabe!B3" id="jAIOiGzh">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=8;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=80;captionhorzalign=center;valuefontsize=20</itemdefinitions>
+                </item>
+                <item id="kOqIuTmB" caption="kOqIuTmB" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>columnspacing=5</itemdefinitions>
+                </item>
+                <item caption="Tag der Aufnahme" inputtype="input" contenttype="date" address="Eingabe!C5" id="FzW06cQ6">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=80;valuefontsize=20;groupname=kOqIuTmB</itemdefinitions>
+                </item>
+                <item caption="Objektnummer" inputtype="input" contenttype="string" address="Eingabe!C15" id="8upj27yl">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=8;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=80;groupname=kOqIuTmB;valuefontsize=20</itemdefinitions>
+                </item>
+                <item caption="Name Bearbeiter" inputtype="input" contenttype="string" address="Eingabe!C7" id="My5Nokax">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=8;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=20;buttonheight=80</itemdefinitions>
+                </item>
+                <item caption="Anschrift Objekt" inputtype="input" contenttype="string" address="Eingabe!C9" id="o53dzv8A">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=8;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=80;valuefontsize=20</itemdefinitions>
+                </item>
+                <item id="YeICrM42" caption="YeICrM42" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>columnspacing=5</itemdefinitions>
+                </item>
+                <item caption="Ort" inputtype="input" contenttype="string" address="Eingabe!C11" id="VxoQ9fDI">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=80;groupname=YeICrM42;valuefontsize=20</itemdefinitions>
+                </item>
+                <item caption="PLZ" inputtype="input" contenttype="integer" address="Eingabe!C13" id="UQA17YPp">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;showeditbuttons=false;buttonheight=80;valuefontsize=20;groupname=YeICrM42</itemdefinitions>
+                </item>
+                <item caption="Betreiber der Anlage" inputtype="input" contenttype="string" address="Eingabe!C17" id="IBnT9AqT">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=8;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=80;valuefontsize=20</itemdefinitions>
+                </item>
+                <item caption="Baujahr der Anlage" inputtype="input" contenttype="integer" address="Eingabe!C19" id="uSY5N5ts">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=80;valuefontsize=20</itemdefinitions>
+                </item>
+                <item caption="Wärmeschutz" inputtype="input" contenttype="toggle" address="Eingabe!C21" id="1nORP24E">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=80;valuefontsize=20</itemdefinitions>
+                </item>
+                <item id="CQlIedJN" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=40;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="Eingabe!B23" id="2dPbMu0w">
+                    <itemdefinitions>backgroundcolor=#e6ffffff;elementcolor=#09679B;valuetextcolor=#4c4c4c;usecellformat=true;valuefontsize=20;buttonheight=80;buttonradius=6;captionhorzalign=center</itemdefinitions>
+                </item>
+                <item id="ZBQX0uAO" caption="ZBQX0uAO" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>columnspacing=5</itemdefinitions>
+                </item>
+                <item caption="Höhe in m" inputtype="input" contenttype="double" address="Eingabe!C23" id="X4XwpYUe">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=80;valuefontsize=20;groupname=ZBQX0uAO;minvalue=0;deltastep=0.1</itemdefinitions>
+                </item>
+                <item caption="Breite in m" inputtype="input" contenttype="double" address="Eingabe!E23" id="7EJ6GrkW">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=80;valuefontsize=20;groupname=ZBQX0uAO;minvalue=0</itemdefinitions>
+                </item>
+                <item id="KxTD6Ikl" caption="KxTD6Ikl" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>columnspacing=5</itemdefinitions>
+                </item>
+                <item caption="Teta in Grad" inputtype="input" contenttype="integer" address="Eingabe!G23" id="NugFVzvi">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=80;valuefontsize=20;groupname=KxTD6Ikl;minvalue=0</itemdefinitions>
+                </item>
+                <item caption="alpha" inputtype="input" contenttype="integer" address="Objekte!F5" id="9YNUyeCL">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=80;valuefontsize=20;groupname=KxTD6Ikl</itemdefinitions>
+                </item>
+                <item id="TFY0wBxO" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=40;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+                <item id="rczGs85W" caption="rczGs85W" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>columnspacing=5</itemdefinitions>
+                </item>
+                <item caption="Flächenberechnung" inputtype="output" contenttype="result" address="Objekte!F3" id="GZg2RZqU">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#ccff0000;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff;groupname=rczGs85W;buttonheight=80;valuefontsize=20</itemdefinitions>
+                </item>
+                <item caption="delte Teta" inputtype="output" contenttype="result" address="Objekte!F4" id="j5Ryzz2S">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#ccff0000;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff;groupname=rczGs85W;buttonheight=80;valuefontsize=20</itemdefinitions>
+                </item>
+                <item id="oCYcCh4N" caption="oCYcCh4N" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>columnspacing=5</itemdefinitions>
+                </item>
+                <item caption="Ergebnis" inputtype="output" contenttype="result" address="Objekte!F6" id="6I0mTjAd">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#ccff0000;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff;groupname=oCYcCh4N;buttonheight=80;valuefontsize=20</itemdefinitions>
+                </item>
+                <item caption="Bewertung" inputtype="output" contenttype="result" address="Objekte!F8" id="bTV5kS6k">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#ccff0000;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff;groupname=oCYcCh4N;buttonheight=80;valuefontsize=20</itemdefinitions>
+                </item>
+                <item id="cSWGYeS3" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=40;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+                <item id="Gs4XCbtI" caption="Drucken" inputtype="actionbutton" address="Objekte!B16">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#e6ffffff;actioninfo=print;textcolor=#4c4c4c;buttonheight=80;buttonradius=8;textfontsize=20</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+</pages>
