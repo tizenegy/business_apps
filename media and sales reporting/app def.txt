@@ -1,0 +1,1 @@
+backgroundimage=https://antelope.club/media/image/cc/b4/80/calfguards01-800x800.jpg;backgroundopacity=10;topareaheight=18%;paddinghorz=0;paddingvert=0;functionbuttoncolor=#00998f;pagecount=7;headeropacity=0;headerfade=true
