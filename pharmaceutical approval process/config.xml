@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages>
+    <page pageid="1" caption="Main" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D;topareaimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/07d0c853-3da0-45c6-8426-a11c8213785c/public/topAreaImage.png?v=W8wMbQyQ;topareaheight=35%">
+        <excelcontent id="1">
+            <items>
+                <item caption="Start AMNOG Prozess" inputtype="input" contenttype="toggle" address="App!A1" id="tfYEtpz3">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#d9ffffff;captiontextcolor=#0093d0;elementcolor=#0093d0;valuefontstyle=regular;valuetextcolor=#0093d0;buttonheight=15%</itemdefinitions>
+                </item>
+                <item caption="Start AMNOG Prozess" inputtype="output" contenttype="result" address="App!B2" id="wAWkqMoT">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#d90093d0;captiontextcolor=#ffffff;elementcolor=white;valuefontstyle=regular;valuetextcolor=#ffffff;buttonheight=15%;valuefontsize=20</itemdefinitions>
+                </item>
+                <item id="4mB5ml1t" contenttype="spacer">
+                    <itemdefinitions>height=1%;backgroundcolor=#d9ffffff</itemdefinitions>
+                </item>
+                <item id="tqVczpfz" caption="tqVczpfz" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>columnspacing=0</itemdefinitions>
+                </item>
+                <item id="UmPZjTRG" contenttype="spacer">
+                    <itemdefinitions>groupname=tqVczpfz;elementwidth=1%;height=8%;backgroundcolor=#d9ffffff</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="App!A15" id="VL1Rf2Iy">
+                    <itemdefinitions>backgroundcolor=#d90093d0;elementcolor=#09679B;valuetextcolor=#ffffff;usecellformat=true;valuefontstyle=regular;buttonheight=15%;groupname=tqVczpfz;linkinfo=page:3;valuefontsize=20</itemdefinitions>
+                </item>
+                <item id="KbEBdLcK" contenttype="spacer">
+                    <itemdefinitions>height=1%;backgroundcolor=#d9ffffff</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="result" address="App!B3" id="Q9K4pWtP">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#0093d0;captiontextcolor=#ffffff;elementcolor=white;valuefontstyle=regular;valuetextcolor=#ffffff;buttonheight=15%;valuefontsize=20</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="App!C1" id="twwH31Un">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#09679b;usecellformat=true;backgroundcolorcell=App!C3;valuefontstyle=regular;buttonheight=5%;valuefontsize=5</itemdefinitions>
+                </item>
+                <item id="AkETI4z1" caption="AkETI4z1" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>columnspacing=0;buttonheight=8%</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="App!E1" id="KS2Sng6x">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#ffffff;usecellformat=true;groupname=AkETI4z1;backgroundcolorcell=App!C3;valuefontstyle=regular;buttonheight=3%;elementwidth=1%</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="App!C2" id="sTg35vXn">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#ffffff;usecellformat=true;valuefontstyle=regular;groupname=AkETI4z1;backgroundcolorcell=App!C4;buttonheight=3%;valuefontsize=16</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="App!D2" id="S9w4bpL5">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#ffffff;usecellformat=true;valuefontstyle=regular;backgroundcolorcell=App!D4;groupname=AkETI4z1;buttonheight=3%;valuefontsize=16</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="App!E2" id="CB3Tmosa">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#ffffff;usecellformat=true;groupname=AkETI4z1;backgroundcolorcell=App!E4;valuefontstyle=regular;buttonheight=3%;valuefontsize=16</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="App!F2" id="R4LRWk48">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#ffffff;usecellformat=true;groupname=AkETI4z1;valuefontstyle=regular;backgroundcolorcell=App!F4;buttonheight=3%;valuefontsize=16</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="App!G2" id="BNbTz8Ag">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#ffffff;usecellformat=true;groupname=AkETI4z1;backgroundcolorcell=App!G4;valuefontstyle=regular;buttonheight=3%;valuefontsize=16</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="App!H2" id="bqaInQuC">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#ffffff;usecellformat=true;groupname=AkETI4z1;valuefontstyle=regular;backgroundcolorcell=App!H4;buttonheight=3%;valuefontsize=16</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="App!I2" id="6R3avDc9">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#ffffff;usecellformat=true;groupname=AkETI4z1;backgroundcolorcell=App!I4;valuefontstyle=regular;buttonheight=3%;valuefontsize=16</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="App!J2" id="dn7P2bm9">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#ffffff;usecellformat=true;groupname=AkETI4z1;backgroundcolorcell=App!J4;valuefontstyle=regular;buttonheight=3%;valuefontsize=16</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="App!K2" id="G6XFZgpi">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#ffffff;usecellformat=true;groupname=AkETI4z1;backgroundcolorcell=App!K4;valuefontstyle=regular;buttonheight=3%;valuefontsize=16</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="App!L2" id="FlThjDtU">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#ffffff;usecellformat=true;groupname=AkETI4z1;backgroundcolorcell=App!L4;valuefontstyle=regular;buttonheight=3%;valuefontsize=16</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="App!M2" id="FhWGN7f2">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#ffffff;usecellformat=true;groupname=AkETI4z1;backgroundcolorcell=App!M4;valuefontstyle=regular;buttonheight=3%;valuefontsize=16</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="App!N2" id="sA6fhkFQ">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#ffffff;usecellformat=true;groupname=AkETI4z1;backgroundcolorcell=App!N4;valuefontstyle=regular;buttonheight=3%;valuefontsize=16</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="App!D1" id="QfUcqo1I">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#09679b;usecellformat=true;backgroundcolorcell=App!C3;valuefontstyle=regular;buttonheight=5%;valuefontsize=5</itemdefinitions>
+                </item>
+                <item caption="Mono-/ Kombinations- therapie" inputtype="output" contenttype="result" address="App!B12" id="6dbhkiyo">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#d90093d0;captiontextcolor=#ffffff;elementcolor=white;valuefontstyle=regular;valuetextcolor=#ffffff;buttonheight=15%;valuefontsize=20</itemdefinitions>
+                </item>
+                <item id="ImdEVrpY" caption="ImdEVrpY" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>columnspacing=0</itemdefinitions>
+                </item>
+                <item caption="Erstattungs- betrag ausgehandelt?" inputtype="output" contenttype="result" address="App!B5" id="PkgjqH12">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#d90093d0;captiontextcolor=#ffffff;elementcolor=white;valuefontstyle=regular;valuetextcolor=#ffffff;groupname=ImdEVrpY;buttonheight=15%</itemdefinitions>
+                </item>
+                <item caption="Schiedsstellen- verfahren?" inputtype="output" contenttype="result" address="App!B6" id="hrwo1EGD">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#d90093d0;captiontextcolor=#ffffff;elementcolor=white;valuefontstyle=regular;valuetextcolor=#ffffff;groupname=ImdEVrpY;buttonheight=15%</itemdefinitions>
+                </item>
+                <item id="jjy9yGrc" caption="jjy9yGrc" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>columnspacing=0</itemdefinitions>
+                </item>
+                <item caption="Anwendungsgebiet" inputtype="output" contenttype="result" address="App!B7" id="vXgpFY2u">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#d90093d0;captiontextcolor=#ffffff;elementcolor=white;valuefontstyle=regular;valuetextcolor=#ffffff;groupname=jjy9yGrc;buttonheight=15%</itemdefinitions>
+                </item>
+                <item caption="First-Line- Therapie?" inputtype="output" contenttype="result" address="App!B8" id="U3W1nj0x">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#d90093d0;captiontextcolor=#ffffff;elementcolor=white;valuefontstyle=regular;valuetextcolor=#ffffff;groupname=jjy9yGrc;buttonheight=15%</itemdefinitions>
+                </item>
+                <item id="sBwXc3H9" caption="sBwXc3H9" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>columnspacing=0</itemdefinitions>
+                </item>
+                <item caption="Mindestens Second-Line- Therapie?" inputtype="output" contenttype="result" address="App!B9" id="I7UL3uu9">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#d90093d0;captiontextcolor=#ffffff;elementcolor=white;valuefontstyle=regular;valuetextcolor=#ffffff;groupname=sBwXc3H9;buttonheight=15%</itemdefinitions>
+                </item>
+                <item caption="Orphan Drug Status?" inputtype="output" contenttype="result" address="App!B10" id="gpHhNq0U">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#d90093d0;captiontextcolor=#ffffff;elementcolor=white;valuefontstyle=regular;valuetextcolor=#ffffff;groupname=sBwXc3H9;buttonheight=15%</itemdefinitions>
+                </item>
+                <item caption="Jahrestherapiekosten nach Listenpreis des zu bewerteten Arzneimittels (exkl. Kombinationstherapie) (EUR)" inputtype="output" contenttype="result" address="App!B11" id="Hx4Pf7Ql">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#d90093d0;captiontextcolor=#ffffff;elementcolor=white;valuefontstyle=regular;valuetextcolor=#ffffff;buttonheight=15%;valuefontsize=20</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="App!F1" id="kgq8Up2a">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#ffffff;usecellformat=true;groupname=AkETI4z1;valuefontstyle=regular;backgroundcolorcell=App!C3;buttonheight=3%;elementwidth=1%</itemdefinitions>
+                </item>
+                <item id="eWGtDjcM" contenttype="spacer">
+                    <itemdefinitions>groupname=tqVczpfz;elementwidth=1%;height=8%;backgroundcolor=#d9ffffff</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="3" caption="Liste" definitions="actionbuttontype=none">
+        <excelcontent id="1">
+            <items>
+                <item caption="" inputtype="" contenttype="cardlist" address="Cockpit!A1:AL15" id="zPSkQp36">
+                    <itemdefinitions>componentname=zPSkQp36;gridtheme=light;gridalternaterowbackgroundcolor=#4d0093d0;gridrowheight=40;gridcollapsegroups=false;gridallowedit=false;height=120%;headeravailable=true;showcolumnheader=true;detailcolumns=1:text::,2:::,3:::,4:::,5:text::,6:text::,7:text::,8:::,9:::,10:::,11:text::,12:::,13:::,14:::,15:text::,16:::,17:::,18:::,19:::,20:::,21:text::,22:text::,23:text::,24:currency::,25:currency::,26:currency::,27:::,28:percent::,29:::,30:percent::,31:::,32:text::,33:text::,34:text::,35:date::,36:text::,37:::,38:::;listcolumns=1:0:text,11::text;frozencolumnscount=1;gridrowbackgroundcolor=#bf0093d0;categorycolumn=1;cardtemplate=backgroundimage;categorycolorpalette=#0093d0</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+</pages>

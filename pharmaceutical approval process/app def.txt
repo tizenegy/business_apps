@@ -1,0 +1,1 @@
+functionbuttoncolor=#0093d0;headercolor=#d9ffffff;pagetabsfillmode=auto;pagetabsselectioncolor=#0093d0;allowpushtoserver=true;backgroundimage=https://oaafiles.blob.core.windows.net/images/themes/pharma-light-bg.jpeg;disablepageselection=true;headercaptioncolor=#0093d0
