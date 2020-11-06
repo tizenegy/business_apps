@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages
+    xmlns="urn:WunderApp">
+    <page pageid="1" caption="Allgemein" definitions="sheetname=Tabelle1;summarywidth=110;summaryopacity=6;summarybackgroundcolor=AC190D;">
+        <excelcontent id="1">
+            <items>
+                <item id="O7eNFFGq" inputtype="output" contenttype="string" address="L1">
+                    <itemdefinitions>backgroundcolor=#ffed00;elementcolor=#009ee3;valuetextcolor=#009ee3;captiontextcolor=#e5007d;buttonheight=20%;</itemdefinitions>
+                </item>
+                <item caption="BTW in Bayern (Umfragen)" inputtype="output" contenttype="chart" address="A49:B82">
+                    <itemdefinitions>height=280;charttype=line;metrictext=;linkinfo=component:list,type:filter,data:region;backgroundcolor=white;titletextcolor=black;legendtextcolor=gray;seriescolor=e5007d;showlegend=false;showeditbuttons=true;</itemdefinitions>
+                </item>
+                <item id="fo8kE1Pg" caption="LTW 2008 nach Bezirken" inputtype="output" contenttype="chart" address="I2:J8">
+                    <itemdefinitions>height=280;charttype=polar;backgroundcolor=009ee3;seriescolor=#ffed00;colorpalette=#ffed00;</itemdefinitions>
+                </item>
+                <item caption="LTW 2008 nach Bezirken" inputtype="output" contenttype="chart" address="I2:J8">
+                    <itemdefinitions>height=280;charttype=bar;metrictext=;linkinfo=component:list,type:filter,data:region;backgroundcolor=ffed00;titletextcolor=black;legendtextcolor=gray;seriescolor=e5007d;showlegend=false;showeditbuttons=true;</itemdefinitions>
+                </item>
+                <item id="3AMJj952" caption="Oberbayern" inputtype="output" contenttype="chart" address="A33:B38">
+                    <itemdefinitions>colorpalette=A3A3A3,4D4CC7,FF4B44,FFE04C,87E87D,E848D4;height=350;charttype=pie;backgroundcolor=white;showlegend=true;</itemdefinitions>
+                </item>
+                <item id="uGMRsn9R" caption="uGMRsn9R" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=90;metrictext=;separatorcolor=white;bordercolor=transparent;buttonradius=0;backgroundcolor=ff0000;elementcolor=000000;valuetextcolor=000000;</itemdefinitions>
+                </item>
+                <item id="3AMJj954" caption="Niederbayern" inputtype="output" contenttype="chart" address="C33:D38">
+                    <itemdefinitions>colorpalette=A3A3A3,4D4CC7,FF4B44,FFE04C,87E87D,E848D4;height=250;charttype=donut;backgroundcolor=white;showlegend=false;groupname=uGMRsn9R;</itemdefinitions>
+                </item>
+                <item id="3AMJj955" caption="Oberpfalz" inputtype="output" contenttype="chart" address="E33:F38">
+                    <itemdefinitions>colorpalette=A3A3A3,4D4CC7,FF4B44,FFE04C,87E87D,E848D4;height=250;charttype=donut;backgroundcolor=white;showlegend=false;groupname=uGMRsn9R;</itemdefinitions>
+                </item>
+                <item id="INS5NORO" caption="INS5NORO" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=90;metrictext=;separatorcolor=white;bordercolor=transparent;buttonradius=0;backgroundcolor=ff0000;elementcolor=000000;valuetextcolor=000000;</itemdefinitions>
+                </item>
+                <item id="3AMJj956" caption="Oberfranken" inputtype="output" contenttype="chart" address="G33:H38">
+                    <itemdefinitions>colorpalette=A3A3A3,4D4CC7,FF4B44,FFE04C,87E87D,E848D4;height=250;charttype=donut;backgroundcolor=white;showlegend=false;groupname=INS5NORO;</itemdefinitions>
+                </item>
+                <item id="3AMJj957" caption="Mittelfranken" inputtype="output" contenttype="chart" address="A40:B45">
+                    <itemdefinitions>colorpalette=A3A3A3,4D4CC7,FF4B44,FFE04C,87E87D,E848D4;height=250;charttype=donut;backgroundcolor=white;showlegend=false;groupname=INS5NORO;</itemdefinitions>
+                </item>
+                <item id="K0JBAcEV" caption="K0JBAcEV" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=90;metrictext=;separatorcolor=white;bordercolor=transparent;buttonradius=0;backgroundcolor=ff0000;elementcolor=000000;valuetextcolor=000000;</itemdefinitions>
+                </item>
+                <item id="3AMJj958" caption="Unterfranken" inputtype="output" contenttype="chart" address="C40:D45">
+                    <itemdefinitions>colorpalette=A3A3A3,4D4CC7,FF4B44,FFE04C,87E87D,E848D4;height=250;charttype=donut;backgroundcolor=white;showlegend=false;groupname=K0JBAcEV;</itemdefinitions>
+                </item>
+                <item id="3AMJj959" caption="Schwaben" inputtype="output" contenttype="chart" address="E40:F45">
+                    <itemdefinitions>colorpalette=A3A3A3,4D4CC7,FF4B44,FFE04C,87E87D,E848D4;height=250;charttype=donut;backgroundcolor=white;showlegend=false;groupname=K0JBAcEV;</itemdefinitions>
+                </item>
+                <item id="fo8kE1Pg" caption="LTW 2008 nach Bezirken" inputtype="output" contenttype="chart" address="I2:J8">
+                    <itemdefinitions>height=300;charttype=column;backgroundcolor=009ee3;seriescolor=#e5007d;</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+</pages>
