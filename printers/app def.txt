@@ -1,0 +1,1 @@
+backgroundcolor=white;paddinghorz=0;paddingvert=0;functionbuttoncolor=#c7000b;pagecount=4;pagetabsselectioncolor=#c7000b;headercaptioncolor=#000000;headercolor=#00000000;autorecalc=true;printsheet=offer;menuentries=print
