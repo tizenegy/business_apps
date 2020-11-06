@@ -1,0 +1,1 @@
+backgroundcolor=white;functionbuttoncolor=#c7000b;pagetabsselectioncolor=#c7000b;headeropacity=8;paddinghorz=12;paddingvert=12;spacing=5;disablepageselection=true;headercolor=#4d000000

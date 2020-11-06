@@ -1,0 +1,1195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns="urn:WunderApp">
+    <page pageid="1" caption="Main" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item id="pBu1TFUu" caption="" inputtype="output" contenttype="string" address="INDICE!A2">
+                    <itemdefinitions>usecellformat=true;linkinfo=page:31;backgroundcolor=#c7000b;buttonradius=0;captiontextcolor=#ffffff;elementcolor=#4c4c4c;valuetextcolor=#ffffff;valuefontsize=18;buttonheight=100</itemdefinitions>
+                </item>
+                <item id="LENUO6Wq" caption="" inputtype="output" contenttype="string" address="INDICE!A4">
+                    <itemdefinitions>usecellformat=true;linkinfo=page:30;backgroundcolor=#efefef;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=18;buttonheight=100</itemdefinitions>
+                </item>
+                <item id="DYsXkJl2" caption="DYsXkJl2" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="JHzNwkxb" caption="" inputtype="output" contenttype="string" address="INDICE!B4">
+                    <itemdefinitions>usecellformat=true;groupname=DYsXkJl2;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=18;buttonheight=50</itemdefinitions>
+                </item>
+                <item id="S1xZs6G6" caption="" inputtype="output" contenttype="string" address="INDICE!C4">
+                    <itemdefinitions>usecellformat=true;groupname=DYsXkJl2;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=50;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="49su9zTj" caption="" inputtype="output" contenttype="string" address="INDICE!D4">
+                    <itemdefinitions>usecellformat=true;groupname=DYsXkJl2;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=50;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="LAWguXWY" caption="LAWguXWY" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="zouTIP35" caption="" inputtype="actionbutton" contenttype="string" address="INDICE!B4">
+                    <itemdefinitions>usecellformat=true;linkinfo=page:2;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/9b82b255-aae4-492f-b163-777df1ca781b/public/field-Kuh4Lreq.png?v=hofZohFL;groupname=LAWguXWY;buttonheight=80;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="XMFIqjJj" caption="XMFIqjJj" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="0AWBwW5u" caption="" inputtype="output" contenttype="string" address="INDICE!E4">
+                    <itemdefinitions>usecellformat=true;groupname=XMFIqjJj;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=18;buttonheight=50</itemdefinitions>
+                </item>
+                <item id="HI4tCGOE" caption="" inputtype="output" contenttype="string" address="INDICE!F4">
+                    <itemdefinitions>usecellformat=true;groupname=XMFIqjJj;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=18;buttonheight=50</itemdefinitions>
+                </item>
+                <item id="srEz5Axd" caption="srEz5Axd" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="hYs71pz1" caption="" inputtype="actionbutton" contenttype="string" address="INDICE!B4">
+                    <itemdefinitions>usecellformat=true;linkinfo=page:5;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/9b82b255-aae4-492f-b163-777df1ca781b/public/field-ttvjGBjn.png?v=1dCY0P0X;groupname=srEz5Axd;buttonheight=80;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="QMmv7wUK" caption="" inputtype="actionbutton" contenttype="string" address="INDICE!B4">
+                    <itemdefinitions>usecellformat=true;linkinfo=page:6;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/9b82b255-aae4-492f-b163-777df1ca781b/public/field-GBobf4LH.png?v=UNMpq59q;groupname=srEz5Axd;buttonheight=80;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="vF3Zwy3Q" caption="vF3Zwy3Q" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="O2zdgQHA" caption="" inputtype="output" contenttype="string" address="INDICE!G4">
+                    <itemdefinitions>usecellformat=true;groupname=vF3Zwy3Q;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=18;buttonheight=50</itemdefinitions>
+                </item>
+                <item id="ltCr06a0" caption="" inputtype="output" contenttype="string" address="INDICE!H4">
+                    <itemdefinitions>usecellformat=true;groupname=vF3Zwy3Q;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=18;buttonheight=50</itemdefinitions>
+                </item>
+                <item id="k1LJ15V2" caption="k1LJ15V2" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="luZ8DTUD" caption="" inputtype="actionbutton" contenttype="string" address="INDICE!B4">
+                    <itemdefinitions>usecellformat=true;linkinfo=page:7;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/9b82b255-aae4-492f-b163-777df1ca781b/public/field-H1zL0FEh.png?v=ClifI3Ut;groupname=k1LJ15V2;buttonheight=25%;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="RAw0n866" caption="" inputtype="actionbutton" contenttype="string" address="INDICE!B4">
+                    <itemdefinitions>usecellformat=true;linkinfo=page:8;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/9b82b255-aae4-492f-b163-777df1ca781b/public/field-H1zL0FEh.png?v=ClifI3Ut;groupname=k1LJ15V2;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="Eg5khgTd" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=25%;groupname=k1LJ15V2;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="6yoSZke3" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=10%;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="DjvX9z7k" caption="" inputtype="output" contenttype="string" address="INDICE!A6">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#efefef;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=18;buttonheight=100</itemdefinitions>
+                </item>
+                <item id="pg1F4gva" caption="pg1F4gva" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="KzbOMc2I" caption="" inputtype="output" contenttype="string" address="INDICE!B6">
+                    <itemdefinitions>usecellformat=true;groupname=pg1F4gva;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=18;buttonheight=50</itemdefinitions>
+                </item>
+                <item id="4A34bTyw" caption="" inputtype="output" contenttype="string" address="INDICE!C6">
+                    <itemdefinitions>usecellformat=true;groupname=pg1F4gva;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=18;buttonheight=50</itemdefinitions>
+                </item>
+                <item id="6kYVt4PZ" caption="6kYVt4PZ" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="CcujcMGk" caption="" inputtype="actionbutton" contenttype="string" address="INDICE!B4">
+                    <itemdefinitions>usecellformat=true;linkinfo=page:9;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/9b82b255-aae4-492f-b163-777df1ca781b/public/field-ZiXcT4rX.png?v=fahjopZb;groupname=6kYVt4PZ;buttonheight=80;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="SFu78hrs" caption="" inputtype="actionbutton" contenttype="string" address="INDICE!B4">
+                    <itemdefinitions>usecellformat=true;linkinfo=page:10;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/9b82b255-aae4-492f-b163-777df1ca781b/public/field-ZiXcT4rX.png?v=fahjopZb;groupname=6kYVt4PZ;buttonheight=80;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="D0GrDf4M" caption="" inputtype="actionbutton" contenttype="string" address="INDICE!B4">
+                    <itemdefinitions>usecellformat=true;linkinfo=page:11;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/9b82b255-aae4-492f-b163-777df1ca781b/public/field-OncYLJAK.png?v=LqaXVOE8;groupname=6kYVt4PZ;buttonheight=80;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="Hz6jpdPa" caption="Hz6jpdPa" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="6rV7SB39" caption="" inputtype="output" contenttype="string" address="INDICE!E6">
+                    <itemdefinitions>usecellformat=true;groupname=Hz6jpdPa;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=18;buttonheight=50</itemdefinitions>
+                </item>
+                <item id="14j57DdF" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=Hz6jpdPa;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=18;buttonheight=50</itemdefinitions>
+                </item>
+                <item id="vqcqtPHX" caption="vqcqtPHX" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="MUfPayqU" caption="" inputtype="actionbutton" contenttype="string" address="INDICE!B4">
+                    <itemdefinitions>usecellformat=true;linkinfo=page:12;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/9b82b255-aae4-492f-b163-777df1ca781b/public/field-0agpPEqb.png?v=tdRZiTHi;groupname=vqcqtPHX;buttonheight=80;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="FYcFQslJ" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=80;groupname=vqcqtPHX;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="WZ29vKEu" caption="WZ29vKEu" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="jlzHCqgi" caption="" inputtype="output" contenttype="string" address="INDICE!F6">
+                    <itemdefinitions>usecellformat=true;groupname=WZ29vKEu;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=18;buttonheight=50</itemdefinitions>
+                </item>
+                <item id="yghrp7NM" caption="" inputtype="output" contenttype="string" address="INDICE!G6">
+                    <itemdefinitions>usecellformat=true;groupname=WZ29vKEu;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=18;buttonheight=50</itemdefinitions>
+                </item>
+                <item id="TuO4jUfi" caption="TuO4jUfi" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="cmEvxfG0" caption="" inputtype="actionbutton" contenttype="string" address="INDICE!B4">
+                    <itemdefinitions>usecellformat=true;linkinfo=page:13;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/9b82b255-aae4-492f-b163-777df1ca781b/public/field-8xspit3a.png?v=RQHbwXLI;groupname=TuO4jUfi;buttonheight=25%;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="Pp30q7eQ" caption="" inputtype="actionbutton" contenttype="string" address="INDICE!B4">
+                    <itemdefinitions>usecellformat=true;linkinfo=page:14;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/9b82b255-aae4-492f-b163-777df1ca781b/public/field-8xspit3a.png?v=RQHbwXLI;groupname=TuO4jUfi;buttonheight=25%;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="biWcLXWl" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=10%;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="ZfSAeyaT" caption="" inputtype="output" contenttype="string" address="INDICE!A8">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#efefef;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=18;buttonheight=100</itemdefinitions>
+                </item>
+                <item id="zQPz1THP" caption="zQPz1THP" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="tzyEYtws" caption="" inputtype="output" contenttype="string" address="INDICE!B8">
+                    <itemdefinitions>usecellformat=true;groupname=zQPz1THP;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=18;buttonheight=50</itemdefinitions>
+                </item>
+                <item id="GzCsNJmO" caption="" inputtype="output" contenttype="string" address="INDICE!C8">
+                    <itemdefinitions>usecellformat=true;groupname=zQPz1THP;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=18;buttonheight=50</itemdefinitions>
+                </item>
+                <item id="QLwVjpoJ" caption="QLwVjpoJ" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="L9QpMsrl" caption="" inputtype="actionbutton" contenttype="string" address="INDICE!B4">
+                    <itemdefinitions>usecellformat=true;linkinfo=page:15;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/9b82b255-aae4-492f-b163-777df1ca781b/public/field-rSTCKsfl.png?v=MuK3NbZt;groupname=QLwVjpoJ;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="j6Wm4TTt" caption="" inputtype="actionbutton" contenttype="string" address="INDICE!B4">
+                    <itemdefinitions>usecellformat=true;linkinfo=page:16;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/9b82b255-aae4-492f-b163-777df1ca781b/public/field-rSTCKsfl.png?v=MuK3NbZt;groupname=QLwVjpoJ;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="TXz0Fy75" caption="" inputtype="actionbutton" contenttype="string" address="INDICE!B4">
+                    <itemdefinitions>usecellformat=true;linkinfo=page:17;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/9b82b255-aae4-492f-b163-777df1ca781b/public/field-rSTCKsfl.png?v=MuK3NbZt;groupname=QLwVjpoJ;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="Is6ooiKU" caption="Is6ooiKU" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="DnPJ259v" caption="" inputtype="output" contenttype="string" address="INDICE!E8">
+                    <itemdefinitions>usecellformat=true;groupname=Is6ooiKU;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=18;buttonheight=50</itemdefinitions>
+                </item>
+                <item id="XIsy28ek" caption="" inputtype="output" contenttype="string" address="INDICE!F8">
+                    <itemdefinitions>usecellformat=true;groupname=Is6ooiKU;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=18;buttonheight=50</itemdefinitions>
+                </item>
+                <item id="dSFhpxea" caption="dSFhpxea" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="RfkDjfM0" caption="" inputtype="actionbutton" contenttype="string" address="INDICE!B4">
+                    <itemdefinitions>usecellformat=true;linkinfo=page:18;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/9b82b255-aae4-492f-b163-777df1ca781b/public/field-USruGotL.png?v=Y0zfNgSS;groupname=dSFhpxea;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="wt3eZrni" caption="" inputtype="actionbutton" contenttype="string" address="INDICE!B4">
+                    <itemdefinitions>usecellformat=true;linkinfo=page:19;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/9b82b255-aae4-492f-b163-777df1ca781b/public/field-USruGotL.png?v=Y0zfNgSS;groupname=dSFhpxea;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="rayoGoLd" caption="rayoGoLd" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="iu8srA3N" caption="" inputtype="output" contenttype="string" address="INDICE!H8">
+                    <itemdefinitions>usecellformat=true;groupname=rayoGoLd;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=18;buttonheight=50</itemdefinitions>
+                </item>
+                <item id="6vqcyDd9" caption="" inputtype="output" contenttype="string" address="INDICE!I8">
+                    <itemdefinitions>usecellformat=true;groupname=rayoGoLd;backgroundcolor=#e6ffffff;buttonradius=0;valuefontsize=18;buttonheight=50;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="Fuie0acc" caption="Fuie0acc" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="PBy3iAyI" caption="" inputtype="actionbutton" contenttype="string" address="INDICE!B4">
+                    <itemdefinitions>usecellformat=true;linkinfo=page:21;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/9b82b255-aae4-492f-b163-777df1ca781b/public/field-USruGotL.png?v=Y0zfNgSS;groupname=Fuie0acc;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="XTGLd0Rl" caption="" inputtype="actionbutton" contenttype="string" address="INDICE!B4">
+                    <itemdefinitions>usecellformat=true;linkinfo=page:22;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/9b82b255-aae4-492f-b163-777df1ca781b/public/field-aJa86bpd.png?v=fxnYF6m0;groupname=Fuie0acc;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="hf2hTtub" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=10%;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="K7iEwHfO" caption="" inputtype="output" contenttype="string" address="INDICE!A10">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#efefef;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=18;buttonheight=100</itemdefinitions>
+                </item>
+                <item id="PQpdhYgS" caption="PQpdhYgS" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="EvMhqHLY" caption="" inputtype="output" contenttype="string" address="INDICE!B10">
+                    <itemdefinitions>usecellformat=true;groupname=PQpdhYgS;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=18;buttonheight=50</itemdefinitions>
+                </item>
+                <item id="18fGA3Im" caption="" inputtype="output" contenttype="string" address="INDICE!C10">
+                    <itemdefinitions>usecellformat=true;groupname=PQpdhYgS;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=18;buttonheight=50</itemdefinitions>
+                </item>
+                <item id="ToysxTkj" caption="ToysxTkj" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="wNOa9FwU" caption="" inputtype="actionbutton" contenttype="string" address="INDICE!B4">
+                    <itemdefinitions>usecellformat=true;linkinfo=page:24;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/9b82b255-aae4-492f-b163-777df1ca781b/public/field-mmvSquVO.png?v=k6fINmL0;groupname=ToysxTkj;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="V7rMsEN1" caption="" inputtype="actionbutton" contenttype="string" address="INDICE!B4">
+                    <itemdefinitions>usecellformat=true;linkinfo=page:25;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/9b82b255-aae4-492f-b163-777df1ca781b/public/field-mmvSquVO.png?v=dP79yInM;groupname=ToysxTkj;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="vJ2BgwZY" caption="" inputtype="actionbutton" contenttype="string" address="INDICE!B4">
+                    <itemdefinitions>usecellformat=true;linkinfo=page:26;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/9b82b255-aae4-492f-b163-777df1ca781b/public/field-mmvSquVO.png?v=dP79yInM;groupname=ToysxTkj;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="BEWCbevZ" caption="BEWCbevZ" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="x0hek1Aa" caption="" inputtype="output" contenttype="string" address="INDICE!E10">
+                    <itemdefinitions>usecellformat=true;groupname=BEWCbevZ;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=18;buttonheight=50</itemdefinitions>
+                </item>
+                <item id="RT6A85lW" caption="" inputtype="output" contenttype="string" address="INDICE!F10">
+                    <itemdefinitions>usecellformat=true;groupname=BEWCbevZ;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=18;buttonheight=50</itemdefinitions>
+                </item>
+                <item id="g5zzfpbs" caption="g5zzfpbs" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="TO0MEsba" caption="" inputtype="actionbutton" contenttype="string" address="INDICE!B4">
+                    <itemdefinitions>usecellformat=true;linkinfo=page:27;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/9b82b255-aae4-492f-b163-777df1ca781b/public/field-aJa86bpd.png?v=wCKuNrEY;groupname=g5zzfpbs;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="4poPoxI5" caption="" inputtype="actionbutton" contenttype="string" address="INDICE!B4">
+                    <itemdefinitions>usecellformat=true;linkinfo=page:28;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/9b82b255-aae4-492f-b163-777df1ca781b/public/field-aJa86bpd.png?v=wCKuNrEY;groupname=g5zzfpbs;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="Qh4ivEb6" caption="" inputtype="actionbutton" contenttype="string" address="INDICE!B4">
+                    <itemdefinitions>usecellformat=true;linkinfo=page:29;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/9b82b255-aae4-492f-b163-777df1ca781b/public/field-aJa86bpd.png?v=wCKuNrEY;groupname=g5zzfpbs;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="vs84MyfJ" caption="" inputtype="actionbutton" contenttype="string" address="INDICE!B4">
+                    <itemdefinitions>usecellformat=true;linkinfo=page:20;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/9b82b255-aae4-492f-b163-777df1ca781b/public/field-USruGotL.png?v=Y0zfNgSS;groupname=dSFhpxea;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="VXN0kkaf" caption="" inputtype="actionbutton" contenttype="string" address="INDICE!B4">
+                    <itemdefinitions>usecellformat=true;linkinfo=page:3;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/9b82b255-aae4-492f-b163-777df1ca781b/public/field-ttvjGBjn.png?v=kLRJz9Ow;groupname=LAWguXWY;buttonheight=80;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="hErh3vSt" caption="" inputtype="actionbutton" contenttype="string" address="INDICE!B4">
+                    <itemdefinitions>usecellformat=true;linkinfo=page:23;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/9b82b255-aae4-492f-b163-777df1ca781b/public/field-aJa86bpd.png?v=fxnYF6m0;groupname=Fuie0acc;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="x00kRkl9" caption="" inputtype="actionbutton" contenttype="string" address="INDICE!B4">
+                    <itemdefinitions>usecellformat=true;linkinfo=page:4;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/9b82b255-aae4-492f-b163-777df1ca781b/public/field-ttvjGBjn.png?v=kLRJz9Ow;groupname=LAWguXWY;buttonheight=80;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="D4YXtdrk" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=80;groupname=srEz5Axd;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="BC1dOjHn" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>groupname=vqcqtPHX;height=80;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="Me9GrLdh" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=25%;groupname=TuO4jUfi;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="PG2dIOLz" caption="" inputtype="output" contenttype="string" address="INDICE!G10">
+                    <itemdefinitions>usecellformat=true;groupname=BEWCbevZ;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=18;buttonheight=50</itemdefinitions>
+                </item>
+                <item id="iI8ouD2v" caption="" inputtype="output" contenttype="string" address="INDICE!D10">
+                    <itemdefinitions>usecellformat=true;groupname=PQpdhYgS;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=18;buttonheight=50</itemdefinitions>
+                </item>
+                <item id="e94Kriov" caption="" inputtype="output" contenttype="string" address="INDICE!J8">
+                    <itemdefinitions>usecellformat=true;groupname=rayoGoLd;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=18;buttonheight=50</itemdefinitions>
+                </item>
+                <item id="zEsYnc3I" caption="" inputtype="output" contenttype="string" address="INDICE!G8">
+                    <itemdefinitions>usecellformat=true;groupname=Is6ooiKU;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=18;buttonheight=50</itemdefinitions>
+                </item>
+                <item id="0lPK9VKY" caption="" inputtype="output" contenttype="string" address="INDICE!D8">
+                    <itemdefinitions>usecellformat=true;groupname=zQPz1THP;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=18;buttonheight=50</itemdefinitions>
+                </item>
+                <item id="XcCnUg8t" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=Hz6jpdPa;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=18;buttonheight=50</itemdefinitions>
+                </item>
+                <item id="zowHhYt3" caption="" inputtype="output" contenttype="string" address="INDICE!D6">
+                    <itemdefinitions>usecellformat=true;groupname=pg1F4gva;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=18;buttonheight=50</itemdefinitions>
+                </item>
+                <item id="m0LTiZUq" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=XMFIqjJj;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=18;buttonheight=50</itemdefinitions>
+                </item>
+                <item id="Xe340EY6" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>groupname=vF3Zwy3Q;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=18;buttonheight=50;height=50</itemdefinitions>
+                </item>
+                <item id="Guvjh9Nx" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=WZ29vKEu;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;valuefontsize=18;buttonheight=50</itemdefinitions>
+                </item>
+                <item id="WhoqcK2d" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=10%;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="2" caption="2" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item id="eB6kagjw" caption="" inputtype="output" contenttype="string" address="LBP151dw!B1">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="euHcpnhW" caption="Image" inputtype="output" contenttype="image" address="">
+                    <itemdefinitions>imagefile=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/9b82b255-aae4-492f-b163-777df1ca781b/public/field-euHcpnhW.png?v=A65UF7Ay;buttonheight=200</itemdefinitions>
+                </item>
+                <item id="lI6CicH6" caption="" inputtype="output" contenttype="string" address="LBP151dw!A2">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#efefef;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="zJehS81p" caption="Velocidad de impresión" inputtype="output" contenttype="string" address="LBP151dw!B3">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="1UJB5ooC" caption="Calidad de impresión" inputtype="output" contenttype="string" address="LBP151dw!B4">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="7xXULMQf" caption="Resolución de impresión" inputtype="output" contenttype="string" address="LBP151dw!B5">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="VauIMzZf" caption="Tiempo de calentamiento" inputtype="output" contenttype="string" address="LBP151dw!B6">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="XlVh6Vq4" caption="Tiempo de 1ª impresión" inputtype="output" contenttype="string" address="LBP151dw!B7">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="1RyuD0tE" caption="Características de impresión avanzadas" inputtype="output" contenttype="string" address="LBP151dw!B8">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=200;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="e0gkGrwX" caption="" inputtype="output" contenttype="string" address="LBP151dw!A9">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#efefef;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="i31EqL7t" caption="Memoria" inputtype="output" contenttype="string" address="LBP151dw!B10">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="iv5U49s1" caption="Lenguajes de impresión" inputtype="output" contenttype="string" address="LBP151dw!B11">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="LPcjdr1N" caption="Conectividad" inputtype="output" contenttype="string" address="LBP151dw!B12">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="JuH2R24R" caption="Software y gestión de impresión" inputtype="output" contenttype="string" address="LBP151dw!B13">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=200;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="AdXQJDfD" caption="" inputtype="output" contenttype="string" address="LBP151dw!A14">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#efefef;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="No0wET7O" caption="Entrada de papel (estándar)" inputtype="output" contenttype="string" address="LBP151dw!B15">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="9tNtbbkz" caption="Entrada de papel (opcional)" inputtype="output" contenttype="string" address="LBP151dw!B16">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="waWuJeyN" caption="Salida de papel" inputtype="output" contenttype="string" address="LBP151dw!B17">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="N5J5lE3I" caption="Tipos de papel" inputtype="output" contenttype="string" address="LBP151dw!B18">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="YbXetKAE" caption="Tamaños de papel" inputtype="output" contenttype="string" address="LBP151dw!B19">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=300;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="C6bC8N7C" caption="Gramajes de papel" inputtype="output" contenttype="string" address="LBP151dw!B20">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="9X019ve0" caption="Impresión a doble cara" inputtype="output" contenttype="string" address="LBP151dw!B21">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="YAQrxYp7" caption="" inputtype="output" contenttype="string" address="LBP151dw!A22">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#efefef;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="rNIkHjhk" caption="Consumo energético" inputtype="output" contenttype="string" address="LBP151dw!B23">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=300;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="EDnrk24L" caption="Dimensiones (An x Pr x Al)" inputtype="output" contenttype="string" address="LBP151dw!B24">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="ZznBVgre" caption="Peso" inputtype="output" contenttype="string" address="LBP151dw!B25">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="EQfKjKqb" caption="Panel de control" inputtype="output" contenttype="string" address="LBP151dw!B26">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="r0cVABQo" caption="" inputtype="output" contenttype="string" address="LBP151dw!A27">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#efefef;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="DnVtKYd7" caption="Incluido en el equipo" inputtype="output" contenttype="string" address="LBP151dw!B28">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="00yHb5cL" caption="Cartuchos disponibles" inputtype="output" contenttype="string" address="LBP151dw!B29">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="0dFaK7vO" caption="" inputtype="output" contenttype="string" address="LBP151dw!A30">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#efefef;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="cfsHaPvb" caption="Items" inputtype="output" contenttype="toggle" address="LBP151dw!B31">
+                    <itemdefinitions>usecellformat=true;valuelist=yes:yes,no:no;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=300;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="yRPExg2e" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=15%;groupname=7VbVnkT2;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="ca9HLw1j" caption="ca9HLw1j" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="T76Q7qF2" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=10%;groupname=ca9HLw1j;elementwidth=25%;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="LiNmXuFg" caption="" inputtype="actionbutton" address="">
+                    <itemdefinitions>linkinfo=page:1;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/9b82b255-aae4-492f-b163-777df1ca781b/public/field-trNQAY1d.png?v=GRrNJNs6;groupname=ca9HLw1j;buttonheight=10%;elementwidth=50%;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="4FfVVcd6" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=10%;groupname=ca9HLw1j;elementwidth=25%;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="J0tdkFJ1" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=15%;groupname=7VbVnkT2;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="3" caption="3" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item id="Exc7PSCh" caption="" inputtype="output" contenttype="string" address="LBP212dw!B1">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="ESF83mZ4" caption="Image" inputtype="output" contenttype="image" address="">
+                    <itemdefinitions>imagefile=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/9b82b255-aae4-492f-b163-777df1ca781b/public/field-euHcpnhW.png?v=A65UF7Ay;buttonheight=200</itemdefinitions>
+                </item>
+                <item id="yxCsSIKJ" caption="" inputtype="output" contenttype="string" address="LBP212dw!A2">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#efefef;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="WeafzZd2" caption="Velocidad de impresión" inputtype="output" contenttype="string" address="LBP212dw!B3">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="mywIfWP2" caption="Calidad de impresión" inputtype="output" contenttype="string" address="LBP212dw!B4">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="pni4Kt56" caption="Resolución de impresión" inputtype="output" contenttype="string" address="LBP212dw!B5">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="gIhuF7YJ" caption="Tiempo de calentamiento" inputtype="output" contenttype="string" address="LBP212dw!B6">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="ajHuObIV" caption="Tiempo de 1ª impresión" inputtype="output" contenttype="string" address="LBP212dw!B7">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="qcXiXq5O" caption="Características de impresión avanzadas" inputtype="output" contenttype="string" address="LBP212dw!B8">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=200;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="jYkfbJf1" caption="" inputtype="output" contenttype="string" address="LBP212dw!A9">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#efefef;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="la3Ul1n5" caption="Memoria" inputtype="output" contenttype="string" address="LBP212dw!B10">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="ibBPITuS" caption="Lenguajes de impresión" inputtype="output" contenttype="string" address="LBP212dw!B11">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="FUevIzt9" caption="Conectividad" inputtype="output" contenttype="string" address="LBP212dw!B12">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="EJ7oINzH" caption="Software y gestión de impresión" inputtype="output" contenttype="string" address="LBP212dw!B13">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=200;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="r0c3aE3U" caption="" inputtype="output" contenttype="string" address="LBP212dw!A14">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#efefef;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="ZoeNbd3m" caption="Entrada de papel (estándar)" inputtype="output" contenttype="string" address="LBP212dw!B15">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="RWgqdnfG" caption="Entrada de papel (opcional)" inputtype="output" contenttype="string" address="LBP212dw!B16">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="IJ0QbSVJ" caption="Salida de papel" inputtype="output" contenttype="string" address="LBP212dw!B17">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="4hiXnH69" caption="Tipos de papel" inputtype="output" contenttype="string" address="LBP212dw!B18">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="SQvXhNy7" caption="Tamaños de papel" inputtype="output" contenttype="string" address="LBP212dw!B19">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=300;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="aFsLAV85" caption="Gramajes de papel" inputtype="output" contenttype="string" address="LBP212dw!B20">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="BgwrtVmx" caption="Impresión a doble cara" inputtype="output" contenttype="string" address="LBP212dw!B21">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="ce6o3uIC" caption="" inputtype="output" contenttype="string" address="LBP212dw!A22">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#efefef;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="9yglelZH" caption="Consumo energético" inputtype="output" contenttype="string" address="LBP212dw!B23">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=300;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="DKkEuiqn" caption="Dimensiones (An x Pr x Al)" inputtype="output" contenttype="string" address="LBP212dw!B24">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="vT3TQt27" caption="Peso" inputtype="output" contenttype="string" address="LBP212dw!B25">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="vo3yPFUl" caption="Panel de control" inputtype="output" contenttype="string" address="LBP212dw!B26">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="uzM5ixVF" caption="" inputtype="output" contenttype="string" address="LBP212dw!A27">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#efefef;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="tb4SdXmh" caption="Incluido en el equipo" inputtype="output" contenttype="string" address="LBP212dw!B28">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="ZaDivbDX" caption="Cartuchos disponibles" inputtype="output" contenttype="string" address="LBP212dw!B29">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="MHgRjMK8" caption="" inputtype="output" contenttype="string" address="LBP212dw!A30">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#efefef;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="twfSHw8s" caption="Items" inputtype="output" contenttype="toggle" address="LBP212dw!B31">
+                    <itemdefinitions>usecellformat=true;valuelist=yes:yes,no:no;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=300;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="heXYqyaf" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=15%;groupname=7VbVnkT2;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="ca9HLw11" caption="ca9HLw11" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="QkTz4v2A" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=10%;groupname=ca9HLw11;elementwidth=25%;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="PUVtlbDo" caption="" inputtype="actionbutton" address="">
+                    <itemdefinitions>linkinfo=page:1;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/9b82b255-aae4-492f-b163-777df1ca781b/public/field-trNQAY1d.png?v=GRrNJNs6;groupname=ca9HLw11;buttonheight=10%;elementwidth=50%;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="jKutG4fQ" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=10%;groupname=ca9HLw11;elementwidth=25%;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="CwFjlE37" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=15%;groupname=7VbVnkT2;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="4" caption="4" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item id="FKtcd3Lz" caption="" inputtype="output" contenttype="string" address="LBP214dw!B1">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="SxTDpCHw" caption="Image" inputtype="output" contenttype="image" address="">
+                    <itemdefinitions>imagefile=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/9b82b255-aae4-492f-b163-777df1ca781b/public/field-euHcpnhW.png?v=A65UF7Ay;buttonheight=200</itemdefinitions>
+                </item>
+                <item id="9ckUiaPg" caption="" inputtype="output" contenttype="string" address="LBP214dw!A2">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#efefef;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="KyQV0W5O" caption="Velocidad de impresión" inputtype="output" contenttype="string" address="LBP214dw!B3">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="Kjd7ijl0" caption="Calidad de impresión" inputtype="output" contenttype="string" address="LBP214dw!B4">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="k880M9gk" caption="Resolución de impresión" inputtype="output" contenttype="string" address="LBP214dw!B5">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="mDvxV5t9" caption="Tiempo de calentamiento" inputtype="output" contenttype="string" address="LBP214dw!B6">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="xOwDBjh1" caption="Tiempo de 1ª impresión" inputtype="output" contenttype="string" address="LBP214dw!B7">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="kvPCyhZP" caption="Características de impresión avanzadas" inputtype="output" contenttype="string" address="LBP214dw!B8">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=200;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="ci9PyXnM" caption="" inputtype="output" contenttype="string" address="LBP214dw!A9">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#efefef;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="wV7eH8D4" caption="Memoria" inputtype="output" contenttype="string" address="LBP214dw!B10">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="kFQ6G5L2" caption="Lenguajes de impresión" inputtype="output" contenttype="string" address="LBP214dw!B11">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="370QTuSg" caption="Conectividad" inputtype="output" contenttype="string" address="LBP214dw!B12">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="ApUvMQC7" caption="Software y gestión de impresión" inputtype="output" contenttype="string" address="LBP214dw!B13">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=200;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="cNrMfu6q" caption="" inputtype="output" contenttype="string" address="LBP214dw!A14">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#efefef;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="5LATGhLU" caption="Entrada de papel (estándar)" inputtype="output" contenttype="string" address="LBP214dw!B15">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="wBRZ1VJm" caption="Entrada de papel (opcional)" inputtype="output" contenttype="string" address="LBP214dw!B16">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="Vh4wjy8p" caption="Salida de papel" inputtype="output" contenttype="string" address="LBP214dw!B17">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="eoY0a7oe" caption="Tipos de papel" inputtype="output" contenttype="string" address="LBP214dw!B18">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="iLyIBclS" caption="Tamaños de papel" inputtype="output" contenttype="string" address="LBP214dw!B19">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=300;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="5sKKyGVq" caption="Gramajes de papel" inputtype="output" contenttype="string" address="LBP214dw!B20">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="MVQXL68A" caption="Impresión a doble cara" inputtype="output" contenttype="string" address="LBP214dw!B21">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="uxHiqkiw" caption="" inputtype="output" contenttype="string" address="LBP214dw!A22">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#efefef;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="4BVwmUlo" caption="Consumo energético" inputtype="output" contenttype="string" address="LBP214dw!B23">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=300;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="1teJfvWL" caption="Dimensiones (An x Pr x Al)" inputtype="output" contenttype="string" address="LBP214dw!B24">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="XvIYQlap" caption="Peso" inputtype="output" contenttype="string" address="LBP214dw!B25">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="oOpTDGB6" caption="Panel de control" inputtype="output" contenttype="string" address="LBP214dw!B26">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="nzRkuWl2" caption="" inputtype="output" contenttype="string" address="LBP214dw!A27">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#efefef;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="cvB58NMK" caption="Incluido en el equipo" inputtype="output" contenttype="string" address="LBP214dw!B28">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="pRbTQydn" caption="Cartuchos disponibles" inputtype="output" contenttype="string" address="LBP214dw!B29">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="xLgZH6GT" caption="" inputtype="output" contenttype="string" address="LBP214dw!A30">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#efefef;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="5G6ZF7qU" caption="Items" inputtype="output" contenttype="toggle" address="LBP214dw!B31">
+                    <itemdefinitions>usecellformat=true;valuelist=yes:yes,no:no;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=300;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="JpwBoJM3" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=15%;groupname=7VbVnkT2;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="ca9HLw13" caption="ca9HLw13" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="BlRiMUWS" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=10%;groupname=ca9HLw13;elementwidth=25%;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="hQq2xwY1" caption="" inputtype="actionbutton" address="">
+                    <itemdefinitions>linkinfo=page:1;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/9b82b255-aae4-492f-b163-777df1ca781b/public/field-trNQAY1d.png?v=GRrNJNs6;groupname=ca9HLw13;buttonheight=10%;elementwidth=50%;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="S4s5Acys" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=10%;groupname=ca9HLw13;elementwidth=25%;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="qZ9SCsTt" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=15%;groupname=7VbVnkT2;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="5" caption="5" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item id="YneKK0k1" caption="" inputtype="output" contenttype="string" address="LBP215x!B1">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="OpFvuocm" caption="Image" inputtype="output" contenttype="image" address="">
+                    <itemdefinitions>imagefile=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/9b82b255-aae4-492f-b163-777df1ca781b/public/field-euHcpnhW.png?v=A65UF7Ay;buttonheight=200</itemdefinitions>
+                </item>
+                <item id="m9FryxlD" caption="" inputtype="output" contenttype="string" address="LBP215x!A2">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#efefef;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="hVNr5nYg" caption="Velocidad de impresión" inputtype="output" contenttype="string" address="LBP215x!B3">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="AYxgFBVU" caption="Calidad de impresión" inputtype="output" contenttype="string" address="LBP215x!B4">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="uOGGNXoT" caption="Resolución de impresión" inputtype="output" contenttype="string" address="LBP215x!B5">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="K9bsdV45" caption="Tiempo de calentamiento" inputtype="output" contenttype="string" address="LBP215x!B6">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="2Jld0NvO" caption="Tiempo de 1ª impresión" inputtype="output" contenttype="string" address="LBP215x!B7">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="88mJSBBe" caption="Características de impresión avanzadas" inputtype="output" contenttype="string" address="LBP215x!B8">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=200;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="TjvgTTlB" caption="" inputtype="output" contenttype="string" address="LBP215x!A9">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#efefef;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="FspU4gpu" caption="Memoria" inputtype="output" contenttype="string" address="LBP215x!B10">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="vDLFPsCZ" caption="Lenguajes de impresión" inputtype="output" contenttype="string" address="LBP215x!B11">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="MDik0G73" caption="Conectividad" inputtype="output" contenttype="string" address="LBP215x!B12">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="VfHrcJX2" caption="Software y gestión de impresión" inputtype="output" contenttype="string" address="LBP215x!B13">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=200;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="eTMttlnu" caption="" inputtype="output" contenttype="string" address="LBP215x!A14">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#efefef;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="C0VUcLrO" caption="Entrada de papel (estándar)" inputtype="output" contenttype="string" address="LBP215x!B15">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="HihzMdGf" caption="Entrada de papel (opcional)" inputtype="output" contenttype="string" address="LBP215x!B16">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="z0hsp9XM" caption="Salida de papel" inputtype="output" contenttype="string" address="LBP215x!B17">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="RRyHreeT" caption="Tipos de papel" inputtype="output" contenttype="string" address="LBP215x!B18">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="oX4KPeTH" caption="Tamaños de papel" inputtype="output" contenttype="string" address="LBP215x!B19">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=300;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="17nOMVXQ" caption="Gramajes de papel" inputtype="output" contenttype="string" address="LBP215x!B20">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="vhAR7Q4D" caption="Impresión a doble cara" inputtype="output" contenttype="string" address="LBP215x!B21">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="wbzMm2Bo" caption="" inputtype="output" contenttype="string" address="LBP215x!A22">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#efefef;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="SSKewSK7" caption="Consumo energético" inputtype="output" contenttype="string" address="LBP215x!B23">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=300;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="OKkGpgYQ" caption="Dimensiones (An x Pr x Al)" inputtype="output" contenttype="string" address="LBP215x!B24">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="D9NR5P2H" caption="Peso" inputtype="output" contenttype="string" address="LBP215x!B25">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="k5Iflp08" caption="Panel de control" inputtype="output" contenttype="string" address="LBP215x!B26">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="s9kYv35e" caption="" inputtype="output" contenttype="string" address="LBP215x!A27">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#efefef;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="e0pqmiHz" caption="Incluido en el equipo" inputtype="output" contenttype="string" address="LBP215x!B28">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="4S77KzDH" caption="Cartuchos disponibles" inputtype="output" contenttype="string" address="LBP215x!B29">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="SYnRU2P5" caption="" inputtype="output" contenttype="string" address="LBP215x!A30">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#efefef;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="ktmfHZZS" caption="Items" inputtype="output" contenttype="toggle" address="LBP215x!B31">
+                    <itemdefinitions>usecellformat=true;valuelist=yes:yes,no:no;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=300;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="q3eNmuT8" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=15%;groupname=7VbVnkT2;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="ca9HLw14" caption="ca9HLw14" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="X3Tg8h2H" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=10%;groupname=ca9HLw14;elementwidth=25%;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="toZElKr4" caption="" inputtype="actionbutton" address="">
+                    <itemdefinitions>linkinfo=page:1;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/9b82b255-aae4-492f-b163-777df1ca781b/public/field-trNQAY1d.png?v=GRrNJNs6;groupname=ca9HLw14;buttonheight=10%;elementwidth=50%;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="mTFOLcFu" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=10%;groupname=ca9HLw14;elementwidth=25%;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="69gasoc5" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=15%;groupname=7VbVnkT2;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="6" caption="6" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item id="LvyZrkul" caption="" inputtype="output" contenttype="string" address="LBP312x!B1">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="STJnCpwl" caption="Image" inputtype="output" contenttype="image" address="">
+                    <itemdefinitions>imagefile=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/9b82b255-aae4-492f-b163-777df1ca781b/public/field-euHcpnhW.png?v=A65UF7Ay;buttonheight=200</itemdefinitions>
+                </item>
+                <item id="wAoL6I63" caption="" inputtype="output" contenttype="string" address="LBP312x!A2">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#efefef;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="jremjHcZ" caption="Velocidad de impresión" inputtype="output" contenttype="string" address="LBP312x!B3">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="NPCdHLFS" caption="Calidad de impresión" inputtype="output" contenttype="string" address="LBP312x!B4">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="JP04MCpZ" caption="Resolución de impresión" inputtype="output" contenttype="string" address="LBP312x!B5">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="bBrbDUZN" caption="Tiempo de calentamiento" inputtype="output" contenttype="string" address="LBP312x!B6">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="L43tIB4Z" caption="Tiempo de 1ª impresión" inputtype="output" contenttype="string" address="LBP312x!B7">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="t9vnmXGs" caption="Características de impresión avanzadas" inputtype="output" contenttype="string" address="LBP312x!B8">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=200;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="tk7nmSyA" caption="" inputtype="output" contenttype="string" address="LBP312x!A9">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#efefef;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="NurpYWFv" caption="Memoria" inputtype="output" contenttype="string" address="LBP312x!B10">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="ksnQSsRs" caption="Lenguajes de impresión" inputtype="output" contenttype="string" address="LBP312x!B11">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="vSh2E4z9" caption="Conectividad" inputtype="output" contenttype="string" address="LBP312x!B12">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="7XgdDOvQ" caption="Software y gestión de impresión" inputtype="output" contenttype="string" address="LBP312x!B13">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=200;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="4aQAtBLR" caption="" inputtype="output" contenttype="string" address="LBP312x!A14">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#efefef;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="KohQwzNm" caption="Entrada de papel (estándar)" inputtype="output" contenttype="string" address="LBP312x!B15">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="1NO1RR2a" caption="Entrada de papel (opcional)" inputtype="output" contenttype="string" address="LBP312x!B16">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="EF9bPqGx" caption="Salida de papel" inputtype="output" contenttype="string" address="LBP312x!B17">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="xg14rev3" caption="Tipos de papel" inputtype="output" contenttype="string" address="LBP312x!B18">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="KSd3LPfi" caption="Tamaños de papel" inputtype="output" contenttype="string" address="LBP312x!B19">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=300;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="Hr7IdMgE" caption="Gramajes de papel" inputtype="output" contenttype="string" address="LBP312x!B20">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="PvdlwY9z" caption="Impresión a doble cara" inputtype="output" contenttype="string" address="LBP312x!B21">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="HgV2BYmf" caption="" inputtype="output" contenttype="string" address="LBP312x!A22">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#efefef;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="vINy82pc" caption="Consumo energético" inputtype="output" contenttype="string" address="LBP312x!B23">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=300;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="IYhQjwh8" caption="Dimensiones (An x Pr x Al)" inputtype="output" contenttype="string" address="LBP312x!B24">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="TTImSJ6r" caption="Peso" inputtype="output" contenttype="string" address="LBP312x!B25">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="byufCB88" caption="Panel de control" inputtype="output" contenttype="string" address="LBP312x!B26">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="g1UjA464" caption="" inputtype="output" contenttype="string" address="LBP312x!A27">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#efefef;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="BTDjdzRQ" caption="Incluido en el equipo" inputtype="output" contenttype="string" address="LBP312x!B28">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="R5vv7dQ9" caption="Cartuchos disponibles" inputtype="output" contenttype="string" address="LBP312x!B29">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="1MvTI1e2" caption="" inputtype="output" contenttype="string" address="LBP312x!A30">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#efefef;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="5Zv4odN4" caption="Items" inputtype="output" contenttype="toggle" address="LBP312x!B31">
+                    <itemdefinitions>usecellformat=true;valuelist=yes:yes,no:no;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=300;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="Lq97jzEK" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=15%;groupname=7VbVnkT2;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="ca9HLw15" caption="ca9HLw15" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="Nd5r7XEQ" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=10%;groupname=ca9HLw15;elementwidth=25%;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="Dj2zcjXR" caption="" inputtype="actionbutton" address="">
+                    <itemdefinitions>linkinfo=page:1;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/9b82b255-aae4-492f-b163-777df1ca781b/public/field-trNQAY1d.png?v=GRrNJNs6;groupname=ca9HLw15;buttonheight=10%;elementwidth=50%;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="g6MArbXz" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=10%;groupname=ca9HLw15;elementwidth=25%;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="OOMBvfVR" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=15%;groupname=7VbVnkT2;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="7" caption="7" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item id="158AaIdr" caption="" inputtype="output" contenttype="string" address="LBP351x!B1">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="kCOILx85" caption="Image" inputtype="output" contenttype="image" address="">
+                    <itemdefinitions>imagefile=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/9b82b255-aae4-492f-b163-777df1ca781b/public/field-euHcpnhW.png?v=A65UF7Ay;buttonheight=200</itemdefinitions>
+                </item>
+                <item id="MrjeV5TB" caption="" inputtype="output" contenttype="string" address="LBP351x!A2">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#efefef;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="7zEc4woB" caption="Velocidad de impresión" inputtype="output" contenttype="string" address="LBP351x!B3">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="hcJVipbq" caption="Calidad de impresión" inputtype="output" contenttype="string" address="LBP351x!B4">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="Qa7rZFDl" caption="Resolución de impresión" inputtype="output" contenttype="string" address="LBP351x!B5">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="iV3rhUfW" caption="Tiempo de calentamiento" inputtype="output" contenttype="string" address="LBP351x!B6">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="NksLdsJH" caption="Tiempo de 1ª impresión" inputtype="output" contenttype="string" address="LBP351x!B7">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="Htivy5Vt" caption="Características de impresión avanzadas" inputtype="output" contenttype="string" address="LBP351x!B8">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=200;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="jV098AhI" caption="" inputtype="output" contenttype="string" address="LBP351x!A9">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#efefef;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="i7ctKvXP" caption="Memoria" inputtype="output" contenttype="string" address="LBP351x!B10">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="oTpWfebr" caption="Lenguajes de impresión" inputtype="output" contenttype="string" address="LBP351x!B11">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="gcWm6KAP" caption="Conectividad" inputtype="output" contenttype="string" address="LBP351x!B12">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="McmaIB16" caption="Software y gestión de impresión" inputtype="output" contenttype="string" address="LBP351x!B13">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=200;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="Si3NmLOt" caption="" inputtype="output" contenttype="string" address="LBP351x!A14">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#efefef;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="87HnmIHR" caption="Entrada de papel (estándar)" inputtype="output" contenttype="string" address="LBP351x!B15">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="rRoBiqIO" caption="Entrada de papel (opcional)" inputtype="output" contenttype="string" address="LBP351x!B16">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="0ELe5GPw" caption="Salida de papel" inputtype="output" contenttype="string" address="LBP351x!B17">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="t31dHb9X" caption="Tipos de papel" inputtype="output" contenttype="string" address="LBP351x!B18">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="2e8J0t90" caption="Tamaños de papel" inputtype="output" contenttype="string" address="LBP351x!B19">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=300;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="NambC5EN" caption="Gramajes de papel" inputtype="output" contenttype="string" address="LBP351x!B20">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="5gqE4AI4" caption="Impresión a doble cara" inputtype="output" contenttype="string" address="LBP351x!B21">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="wpjtkbqj" caption="" inputtype="output" contenttype="string" address="LBP351x!A22">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#efefef;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="AEmOfBjx" caption="Consumo energético" inputtype="output" contenttype="string" address="LBP351x!B23">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=300;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="eHIR44yx" caption="Dimensiones (An x Pr x Al)" inputtype="output" contenttype="string" address="LBP351x!B24">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="5XewOJFF" caption="Peso" inputtype="output" contenttype="string" address="LBP351x!B25">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="N2r0rey7" caption="Panel de control" inputtype="output" contenttype="string" address="LBP351x!B26">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="OWwkKrGJ" caption="" inputtype="output" contenttype="string" address="LBP351x!A27">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#efefef;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="Vcwe0j3E" caption="Incluido en el equipo" inputtype="output" contenttype="string" address="LBP351x!B28">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="9FxBNMC9" caption="Cartuchos disponibles" inputtype="output" contenttype="string" address="LBP351x!B29">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#e6ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="ammGH3rV" caption="" inputtype="output" contenttype="string" address="LBP351x!A30">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#efefef;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=100;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="2aKDYAPW" caption="Items" inputtype="output" contenttype="toggle" address="LBP351x!B31">
+                    <itemdefinitions>usecellformat=true;valuelist=yes:yes,no:no;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;buttonheight=300;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="aaiVydFW" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=15%;groupname=7VbVnkT2;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="ca9HLw16" caption="ca9HLw16" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="MlQJwYDN" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=10%;groupname=ca9HLw16;elementwidth=25%;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="X1UOiOIE" caption="" inputtype="actionbutton" address="">
+                    <itemdefinitions>linkinfo=page:1;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/9b82b255-aae4-492f-b163-777df1ca781b/public/field-trNQAY1d.png?v=GRrNJNs6;groupname=ca9HLw16;buttonheight=10%;elementwidth=50%;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="4DGqVsfI" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=10%;groupname=ca9HLw16;elementwidth=25%;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="RV82bb3d" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=15%;groupname=7VbVnkT2;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="8" caption="8" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item/>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="9" caption="9" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item/>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="10" caption="10" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item/>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="11" caption="11" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item/>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="12" caption="12" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item/>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="13" caption="13" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item/>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="14" caption="14" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item/>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="15" caption="15" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item/>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="16" caption="16" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item/>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="17" caption="17" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item/>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="18" caption="18" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item/>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="19" caption="19" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item/>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="20" caption="20" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item/>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="21" caption="21" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item/>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="22" caption="22" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item/>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="23" caption="23" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item/>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="24" caption="24" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item/>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="25" caption="25" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item/>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="26" caption="26" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item/>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="27" caption="27" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item/>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="28" caption="28" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item/>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="29" caption="29" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item/>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="30" caption="GAMA 1" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item caption="" inputtype="" contenttype="list" address="list1!A1" id="B501soC0">
+                    <itemdefinitions>componentname=B501soC0;gridtheme=light;gridalternaterowbackgroundcolor=#f5f5f5;gridrowheight=40;gridcollapsegroups=false;gridallowedit=false;height=400;headeravailable=true;showcolumnheader=true;listcolumns=1::text,2::text,3::text,4::text,5::text,6::text,7::text,8::text,9::text,10::text,11::text;detailcolumns=1:text,2:text,3:text,4:text,5:text,6:text,7:text,8:text,9:text,10:text,11:text</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="31" caption="Codigos" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent>
+            <items>
+                <item caption="" inputtype="" contenttype="list" address="&apos;CODIGOS MERCURY y EAN&apos;!A2:E243" id="rvpmQR6p">
+                    <itemdefinitions>componentname=rvpmQR6p;gridtheme=light;gridalternaterowbackgroundcolor=#f5f5f5;gridrowheight=40;gridcollapsegroups=false;gridallowedit=false;height=400;headeravailable=true;showcolumnheader=true;listcolumns=1::text,2::text,3,4::text,5::text;detailcolumns=1:text,2:text,3,4:text,5:text;drilldowncolumns=4</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+</pages>
