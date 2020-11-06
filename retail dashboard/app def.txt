@@ -1,0 +1,1 @@
+pagecount=1;autorecalc=true;useremailcell=users!B1;printsheet=print;menuentries=print;backgroundcolor=white;backgroundimage=https://oaafiles.blob.core.windows.net/images/themes/cap-bg.png;functionbuttoncolor=#12ba98;pagetabsselectioncolor=#12ba98;headeropacity=8;paddinghorz=12;paddingvert=12;spacing=5

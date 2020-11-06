@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages>
+    <page pageid="1" caption="PAGENAME" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent id="2">
+            <items>
+                <item id="m5Ddk2IT" caption="m5Ddk2IT" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item caption="Manager" inputtype="output" contenttype="result" address="users!B2" id="a4ifulCi">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=m5Ddk2IT;backgroundcolor=#cc12ba98;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff</itemdefinitions>
+                </item>
+                <item caption="Access Level" inputtype="output" contenttype="result" address="users!B3" id="62TFXE7z">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=m5Ddk2IT;backgroundcolor=#cc12ba98;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="gzMn5F4W" caption="gzMn5F4W" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item caption="Country Manager" inputtype="input" contenttype="toggle" address="toggles!B2" id="eP2aFIgj">
+                    <itemdefinitions>usecellformat=true;isvisiblecell=toggles!B3;groupname=gzMn5F4W;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item caption="set" inputtype="input" contenttype="checkbox" address="toggles!E2" id="cIatNEar">
+                    <itemdefinitions>usecellformat=true;groupname=gzMn5F4W;elementwidth=100;isvisiblecell=toggles!B3;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="zVQx7535" caption="zVQx7535" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item caption="Regional Manager" inputtype="input" contenttype="toggle" address="toggles!B4" id="D5fkF0EK">
+                    <itemdefinitions>usecellformat=true;isvisiblecell=toggles!B5;groupname=zVQx7535;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="nJDuumBf" caption="nJDuumBf" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item caption="Store Manager" inputtype="input" contenttype="toggle" address="toggles!B6" id="JVGORDbq">
+                    <itemdefinitions>usecellformat=true;isvisiblecell=toggles!B7;groupname=nJDuumBf;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item id="4dMAvwIu" caption="4dMAvwIu" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item caption="Revenue (in $1000)" inputtype="output" contenttype="result" address="toggles!B10" id="DGbe99ES">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=4dMAvwIu;backgroundcolor=#cc12ba98;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff</itemdefinitions>
+                </item>
+                <item caption="Average (in k$ per record)" inputtype="output" contenttype="result" address="toggles!B12" id="dnYqV9hk">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=4dMAvwIu;backgroundcolor=#cc12ba98;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="lGatVfhx" caption="lGatVfhx" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item caption="Status: green" inputtype="output" contenttype="result" address="toggles!B14" id="p7pcdqe9">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=lGatVfhx;backgroundcolor=#cc12ba98;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff</itemdefinitions>
+                </item>
+                <item caption="Status: yellow" inputtype="output" contenttype="result" address="toggles!B15" id="zhyAvdPN">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=lGatVfhx;backgroundcolor=#cc12ba98;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff</itemdefinitions>
+                </item>
+                <item caption="Status" inputtype="output" contenttype="chart" address="toggles!A14:A16;toggles!B14:B16" id="UCj55dOX">
+                    <itemdefinitions>charttype=pie;chartseriestypes=pie;showlegend=true;seriescaptions=Serie1;height=250;backgroundcolor=#b3ffffff;buttonradius=0;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c;axiscolor=#4c4c4c;colorpalette=#d1dabe,#12ba98,#4c4c4c,#92aa9d,#537780,#323232,#1e6262,#2b2e4a;legendtextcolor=#4c4c4c;seriescolor=#09679b;titletextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item caption="Status: red" inputtype="output" contenttype="result" address="toggles!B16" id="wL9XecO6">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=lGatVfhx;backgroundcolor=#cc12ba98;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff</itemdefinitions>
+                </item>
+                <item caption="set" inputtype="input" contenttype="checkbox" address="toggles!E6" id="pFNlIXPp">
+                    <itemdefinitions>usecellformat=true;groupname=nJDuumBf;elementwidth=100;isvisiblecell=toggles!B7;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item caption="set" inputtype="input" contenttype="checkbox" address="toggles!E4" id="vgGQ5TJp">
+                    <itemdefinitions>usecellformat=true;groupname=zVQx7535;elementwidth=100;isvisiblecell=toggles!B5;backgroundcolor=#e6ffffff;buttonradius=6;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item caption="" inputtype="infobutton" contenttype="string" address="info!A1" id="5camDpd3">
+                    <itemdefinitions>usecellformat=true;groupname=m5Ddk2IT;elementwidth=50;backgroundcolor=#e6ffffff;buttonradius=8;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item caption="" inputtype="infobutton" contenttype="string" address="info!A2" id="f4C3Y2Hd">
+                    <itemdefinitions>usecellformat=true;elementwidth=50;groupname=4dMAvwIu;backgroundcolor=#e6ffffff;buttonradius=8;captiontextcolor=#4c4c4c;elementcolor=#4c4c4c;valuetextcolor=#4c4c4c</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+</pages>
