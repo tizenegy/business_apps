@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages>
+    <page pageid="1" caption="Home">
+        <excelcontent id="2">
+            <items>
+                <item id="hygEY27j" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=15%;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="&apos;Simple Cap table calc_We are a &apos;!E4" id="SvR4TgKB">
+                    <itemdefinitions>backgroundcolor=#cc12ba98;elementcolor=#09679B;valuetextcolor=#ffffff;usecellformat=true;markertextcolor=#ffffff;buttonradius=8</itemdefinitions>
+                </item>
+                <item id="HL916miF" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=20;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="&apos;Simple Cap table calc_We are a &apos;!E5" id="5yVSVH7q">
+                    <itemdefinitions>backgroundcolor=#e6ffffff;elementcolor=#09679B;valuetextcolor=#4c4c4c;usecellformat=true;buttonradius=8;markertextcolor=#4c4c4c;captionhorzalign=center;linkinfo=page:2;textcolor=#4c4c4c</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="string" address="&apos;Simple Cap table calc_We are a &apos;!E6" id="bPvtW0tI">
+                    <itemdefinitions>backgroundcolor=#e6ffffff;elementcolor=#09679B;valuetextcolor=#4c4c4c;usecellformat=true;buttonradius=8;markertextcolor=#4c4c4c;captionhorzalign=center;linkinfo=page:3</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="2" caption="New investor" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent id="2">
+            <items>
+                <item caption="Pre Money" inputtype="input" contenttype="slider" address="&apos;Simple Cap table calc_We are a &apos;!C4" id="01XCnOtS">
+                    <itemdefinitions>usecellformat=true;deltastep=250000;helperheightorbuttonheight=70;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff;buttonheight=70;componentname=new;valuefontstyle=regular;minvalue=0;maxvalue=20000000</itemdefinitions>
+                </item>
+                <item caption="Our investment" inputtype="input" contenttype="integer" address="&apos;Simple Cap table calc_We are a &apos;!C5" id="UMw1b6ra">
+                    <itemdefinitions>usecellformat=true;deltastep=250000;helperheightorbuttonheight=70;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff;buttonheight=70</itemdefinitions>
+                </item>
+                <item caption="Others" inputtype="input" contenttype="integer" address="&apos;Simple Cap table calc_We are a &apos;!C6" id="XJfLRlQJ">
+                    <itemdefinitions>usecellformat=true;deltastep=250000;helperheightorbuttonheight=70;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff;buttonheight=70</itemdefinitions>
+                </item>
+                <item id="UtzFdwAH" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=20;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="chart" address="&apos;Simple Cap table calc_We are a &apos;!B4:B6;&apos;Simple Cap table calc_We are a &apos;!C4:C6" id="gTW1kO2x">
+                    <itemdefinitions>backgroundcolor=#b3ffffff;charttype=donut;chartseriestypes=pie;showlegend=true;seriescaptions=Serie1;height=200;numberformat=N0;showdatamarker=true;colorpalette=#d1dabe,#12ba98,#4c4c4c,#92aa9d,#537780,#323232,#1e6262,#2b2e4a</itemdefinitions>
+                </item>
+                <item id="TMvtenu1" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=20</itemdefinitions>
+                </item>
+                <item caption="Pre round ESOP top up" inputtype="input" contenttype="percent" address="&apos;Simple Cap table calc_We are a &apos;!C3" id="SNFBE7hw">
+                    <itemdefinitions>usecellformat=true;deltastep=0.001;helperheightorbuttonheight=70;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff;buttonheight=70</itemdefinitions>
+                </item>
+                <item id="HHCAxkSW" caption="HHCAxkSW" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>columnspacing=5</itemdefinitions>
+                </item>
+                <item caption="Unallocated ESOP pre round" inputtype="input" contenttype="percent" address="&apos;Simple Cap table calc_We are a &apos;!C2" id="VS40BnkE">
+                    <itemdefinitions>usecellformat=true;deltastep=0.001;helperheightorbuttonheight=70;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff;groupname=HHCAxkSW;buttonheight=70</itemdefinitions>
+                </item>
+                <item caption="Post round ESOP top up" inputtype="input" contenttype="percent" address="&apos;Simple Cap table calc_We are a &apos;!C8" id="VGUfzW9H">
+                    <itemdefinitions>usecellformat=true;deltastep=0.001;helperheightorbuttonheight=70;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff;groupname=HHCAxkSW;buttonheight=70</itemdefinitions>
+                </item>
+                <item id="wUCF1B5a" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=20</itemdefinitions>
+                </item>
+                <item caption="Post Money" inputtype="output" contenttype="result" address="&apos;Simple Cap table calc_We are a &apos;!C7" id="ypSCx09s">
+                    <itemdefinitions>nocaption=true;usecellformat=true;helperheightorbuttonheight=70;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#ffffff;backgroundcolor=#cc12ba98;buttonheight=70</itemdefinitions>
+                </item>
+                <item id="7r9j6yhq" caption="7r9j6yhq" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>columnspacing=5</itemdefinitions>
+                </item>
+                <item caption="Round Dilution" inputtype="output" contenttype="result" address="&apos;Simple Cap table calc_We are a &apos;!C10" id="KmyXaDQT">
+                    <itemdefinitions>nocaption=true;usecellformat=true;helperheightorbuttonheight=70;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#ffffff;backgroundcolor=#cc12ba98;buttonheight=70;groupname=7r9j6yhq</itemdefinitions>
+                </item>
+                <item caption="Round Dilution incl all ESOP" inputtype="output" contenttype="result" address="&apos;Simple Cap table calc_We are a &apos;!C11" id="xmtc9oUk">
+                    <itemdefinitions>nocaption=true;usecellformat=true;helperheightorbuttonheight=70;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#ffffff;backgroundcolor=#cc12ba98;buttonheight=70;groupname=7r9j6yhq</itemdefinitions>
+                </item>
+                <item id="ZpDZhtFd" caption="ZpDZhtFd" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>columnspacing=5</itemdefinitions>
+                </item>
+                <item caption="New ESOP created" inputtype="output" contenttype="result" address="&apos;Simple Cap table calc_We are a &apos;!C12" id="PYb0FMhr">
+                    <itemdefinitions>nocaption=true;usecellformat=true;helperheightorbuttonheight=70;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#ffffff;backgroundcolor=#cc12ba98;buttonheight=70;groupname=ZpDZhtFd</itemdefinitions>
+                </item>
+                <item caption="Total Unallocated ESOP post round" inputtype="output" contenttype="result" address="&apos;Simple Cap table calc_We are a &apos;!C13" id="vc2coqzo">
+                    <itemdefinitions>nocaption=true;usecellformat=true;helperheightorbuttonheight=70;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#ffffff;backgroundcolor=#cc12ba98;buttonheight=70;groupname=ZpDZhtFd</itemdefinitions>
+                </item>
+                <item id="09wv0HPG" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=20</itemdefinitions>
+                </item>
+                <item caption="Our fully diluted post round shareholding" inputtype="output" contenttype="result" address="&apos;Simple Cap table calc_We are a &apos;!C15" id="HwuWOSP3">
+                    <itemdefinitions>nocaption=true;usecellformat=true;buttonheight=70;showinsummary=false;helperheightorbuttonheight=70;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#ffffff;backgroundcolor=#ccff5600</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="3" caption="Existing shareholder" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent id="2">
+            <items>
+                <item caption="Our fully diluted current shareholding" inputtype="input" contenttype="percent" address="&apos;Simple Cap table calc_We are an&apos;!C2" id="LmYcGRBk">
+                    <itemdefinitions>usecellformat=true;deltastep=0.001;helperheightorbuttonheight=70;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff;buttonheight=70;componentname=existing;</itemdefinitions>
+                </item>
+                <item caption="Pre Money" inputtype="input" contenttype="integer" address="&apos;Simple Cap table calc_We are an&apos;!C5" id="YCDjdh6t">
+                    <itemdefinitions>usecellformat=true;deltastep=250000;helperheightorbuttonheight=70;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff;buttonheight=70</itemdefinitions>
+                </item>
+                <item caption="Our investment" inputtype="input" contenttype="integer" address="&apos;Simple Cap table calc_We are an&apos;!C6" id="lvoVaENt">
+                    <itemdefinitions>usecellformat=true;deltastep=250000;helperheightorbuttonheight=70;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff;buttonheight=70</itemdefinitions>
+                </item>
+                <item id="kZuew75m" caption="kZuew75m" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>columnspacing=5</itemdefinitions>
+                </item>
+                <item caption="New Investor" inputtype="input" contenttype="integer" address="&apos;Simple Cap table calc_We are an&apos;!C7" id="YK3OfNCD">
+                    <itemdefinitions>usecellformat=true;deltastep=250000;helperheightorbuttonheight=70;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff;groupname=kZuew75m;buttonheight=70</itemdefinitions>
+                </item>
+                <item caption="Other existing" inputtype="input" contenttype="integer" address="&apos;Simple Cap table calc_We are an&apos;!C8" id="l5nhylzL">
+                    <itemdefinitions>usecellformat=true;deltastep=250000;helperheightorbuttonheight=70;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff;buttonheight=70;groupname=kZuew75m</itemdefinitions>
+                </item>
+                <item id="34JjS0mN" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=20</itemdefinitions>
+                </item>
+                <item caption="Unallocated ESOP pre round" inputtype="input" contenttype="percent" address="&apos;Simple Cap table calc_We are an&apos;!C3" id="0eidOtDN">
+                    <itemdefinitions>usecellformat=true;deltastep=0.001;helperheightorbuttonheight=70;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff;buttonheight=70</itemdefinitions>
+                </item>
+                <item id="qUNnF3j6" caption="qUNnF3j6" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>columnspacing=5</itemdefinitions>
+                </item>
+                <item caption="Pre round ESOP top up" inputtype="input" contenttype="percent" address="&apos;Simple Cap table calc_We are an&apos;!C4" id="OQzYoayV">
+                    <itemdefinitions>usecellformat=true;deltastep=0.001;helperheightorbuttonheight=70;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff;buttonheight=70;groupname=qUNnF3j6</itemdefinitions>
+                </item>
+                <item caption="Post round ESOP top up" inputtype="input" contenttype="percent" address="&apos;Simple Cap table calc_We are an&apos;!C10" id="Gl2kUVqm">
+                    <itemdefinitions>usecellformat=true;deltastep=0.001;helperheightorbuttonheight=70;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#4c4c4c;elementcolor=#4c4c4c;backgroundcolor=#e6ffffff;buttonheight=70;groupname=qUNnF3j6</itemdefinitions>
+                </item>
+                <item id="59sl73Xq" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=20</itemdefinitions>
+                </item>
+                <item caption="Post Money" inputtype="output" contenttype="result" address="&apos;Simple Cap table calc_We are an&apos;!C9" id="ocYWkkYi">
+                    <itemdefinitions>nocaption=true;usecellformat=true;helperheightorbuttonheight=70;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#ffffff;backgroundcolor=#cc12ba98;buttonheight=70</itemdefinitions>
+                </item>
+                <item id="UcaZds0V" caption="UcaZds0V" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>columnspacing=5</itemdefinitions>
+                </item>
+                <item caption="Round Dilution" inputtype="output" contenttype="result" address="&apos;Simple Cap table calc_We are an&apos;!C12" id="IHZgoH0U">
+                    <itemdefinitions>nocaption=true;usecellformat=true;helperheightorbuttonheight=70;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#ffffff;backgroundcolor=#cc12ba98;buttonheight=70;groupname=UcaZds0V</itemdefinitions>
+                </item>
+                <item caption="Round Dilution incl all ESOP" inputtype="output" contenttype="result" address="&apos;Simple Cap table calc_We are an&apos;!C13" id="xFnHntay">
+                    <itemdefinitions>nocaption=true;usecellformat=true;helperheightorbuttonheight=70;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#ffffff;backgroundcolor=#cc12ba98;buttonheight=70;groupname=UcaZds0V</itemdefinitions>
+                </item>
+                <item id="itdgUNcn" caption="itdgUNcn" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>columnspacing=5</itemdefinitions>
+                </item>
+                <item caption="New ESOP created" inputtype="output" contenttype="result" address="&apos;Simple Cap table calc_We are an&apos;!C14" id="uC6pKR6L">
+                    <itemdefinitions>nocaption=true;usecellformat=true;helperheightorbuttonheight=70;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#ffffff;backgroundcolor=#cc12ba98;buttonheight=70;groupname=itdgUNcn</itemdefinitions>
+                </item>
+                <item caption="Total Unallocated ESOP post round" inputtype="output" contenttype="result" address="&apos;Simple Cap table calc_We are an&apos;!C15" id="SGRG6Atr">
+                    <itemdefinitions>nocaption=true;usecellformat=true;helperheightorbuttonheight=70;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#ffffff;backgroundcolor=#cc12ba98;buttonheight=70;groupname=itdgUNcn</itemdefinitions>
+                </item>
+                <item caption="New investor post round shareholding" inputtype="output" contenttype="result" address="&apos;Simple Cap table calc_We are an&apos;!C18" id="L95uiMIE">
+                    <itemdefinitions>nocaption=true;usecellformat=true;helperheightorbuttonheight=70;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#ffffff;backgroundcolor=#cc12ba98;buttonheight=70</itemdefinitions>
+                </item>
+                <item id="OXrLqs76" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=20</itemdefinitions>
+                </item>
+                <item caption="Our fully diluted post round shareholding" inputtype="output" contenttype="result" address="&apos;Simple Cap table calc_We are an&apos;!C17" id="1kmI6rgC">
+                    <itemdefinitions>nocaption=true;usecellformat=true;buttonheight=70;showinsummary=false;helperheightorbuttonheight=70;captionvertalign=center;captionhorzalign=left;buttonradius=8;valuefontsize=16;valuetextcolor=#ffffff;backgroundcolor=#ccff5600</itemdefinitions>
+                </item>
+                <item id="AbJGmkGh" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=20;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="chart" address="&apos;Simple Cap table calc_We are an&apos;!H17:H19;&apos;Simple Cap table calc_We are an&apos;!I17:I19" id="rmTlCXpt">
+                    <itemdefinitions>numberformat=P2;backgroundcolor=#b3ffffff;charttype=donut;chartseriestypes=pie;showlegend=true;seriescaptions=Serie1;height=200;showdatamarker=true;colorpalette=#ccff5600,#4c4c4c,#d1dabe,#92aa9d,#537780,#323232,#1e6262,#2b2e4a</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+</pages>
