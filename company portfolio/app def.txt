@@ -1,0 +1,1 @@
+backgroundcolor=#3d4a52;functionbuttoncolor=#f00f40;pagetabsselectioncolor=#f00f40;headeropacity=6;paddinghorz=0;paddingvert=0;spacing=5;topareaheight=60%;pagetabsfillmode=auto;forceupdates=true;disablepageselection=true;headercolor=#3d4a52
