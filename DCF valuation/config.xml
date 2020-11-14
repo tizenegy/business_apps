@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages
+    xmlns="urn:WunderApp"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <page pageid="1" caption="Input" definitions="sheetname=Input;summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent id="1">
+            <items>
+                <item id="NyoG4nPK" contenttype="spacer">
+                    <itemdefinitions>height=4%</itemdefinitions>
+                </item>
+                <item id="KjilbFTK" contenttype="spacer" caption="">
+                    <itemdefinitions>height=1;backgroundcolor=#66cacf</itemdefinitions>
+                </item>
+                <item id="slt0rdtP" caption="slt0rdtP" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=10%</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="result" address="Input!H6" id="1UZHtdgl">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#66cacf;elementcolor=white;valuetextcolor=#ffffff;groupname=slt0rdtP;valuefontstyle=regular;captionvertalign=center;valuefontsize=20</itemdefinitions>
+                </item>
+                <item caption="Revenue" inputtype="input" contenttype="integer" address="Input!H7" id="krDlJatj">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;valuefontsize=20;captionfontsize=12;groupname=slt0rdtP</itemdefinitions>
+                </item>
+                <item id="V61f7eCe" caption="V61f7eCe" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=10%</itemdefinitions>
+                </item>
+                <item caption="EBITDA" inputtype="input" contenttype="integer" address="Input!H8" id="VbXyCu2T">
+                    <itemdefinitions>usecellformat=true;groupname=V61f7eCe;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;valuefontsize=20;captionfontsize=12;captionvertalign=center</itemdefinitions>
+                </item>
+                <item caption="Depreciation and amortization" inputtype="input" contenttype="integer" address="Input!H9" id="Kt9UlYar">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;valuefontsize=20;captionfontsize=12;captionvertalign=center;groupname=V61f7eCe</itemdefinitions>
+                </item>
+                <item id="kL27cyPc" caption="kL27cyPc" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=10%</itemdefinitions>
+                </item>
+                <item caption="NWC" inputtype="input" contenttype="integer" address="Input!H22" id="kFW4cIgs">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;groupname=kL27cyPc;valuefontsize=20;captionfontsize=12;captionvertalign=center</itemdefinitions>
+                </item>
+                <item caption="Capex" inputtype="input" contenttype="integer" address="Input!H23" id="4J3SpOjJ">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;groupname=kL27cyPc;valuefontsize=20;captionfontsize=12;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="qNykAJwm" contenttype="spacer" caption="">
+                    <itemdefinitions>height=1;backgroundcolor=#66cacf</itemdefinitions>
+                </item>
+                <item id="5NuuBrhi" contenttype="spacer">
+                    <itemdefinitions>height=4%</itemdefinitions>
+                </item>
+                <item id="B7fqZKuq" contenttype="spacer" caption="">
+                    <itemdefinitions>height=1;backgroundcolor=#66cacf</itemdefinitions>
+                </item>
+                <item id="UIUE155k" caption="UIUE155k" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=10%</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="result" address="Input!I6" id="Dg6JSy3t">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#66cacf;elementcolor=white;valuetextcolor=#ffffff;groupname=UIUE155k;valuefontstyle=regular;captionvertalign=center;valuefontsize=20</itemdefinitions>
+                </item>
+                <item caption="Revenue" inputtype="input" contenttype="integer" address="Input!I7" id="nUIxt99p">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;valuefontsize=20;captionfontsize=12;groupname=UIUE155k;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="5ABpxdpU" caption="5ABpxdpU" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=10%</itemdefinitions>
+                </item>
+                <item caption="EBITDA" inputtype="input" contenttype="integer" address="Input!I8" id="EQVWavQq">
+                    <itemdefinitions>usecellformat=true;groupname=5ABpxdpU;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;valuefontsize=20;captionfontsize=12;captionvertalign=center</itemdefinitions>
+                </item>
+                <item caption="Depreciation and amortization" inputtype="input" contenttype="integer" address="Input!I9" id="PjyC4rFd">
+                    <itemdefinitions>usecellformat=true;groupname=5ABpxdpU;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;valuefontsize=20;captionfontsize=12;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="YMGn7pO8" caption="YMGn7pO8" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=10%</itemdefinitions>
+                </item>
+                <item caption="NWC" inputtype="input" contenttype="integer" address="Input!I22" id="9WjgCEKb">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;groupname=YMGn7pO8;valuefontsize=20;captionfontsize=12;captionvertalign=center</itemdefinitions>
+                </item>
+                <item caption="Capex" inputtype="input" contenttype="integer" address="Input!I23" id="k9drCzG6">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;groupname=YMGn7pO8;valuefontsize=20;captionfontsize=12;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="L6Rbv11K" contenttype="spacer" caption="">
+                    <itemdefinitions>height=1;backgroundcolor=#66cacf</itemdefinitions>
+                </item>
+                <item id="QMdjD32a" contenttype="spacer">
+                    <itemdefinitions>height=4%</itemdefinitions>
+                </item>
+                <item id="e37QsMqw" contenttype="spacer" caption="">
+                    <itemdefinitions>height=1;backgroundcolor=#66cacf</itemdefinitions>
+                </item>
+                <item id="666wCpKe" caption="666wCpKe" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=10%</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="result" address="Input!J6" id="V4vDRMo7">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#66cacf;elementcolor=white;valuetextcolor=#ffffff;groupname=666wCpKe;valuefontstyle=regular;captionvertalign=center;valuefontsize=20</itemdefinitions>
+                </item>
+                <item caption="Revenue" inputtype="input" contenttype="integer" address="Input!J7" id="OqrdXwik">
+                    <itemdefinitions>usecellformat=true;groupname=666wCpKe;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;valuefontsize=20;captionfontsize=12;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="0Y5oWseT" caption="0Y5oWseT" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=10%</itemdefinitions>
+                </item>
+                <item caption="EBITDA" inputtype="input" contenttype="integer" address="Input!J8" id="IcTQxLpF">
+                    <itemdefinitions>usecellformat=true;groupname=0Y5oWseT;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;valuefontsize=20;captionfontsize=12;captionvertalign=center</itemdefinitions>
+                </item>
+                <item caption="Depreciation and amortization" inputtype="input" contenttype="integer" address="Input!J9" id="dh2lZKIg">
+                    <itemdefinitions>usecellformat=true;groupname=0Y5oWseT;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;valuefontsize=20;captionfontsize=12;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="AoqGrukb" caption="AoqGrukb" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=10%</itemdefinitions>
+                </item>
+                <item caption="NWC" inputtype="input" contenttype="integer" address="Input!J22" id="VAAuGUK8">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;groupname=AoqGrukb;valuefontsize=20;captionfontsize=12;captionvertalign=center</itemdefinitions>
+                </item>
+                <item caption="Capex" inputtype="input" contenttype="integer" address="Input!J23" id="3u8ebric">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;groupname=AoqGrukb;valuefontsize=20;captionfontsize=12;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="osr7y0sv" contenttype="spacer" caption="">
+                    <itemdefinitions>height=1;backgroundcolor=#66cacf</itemdefinitions>
+                </item>
+                <item id="lRTEh7lo" contenttype="spacer">
+                    <itemdefinitions>height=4%</itemdefinitions>
+                </item>
+                <item id="flWC1ZhE" contenttype="spacer" caption="">
+                    <itemdefinitions>height=1;backgroundcolor=#66cacf</itemdefinitions>
+                </item>
+                <item id="N0bZPjXf" caption="N0bZPjXf" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=10%</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="result" address="Input!K6" id="L6sR9J7y">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#66cacf;elementcolor=white;valuetextcolor=#ffffff;groupname=N0bZPjXf;valuefontstyle=regular;captionvertalign=center;valuefontsize=20</itemdefinitions>
+                </item>
+                <item caption="Revenue" inputtype="input" contenttype="integer" address="Input!K7" id="TVErvPne">
+                    <itemdefinitions>usecellformat=true;groupname=N0bZPjXf;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;valuefontsize=20;captionfontsize=12;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="Efa8etun" caption="Efa8etun" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=10%</itemdefinitions>
+                </item>
+                <item caption="EBITDA" inputtype="input" contenttype="integer" address="Input!K8" id="3EYPtrF6">
+                    <itemdefinitions>usecellformat=true;groupname=Efa8etun;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;valuefontsize=20;captionfontsize=12;captionvertalign=center</itemdefinitions>
+                </item>
+                <item caption="Depreciation and amortization" inputtype="input" contenttype="integer" address="Input!K9" id="f9wRw2xV">
+                    <itemdefinitions>usecellformat=true;groupname=Efa8etun;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;valuefontsize=20;captionfontsize=12;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="G2D1MLfC" caption="G2D1MLfC" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=10%</itemdefinitions>
+                </item>
+                <item caption="NWC" inputtype="input" contenttype="integer" address="Input!K22" id="wE0fe1nY">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;groupname=G2D1MLfC;valuefontsize=20;captionfontsize=12;captionvertalign=center</itemdefinitions>
+                </item>
+                <item caption="Capex" inputtype="input" contenttype="integer" address="Input!K23" id="Jeda7ytL">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;groupname=G2D1MLfC;valuefontsize=20;captionfontsize=12;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="qebv78VF" contenttype="spacer" caption="">
+                    <itemdefinitions>height=1;backgroundcolor=#66cacf</itemdefinitions>
+                </item>
+                <item id="jDagADmd" contenttype="spacer">
+                    <itemdefinitions>height=4%</itemdefinitions>
+                </item>
+                <item id="eX1yAdtr" contenttype="spacer" caption="">
+                    <itemdefinitions>height=1;backgroundcolor=#66cacf</itemdefinitions>
+                </item>
+                <item id="zyQY7Fml" caption="zyQY7Fml" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=10%</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="result" address="Input!L6" id="bn5uxpcf">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#66cacf;elementcolor=white;valuetextcolor=#ffffff;groupname=zyQY7Fml;valuefontstyle=regular;valuefontsize=20;captionvertalign=center</itemdefinitions>
+                </item>
+                <item caption="Revenue" inputtype="input" contenttype="integer" address="Input!L7" id="rnDzhKj1">
+                    <itemdefinitions>usecellformat=true;groupname=zyQY7Fml;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;valuefontsize=20;captionfontsize=12;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="71Xg6Uob" caption="71Xg6Uob" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=10%</itemdefinitions>
+                </item>
+                <item caption="EBITDA" inputtype="input" contenttype="integer" address="Input!L8" id="QLGCaPyh">
+                    <itemdefinitions>usecellformat=true;groupname=71Xg6Uob;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;valuefontsize=20;captionfontsize=12;captionvertalign=center</itemdefinitions>
+                </item>
+                <item caption="Depreciation and amortization" inputtype="input" contenttype="integer" address="Input!L9" id="Q07SN9u8">
+                    <itemdefinitions>usecellformat=true;groupname=71Xg6Uob;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;valuefontsize=20;captionfontsize=12;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="PwYXpytc" caption="PwYXpytc" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=10%</itemdefinitions>
+                </item>
+                <item caption="NWC" inputtype="input" contenttype="integer" address="Input!L22" id="VMy8Irx5">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;groupname=PwYXpytc;valuefontsize=20;captionfontsize=12;captionvertalign=center</itemdefinitions>
+                </item>
+                <item caption="Capex" inputtype="input" contenttype="integer" address="Input!L23" id="BIse0fBU">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;groupname=PwYXpytc;valuefontsize=20;captionfontsize=12;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="2KjHb6NC" contenttype="spacer">
+                    <itemdefinitions>height=1;backgroundcolor=#66cacf</itemdefinitions>
+                </item>
+                <item id="1hIALCz0" contenttype="spacer">
+                    <itemdefinitions>height=8%</itemdefinitions>
+                </item>
+                <item id="iSVfzisA" contenttype="spacer" caption="">
+                    <itemdefinitions>height=1;backgroundcolor=#fd6357</itemdefinitions>
+                </item>
+                <item caption="Valuation date" inputtype="input" contenttype="date" address="Input!L26" id="Ee9ML4U5">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;valuefontsize=20;captionfontsize=12;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="n9x0LVTl" contenttype="spacer" caption="">
+                    <itemdefinitions>height=1;backgroundcolor=#fd6357</itemdefinitions>
+                </item>
+                <item id="zZ7PYEaG" contenttype="spacer" caption="">
+                    <itemdefinitions>height=4%</itemdefinitions>
+                </item>
+                <item id="7mOYVeNT" contenttype="spacer" caption="">
+                    <itemdefinitions>height=1;backgroundcolor=#fd6357</itemdefinitions>
+                </item>
+                <item id="4JfEgr7s" caption="4JfEgr7s" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item caption="WACC (%)" inputtype="input" contenttype="double" address="Input!L30" id="d37MooQD">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;valuefontsize=20;captionfontsize=12;captionvertalign=center;groupname=4JfEgr7s</itemdefinitions>
+                </item>
+                <item caption="Terminal growth rate (%)" inputtype="input" contenttype="double" address="Input!L31" id="Cj3YKak3">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;valuefontsize=20;captionfontsize=12;captionvertalign=center;groupname=4JfEgr7s</itemdefinitions>
+                </item>
+                <item caption="NWC % revenue for terminal value calculation" inputtype="input" contenttype="double" address="Input!L32" id="JRQbFjLU">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;valuefontsize=20;captionfontsize=12;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="F6rc7khB" caption="F6rc7khB" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item caption="EBITDA margin for terminal value calculation" inputtype="input" contenttype="double" address="Input!L33" id="s7W2f9X2">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;valuefontsize=20;captionfontsize=12;captionvertalign=center;groupname=F6rc7khB</itemdefinitions>
+                </item>
+                <item caption="Taxes (%)" inputtype="input" contenttype="double" address="Input!L34" id="Y3mMDC5m">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;valuefontsize=20;captionfontsize=12;captionvertalign=center;groupname=F6rc7khB</itemdefinitions>
+                </item>
+                <item id="qWpM8fap" contenttype="spacer" caption="">
+                    <itemdefinitions>height=1;backgroundcolor=#fd6357</itemdefinitions>
+                </item>
+                <item id="Go0HxRaa" contenttype="spacer" caption="">
+                    <itemdefinitions>height=4%</itemdefinitions>
+                </item>
+                <item id="TXep6CmY" contenttype="spacer" caption="">
+                    <itemdefinitions>height=1;backgroundcolor=#fd6357</itemdefinitions>
+                </item>
+                <item id="Gge6nr3R" caption="Gge6nr3R" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item caption="Financial debt" inputtype="input" contenttype="integer" address="Input!L36" id="SgRXawzl">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;valuefontsize=20;captionfontsize=12;captionvertalign=center;groupname=Gge6nr3R</itemdefinitions>
+                </item>
+                <item caption="Cash (total)" inputtype="input" contenttype="integer" address="Input!L37" id="yzFFGeGt">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;valuefontsize=20;captionfontsize=12;captionvertalign=center;groupname=Gge6nr3R</itemdefinitions>
+                </item>
+                <item id="d1n6g2IY" caption="d1n6g2IY" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item caption="Non-operating assets and liabilities w/o cash" inputtype="input" contenttype="integer" address="Input!L40" id="7EhBIEfL">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;valuefontsize=20;captionfontsize=12;captionvertalign=center;groupname=d1n6g2IY</itemdefinitions>
+                </item>
+                <item caption="Excess cash" inputtype="input" contenttype="integer" address="Input!L38" id="fL11cSsA">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontstyle=regular;valuetextcolor=#33383e;valuefontsize=20;captionfontsize=12;captionvertalign=center;groupname=d1n6g2IY</itemdefinitions>
+                </item>
+                <item id="kPT8CSjM" contenttype="spacer" caption="">
+                    <itemdefinitions>height=1;backgroundcolor=#fd6357</itemdefinitions>
+                </item>
+                <item id="0banl1Nm" contenttype="spacer" caption="">
+                    <itemdefinitions>height=4%</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="2" caption="Charts">
+        <excelcontent id="1">
+            <items>
+                <item id="zj12ILU6" contenttype="spacer">
+                    <itemdefinitions>height=2%</itemdefinitions>
+                </item>
+                <item id="ttC2Yiby" contenttype="spacer">
+                    <itemdefinitions>height=2%</itemdefinitions>
+                </item>
+                <item caption="EBITDA / EBIT / Capex" inputtype="output" contenttype="chart" address="DCF!E6:M6;DCF!E9:M9;DCF!E11:M11;DCF!E17:M17" id="F2MPqL6q">
+                    <itemdefinitions>charttype=line;chartseriestypes=line,line,line;showlegend=true;chartname=Diagramm 2;seriescaptions=EBITDA,EBIT,Capex;height=60%;numberformat=N0;backgroundcolor=#ffffff;colorpalette=#66cacf,#33383e,#fd6357;showdatamarker=true</itemdefinitions>
+                </item>
+                <item caption="Revenue" inputtype="output" contenttype="chart" address="DCF!E6:M6;DCF!E7:M7" id="ORh2wJsY">
+                    <itemdefinitions>charttype=line;chartseriestypes=line;chartname=Diagramm 1;seriescaptions=Serie1;height=40%;numberformat=N0;backgroundcolor=#ffffff;colorpalette=#66cacf,#33383e,#fd6357;showdatamarker=true</itemdefinitions>
+                </item>
+                <item caption="Growth and margin" inputtype="output" contenttype="chart" address="DCF!E29:M29;DCF!E30:M30;DCF!E31:M31;DCF!E32:M32" id="As7yAESS">
+                    <itemdefinitions>charttype=column;chartseriestypes=column,column,column;showlegend=true;chartname=Diagramm 3;seriescaptions=Revenue growth,EBITDA margin,EBIT margin;height=40%;numberformat=F1;backgroundcolor=#ffffff;colorpalette=#66cacf,#33383e,#fd6357</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="4" caption="KPI">
+        <excelcontent id="1">
+            <items>
+                <item id="g7PYFbzV" contenttype="spacer">
+                    <itemdefinitions>height=15%</itemdefinitions>
+                </item>
+                <item id="GkgeS64g" caption="GkgeS64g" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="5kO8BfPr" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=GkgeS64g;elementwidth=5%</itemdefinitions>
+                </item>
+                <item caption="Equity value" inputtype="output" contenttype="result" address="DCF!C47" id="JPFucJtZ">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#66cacf;elementcolor=white;valuetextcolor=#ffffff;groupname=GkgeS64g;valuefontsize=20;valuefontstyle=regular;captionvertalign=center;captiontextcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="ND5BZQfx" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=GkgeS64g;elementwidth=5</itemdefinitions>
+                </item>
+                <item caption="Terminal value" inputtype="output" contenttype="result" address="DCF!C44" id="eXVuB8m0">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#66cacf;elementcolor=white;valuetextcolor=#ffffff;groupname=GkgeS64g;valuefontsize=20;valuefontstyle=regular;captionvertalign=center;captiontextcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="RTYlywEk" contenttype="spacer">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="ZZM7h0ep" caption="ZZM7h0ep" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="GcQBN1Eb" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=ZZM7h0ep;elementwidth=5%</itemdefinitions>
+                </item>
+                <item caption="Enterprise value" inputtype="output" contenttype="result" address="DCF!C45" id="VOK2lMcY">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#66cacf;elementcolor=white;valuetextcolor=#ffffff;groupname=ZZM7h0ep;valuefontsize=20;valuefontstyle=regular;captionvertalign=center;captiontextcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="nnYenniJ" contenttype="spacer">
+                    <itemdefinitions>height=5;groupname=ZZM7h0ep;elementwidth=5</itemdefinitions>
+                </item>
+                <item caption="Equity value incl. NOA" inputtype="output" contenttype="result" address="DCF!C49" id="A3bQCvth">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#66cacf;elementcolor=white;valuetextcolor=#ffffff;groupname=ZZM7h0ep;valuefontsize=20;valuefontstyle=regular;captionvertalign=center;captiontextcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="SrsVk1wb" contenttype="spacer">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="0Ht9syFA" caption="0Ht9syFA" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="e9FAzC9X" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=0Ht9syFA;elementwidth=5%</itemdefinitions>
+                </item>
+                <item caption="Net debt" inputtype="output" contenttype="result" address="DCF!C46" id="eBgaJxTO">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#66cacf;elementcolor=white;valuetextcolor=#ffffff;groupname=0Ht9syFA;valuefontsize=20;valuefontstyle=regular;captionvertalign=center;captiontextcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="L9tZHDlw" contenttype="spacer">
+                    <itemdefinitions>height=5;groupname=0Ht9syFA;elementwidth=5</itemdefinitions>
+                </item>
+                <item caption="Planning period" inputtype="output" contenttype="result" address="DCF!C43" id="OpAK7ATt">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#66cacf;elementcolor=white;valuetextcolor=#ffffff;groupname=0Ht9syFA;valuefontsize=20;valuefontstyle=regular;captionvertalign=center;captiontextcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="vosxYWDA" contenttype="spacer">
+                    <itemdefinitions>height=50</itemdefinitions>
+                </item>
+                <item id="srddm9Az" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=GkgeS64g;elementwidth=5%</itemdefinitions>
+                </item>
+                <item id="iPq4j3g0" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=ZZM7h0ep;elementwidth=5%</itemdefinitions>
+                </item>
+                <item id="x5zww8yo" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=0Ht9syFA;elementwidth=5%</itemdefinitions>
+                </item>
+                <item id="Yz3vVLji" caption="Yz3vVLji" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="Y3CfkSDk" contenttype="spacer" caption="">
+                    <itemdefinitions>height=50;elementwidth=5%;groupname=Yz3vVLji</itemdefinitions>
+                </item>
+                <item id="603hjD4x" caption="Print" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;captiontextcolor=white;textcolor=#ffffff;valuetextcolor=white;actioninfo=print;groupname=Yz3vVLji</itemdefinitions>
+                    <action xsi:type="print"/>
+                </item>
+                <item id="iTsvsMqC" contenttype="spacer">
+                    <itemdefinitions>height=50</itemdefinitions>
+                </item>
+                <item id="jHrcwfIc" contenttype="spacer" caption="">
+                    <itemdefinitions>height=50;elementwidth=5%;groupname=Yz3vVLji</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="3" caption="Sensitivity">
+        <excelcontent id="1">
+            <items>
+                <item id="Po7K30cR" contenttype="spacer">
+                    <itemdefinitions>height=10%</itemdefinitions>
+                </item>
+                <item caption="" inputtype="" contenttype="list" address="DCF!F42:M49" id="dsGWt0pW">
+                    <itemdefinitions>componentname=dsGWt0pW;gridcollapsegroups=false;gridallowedit=false;height=80%;headeravailable=false;showcolumnheader=false;listcolumns=1:50:,2:75:,3:75:,4:75:,5:75:,6:75:,7:75:,8:75:;detailcolumns=1,2,3,4,5,6,7,8;gridtheme=light;gridrowheight=40;showsearchpanel=false;frozenrowscount=1;frozencolumnscount=1;usecellbackgroundcolors=true;gridselectionbackgroundcolor=#00000000</itemdefinitions>
+                    <listcolumns>
+                        <listcolumn index="1" type="" width="50"></listcolumn>
+                        <listcolumn index="2" type="" width="75"></listcolumn>
+                        <listcolumn index="3" type="" width="75"></listcolumn>
+                        <listcolumn index="4" type="" width="75"></listcolumn>
+                        <listcolumn index="5" type="" width="75"></listcolumn>
+                        <listcolumn index="6" type="" width="75"></listcolumn>
+                        <listcolumn index="7" type="" width="75"></listcolumn>
+                        <listcolumn index="8" type="" width="75"></listcolumn>
+                    </listcolumns>
+                </item>
+                <item id="UjO3swNm" contenttype="spacer">
+                    <itemdefinitions>height=10%</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+</pages>
