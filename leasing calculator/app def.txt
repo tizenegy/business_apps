@@ -1,0 +1,1 @@
+functionbuttoncolor=#00a4b4;pagetabsselectioncolor=#00a4b4;useremailcell=Settings!G1;printsheet=Offer;menuentries=print;pagetabsfillmode=auto;disablepageselection=true;backgroundcolor=black;headercolor=#66000000;allowuploadcalculations=true

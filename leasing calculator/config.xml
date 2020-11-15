@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns="urn:WunderApp">
+    <page pageid="6" caption="Leasing Calculator" definitions="actionbuttontype=share">
+        <excelcontent id="1">
+            <items>
+                <item id="ae8GLQYV" caption="Image" inputtype="output" contenttype="image" address="">
+                    <itemdefinitions>imageclickevent=false;imagefile=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/86425833-4fea-4286-86c6-63caec78270a/public/field-ae8GLQYV.png?v=fSlCkCPd;buttonheight=100</itemdefinitions>
+                </item>
+                <item id="1DVgbkan" caption="1DVgbkan" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="937HOwDg" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=1DVgbkan;elementwidth=1*</itemdefinitions>
+                </item>
+                <item id="GjDylPtC" caption="Calculator" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#00a4b4;linkinfo=page:1;textcolor=#000000;groupname=1DVgbkan;elementwidth=18*</itemdefinitions>
+                </item>
+                <item id="E3voF21M" contenttype="spacer">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="NdVJ86J0" caption="NdVJ86J0" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="YYqoWIuu" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=NdVJ86J0;elementwidth=1*</itemdefinitions>
+                </item>
+                <item id="D6bXO6Bf" caption="Edit rates" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#00a4b4;linkinfo=page:4;textcolor=#000000;captionhorzalign=center;groupname=NdVJ86J0;elementwidth=15*</itemdefinitions>
+                </item>
+                <item id="OXQiMTIX" contenttype="spacer">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="UTHQTwKl" caption="UTHQTwKl" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="6uKR4Nhh" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=UTHQTwKl;elementwidth=1*</itemdefinitions>
+                </item>
+                <item id="YBfQ97IK" caption="Clear all" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#00a4b4;actioninfo=update;textcolor=#000000;captionhorzalign=center;groupname=UTHQTwKl;elementwidth=12*</itemdefinitions>
+                </item>
+                <item id="5QlHJ3o4" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=1DVgbkan;elementwidth=1*</itemdefinitions>
+                </item>
+                <item id="2HioRdXA" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=NdVJ86J0;elementwidth=4*</itemdefinitions>
+                </item>
+                <item id="geynoS3t" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=UTHQTwKl;elementwidth=7*</itemdefinitions>
+                </item>
+                <item id="W5kfzsrQ" contenttype="spacer">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="tw4cVUj4" caption="tw4cVUj4" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="UCyZlNRF" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=tw4cVUj4;elementwidth=1*</itemdefinitions>
+                </item>
+                <item id="LJiPDdEj" caption="Load" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#00a4b4;textcolor=#000000;captionhorzalign=center;groupname=tw4cVUj4;elementwidth=9*;actioninfo=load</itemdefinitions>
+                </item>
+                <item id="KH9caNR1" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=tw4cVUj4;elementwidth=10*</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="1" caption="Calculator" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D;actionbuttontype=home">
+        <excelcontent id="1">
+            <items>
+                <item id="mNmIlMR7" contenttype="spacer">
+                    <itemdefinitions>height=20</itemdefinitions>
+                </item>
+                <item id="SYeyEXV2" caption="New or existing client?" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#000000;textcolor=white;captionhorzalign=left;textfontsize=20</itemdefinitions>
+                </item>
+                <item id="81qLu2uA" caption="Client name" inputtype="input" contenttype="string" address="Calculator!C4">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#000000;elementcolor=#09679B;valuetextcolor=#00a4b4;valuefontstyle=regular;valuefontsize=20;captiontextcolor=#969696</itemdefinitions>
+                </item>
+                <item id="PjeoPTIS" caption="Existing client" inputtype="input" contenttype="toggle" address="Calculator!C5">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#000000;elementcolor=#00a4b4;valuetextcolor=#00a4b4;isvisiblecell=Calculator!G4;valuefontstyle=regular;captionvertalign=center;captionhorzalign=left;valuefontsize=20;captiontextcolor=#969696</itemdefinitions>
+                </item>
+                <item id="Z8BFcNjG" contenttype="spacer">
+                    <itemdefinitions>height=20</itemdefinitions>
+                </item>
+                <item id="gkRMtq92" caption="Please input parameters:" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#000000;textcolor=white;captionhorzalign=left;textfontsize=20</itemdefinitions>
+                </item>
+                <item id="bvsaiuHT" caption="Net equipment value" inputtype="input" contenttype="currency" address="Calculator!C6">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#000000;elementcolor=#00a4b4;valuetextcolor=#00a4b4;valuefontstyle=regular;valuefontsize=20;captiontextcolor=#969696;deltastep=1000;minvalue=0</itemdefinitions>
+                </item>
+                <item id="DmKB9VeD" caption="Down-payment" inputtype="input" contenttype="toggle" address="Calculator!C7">
+                    <itemdefinitions>usecellformat=true;deltastep=0.001;backgroundcolor=#000000;elementcolor=#00a4b4;valuetextcolor=#00a4b4;valuefontstyle=regular;captionvertalign=center;captionhorzalign=left;valuefontsize=20;captiontextcolor=#969696</itemdefinitions>
+                </item>
+                <item id="q11kJFXw" caption="Net financed amount" inputtype="output" contenttype="result" address="Calculator!C8">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#000000;elementcolor=white;valuetextcolor=#00a4b4;valuefontstyle=regular;captionvertalign=center;captionhorzalign=left;valuefontsize=20;captiontextcolor=#969696</itemdefinitions>
+                </item>
+                <item id="TbxlDqhy" caption="Number of installments" inputtype="input" contenttype="slider" address="Calculator!C10">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#000000;elementcolor=#00a4b4;valuetextcolor=#00a4b4;valuefontstyle=regular;captionvertalign=center;captionhorzalign=left;valuefontsize=20;captiontextcolor=#969696;minvalue=0;maxvalue=48;deltastep=12;buttonheight=50</itemdefinitions>
+                </item>
+                <item id="xdBi2dw1" caption="Asset type" inputtype="input" contenttype="toggle" address="Calculator!C11">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#000000;elementcolor=#00a4b4;valuetextcolor=#00a4b4;valuefontstyle=regular;captionvertalign=center;captionhorzalign=left;valuefontsize=20;captiontextcolor=#969696</itemdefinitions>
+                </item>
+                <item id="erJsHU1U" caption="Insurance from SFS" inputtype="input" contenttype="checkbox" address="Calculator!C12">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#000000;elementcolor=#09679B;valuetextcolor=#00a4b4;captionvertalign=center;captionhorzalign=left;captiontextcolor=#969696</itemdefinitions>
+                </item>
+                <item id="MXxqlRBJ" contenttype="spacer">
+                    <itemdefinitions>height=20</itemdefinitions>
+                </item>
+                <item id="p6f233VY" caption="Net monthly installment incl. Insurance" inputtype="output" contenttype="result" address="Calculator!C14">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#000000;elementcolor=white;valuetextcolor=#00a4b4;valuefontstyle=regular;captionvertalign=center;captionhorzalign=left;valuefontsize=20;captiontextcolor=#969696</itemdefinitions>
+                </item>
+                <item id="aW6eYpCp" caption="aW6eYpCp" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="EI9nT5ry" caption="Net residual value" inputtype="output" contenttype="result" address="Calculator!C15">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#000000;elementcolor=white;valuetextcolor=#00a4b4;valuefontstyle=regular;captionvertalign=center;captionhorzalign=left;valuefontsize=20;captiontextcolor=#969696;groupname=aW6eYpCp</itemdefinitions>
+                </item>
+                <item id="fEx1ikeS" caption="Net total cost of finance" inputtype="output" contenttype="result" address="Calculator!C16">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#000000;elementcolor=white;valuetextcolor=#00a4b4;valuefontstyle=regular;captionvertalign=center;captionhorzalign=left;valuefontsize=20;captiontextcolor=#969696;groupname=aW6eYpCp</itemdefinitions>
+                </item>
+                <item id="Ana9UFCB" caption="Remarks" inputtype="output" contenttype="result" address="Calculator!C18">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#000000;elementcolor=white;valuetextcolor=#00a4b4;valuefontstyle=regular;captionvertalign=center;captionhorzalign=left;valuefontsize=20;captiontextcolor=#969696</itemdefinitions>
+                </item>
+                <item id="71uPpYAa" contenttype="spacer" caption="">
+                    <itemdefinitions>height=20</itemdefinitions>
+                </item>
+                <item id="eg76hHf3" caption="Overview:" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#000000;textcolor=white;captionhorzalign=left;textfontsize=20</itemdefinitions>
+                </item>
+                <item inputtype="output" contenttype="chart" address="app!B19:B21;app!C19:C21" id="zm3w5ZVZ">
+                    <itemdefinitions>backgroundcolor=#000000;charttype=columnstacked;chartseriestypes=columnstacked;chartname=Diagramm 1;seriescaptions=Serie1;colorpalette=#00a4b4;height=100;numberformat=C2;axiscolor=#969696;titletextcolor=#969696;legendtextcolor=#969696</itemdefinitions>
+                </item>
+                <item id="pqnuDGVX" contenttype="spacer">
+                    <itemdefinitions>height=20</itemdefinitions>
+                </item>
+                <item id="1AbxmfyI" caption="1AbxmfyI" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="HzHiyUNc" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=1AbxmfyI;elementwidth=1*</itemdefinitions>
+                </item>
+                <item id="yB7y46tC" caption="Client data" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#00a4b4;linkinfo=page:2;textcolor=#000000;captionhorzalign=center;groupname=1AbxmfyI;elementwidth=18*</itemdefinitions>
+                </item>
+                <item id="Grz53mgB" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=1AbxmfyI;elementwidth=1*</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="2" caption="Client" definitions="actionbuttontype=home">
+        <excelcontent id="1">
+            <items>
+                <item id="cRxCVYpz" caption="Client name" inputtype="input" contenttype="string" address="Calculator!C4">
+                    <itemdefinitions>backgroundcolor=#000000;elementcolor=#09679B;valuetextcolor=#00a4b4;usecellformat=true;valuefontstyle=regular;isvisiblecell=Calculator!G5;valuefontsize=20;captiontextcolor=#969696;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="5h8558kQ" caption="Address" inputtype="input" contenttype="string" address="app!C10">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#000000;elementcolor=#09679B;valuetextcolor=#00a4b4;isvisiblecell=Calculator!G5;valuefontsize=20;valuefontstyle=regular;captiontextcolor=#969696;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="JSLg2ko5" caption="Postal code" inputtype="input" contenttype="string" address="app!C11">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#000000;elementcolor=#09679B;valuetextcolor=#00a4b4;isvisiblecell=Calculator!G5;valuefontsize=20;valuefontstyle=regular;captiontextcolor=#969696;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="qXQF8S42" caption="City" inputtype="input" contenttype="string" address="app!C12">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#000000;elementcolor=#09679B;valuetextcolor=#00a4b4;isvisiblecell=Calculator!G5;valuefontsize=20;valuefontstyle=regular;captiontextcolor=#969696;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="hk3hyxs4" caption="Country" inputtype="input" contenttype="string" address="app!C13">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#000000;elementcolor=#09679B;valuetextcolor=#00a4b4;isvisiblecell=Calculator!G5;valuefontsize=20;valuefontstyle=regular;captiontextcolor=#969696;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="J14r9hxB" caption="Name" inputtype="output" contenttype="result" address="app!D9">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#000000;elementcolor=white;valuetextcolor=#00a4b4;isvisiblecell=Calculator!G4;valuefontsize=20;valuefontstyle=regular;captiontextcolor=#969696;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="xMN1FCxv" caption="Address" inputtype="output" contenttype="result" address="app!D10">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#000000;elementcolor=white;valuetextcolor=#00a4b4;isvisiblecell=Calculator!G4;valuefontsize=20;valuefontstyle=regular;captiontextcolor=#969696;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="odimR5Za" caption="Postal code" inputtype="output" contenttype="result" address="app!D11">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#000000;elementcolor=white;valuetextcolor=#00a4b4;isvisiblecell=Calculator!G4;valuefontsize=20;valuefontstyle=regular;captiontextcolor=#969696;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="GkeZUbI8" caption="City" inputtype="output" contenttype="result" address="app!D12">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#000000;elementcolor=white;valuetextcolor=#00a4b4;isvisiblecell=Calculator!G4;valuefontsize=20;valuefontstyle=regular;captiontextcolor=#969696;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="I6xSa8jF" caption="Country" inputtype="output" contenttype="result" address="app!D13">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#000000;elementcolor=white;valuetextcolor=#00a4b4;isvisiblecell=Calculator!G4;valuefontsize=20;valuefontstyle=regular;captiontextcolor=#969696;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="51LtviYR" caption="Enter client details manually" inputtype="input" contenttype="checkbox" address="app!C15">
+                    <itemdefinitions>backgroundcolor=#000000;elementcolor=#09679B;valuetextcolor=#00a4b4;usecellformat=true;captiontextcolor=#969696;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="53Ufa7aT" caption="53Ufa7aT" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="G9IYKmNE" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=53Ufa7aT;elementwidth=1*</itemdefinitions>
+                </item>
+                <item id="MtJTlNUt" caption="My data" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#00a4b4;linkinfo=page:3;textcolor=#000000;captionhorzalign=center;groupname=53Ufa7aT;elementwidth=18*</itemdefinitions>
+                </item>
+                <item id="shCIdvVN" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=53Ufa7aT;elementwidth=1*</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="3" caption="My data" definitions="actionbuttontype=home">
+        <excelcontent id="1">
+            <items>
+                <item id="ReLTzRrT" caption="Name" inputtype="input" contenttype="string" address="Settings!C3">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#000000;elementcolor=#09679B;valuetextcolor=#00a4b4;isvisiblecell=Settings!C7;valuefontsize=20;valuefontstyle=regular;captiontextcolor=#969696;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="9ip8AUdo" caption="Phone" inputtype="input" contenttype="string" address="Settings!C4">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#000000;elementcolor=#09679B;valuetextcolor=#00a4b4;isvisiblecell=Settings!C7;valuefontsize=20;valuefontstyle=regular;captiontextcolor=#969696;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="R5fHaHmc" caption="eMail" inputtype="input" contenttype="string" address="Settings!C5">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#000000;elementcolor=#09679B;valuetextcolor=#00a4b4;isvisiblecell=Settings!C7;valuefontsize=20;valuefontstyle=regular;captiontextcolor=#969696;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="CpUgYjgD" caption="Company" inputtype="input" contenttype="string" address="Settings!C6">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#000000;elementcolor=#09679B;valuetextcolor=#00a4b4;isvisiblecell=Settings!C7;valuefontsize=20;valuefontstyle=regular;captiontextcolor=#969696;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="SvsA67X6" caption="Name" inputtype="output" contenttype="result" address="Settings!G3">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#000000;elementcolor=white;valuetextcolor=#00a4b4;isvisiblecell=Settings!C8;valuefontsize=20;valuefontstyle=regular;captiontextcolor=#969696;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="2QR37zKu" caption="Phone" inputtype="output" contenttype="result" address="Settings!G4">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#000000;elementcolor=white;valuetextcolor=#00a4b4;isvisiblecell=Settings!C8;valuefontsize=20;valuefontstyle=regular;captiontextcolor=#969696;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="VOLavsta" caption="eMail" inputtype="output" contenttype="result" address="Settings!G5">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#000000;elementcolor=white;valuetextcolor=#00a4b4;isvisiblecell=Settings!C8;valuefontsize=20;valuefontstyle=regular;captiontextcolor=#969696;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="42kZi0bx" caption="Company" inputtype="output" contenttype="result" address="Settings!G6">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#000000;elementcolor=white;valuetextcolor=#00a4b4;isvisiblecell=Settings!C8;valuefontsize=20;valuefontstyle=regular;captiontextcolor=#969696;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="M3WcCs36" caption="Enter contact details manually" inputtype="input" contenttype="checkbox" address="Settings!C7">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#000000;elementcolor=#09679B;valuetextcolor=#00a4b4;captiontextcolor=#969696;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="g4mYJsQn" contenttype="spacer">
+                    <itemdefinitions>height=50</itemdefinitions>
+                </item>
+                <item id="VZ5davmt" caption="VZ5davmt" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="tZLK6EHx" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=VZ5davmt;elementwidth=1*</itemdefinitions>
+                </item>
+                <item id="lfELMYdX" caption="Create offer" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#00a4b4;groupname=VZ5davmt;elementwidth=18*;linkinfo=page:7;textcolor=#000000;captionhorzalign=center</itemdefinitions>
+                </item>
+                <item id="G5fKeUuc" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=VZ5davmt;elementwidth=1*</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="7" caption="Create offer" definitions="actionbuttontype=home">
+        <excelcontent id="1">
+            <items>
+                <item id="poJOJ46R" contenttype="spacer">
+                    <itemdefinitions>height=80</itemdefinitions>
+                </item>
+                <item id="9yQAPdVE" caption="9yQAPdVE" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="KwKEgld7" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=9yQAPdVE;elementwidth=1*</itemdefinitions>
+                </item>
+                <item id="7Pws4P5H" caption="Print offer" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#00a4b4;actioninfo=print;textcolor=#000000;captionhorzalign=center;groupname=9yQAPdVE;elementwidth=18*</itemdefinitions>
+                </item>
+                <item id="UPkpfx5W" contenttype="spacer">
+                    <itemdefinitions>height=50;elementwidth=1*;groupname=9yQAPdVE</itemdefinitions>
+                </item>
+                <item id="sqBfvyqC" contenttype="spacer">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="ipQAYygS" caption="ipQAYygS" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="yAFv4XR2" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=ipQAYygS;elementwidth=1*</itemdefinitions>
+                </item>
+                <item id="ea841322" caption="Save offer" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#00a4b4;actioninfo=save;textcolor=#000000;captionhorzalign=center;groupname=ipQAYygS;elementwidth=15*</itemdefinitions>
+                </item>
+                <item id="fouKTzzy" contenttype="spacer">
+                    <itemdefinitions>height=50;elementwidth=4*;groupname=ipQAYygS</itemdefinitions>
+                </item>
+                <item id="8sQcvkkC" contenttype="spacer">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="2ge33UDv" caption="2ge33UDv" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="UQ9lQy0p" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=2ge33UDv;elementwidth=1*</itemdefinitions>
+                </item>
+                <item id="X4I29uGa" caption="Upload" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#00a4b4;actioninfo=upload;textcolor=#000000;captionhorzalign=center;groupname=2ge33UDv;elementwidth=12*</itemdefinitions>
+                </item>
+                <item id="CeJ9TL97" contenttype="spacer">
+                    <itemdefinitions>height=50;elementwidth=7*;groupname=2ge33UDv</itemdefinitions>
+                </item>
+                <item id="W2luNoPZ" contenttype="spacer" caption="">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="ONsVtwdR" caption="ONsVtwdR" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="mszO7f6f" contenttype="spacer" caption="">
+                    <itemdefinitions>height=50;elementwidth=1*;groupname=ONsVtwdR</itemdefinitions>
+                </item>
+                <item id="7LlBzthR" caption="Clear all" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#00a4b4;actioninfo=update;textcolor=#000000;captionhorzalign=center;elementwidth=9*;groupname=ONsVtwdR</itemdefinitions>
+                </item>
+                <item id="G1lJrJgG" contenttype="spacer" caption="">
+                    <itemdefinitions>height=50;elementwidth=10*;groupname=ONsVtwdR</itemdefinitions>
+                </item>
+                <item id="WILttVOk" contenttype="spacer" caption="">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="bNH7GOWR" caption="bNH7GOWR" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="ruOaR6jE" contenttype="spacer" caption="">
+                    <itemdefinitions>height=50;elementwidth=1*;groupname=bNH7GOWR</itemdefinitions>
+                </item>
+                <item id="mZtc0evm" caption="Overview" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#00a4b4;textcolor=#000000;captionhorzalign=center;elementwidth=6*;groupname=bNH7GOWR;runapp=a26db633-2822-47b4-98cb-7d5b4baa61c4;</itemdefinitions>
+                </item>
+                <item id="6dCYSQwY" contenttype="spacer" caption="">
+                    <itemdefinitions>height=50;elementwidth=13*;groupname=bNH7GOWR</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="4" caption="Edit rates" definitions="actionbuttontype=home">
+        <excelcontent id="1">
+            <items>
+                <item id="2IVetaju" contenttype="spacer">
+                    <itemdefinitions>height=50</itemdefinitions>
+                </item>
+                <item id="kNlRCBYR" caption="user name" inputtype="input" contenttype="string" address="app!C2">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#000000;elementcolor=#09679B;valuetextcolor=#00a4b4;valuefontsize=20;valuefontstyle=regular;captiontextcolor=#969696;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="9KSlesA5" caption="password" inputtype="input" contenttype="string" address="app!C3">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#000000;elementcolor=#09679B;valuetextcolor=#00a4b4;valuefontsize=20;valuefontstyle=regular;captiontextcolor=#969696;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="LkSWhRVD" caption="LkSWhRVD" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="oR45M9gq" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=LkSWhRVD;elementwidth=1*</itemdefinitions>
+                </item>
+                <item id="whjKYGUJ" caption="Edit rates" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#00a4b4;linkinfo=page:5;isvisiblecell=app!C5;textcolor=#000000;captionhorzalign=center;groupname=LkSWhRVD;elementwidth=18*</itemdefinitions>
+                </item>
+                <item id="gPKVnexl" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=LkSWhRVD;elementwidth=1*</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="5" caption="Edit rates" definitions="actionbuttontype=home">
+        <excelcontent id="1">
+            <items>
+                <item id="cLVJFigZ" caption="Residuals" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#000000;textcolor=white;captionhorzalign=left;textfontsize=26</itemdefinitions>
+                </item>
+                <item id="m6U9RKOP" caption="MTE 12" inputtype="input" contenttype="percent" address="Residuals!M2">
+                    <itemdefinitions>usecellformat=true;deltastep=0.01;backgroundcolor=#000000;elementcolor=#00a4b4;valuetextcolor=#00a4b4;valuefontsize=20;valuefontstyle=regular;captiontextcolor=#969696;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="cLon8jI2" caption="MTE 24" inputtype="input" contenttype="percent" address="Residuals!M3">
+                    <itemdefinitions>usecellformat=true;deltastep=0.01;backgroundcolor=#000000;elementcolor=#00a4b4;valuetextcolor=#00a4b4;valuefontsize=20;valuefontstyle=regular;captiontextcolor=#969696;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="84mFJjzn" caption="MTE 36" inputtype="input" contenttype="percent" address="Residuals!M4">
+                    <itemdefinitions>usecellformat=true;deltastep=0.01;backgroundcolor=#000000;elementcolor=#00a4b4;valuetextcolor=#00a4b4;valuefontsize=20;valuefontstyle=regular;captiontextcolor=#969696;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="T59WxH9B" caption="MTE 48" inputtype="input" contenttype="percent" address="Residuals!M5">
+                    <itemdefinitions>usecellformat=true;deltastep=0.01;backgroundcolor=#000000;elementcolor=#00a4b4;valuetextcolor=#00a4b4;valuefontsize=20;valuefontstyle=regular;captiontextcolor=#969696;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="HWYDArxY" caption="CLE 12" inputtype="input" contenttype="percent" address="Residuals!M6">
+                    <itemdefinitions>usecellformat=true;deltastep=0.01;backgroundcolor=#000000;elementcolor=#00a4b4;valuetextcolor=#00a4b4;valuefontsize=20;valuefontstyle=regular;captiontextcolor=#969696;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="9rSUaApc" caption="CLE 24" inputtype="input" contenttype="percent" address="Residuals!M7">
+                    <itemdefinitions>usecellformat=true;deltastep=0.01;backgroundcolor=#000000;elementcolor=#00a4b4;valuetextcolor=#00a4b4;valuefontsize=20;valuefontstyle=regular;captiontextcolor=#969696;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="DErby5fW" caption="CLE 36" inputtype="input" contenttype="percent" address="Residuals!M8">
+                    <itemdefinitions>usecellformat=true;deltastep=0.01;backgroundcolor=#000000;elementcolor=#00a4b4;valuetextcolor=#00a4b4;valuefontsize=20;valuefontstyle=regular;captiontextcolor=#969696;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="PavcXAIx" caption="CLE 48" inputtype="input" contenttype="percent" address="Residuals!M9">
+                    <itemdefinitions>usecellformat=true;deltastep=0.01;backgroundcolor=#000000;elementcolor=#00a4b4;valuetextcolor=#00a4b4;valuefontsize=20;valuefontstyle=regular;captiontextcolor=#969696;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="HMlXpMdu" caption="MED 12" inputtype="input" contenttype="percent" address="Residuals!M10">
+                    <itemdefinitions>usecellformat=true;deltastep=0.01;backgroundcolor=#000000;elementcolor=#00a4b4;valuetextcolor=#00a4b4;valuefontsize=20;valuefontstyle=regular;captiontextcolor=#969696;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="OhYvY6oq" caption="MED 24" inputtype="input" contenttype="percent" address="Residuals!M11">
+                    <itemdefinitions>usecellformat=true;deltastep=0.01;backgroundcolor=#000000;elementcolor=#00a4b4;valuetextcolor=#00a4b4;valuefontsize=20;valuefontstyle=regular;captiontextcolor=#969696;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="OM2cZSYb" caption="MED 36" inputtype="input" contenttype="percent" address="Residuals!M12">
+                    <itemdefinitions>usecellformat=true;deltastep=0.01;backgroundcolor=#000000;elementcolor=#00a4b4;valuetextcolor=#00a4b4;valuefontsize=20;valuefontstyle=regular;captiontextcolor=#969696;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="aYMoozaG" caption="MED 48" inputtype="input" contenttype="percent" address="Residuals!M13">
+                    <itemdefinitions>usecellformat=true;deltastep=0.01;backgroundcolor=#000000;elementcolor=#00a4b4;valuetextcolor=#00a4b4;valuefontsize=20;valuefontstyle=regular;captiontextcolor=#969696;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="G9OuwZLx" caption="Annual Rates" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#000000;textcolor=white;captionhorzalign=left;textfontsize=26</itemdefinitions>
+                </item>
+                <item id="lpZvZINs" caption="12" inputtype="input" contenttype="percent" address="Rates!C2">
+                    <itemdefinitions>backgroundcolor=#000000;elementcolor=#00a4b4;valuetextcolor=#00a4b4;usecellformat=true;deltastep=0.01;valuefontsize=20;valuefontstyle=regular;captiontextcolor=#969696;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="ef10We2f" caption="24" inputtype="input" contenttype="percent" address="Rates!C3">
+                    <itemdefinitions>backgroundcolor=#000000;elementcolor=#00a4b4;valuetextcolor=#00a4b4;usecellformat=true;deltastep=0.01;valuefontsize=20;valuefontstyle=regular;captiontextcolor=#969696;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="bC5SYC4I" caption="36" inputtype="input" contenttype="percent" address="Rates!C4">
+                    <itemdefinitions>backgroundcolor=#000000;elementcolor=#00a4b4;valuetextcolor=#00a4b4;usecellformat=true;deltastep=0.01;valuefontsize=20;valuefontstyle=regular;captiontextcolor=#969696;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="2tmD1ckU" caption="48" inputtype="input" contenttype="percent" address="Rates!C5">
+                    <itemdefinitions>backgroundcolor=#000000;elementcolor=#00a4b4;valuetextcolor=#00a4b4;usecellformat=true;deltastep=0.005;valuefontsize=20;valuefontstyle=regular;captiontextcolor=#969696;captionvertalign=center;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="yntdEFWN" caption="yntdEFWN" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="szQZQhKM" caption="" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#00cbcbcb;textcolor=white;groupname=yntdEFWN;elementwidth=1*</itemdefinitions>
+                </item>
+                <item id="S8M6OIy3" caption="Back to main" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#00a4b4;linkinfo=page:6;textcolor=#000000;captionhorzalign=center;groupname=yntdEFWN;elementwidth=18*</itemdefinitions>
+                </item>
+                <item id="fXGxIXZB" caption="" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#00cbcbcb;textcolor=white;groupname=yntdEFWN;elementwidth=1*</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+</pages>
