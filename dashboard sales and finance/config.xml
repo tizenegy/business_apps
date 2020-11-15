@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages>
+    <page caption="Dashboard Sales and Finance" pageid="1" definitions="backgroundcolor=40494B;topareaimage=;">
+        <excelcontent id="xxx">
+            <items>
+                <item caption="spacer" contenttype="spacer" inputtype="" id="IQLQBIZM">
+                    <itemdefinitions>height=3%;showeditbuttons=true;</itemdefinitions>
+                </item>
+                <item caption="group1" contenttype="grouplayout" inputtype="output" id="EEgYeqOw">
+                    <itemdefinitions>buttonheight=25%;metrictext=;separatorcolor=transparent;bordercolor=transparent;showeditbuttons=true;</itemdefinitions>
+                </item>
+                <item caption="Revenue by type" contenttype="chart" inputtype="output" address="A22:B24" id="0CZ2D8j8">
+                    <itemdefinitions>charttype=donut;metrictext=;backgroundcolor=transparent;titletextcolor=white;legendtextcolor=#808080;colorpalette=EDAD52,21BADA,3CC795,EC7063;showlegend=true;groupname=group1;showeditbuttons=true;height=25%;</itemdefinitions>
+                </item>
+                <item caption="Distribution of platforms" contenttype="chart" inputtype="output" address="A4:B6" id="XVMa1nAm">
+                    <itemdefinitions>charttype=funnel;metrictext=;backgroundcolor=transparent;titletextcolor=white;legendtextcolor=#808080;showlegend=true;colorpalette=EDAD52,21BADA,3CC795,F41086;groupname=group1;showeditbuttons=true;height=25%;</itemdefinitions>
+                </item>
+                <item caption="Profit distribution by region" contenttype="chart" inputtype="output" address="A16:B19" id="M5yts07E">
+                    <itemdefinitions>height=25%;metrictext=;charttype=column;backgroundcolor=transparent;titletextcolor=white;showlegend=false;seriescolor=21BADA;showeditbuttons=true;</itemdefinitions>
+                </item>
+                <item caption="group2" contenttype="grouplayout" inputtype="output" id="j2GjQyOJ">
+                    <itemdefinitions>buttonheight=25%;paddingleft=14;paddingright=14;separatorcolor=40494B;bordercolor=transparent;backgroundcolor=transparent;showeditbuttons=true;</itemdefinitions>
+                </item>
+                <item caption="Tickets" contenttype="string" inputtype="output" address="B10" id="QTqsnyGX">
+                    <itemdefinitions>backgroundcolor=3CC795;groupname=group2;numberformat=N0;showeditbuttons=true;buttonheight=0;</itemdefinitions>
+                </item>
+                <item caption="Leads" contenttype="string" inputtype="output" address="B11" id="RYSUW3D9">
+                    <itemdefinitions>backgroundcolor=21BADA;groupname=group2;numberformat=N0;showeditbuttons=true;buttonheight=0;</itemdefinitions>
+                </item>
+                <item caption="group3" contenttype="grouplayout" inputtype="output" id="eAJUUJdv">
+                    <itemdefinitions>buttonheight=120;paddingleft=14;paddingright=14;separatorcolor=transparent;bordercolor=transparent;backgroundcolor=transparent;showeditbuttons=true;</itemdefinitions>
+                </item>
+                <item caption="Pipeline" contenttype="string" inputtype="output" address="B12" id="1LOWt4nC">
+                    <itemdefinitions>backgroundcolor=EDAD52;groupname=group3;numberformat=N0;showeditbuttons=true;buttonheight=0;</itemdefinitions>
+                </item>
+                <item caption="Critical" contenttype="string" inputtype="output" address="B13" id="UdW0EsSm">
+                    <itemdefinitions>backgroundcolor=EC7063;groupname=group3;numberformat=N0;showeditbuttons=true;buttonheight=0;</itemdefinitions>
+                </item>
+                <item caption="spacer" contenttype="spacer" inputtype="" id="JQqjyklw">
+                    <itemdefinitions>height=3%;</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+</pages>

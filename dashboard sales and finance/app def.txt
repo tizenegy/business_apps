@@ -1,0 +1,1 @@
+topareaheight=90;pagecount=1;backgroundcolor=40494B;functionbuttoncolor=CD575A;pagebuttoncolor=384042
