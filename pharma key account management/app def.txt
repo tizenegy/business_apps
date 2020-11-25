@@ -1,0 +1,1 @@
+backgroundcolor=white;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/37c45ac9-873e-4eec-bd0d-a229827a3b1f/public/topAreaImage.jpeg?v=uyB4Jw7k;topareaheight=18%;paddinghorz=15;paddingvert=15;functionbuttoncolor=09679B;headeropacity=5;pagecount=2;printsheet=_print;menuentries=print;

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages
+    xmlns="urn:WunderApp">
+    <page pageid="1" caption="KAM">
+        <excelcontent id="2">
+            <items>
+                <item id="Fltc06qA" caption="Teresa Prior" contenttype="header">
+                    <itemdefinitions>height=90;backgroundcolor=#e0edff;textcolor=#09679b;textfontsize=21;buttonradius=3;</itemdefinitions>
+                </item>
+                <item caption="spacer" contenttype="spacer" id="6aobxH2e" inputtype="">
+                    <itemdefinitions>height=8%;backgroundcolor=#00000000;</itemdefinitions>
+                </item>
+                <item caption="Overview" contenttype="header" id="stY6MvXI">
+                    <itemdefinitions>height=60;backgroundcolor=#e0edff;textcolor=#09679B;textfontsize=21;separatorcolor=transparent;bordercolor=transparent;buttonradius=3;</itemdefinitions>
+                </item>
+                <item caption="spacer" contenttype="spacer" id="6aobxH2e" inputtype="">
+                    <itemdefinitions>height=5;backgroundcolor=#00000000;</itemdefinitions>
+                </item>
+                <item id="ZcUkffro" caption="ZcUkffro" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=90;metrictext=;separatorcolor=transparent;bordercolor=transparent;buttonradius=0;backgroundcolor=09679B;elementcolor=000000;valuetextcolor=000000;columnspacing=5;</itemdefinitions>
+                </item>
+                <item caption="Performance today" contenttype="result" address="_kpi!AI3" id="WrbvNZMg" inputtype="output">
+                    <itemdefinitions>captiontextcolor=#09679b;elementcolor=#1EA070;valuetextcolor=#09679b;showeditbuttons=true;groupname=ZcUkffro;backgroundcolor=#e0edff;usecellformat=true;separatorcolor=transparent;bordercolor=transparent;buttonradius=3;</itemdefinitions>
+                </item>
+                <item caption="Previous month" contenttype="result" address="_kpi!AH3" id="WrbvNZjg" inputtype="output">
+                    <itemdefinitions>captiontextcolor=#09679B;elementcolor=#1EA070;valuetextcolor=#09679B;showeditbuttons=true;groupname=ZcUkffro;backgroundcolor=#e0edff;usecellformat=true;separatorcolor=transparent;bordercolor=transparent;buttonradius=3;</itemdefinitions>
+                </item>
+                <item caption="Variation" contenttype="result" address="_kpi!AJ3" id="A9Ru6l46" inputtype="output">
+                    <itemdefinitions>captiontextcolor=white;elementcolor=white;valuetextcolor=white;showeditbuttons=true;groupname=ZcUkffro;backgroundcolorcell=_kpi!AR2;usecellformat=true;separatorcolor=transparent;bordercolor=transparent;buttonradius=3;</itemdefinitions>
+                </item>
+                <item caption="spacer" contenttype="spacer" id="6aobxH2e" inputtype="">
+                    <itemdefinitions>height=5;backgroundcolor=#00000000;</itemdefinitions>
+                </item>
+                <item id="ZcUkffr1" caption="ZcUkffr1" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=90;metrictext=;separatorcolor=transparent;bordercolor=transparent;buttonradius=0;backgroundcolor=09679B;elementcolor=000000;valuetextcolor=000000;columnspacing=5;</itemdefinitions>
+                </item>
+                <item caption="Goal month" contenttype="integer" address="_kpi!AE3" id="WrbvNZMg" inputtype="output">
+                    <itemdefinitions>captiontextcolor=#09679B;elementcolor=#1EA070;valuetextcolor=#09679B;showeditbuttons=true;groupname=ZcUkffr1;usecellformat=true;separatorcolor=transparent;bordercolor=transparent;metricvertalign=bottomright;metrictextcolor=white;backgroundcolor=#e0edff;buttonradius=3;</itemdefinitions>
+                </item>
+                <item caption="Last goal" contenttype="integer" address="_kpi!O3" id="WrbvkZMg" inputtype="output">
+                    <itemdefinitions>captiontextcolor=#09679B;elementcolor=#1EA070;valuetextcolor=#09679B;showeditbuttons=true;groupname=ZcUkffr1;usecellformat=true;separatorcolor=transparent;bordercolor=transparent;metricvertalign=bottomright;metrictext=fromcell:_kpi!E9;metrictextcolor=white;backgroundcolor=#e0edff;buttonradius=3;</itemdefinitions>
+                </item>
+                <item caption="Variation" contenttype="integer" address="_kpi!AG3" id="A9Ru6l46" inputtype="output">
+                    <itemdefinitions>captiontextcolor=white;elementcolor=white;valuetextcolor=white;showeditbuttons=true;groupname=ZcUkffr1;usecellformat=true;separatorcolor=transparent;bordercolor=transparent;metricvertalign=bottomright;metrictext=fromcell:_kpi!E50;metrictextcolor=white;backgroundcolorcell=_kpi!AR2;buttonradius=3;</itemdefinitions>
+                </item>
+                <item caption="spacer" contenttype="spacer" id="6aobxH2e" inputtype="">
+                    <itemdefinitions>height=5;backgroundcolor=#00000000;</itemdefinitions>
+                </item>
+                <item id="ZcUkffr2" caption="ZcUkffr2" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=90;metrictext=;separatorcolor=transparent;bordercolor=transparent;buttonradius=0;backgroundcolor=09679B;elementcolor=000000;valuetextcolor=000000;columnspacing=5;</itemdefinitions>
+                </item>
+                <item caption="Today&apos;s target" contenttype="integer" address="_kpi!AK3" id="WrbvNZMg" inputtype="output">
+                    <itemdefinitions>captiontextcolor=#09679B;elementcolor=#1EA070;valuetextcolor=#09679B;showeditbuttons=true;groupname=ZcUkffr2;usecellformat=true;separatorcolor=transparent;bordercolor=transparent;backgroundcolor=#e0edff;buttonradius=3;</itemdefinitions>
+                </item>
+                <item caption="Actual Performance" contenttype="integer" address="_kpi!AI3" id="WrsvNZMg" inputtype="output">
+                    <itemdefinitions>captiontextcolor=#09679B;;elementcolor=#1EA070;valuetextcolor=#09679B;showeditbuttons=true;groupname=ZcUkffr2;usecellformat=true;separatorcolor=transparent;bordercolor=transparent;backgroundcolor=#e0edff;buttonradius=3;</itemdefinitions>
+                </item>
+                <item caption="Variation" contenttype="integer" address="_kpi!AL3" id="A9Ru6l46" inputtype="output">
+                    <itemdefinitions>captiontextcolor=white;;elementcolor=white;valuetextcolor=white;showeditbuttons=true;groupname=ZcUkffr2;usecellformat=true;separatorcolor=transparent;bordercolor=transparent;backgroundcolorcell=_kpi!AR2;buttonradius=3;</itemdefinitions>
+                </item>
+                <item caption="spacer" contenttype="spacer" id="6aobxH2e" inputtype="">
+                    <itemdefinitions>height=8%;backgroundcolor=#00000000;</itemdefinitions>
+                </item>
+                <item caption="Evolução anual AH360" contenttype="header" id="stY6MsXI">
+                    <itemdefinitions>height=60;backgroundcolor=#e0edff;textcolor=#09679B;textfontsize=21;separatorcolor=transparent;bordercolor=transparent;buttonradius=3;</itemdefinitions>
+                </item>
+                <item caption="spacer" contenttype="spacer" id="6aobxH2e" inputtype="">
+                    <itemdefinitions>height=5;backgroundcolor=#00000000;</itemdefinitions>
+                </item>
+                <item id="Bi0BfshR" caption="" inputtype="output" contenttype="chart" address="_kpi!D2:M2;_kpi!D9:M9;_kpi!D10:M10;_kpi!D11:M11;_kpi!D12:M12">
+                    <itemdefinitions>height=50%;charttype=spline;backgroundcolor=#ffffff;seriescolor=09679b;showlegend=true;seriescaptions=DM,FF,LA,TP;</itemdefinitions>
+                </item>
+                <item caption="spacer" contenttype="spacer" id="6aobxH2e" inputtype="">
+                    <itemdefinitions>height=8%;backgroundcolor=#00000000;</itemdefinitions>
+                </item>
+                <item caption="Top 10" contenttype="header" id="stY6asXI">
+                    <itemdefinitions>height=60;backgroundcolor=#e0edff;textcolor=#09679B;textfontsize=21;separatorcolor=transparent;bordercolor=transparent;buttonradius=3;</itemdefinitions>
+                </item>
+                <item caption="spacer" contenttype="spacer" id="6aobxH2e" inputtype="">
+                    <itemdefinitions>height=5;backgroundcolor=#00000000;</itemdefinitions>
+                </item>
+                <item id="PcjxZJye" contenttype="list" address="_league!A1:I11">
+                    <itemdefinitions>componentname=list;height=85%;gridrowheight=40;gridcollapsegroups=false;gridallowedit=false;headeravailable=true;showcolumnheader=true;showsearchpanel=false;listcolumns=2::text,5:60:percent,9:60:percent,8:60:text;detailcolumns=1:,2:,3:,4:,5:,6:,7:,8:,9:;</itemdefinitions>
+                </item>
+                <item caption="spacer" contenttype="spacer" id="6aobxHde" inputtype="">
+                    <itemdefinitions>height=8%;backgroundcolor=#00000000;</itemdefinitions>
+                </item>
+                <item caption="Bottom 10" contenttype="header" id="stY6adXI">
+                    <itemdefinitions>height=60;backgroundcolor=#e0edff;textcolor=#09679B;textfontsize=21;separatorcolor=transparent;bordercolor=transparent;buttonradius=3;</itemdefinitions>
+                </item>
+                <item caption="spacer" contenttype="spacer" id="6aobxH2e" inputtype="">
+                    <itemdefinitions>height=5;backgroundcolor=#00000000;</itemdefinitions>
+                </item>
+                <item id="PcjxuJye" contenttype="list" address="_league!A51:I61">
+                    <itemdefinitions>componentname=list;height=85%;gridrowheight=40;gridcollapsegroups=false;gridallowedit=false;headeravailable=true;showcolumnheader=true;showsearchpanel=false;listcolumns=2::text,5:60:percent,9:60:percent,8:60:text;detailcolumns=1:,2:,3:,4:,5:,6:,7:,8:,9:;</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="2" caption="KAM Monthly">
+        <excelcontent id="2">
+            <items>
+                <item id="Fltc06qA" caption="Key Account Managers" contenttype="header">
+                    <itemdefinitions>height=90;backgroundcolor=#e0edff;textcolor=#09679b;textfontsize=21;buttonradius=3;</itemdefinitions>
+                </item>
+                <item caption="spacer" contenttype="spacer" id="6aobxH2e" inputtype="">
+                    <itemdefinitions>height=8%;backgroundcolor=#00000000;</itemdefinitions>
+                </item>
+                <item caption="Month" id="2lQXQph2" inputtype="input" contenttype="toggle" address="Evolução global!AC4">
+                    <itemdefinitions>backgroundcolor=#e0edff;buttonradius=3;elementcolor=#09679b;valuetextcolor=#09679b;showeditbuttons=true;captiontextcolor=#09679b;</itemdefinitions>
+                </item>
+                <item caption="spacer" contenttype="spacer" id="6aobxH2e" inputtype="">
+                    <itemdefinitions>height=5;backgroundcolor=#00000000;</itemdefinitions>
+                </item>
+                <item id="8NJj7rzC" caption="" inputtype="output" contenttype="chart" address="Evolução global!C5:C9;Evolução global!AC5:AC9">
+                    <itemdefinitions>height=30%;charttype=column;backgroundcolor=#ffffff;seriescolor=09679b;colorpalette=#ff6161;</itemdefinitions>
+                </item>
+                <item caption="spacer" contenttype="spacer" id="6aobxH2e" inputtype="">
+                    <itemdefinitions>height=5;backgroundcolor=#00000000;</itemdefinitions>
+                </item>
+                <item id="dkSSIsij" caption="dkSSIsij" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=90;metrictext=;separatorcolor=transparent;bordercolor=transparent;buttonradius=0;backgroundcolor=ff0000;elementcolor=000000;valuetextcolor=000000;columnspacing=5;</itemdefinitions>
+                </item>
+                <item id="oFsRhu0p" caption="DM" inputtype="output" contenttype="result" address="Evolução global!AC5">
+                    <itemdefinitions>nocaption=true;buttonradius=3;backgroundcolor=#e0edff;usecellformat=true;groupname=dkSSIsij;elementcolor=#09679b;valuetextcolor=#09679b;captiontextcolor=#09679b;</itemdefinitions>
+                </item>
+                <item id="h1rRa3Oc" caption="FF" inputtype="output" contenttype="result" address="Evolução global!AC6">
+                    <itemdefinitions>nocaption=true;buttonradius=3;backgroundcolor=#e0edff;usecellformat=true;groupname=dkSSIsij;elementcolor=#09679b;valuetextcolor=#09679b;captiontextcolor=#09679b;</itemdefinitions>
+                </item>
+                <item caption="spacer" contenttype="spacer" id="6aobxH2e" inputtype="">
+                    <itemdefinitions>height=5;backgroundcolor=#00000000;</itemdefinitions>
+                </item>
+                <item id="mgDjnJJR" caption="mgDjnJJR" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=90;metrictext=;separatorcolor=transparent;bordercolor=transparent;buttonradius=0;backgroundcolor=ff0000;elementcolor=000000;valuetextcolor=000000;columnspacing=5;</itemdefinitions>
+                </item>
+                <item caption="LA" id="8kmIr4Ht" inputtype="output" contenttype="integer" address="Evolução global!AC7">
+                    <itemdefinitions>backgroundcolor=#e0edff;buttonradius=3;elementcolor=#09679b;valuetextcolor=#09679b;showeditbuttons=true;usecellformat=true;groupname=mgDjnJJR;captiontextcolor=#09679b;</itemdefinitions>
+                </item>
+                <item caption="TP" id="4HVFWsbe" inputtype="output" contenttype="integer" address="Evolução global!AC8">
+                    <itemdefinitions>backgroundcolor=#e0edff;buttonradius=3;elementcolor=#09679b;valuetextcolor=#09679b;showeditbuttons=true;usecellformat=true;groupname=mgDjnJJR;captiontextcolor=#09679b;</itemdefinitions>
+                </item>
+                <item caption="spacer" contenttype="spacer" id="6aobxH2e" inputtype="">
+                    <itemdefinitions>height=5;backgroundcolor=#00000000;</itemdefinitions>
+                </item>
+                <item caption="TOTAL" id="uQJkL74M" inputtype="output" contenttype="integer" address="Evolução global!AC9">
+                    <itemdefinitions>backgroundcolor=#e0edff;buttonradius=3;elementcolor=#09679b;valuetextcolor=#09679b;showeditbuttons=true;usecellformat=true;captiontextcolor=#09679b;</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+</pages>
