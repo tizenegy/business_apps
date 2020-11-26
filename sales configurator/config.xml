@@ -1,0 +1,1419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns="urn:WunderApp">
+    <page pageid="1" caption="Auftragserfassung" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D;actionbuttontype=none">
+        <excelcontent id="1">
+            <items>
+                <item id="RNUN3vSu" caption="RNUN3vSu" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="flQokpGx" caption="Auftragserfassung" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;groupname=RNUN3vSu;textfontsize=8;captionhorzalign=left</itemdefinitions>
+                </item>
+                <item id="OWw6UreR" caption="Fracht &amp; Erlösschmälerungen" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ccffffff;textcolor=#cc004869;groupname=RNUN3vSu;captionhorzalign=left;textfontsize=8</itemdefinitions>
+                </item>
+                <item id="Ja56YEUj" caption="Maschinentrimm" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ccffffff;textcolor=#cc004869;groupname=RNUN3vSu;captionhorzalign=left;textfontsize=8</itemdefinitions>
+                </item>
+                <item id="S0SC1BrG" contenttype="spacer">
+                    <itemdefinitions>height=50</itemdefinitions>
+                </item>
+                <item id="yF1siZSR" caption="Kundendaten" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;captionhorzalign=center;height=9%;textfontsize=18</itemdefinitions>
+                </item>
+                <item id="dfXVzk8e" contenttype="spacer" caption="">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="aSBCLxQK" caption="aSBCLxQK" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="lEJqVMZp" caption="Bitte erste Buchstaben des Kunden eingeben" inputtype="input" contenttype="string" address="Thrimmoptimierung!B5">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#cc004869;elementcolor=#004869;valuetextcolor=#ccffffff;groupname=aSBCLxQK;valuefontstyle=regular;captionvertalign=center;captionhorzalign=left;captiontextcolor=#ccffffff;buttonradius=12;valuefontsize=18;buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="vfAClzSu" contenttype="spacer">
+                    <itemdefinitions>height=9%;groupname=aSBCLxQK;elementwidth=4</itemdefinitions>
+                </item>
+                <item id="y7ZGz46Y" caption="Bitte Kunde aus Datenbank auswählen" inputtype="input" contenttype="toggle" address="Thrimmoptimierung!B6">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#cc004869;elementcolor=#ffffff;valuetextcolor=#ccffffff;groupname=aSBCLxQK;valuefontstyle=regular;captionvertalign=center;captionhorzalign=left;captiontextcolor=#ccffffff;buttonradius=12;valuefontsize=18;buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="ZKRGT5Vs" contenttype="spacer">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="zx1NPS6U" caption="Debitorennummer aus Datenbank" inputtype="output" contenttype="result" address="Thrimmoptimierung!B9">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#ccffffff;elementcolor=white;valuetextcolor=#cc004869;isvisiblecell=Thrimmoptimierung!B13;valuefontstyle=regular;captionvertalign=center;captionhorzalign=left;buttonradius=12;valuefontsize=18;buttonheight=9%;captiontextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="czR1Wmyh" contenttype="spacer">
+                    <itemdefinitions>height=15</itemdefinitions>
+                </item>
+                <item id="XAYyHN7r" caption="Kundenanforderung" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;captionhorzalign=center;height=9%;textfontsize=18</itemdefinitions>
+                </item>
+                <item id="AWF81plH" contenttype="spacer" caption="">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="oaRHL4MD" caption="oaRHL4MD" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="0J85yPeP" caption="Bitte Sorte auswählen" inputtype="input" contenttype="toggle" address="Thrimmoptimierung!B14">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#cc004869;elementcolor=#ffffff;valuetextcolor=#ccffffff;groupname=oaRHL4MD;valuefontstyle=regular;captiontextcolor=#ccffffff;captionvertalign=center;captionhorzalign=left;buttonradius=12;valuefontsize=18;buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="uoXAkeUf" contenttype="spacer">
+                    <itemdefinitions>height=9%;groupname=oaRHL4MD;elementwidth=4</itemdefinitions>
+                </item>
+                <item id="Bu983LOe" caption="Bitte FLG (g/m2) auswählen" inputtype="input" contenttype="toggle" address="Thrimmoptimierung!B15">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#cc004869;elementcolor=#ffffff;valuetextcolor=#ccffffff;groupname=oaRHL4MD;valuefontstyle=regular;captiontextcolor=#ccffffff;captionvertalign=center;captionhorzalign=left;buttonradius=12;valuefontsize=18;buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="zqh8u49h" contenttype="spacer">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="53pOeJxV" caption="53pOeJxV" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="3QgwhHYp" caption="Bitte Rollenbreite (m) auswählen" inputtype="input" contenttype="double" address="Thrimmoptimierung!B3">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#cc004869;elementcolor=#ffffff;valuetextcolor=#ccffffff;groupname=53pOeJxV;minvalue=0;valuefontstyle=regular;captiontextcolor=#ccffffff;captionvertalign=center;captionhorzalign=left;buttonradius=12;valuefontsize=18;buttonheight=9%;deltastep=0.05</itemdefinitions>
+                </item>
+                <item id="pIxbm0kR" contenttype="spacer">
+                    <itemdefinitions>height=9%;groupname=53pOeJxV;elementwidth=4</itemdefinitions>
+                </item>
+                <item id="nFgesf4J" caption="Bitte Abnahmemenge in to auswählen" inputtype="input" contenttype="double" address="Thrimmoptimierung!B25">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#cc004869;elementcolor=#ffffff;valuetextcolor=#ccffffff;groupname=53pOeJxV;deltastep=100;valuefontstyle=regular;captiontextcolor=#ccffffff;captionvertalign=center;captionhorzalign=left;buttonradius=12;valuefontsize=18;buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="g35CjZZz" contenttype="spacer">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="4kfeohQP" caption="4kfeohQP" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="rT2vNKDa" contenttype="spacer">
+                    <itemdefinitions>height=9%;groupname=4kfeohQP;elementwidth=1*</itemdefinitions>
+                </item>
+                <item id="I6Jzsqf1" caption="Bitte Bruttopreis (€ / to) &quot;Wunschpreis Kunde&quot; eingeben" inputtype="input" contenttype="currency" address="Thrimmoptimierung!B4">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#cc004869;elementcolor=#ffffff;valuetextcolor=#ccffffff;deltastep=5;valuefontstyle=regular;captiontextcolor=#ccffffff;captionvertalign=center;captionhorzalign=left;buttonradius=12;valuefontsize=18;buttonheight=9%;groupname=4kfeohQP;elementwidth=2*</itemdefinitions>
+                </item>
+                <item id="GkNhqpZw" contenttype="spacer">
+                    <itemdefinitions>height=9%;groupname=aSBCLxQK;elementwidth=4</itemdefinitions>
+                </item>
+                <item id="5Ew8vtCN" caption="Bitte Lieferort auswählen" inputtype="input" contenttype="toggle" address="Thrimmoptimierung!B11">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#cc004869;elementcolor=#ffffff;valuetextcolor=#ccffffff;valuefontstyle=regular;captionvertalign=center;captionhorzalign=left;captiontextcolor=#ccffffff;buttonradius=12;valuefontsize=18;buttonheight=9%;groupname=aSBCLxQK</itemdefinitions>
+                </item>
+                <item id="nvHnWVNJ" contenttype="spacer">
+                    <itemdefinitions>height=9%;groupname=4kfeohQP;elementwidth=1*</itemdefinitions>
+                </item>
+                <item id="NgDEuKdZ" contenttype="spacer">
+                    <itemdefinitions>height=20%</itemdefinitions>
+                </item>
+                <item id="CGta901U" caption="CGta901U" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="REmsp7ZI" contenttype="spacer">
+                    <itemdefinitions>height=9%;groupname=CGta901U;elementwidth=4*</itemdefinitions>
+                </item>
+                <item id="poJwllVb" caption="Laden" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#cc004869;captionhorzalign=center;buttonradius=12;buttonheight=9%;textfontsize=18;elementwidth=1*;groupname=CGta901U;actioninfo=load</itemdefinitions>
+                </item>
+                <item id="rp1o94Ny" contenttype="spacer">
+                    <itemdefinitions>height=9%;elementwidth=4;groupname=CGta901U</itemdefinitions>
+                </item>
+                <item id="2YqJ5Y2q" caption="Weiter" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#cc004869;linkinfo=page:3;captionhorzalign=center;buttonradius=12;buttonheight=9%;textfontsize=18;elementwidth=1*;groupname=CGta901U</itemdefinitions>
+                </item>
+                <item id="AbxwCbPa" caption="Nebenbahn: Auftragserfassung" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ccffffff;textcolor=#cc004869;groupname=RNUN3vSu;captionhorzalign=left;textfontsize=8</itemdefinitions>
+                </item>
+                <item id="7MFu6L9U" caption="Nebenbahn: Fracht &amp; Erlösschmälerung" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ccffffff;textcolor=#cc004869;groupname=RNUN3vSu;captionhorzalign=left;textfontsize=8</itemdefinitions>
+                </item>
+                <item id="xo4DBPVV" caption="Produktions-Einzelkosten" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ccffffff;textcolor=#cc004869;groupname=RNUN3vSu;captionhorzalign=left;textfontsize=8</itemdefinitions>
+                </item>
+                <item id="xTtCFVil" caption="Ergebnisübersicht" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ccffffff;textcolor=#cc004869;groupname=RNUN3vSu;captionhorzalign=left;textfontsize=8</itemdefinitions>
+                </item>
+                <item id="Ged6gl7M" caption="Dokumentation" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ccffffff;textcolor=#cc004869;groupname=RNUN3vSu;captionhorzalign=left;textfontsize=8</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="3" caption="Fracht &amp; Erlösschmälerungen" definitions="actionbuttontype=none">
+        <excelcontent id="1">
+            <items>
+                <item id="aWTGA84h" caption="aWTGA84h" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="5t79REaN" caption="Auftragserfassung" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;textfontsize=8;captionhorzalign=left;groupname=aWTGA84h</itemdefinitions>
+                </item>
+                <item id="E1kf5ol1" caption="Fracht &amp; Erlösschmälerungen" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;captionhorzalign=left;textfontsize=8;groupname=aWTGA84h</itemdefinitions>
+                </item>
+                <item id="sAFoi55N" caption="Maschinentrimm" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ccffffff;textcolor=#cc004869;captionhorzalign=left;textfontsize=8;groupname=aWTGA84h</itemdefinitions>
+                </item>
+                <item id="IDDJHaXm" caption="Nebenbahn: Auftragserfassung" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ccffffff;textcolor=#cc004869;captionhorzalign=left;textfontsize=8;groupname=aWTGA84h</itemdefinitions>
+                </item>
+                <item id="eW99RwBE" caption="Nebenbahn: Fracht &amp; Erlösschmälerung" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ccffffff;textcolor=#cc004869;captionhorzalign=left;textfontsize=8;groupname=aWTGA84h</itemdefinitions>
+                </item>
+                <item id="WzeAGxP8" caption="Produktions-Einzelkosten" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ccffffff;textcolor=#cc004869;captionhorzalign=left;textfontsize=8;groupname=aWTGA84h</itemdefinitions>
+                </item>
+                <item id="hDQEM7bT" caption="Ergebnisübersicht" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ccffffff;textcolor=#cc004869;captionhorzalign=left;textfontsize=8;groupname=aWTGA84h</itemdefinitions>
+                </item>
+                <item id="OJGcxI3l" caption="Dokumentation" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ccffffff;textcolor=#cc004869;captionhorzalign=left;textfontsize=8;groupname=aWTGA84h</itemdefinitions>
+                </item>
+                <item id="AEQvCkK5" contenttype="spacer">
+                    <itemdefinitions>height=50</itemdefinitions>
+                </item>
+                <item id="i71wMcgB" caption="i71wMcgB" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="lr5sDwkZ" caption="Systemvorschlag Kalkulation" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;groupname=i71wMcgB;captionhorzalign=center;height=9%;textfontsize=18</itemdefinitions>
+                </item>
+                <item id="Ayoxn7YE" contenttype="spacer">
+                    <itemdefinitions>height=9%;groupname=i71wMcgB;elementwidth=4</itemdefinitions>
+                </item>
+                <item id="SWKzQkNb" caption="Manuelle Anpassungen" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;groupname=i71wMcgB;captionhorzalign=center;height=9%;textfontsize=18</itemdefinitions>
+                </item>
+                <item id="HrVtU2I4" contenttype="spacer">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="TWMq9JVp" caption="TWMq9JVp" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="Lr01hDaQ" caption="Bruttopreis (€ / to)" inputtype="output" contenttype="currency" address="Thrimmoptimierung!B4">
+                    <itemdefinitions>backgroundcolor=#ccffffff;elementcolor=#004869;valuetextcolor=#cc004869;usecellformat=true;groupname=TWMq9JVp;valuefontstyle=regular;buttonradius=12;captionvertalign=center;captionhorzalign=left;captiontextcolor=#cc004869;buttonheight=9%;valuefontsize=18;elementwidth=25%</itemdefinitions>
+                </item>
+                <item id="MoIAA8lC" contenttype="spacer" caption="">
+                    <itemdefinitions>height=50;elementwidth=4;groupname=TWMq9JVp</itemdefinitions>
+                </item>
+                <item id="e9aEL0hA" contenttype="spacer">
+                    <itemdefinitions>height=9%;groupname=TWMq9JVp</itemdefinitions>
+                </item>
+                <item id="QIwwCjRY" contenttype="spacer">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="MnNprYMx" caption="MnNprYMx" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item caption="Skonti (€ / to)" inputtype="output" contenttype="result" address="Thrimmoptimierung!B91" id="upegDETx">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=MnNprYMx;valuefontstyle=regular;buttonradius=12;elementwidth=25%;valuetextcolor=#cc004869;captiontextcolor=#cc004869;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="Cn27iEVa" contenttype="spacer" caption="">
+                    <itemdefinitions>height=9%;elementwidth=4;groupname=MnNprYMx</itemdefinitions>
+                </item>
+                <item id="StQ97tnR" caption="Skonti in %" inputtype="output" contenttype="result" address="Thrimmoptimierung!B29">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=MnNprYMx;valuefontstyle=regular;buttonradius=12;valuetextcolor=#cc004869;captionvertalign=center;captionhorzalign=left;captiontextcolor=#cc004869;buttonheight=9%;valuefontsize=18;elementwidth=25%</itemdefinitions>
+                </item>
+                <item id="tiTaqgqC" contenttype="spacer" caption="">
+                    <itemdefinitions>height=9%;elementwidth=4;groupname=MnNprYMx</itemdefinitions>
+                </item>
+                <item id="wxO6w0Jg" contenttype="spacer">
+                    <itemdefinitions>height=9%;groupname=MnNprYMx</itemdefinitions>
+                </item>
+                <item id="EENDToQ5" contenttype="spacer" caption="">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="6pMgdtFE" caption="6pMgdtFE" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item caption="Boni (€ / to)" inputtype="output" contenttype="result" address="Thrimmoptimierung!B92" id="0Uokfwgn">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=6pMgdtFE;valuefontstyle=regular;buttonradius=12;elementwidth=25%;valuetextcolor=#cc004869;captiontextcolor=#cc004869;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="ZGJqSGuJ" contenttype="spacer" caption="">
+                    <itemdefinitions>height=9%;elementwidth=4;groupname=6pMgdtFE</itemdefinitions>
+                </item>
+                <item id="51rt5WS9" caption="Boni in %" inputtype="output" contenttype="result" address="Thrimmoptimierung!B31">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=6pMgdtFE;valuefontstyle=regular;buttonradius=12;valuetextcolor=#cc004869;captionvertalign=center;captionhorzalign=left;captiontextcolor=#cc004869;buttonheight=9%;valuefontsize=18;elementwidth=25%</itemdefinitions>
+                </item>
+                <item id="Jt5NnflG" contenttype="spacer" caption="">
+                    <itemdefinitions>height=9%;elementwidth=4;groupname=6pMgdtFE</itemdefinitions>
+                </item>
+                <item id="IThDVHqe" caption="Bonus-Anpassung in %-Punkten" inputtype="input" contenttype="percent" address="Thrimmoptimierung!B33">
+                    <itemdefinitions>backgroundcolor=#cc004869;elementcolor=#ccffffff;valuetextcolor=#ccffffff;usecellformat=true;deltastep=0.005;groupname=6pMgdtFE;buttonradius=12;valuefontstyle=regular;captiontextcolor=#ccffffff;captionvertalign=center;captionhorzalign=left;metrictextcolor=#ccffffff;buttonheight=9%;valuefontsize=18;elementwidth=50%</itemdefinitions>
+                </item>
+                <item id="aQcAlb6q" contenttype="spacer" caption="">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="WE2pWVUZ" caption="WE2pWVUZ" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item caption="Provision (€ / to)" inputtype="output" contenttype="result" address="Thrimmoptimierung!B93" id="KNGZxk6M">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=WE2pWVUZ;valuefontstyle=regular;buttonradius=12;elementwidth=25%;valuetextcolor=#cc004869;captiontextcolor=#cc004869;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="OtuYZaM1" contenttype="spacer" caption="">
+                    <itemdefinitions>height=9%;elementwidth=4;groupname=WE2pWVUZ</itemdefinitions>
+                </item>
+                <item id="w0tFEK4P" caption="Provision in %" inputtype="output" contenttype="result" address="Thrimmoptimierung!B37">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=WE2pWVUZ;valuefontstyle=regular;buttonradius=12;valuetextcolor=#cc004869;captionvertalign=center;captionhorzalign=left;captiontextcolor=#cc004869;buttonheight=9%;valuefontsize=18;elementwidth=25%</itemdefinitions>
+                </item>
+                <item id="iJbbXvXP" contenttype="spacer" caption="">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="bHXkrjDP" caption="bHXkrjDP" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="VRNEHO6e" caption="Frachtkosten (€ / to)" inputtype="output" contenttype="result" address="Thrimmoptimierung!B17">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=bHXkrjDP;valuefontstyle=regular;buttonradius=12;valuetextcolor=#cc004869;captionvertalign=center;captionhorzalign=left;captiontextcolor=#cc004869;buttonheight=9%;valuefontsize=18;elementwidth=25%</itemdefinitions>
+                </item>
+                <item id="PU1WgpZ0" contenttype="spacer" caption="">
+                    <itemdefinitions>height=50;elementwidth=4;groupname=bHXkrjDP</itemdefinitions>
+                </item>
+                <item id="TykUZbbq" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=bHXkrjDP;elementwidth=25%</itemdefinitions>
+                </item>
+                <item id="Vkjm4te6" contenttype="spacer" caption="">
+                    <itemdefinitions>height=9%;elementwidth=4;groupname=bHXkrjDP</itemdefinitions>
+                </item>
+                <item id="OuohKCXG" caption="Anpassung Frachtkosten in € / to" inputtype="input" contenttype="currency" address="Thrimmoptimierung!B18">
+                    <itemdefinitions>backgroundcolor=#cc004869;elementcolor=#ccffffff;valuetextcolor=#ccffffff;usecellformat=true;groupname=bHXkrjDP;deltastep=2;buttonradius=12;valuefontstyle=regular;captiontextcolor=#ccffffff;captionvertalign=center;captionhorzalign=left;metrictextcolor=#ccffffff;buttonheight=9%;valuefontsize=18;elementwidth=50%</itemdefinitions>
+                </item>
+                <item id="q11hKIby" contenttype="spacer" caption="">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="PhNcbYPD" caption="PhNcbYPD" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="r2dDfFuz" caption="Summe Sonstige Kosten (€ / to)" inputtype="output" contenttype="result" address="Thrimmoptimierung!B43">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=PhNcbYPD;valuefontstyle=regular;buttonradius=12;valuetextcolor=#cc004869;captionvertalign=center;captionhorzalign=left;captiontextcolor=#cc004869;buttonheight=9%;valuefontsize=18;elementwidth=25%</itemdefinitions>
+                </item>
+                <item id="MAr17BaC" contenttype="spacer" caption="">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="IkhLDsYQ" caption="IkhLDsYQ" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="Ay8NosPO" caption="Netto-netto-Verkaufspreis (€ / to)" inputtype="output" contenttype="result" address="Thrimmoptimierung!B44">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=IkhLDsYQ;valuefontstyle=regular;valuetextcolor=#cc004869;buttonradius=12;captionvertalign=center;captionhorzalign=left;captiontextcolor=#cc004869;buttonheight=9%;valuefontsize=18;elementwidth=25%</itemdefinitions>
+                </item>
+                <item id="cTplg0xE" contenttype="spacer" caption="">
+                    <itemdefinitions>height=9%;elementwidth=4;groupname=WE2pWVUZ</itemdefinitions>
+                </item>
+                <item id="omyTjbds" contenttype="spacer" caption="">
+                    <itemdefinitions>height=9%;elementwidth=4;groupname=WE2pWVUZ</itemdefinitions>
+                </item>
+                <item id="zBEOJ9UG" contenttype="spacer" caption="">
+                    <itemdefinitions>height=50;elementwidth=4;groupname=WE2pWVUZ</itemdefinitions>
+                </item>
+                <item id="FILRZ3DN" contenttype="spacer">
+                    <itemdefinitions>height=9%;groupname=WE2pWVUZ</itemdefinitions>
+                </item>
+                <item id="MuqKQ9Ds" contenttype="spacer" caption="">
+                    <itemdefinitions>height=50;elementwidth=4;groupname=PhNcbYPD</itemdefinitions>
+                </item>
+                <item id="537FBVsg" contenttype="spacer">
+                    <itemdefinitions>height=9%;groupname=PhNcbYPD</itemdefinitions>
+                </item>
+                <item id="fE0ldHHQ" contenttype="spacer" caption="">
+                    <itemdefinitions>height=5;groupname=IkhLDsYQ;elementwidth=4</itemdefinitions>
+                </item>
+                <item id="4GeR7CF2" contenttype="spacer">
+                    <itemdefinitions>height=9%;groupname=IkhLDsYQ;elementwidth=35%</itemdefinitions>
+                </item>
+                <item id="muQCF7XM" contenttype="spacer" caption="">
+                    <itemdefinitions>height=9%;elementwidth=4;groupname=IkhLDsYQ</itemdefinitions>
+                </item>
+                <item id="v8v5tERR" caption="Zurück" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#cc004869;captionhorzalign=center;buttonradius=12;buttonheight=9%;textfontsize=18;elementwidth=20%;linkinfo=page:1;groupname=IkhLDsYQ</itemdefinitions>
+                </item>
+                <item id="JNDzKyv5" contenttype="spacer">
+                    <itemdefinitions>height=9%;elementwidth=4;groupname=IkhLDsYQ</itemdefinitions>
+                </item>
+                <item id="3F5nIQV7" caption="Weiter" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#cc004869;linkinfo=page:4;captionhorzalign=center;buttonradius=12;buttonheight=9%;textfontsize=18;elementwidth=20%;groupname=IkhLDsYQ</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="4" caption="Maschinentrimm" definitions="actionbuttontype=none">
+        <excelcontent id="1">
+            <items>
+                <item id="F7lYC4vc" caption="F7lYC4vc" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="tCWbIPX3" caption="Auftragserfassung" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;textfontsize=8;captionhorzalign=left;groupname=F7lYC4vc</itemdefinitions>
+                </item>
+                <item id="UcrMJffk" caption="Fracht &amp; Erlösschmälerungen" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;captionhorzalign=left;textfontsize=8;groupname=F7lYC4vc</itemdefinitions>
+                </item>
+                <item id="JvgGVvPK" caption="Maschinentrimm" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;captionhorzalign=left;textfontsize=8;groupname=F7lYC4vc</itemdefinitions>
+                </item>
+                <item id="inX83Osn" caption="Nebenbahn: Auftragserfassung" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ccffffff;textcolor=#cc004869;captionhorzalign=left;textfontsize=8;groupname=F7lYC4vc</itemdefinitions>
+                </item>
+                <item id="nEmyrK59" caption="Nebenbahn: Fracht &amp; Erlösschmälerung" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ccffffff;textcolor=#cc004869;captionhorzalign=left;textfontsize=8;groupname=F7lYC4vc</itemdefinitions>
+                </item>
+                <item id="yCs44mfc" caption="Produktions-Einzelkosten" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ccffffff;textcolor=#cc004869;captionhorzalign=left;textfontsize=8;groupname=F7lYC4vc</itemdefinitions>
+                </item>
+                <item id="1XgIsGhs" caption="Ergebnisübersicht" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ccffffff;textcolor=#cc004869;captionhorzalign=left;textfontsize=8;groupname=F7lYC4vc</itemdefinitions>
+                </item>
+                <item id="aXLizzVv" caption="Dokumentation" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ccffffff;textcolor=#cc004869;captionhorzalign=left;textfontsize=8;groupname=F7lYC4vc</itemdefinitions>
+                </item>
+                <item id="iRQQdmOK" contenttype="spacer">
+                    <itemdefinitions>height=50</itemdefinitions>
+                </item>
+                <item id="0Ki6ADsI" caption="Determinanten Kundenauftrag" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;height=9%;textfontsize=18;captionhorzalign=center</itemdefinitions>
+                </item>
+                <item id="8bSCseuK" contenttype="spacer">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="gZYfiYC6" caption="gZYfiYC6" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="4f5Q2olA" caption="FLG (g/m2)" inputtype="output" contenttype="toggle" address="Thrimmoptimierung!B15">
+                    <itemdefinitions>backgroundcolor=#ccffffff;elementcolor=#ccffffff;valuetextcolor=#cc004869;usecellformat=true;groupname=gZYfiYC6;buttonradius=12;valuefontstyle=regular;captiontextcolor=#cc004869;captionvertalign=center;captionhorzalign=left;valuefontsize=18;buttonheight=9%;showeditbuttons=false</itemdefinitions>
+                </item>
+                <item id="rBcJOOHH" contenttype="spacer" caption="">
+                    <itemdefinitions>height=9%;elementwidth=4;groupname=gZYfiYC6</itemdefinitions>
+                </item>
+                <item id="hasqSBkT" caption="Sorte" inputtype="output" contenttype="toggle" address="Thrimmoptimierung!B14">
+                    <itemdefinitions>backgroundcolor=#ccffffff;elementcolor=#ccffffff;valuetextcolor=#cc004869;usecellformat=true;groupname=gZYfiYC6;buttonradius=12;valuefontstyle=regular;captiontextcolor=#cc004869;captionvertalign=center;captionhorzalign=left;valuefontsize=18;buttonheight=7%;showeditbuttons=false</itemdefinitions>
+                </item>
+                <item id="JHm7gfL9" contenttype="spacer" caption="">
+                    <itemdefinitions>height=9%;elementwidth=4;groupname=gZYfiYC6</itemdefinitions>
+                </item>
+                <item id="FeKJHEUc" caption="Breite (m)" inputtype="output" contenttype="double" address="Thrimmoptimierung!B3">
+                    <itemdefinitions>backgroundcolor=#ccffffff;elementcolor=#ccffffff;valuetextcolor=#cc004869;usecellformat=true;groupname=gZYfiYC6;buttonradius=12;valuefontstyle=regular;captiontextcolor=#cc004869;captionvertalign=center;captionhorzalign=left;valuefontsize=18;buttonheight=7%;showeditbuttons=false</itemdefinitions>
+                </item>
+                <item id="xMawtURN" contenttype="spacer">
+                    <itemdefinitions>height=15</itemdefinitions>
+                </item>
+                <item id="aorse5IP" caption="Maschinendaten" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;height=9%;textfontsize=18;captionhorzalign=center</itemdefinitions>
+                </item>
+                <item id="wSL9POKP" contenttype="spacer">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="jTY7qiWK" caption="jTY7qiWK" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="E9Pktkh7" caption="Bitte Maschine auswählen" inputtype="input" contenttype="toggle" address="Thrimmoptimierung!B7">
+                    <itemdefinitions>backgroundcolor=#cc004869;elementcolor=#ccffffff;valuetextcolor=#ccffffff;usecellformat=true;groupname=jTY7qiWK;buttonradius=12;valuefontstyle=regular;captiontextcolor=#ccffffff;captionvertalign=center;captionhorzalign=left;metrictextcolor=#ccffffff;valuefontsize=18;buttonheight=7%</itemdefinitions>
+                </item>
+                <item id="CISkcxYW" contenttype="spacer" caption="">
+                    <itemdefinitions>height=9%;elementwidth=4;groupname=jTY7qiWK</itemdefinitions>
+                </item>
+                <item caption="Arbeitsbreite Maschine" inputtype="output" contenttype="result" address="Thrimmoptimierung!M18" id="MiECcnyn">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=jTY7qiWK;captionvertalign=center;captionhorzalign=left;buttonradius=12;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="F4n5rIsB" contenttype="spacer">
+                    <itemdefinitions>height=15</itemdefinitions>
+                </item>
+                <item id="midrNQ8P" caption="Trimmdaten" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;height=9%;textfontsize=18;captionhorzalign=center</itemdefinitions>
+                </item>
+                <item id="23ZSC0UD" contenttype="spacer">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="HQRRNkWO" caption="HQRRNkWO" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="YAnlKDDu" contenttype="spacer">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="YbLkrpsR" contenttype="spacer" caption="">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="1pju9SUL" caption="1pju9SUL" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item caption="" inputtype="output" contenttype="result" address="Thrimmoptimierung!G3" id="SNDtLUap">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;valuefontstyle=regular;buttonradius=12;valuetextcolor=#cc004869;captionvertalign=center;captionhorzalign=left;valuefontsize=18;groupname=1pju9SUL;elementwidth=3*;buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="70rHEM4Z" contenttype="spacer">
+                    <itemdefinitions>height=9%;groupname=1pju9SUL;elementwidth=4</itemdefinitions>
+                </item>
+                <item id="hHyutcog" caption="Kalkulation Nebenbahn" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#cc004869;linkinfo=page:7;captionhorzalign=center;isvisiblecell=Thrimmoptimierung!H3;buttonradius=12;textfontsize=18;groupname=1pju9SUL;elementwidth=1*;buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="EldU8GKr" contenttype="spacer">
+                    <itemdefinitions>height=10%</itemdefinitions>
+                </item>
+                <item id="DCRc8bSy" caption="DCRc8bSy" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="fGSWzqzP" contenttype="spacer">
+                    <itemdefinitions>height=9%;groupname=DCRc8bSy;elementwidth=2*</itemdefinitions>
+                </item>
+                <item caption="Trotz Restmenge &gt;= 60cm soll keine Nebenbahn angelegt werden." inputtype="input" contenttype="checkbox" address="Thrimmoptimierung!H1" id="sagiLLWl">
+                    <itemdefinitions>backgroundcolor=#cc004869;elementcolor=#09679B;valuetextcolor=#ccffffff;usecellformat=true;buttonradius=12;captiontextcolor=#ccffffff;captionvertalign=center;captionhorzalign=left;captionfontsize=16;buttonheight=9%;groupname=DCRc8bSy;elementwidth=2*;isvisiblecell=Thrimmoptimierung!H3</itemdefinitions>
+                </item>
+                <item id="0cjmBvSO" caption="Zurück" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#cc004869;linkinfo=page:3;captionhorzalign=center;buttonradius=12;elementwidth=1*;textfontsize=18;buttonheight=9%;groupname=DCRc8bSy</itemdefinitions>
+                </item>
+                <item id="MYbmNEsA" caption="Weiter" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#cc004869;linkinfo=page:5;captionhorzalign=center;isvisiblecell=Thrimmoptimierung!H2;buttonradius=12;groupname=DCRc8bSy;elementwidth=1*;textfontsize=18;buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="OVS8Lbwu" caption="Bitte Anzahl Nutzen bzw. Maschinenrollen eingeben" inputtype="input" contenttype="toggle" address="Thrimmoptimierung!B24">
+                    <itemdefinitions>backgroundcolor=#cc004869;elementcolor=#ccffffff;valuetextcolor=#ccffffff;usecellformat=true;groupname=HQRRNkWO;buttonradius=12;valuefontstyle=regular;captiontextcolor=#ccffffff;captionvertalign=center;captionhorzalign=left;metrictextcolor=#ccffffff;valuefontsize=18;buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="t2mlv3EC" contenttype="spacer" caption="">
+                    <itemdefinitions>height=9%;elementwidth=4;groupname=HQRRNkWO</itemdefinitions>
+                </item>
+                <item id="edilYPxv" caption="Breite Rest (m)" inputtype="output" contenttype="result" address="Thrimmoptimierung!E3">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=HQRRNkWO;buttonradius=12;valuefontstyle=regular;valuetextcolor=#cc004869;captionvertalign=center;captionhorzalign=left;captiontextcolor=#cc004869;valuefontsize=18;buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="BaCbQogd" contenttype="spacer" caption="">
+                    <itemdefinitions>height=9%;elementwidth=4;groupname=jTY7qiWK</itemdefinitions>
+                </item>
+                <item id="DgqSkiM8" caption="Bruttoproduktionsmenge / h in to" inputtype="output" contenttype="result" address="Thrimmoptimierung!B50">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;buttonradius=12;valuefontstyle=regular;valuetextcolor=#cc004869;captionvertalign=center;captionhorzalign=left;captiontextcolor=#cc004869;valuefontsize=18;groupname=jTY7qiWK</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="7" caption="Nebenbahn: Auftragserfassung" definitions="actionbuttontype=none">
+        <excelcontent id="1">
+            <items>
+                <item id="1MHrJtYr" caption="1MHrJtYr" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="mNbteLqO" caption="Auftragserfassung" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;textfontsize=8;captionhorzalign=left;groupname=1MHrJtYr</itemdefinitions>
+                </item>
+                <item id="92RN5kcX" caption="Fracht &amp; Erlösschmälerungen" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;captionhorzalign=left;textfontsize=8;groupname=1MHrJtYr</itemdefinitions>
+                </item>
+                <item id="YihGheYG" caption="Maschinentrimm" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;captionhorzalign=left;textfontsize=8;groupname=1MHrJtYr</itemdefinitions>
+                </item>
+                <item id="KaIVrPh0" caption="Nebenbahn: Auftragserfassung" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;captionhorzalign=left;textfontsize=8;groupname=1MHrJtYr</itemdefinitions>
+                </item>
+                <item id="Rqj8rGIg" caption="Nebenbahn: Fracht &amp; Erlösschmälerung" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ccffffff;textcolor=#cc004869;captionhorzalign=left;textfontsize=8;groupname=1MHrJtYr</itemdefinitions>
+                </item>
+                <item id="1cEYwP8z" caption="Produktions-Einzelkosten" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ccffffff;textcolor=#cc004869;captionhorzalign=left;textfontsize=8;groupname=1MHrJtYr</itemdefinitions>
+                </item>
+                <item id="HtY49TmT" caption="Ergebnisübersicht" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ccffffff;textcolor=#cc004869;captionhorzalign=left;textfontsize=8;groupname=1MHrJtYr</itemdefinitions>
+                </item>
+                <item id="Sc5WmENX" caption="Dokumentation" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ccffffff;textcolor=#cc004869;captionhorzalign=left;textfontsize=8;groupname=1MHrJtYr</itemdefinitions>
+                </item>
+                <item id="L7SdGAdN" contenttype="spacer">
+                    <itemdefinitions>height=50</itemdefinitions>
+                </item>
+                <item caption="Aktuelle Restbreite (m)" inputtype="output" contenttype="result" address="Thrimmoptimierung!E3" id="B382eFy4">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#cc004869;usecellformat=true;valuefontstyle=bold;valuefontsize=15;buttonradius=12;metrictextcolor=#f23d3d;captiontextcolor=#faf7f7;valuetextcolor=#fcfafa;buttonheight=50</itemdefinitions>
+                </item>
+                <item id="SflcXE9T" contenttype="spacer">
+                    <itemdefinitions>height=20</itemdefinitions>
+                </item>
+                <item id="fT2xEi5X" caption="Kundendaten Nebenbahn" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;captionhorzalign=center;height=9%;textfontsize=18</itemdefinitions>
+                </item>
+                <item id="qwbCbYg8" contenttype="spacer" caption="">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="rNem6O6p" caption="rNem6O6p" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="qz9KvXjx" caption="Bitte erste Buchstaben des Kunden eingeben" inputtype="input" contenttype="string" address="Thrimmoptimierung!c5">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#cc004869;elementcolor=#004869;valuetextcolor=#ccffffff;valuefontstyle=regular;captionvertalign=center;captionhorzalign=left;captiontextcolor=#ccffffff;buttonradius=12;valuefontsize=18;buttonheight=9%;groupname=rNem6O6p</itemdefinitions>
+                </item>
+                <item id="FvfWtAOt" contenttype="spacer" caption="">
+                    <itemdefinitions>height=9%;elementwidth=4;groupname=rNem6O6p</itemdefinitions>
+                </item>
+                <item id="J3D8XrMI" caption="Bitte Kunde aus Datenbank auswählen" inputtype="input" contenttype="toggle" address="Thrimmoptimierung!c6">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#cc004869;elementcolor=#ffffff;valuetextcolor=#ccffffff;valuefontstyle=regular;captionvertalign=center;captionhorzalign=left;captiontextcolor=#ccffffff;buttonradius=12;valuefontsize=18;buttonheight=9%;groupname=rNem6O6p</itemdefinitions>
+                </item>
+                <item id="Ri5ZJJR4" contenttype="spacer" caption="">
+                    <itemdefinitions>height=9%;elementwidth=4;groupname=rNem6O6p</itemdefinitions>
+                </item>
+                <item id="KKPGYNFr" caption="Bitte Lieferort auswählen" inputtype="input" contenttype="toggle" address="Thrimmoptimierung!c11">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#cc004869;elementcolor=#ffffff;valuetextcolor=#ccffffff;valuefontstyle=regular;captionvertalign=center;captionhorzalign=left;captiontextcolor=#ccffffff;buttonradius=12;valuefontsize=18;buttonheight=9%;groupname=rNem6O6p</itemdefinitions>
+                </item>
+                <item id="ANiHBJwH" contenttype="spacer">
+                    <itemdefinitions>height=15;groupname=A1umqbcV;elementwidth=3*</itemdefinitions>
+                </item>
+                <item id="I6VrxGaC" caption="Debitorennummer aus Datenbank" inputtype="output" contenttype="result" address="Thrimmoptimierung!c9">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#ccffffff;elementcolor=white;valuetextcolor=#cc004869;isvisiblecell=Thrimmoptimierung!B13;valuefontstyle=regular;captionvertalign=center;captionhorzalign=left;buttonradius=12;valuefontsize=18;buttonheight=9%;captiontextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="4vez6UvY" contenttype="spacer">
+                    <itemdefinitions>height=15</itemdefinitions>
+                </item>
+                <item id="BArBDzU8" caption="Kundenanforderung Nebenbahn" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;captionhorzalign=center;height=9%;textfontsize=18</itemdefinitions>
+                </item>
+                <item id="BnpvbNaK" contenttype="spacer">
+                    <itemdefinitions>height=15</itemdefinitions>
+                </item>
+                <item id="rAkDrPKV" caption="rAkDrPKV" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="Cc1zyOQE" caption="Bitte Rollenbreite (m) auswählen" inputtype="input" contenttype="double" address="Thrimmoptimierung!c3">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#cc004869;elementcolor=#ffffff;valuetextcolor=#ccffffff;minvalue=0;valuefontstyle=regular;captiontextcolor=#ccffffff;captionvertalign=center;captionhorzalign=left;buttonradius=12;valuefontsize=18;buttonheight=9%;deltastep=0.05;groupname=rAkDrPKV</itemdefinitions>
+                </item>
+                <item id="TzFnl78f" contenttype="spacer" caption="">
+                    <itemdefinitions>height=9%;elementwidth=4;groupname=rAkDrPKV</itemdefinitions>
+                </item>
+                <item id="rNQoEoXd" caption="Bitte Anzahl Nutzen / Maschinenrollen eingeben" inputtype="input" contenttype="double" address="Thrimmoptimierung!c24">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#cc004869;elementcolor=#ffffff;valuetextcolor=#ccffffff;deltastep=1;valuefontstyle=regular;captiontextcolor=#ccffffff;captionvertalign=center;captionhorzalign=left;buttonradius=12;valuefontsize=18;buttonheight=9%;groupname=rAkDrPKV</itemdefinitions>
+                </item>
+                <item id="aUBtSSN5" contenttype="spacer">
+                    <itemdefinitions>height=15</itemdefinitions>
+                </item>
+                <item id="oEmYX6RC" caption="oEmYX6RC" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="FfWVOiJu" contenttype="spacer" caption="">
+                    <itemdefinitions>height=9%;elementwidth=1*;groupname=oEmYX6RC</itemdefinitions>
+                </item>
+                <item id="mepfTpdC" caption="Bitte Bruttopreis (€ / to) &quot;Wunschpreis Kunde&quot; eingeben" inputtype="input" contenttype="currency" address="Thrimmoptimierung!c4">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#cc004869;elementcolor=#ffffff;valuetextcolor=#ccffffff;deltastep=5;valuefontstyle=regular;captiontextcolor=#ccffffff;captionvertalign=center;captionhorzalign=left;buttonradius=12;valuefontsize=18;buttonheight=9%;elementwidth=2*;groupname=oEmYX6RC</itemdefinitions>
+                </item>
+                <item id="koSKQ1l3" contenttype="spacer" caption="">
+                    <itemdefinitions>height=9%;elementwidth=1*;groupname=oEmYX6RC</itemdefinitions>
+                </item>
+                <item id="A9QH7qQ9" contenttype="spacer">
+                    <itemdefinitions>height=15</itemdefinitions>
+                </item>
+                <item id="Asj09pGR" caption="Asj09pGR" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="eGaYrH4u" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=Asj09pGR;elementwidth=4*</itemdefinitions>
+                </item>
+                <item id="2YqJ5Y21" caption="Weiter" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#cc004869;linkinfo=page:8;captionhorzalign=center;buttonradius=12;elementwidth=1*;groupname=Asj09pGR;textfontsize=18</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="8" caption="Nebenbahn: Fracht &amp; Erlösschmälerung" definitions="actionbuttontype=none">
+        <excelcontent id="1">
+            <items>
+                <item id="IMgow6ZI" caption="IMgow6ZI" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="GZ2sl9gC" caption="Auftragserfassung" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;textfontsize=8;captionhorzalign=left;groupname=IMgow6ZI</itemdefinitions>
+                </item>
+                <item id="bsbNlFiQ" caption="Fracht &amp; Erlösschmälerungen" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;captionhorzalign=left;textfontsize=8;groupname=IMgow6ZI</itemdefinitions>
+                </item>
+                <item id="UfUsjZNt" caption="Maschinentrimm" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;captionhorzalign=left;textfontsize=8;groupname=IMgow6ZI</itemdefinitions>
+                </item>
+                <item id="mh7oDvRi" caption="Nebenbahn: Auftragserfassung" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;captionhorzalign=left;textfontsize=8;groupname=IMgow6ZI</itemdefinitions>
+                </item>
+                <item id="17tdrB92" caption="Nebenbahn: Fracht &amp; Erlösschmälerung" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;captionhorzalign=left;textfontsize=8;groupname=IMgow6ZI</itemdefinitions>
+                </item>
+                <item id="pbJF80MU" caption="Produktions-Einzelkosten" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ccffffff;textcolor=#cc004869;captionhorzalign=left;textfontsize=8;groupname=IMgow6ZI</itemdefinitions>
+                </item>
+                <item id="yPCR6h9L" caption="Ergebnisübersicht" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ccffffff;textcolor=#cc004869;captionhorzalign=left;textfontsize=8;groupname=IMgow6ZI</itemdefinitions>
+                </item>
+                <item id="32tROmUv" caption="Dokumentation" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ccffffff;textcolor=#cc004869;captionhorzalign=left;textfontsize=8;groupname=IMgow6ZI</itemdefinitions>
+                </item>
+                <item id="URD7Ru8N" contenttype="spacer">
+                    <itemdefinitions>height=50</itemdefinitions>
+                </item>
+                <item id="X8IEX7fk" caption="X8IEX7fk" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="9NP2wCPb" caption="Systemvorschlag Kalkulation" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;captionhorzalign=center;height=9%;textfontsize=18;groupname=X8IEX7fk</itemdefinitions>
+                </item>
+                <item id="KvcwAg7j" contenttype="spacer" caption="">
+                    <itemdefinitions>height=9%;elementwidth=4;groupname=X8IEX7fk</itemdefinitions>
+                </item>
+                <item id="V9I5SNDl" caption="Manuelle Anpassungen" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;captionhorzalign=center;height=9%;textfontsize=18;groupname=X8IEX7fk</itemdefinitions>
+                </item>
+                <item id="wxO6w0J3" contenttype="spacer">
+                    <itemdefinitions>height=15</itemdefinitions>
+                </item>
+                <item id="ZxqiHl5h" caption="ZxqiHl5h" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="fwheIhpW" caption="Bruttopreis (€ / to)" inputtype="output" contenttype="currency" address="Thrimmoptimierung!c4">
+                    <itemdefinitions>backgroundcolor=#ccffffff;elementcolor=#004869;valuetextcolor=#cc004869;usecellformat=true;valuefontstyle=regular;buttonradius=12;captionvertalign=center;captionhorzalign=left;captiontextcolor=#cc004869;buttonheight=9%;valuefontsize=18;elementwidth=25%;groupname=ZxqiHl5h</itemdefinitions>
+                </item>
+                <item id="3dGbXwTL" contenttype="spacer" caption="">
+                    <itemdefinitions>height=50;elementwidth=4;groupname=ZxqiHl5h</itemdefinitions>
+                </item>
+                <item id="9wOwNiH3" contenttype="spacer" caption="">
+                    <itemdefinitions>height=9%;groupname=ZxqiHl5h</itemdefinitions>
+                </item>
+                <item id="FILRZ3D3" contenttype="spacer">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="A6XnOdi3" caption="A6XnOdi3" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item caption="Skonti (€ / to)" inputtype="output" contenttype="result" address="Thrimmoptimierung!c91" id="ps0vj6Xa">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;valuefontstyle=regular;buttonradius=12;elementwidth=25%;valuetextcolor=#cc004869;captiontextcolor=#cc004869;valuefontsize=18;groupname=A6XnOdi3</itemdefinitions>
+                </item>
+                <item id="1XCRLRLf" caption="Skonti in %" inputtype="output" contenttype="result" address="Thrimmoptimierung!c29">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;valuefontstyle=regular;buttonradius=12;valuetextcolor=#cc004869;captionvertalign=center;captionhorzalign=left;captiontextcolor=#cc004869;buttonheight=9%;valuefontsize=18;elementwidth=25%;groupname=A6XnOdi3</itemdefinitions>
+                </item>
+                <item id="JQzDdkPL" contenttype="spacer" caption="">
+                    <itemdefinitions>height=9%;elementwidth=4;groupname=A6XnOdi3</itemdefinitions>
+                </item>
+                <item id="qkaI5pnT" contenttype="spacer" caption="">
+                    <itemdefinitions>height=9%;groupname=A6XnOdi3</itemdefinitions>
+                </item>
+                <item id="prdBjJH3" contenttype="spacer">
+                    <itemdefinitions>height=15</itemdefinitions>
+                </item>
+                <item id="aYym8GJR" caption="aYym8GJR" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item caption="Boni (€ / to)" inputtype="output" contenttype="result" address="Thrimmoptimierung!c92" id="aoDYiaxz">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;valuefontstyle=regular;buttonradius=12;elementwidth=25%;valuetextcolor=#cc004869;captiontextcolor=#cc004869;valuefontsize=18;groupname=aYym8GJR</itemdefinitions>
+                </item>
+                <item id="Pcn4iJ7Q" caption="Boni in %" inputtype="output" contenttype="result" address="Thrimmoptimierung!c31">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;valuefontstyle=regular;buttonradius=12;valuetextcolor=#cc004869;captionvertalign=center;captionhorzalign=left;captiontextcolor=#cc004869;buttonheight=9%;valuefontsize=18;elementwidth=25%;groupname=aYym8GJR</itemdefinitions>
+                </item>
+                <item id="ZtixtDhv" contenttype="spacer" caption="">
+                    <itemdefinitions>height=9%;elementwidth=4;groupname=aYym8GJR</itemdefinitions>
+                </item>
+                <item id="78hb4nrE" caption="Bonus-Anpassung in %-Punkten" inputtype="input" contenttype="percent" address="Thrimmoptimierung!c33">
+                    <itemdefinitions>backgroundcolor=#cc004869;elementcolor=#ccffffff;valuetextcolor=#ccffffff;usecellformat=true;deltastep=0.005;buttonradius=12;valuefontstyle=regular;captiontextcolor=#ccffffff;captionvertalign=center;captionhorzalign=left;metrictextcolor=#ccffffff;buttonheight=9%;valuefontsize=18;groupname=aYym8GJR</itemdefinitions>
+                </item>
+                <item id="537FBVs3" contenttype="spacer">
+                    <itemdefinitions>height=15</itemdefinitions>
+                </item>
+                <item id="Md9CtOat" caption="Md9CtOat" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item caption="Provision (€ / to)" inputtype="output" contenttype="result" address="Thrimmoptimierung!c93" id="eIYeBF7c">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;valuefontstyle=regular;buttonradius=12;elementwidth=25%;valuetextcolor=#cc004869;captiontextcolor=#cc004869;valuefontsize=18;groupname=Md9CtOat</itemdefinitions>
+                </item>
+                <item id="v0Pn4YCe" caption="Provision in %" inputtype="output" contenttype="result" address="Thrimmoptimierung!c37">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;valuefontstyle=regular;buttonradius=12;valuetextcolor=#cc004869;captionvertalign=center;captionhorzalign=left;captiontextcolor=#cc004869;buttonheight=9%;valuefontsize=18;elementwidth=25%;groupname=Md9CtOat</itemdefinitions>
+                </item>
+                <item id="DTb2IqI7" contenttype="spacer" caption="">
+                    <itemdefinitions>height=50;elementwidth=4;groupname=Md9CtOat</itemdefinitions>
+                </item>
+                <item id="DvuIj4we" contenttype="spacer" caption="">
+                    <itemdefinitions>height=9%;groupname=Md9CtOat</itemdefinitions>
+                </item>
+                <item id="4GeR7CF3" contenttype="spacer">
+                    <itemdefinitions>height=15</itemdefinitions>
+                </item>
+                <item id="zWUpSnXz" caption="zWUpSnXz" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="WpdKO0hH" caption="Frachtkosten (€ / to)" inputtype="output" contenttype="result" address="Thrimmoptimierung!c17">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;valuefontstyle=regular;buttonradius=12;valuetextcolor=#cc004869;captionvertalign=center;captionhorzalign=left;captiontextcolor=#cc004869;buttonheight=9%;valuefontsize=18;elementwidth=25%;groupname=zWUpSnXz</itemdefinitions>
+                </item>
+                <item id="Cg3O0L6u" contenttype="spacer" caption="">
+                    <itemdefinitions>height=50;elementwidth=4;groupname=zWUpSnXz</itemdefinitions>
+                </item>
+                <item id="afRpKava" contenttype="spacer" caption="">
+                    <itemdefinitions>height=50;groupname=zWUpSnXz</itemdefinitions>
+                </item>
+                <item id="t19K4IlC" caption="Frachtkosten (€ / to) manuell" inputtype="input" contenttype="currency" address="Thrimmoptimierung!c18">
+                    <itemdefinitions>backgroundcolor=#cc004869;elementcolor=#ccffffff;valuetextcolor=#ccffffff;usecellformat=true;deltastep=2;buttonradius=12;valuefontstyle=regular;captiontextcolor=#ccffffff;captionvertalign=center;captionhorzalign=left;metrictextcolor=#ccffffff;buttonheight=9%;valuefontsize=18;elementwidth=50%;groupname=zWUpSnXz</itemdefinitions>
+                </item>
+                <item id="YdTBndnJ" contenttype="spacer">
+                    <itemdefinitions>height=15</itemdefinitions>
+                </item>
+                <item id="RIGWvhLo" caption="RIGWvhLo" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="ISB8mbOl" caption="Summe Sonstige Kosten (€ / to)" inputtype="output" contenttype="result" address="Thrimmoptimierung!c43">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;valuefontstyle=regular;buttonradius=12;valuetextcolor=#cc004869;captionvertalign=center;captionhorzalign=left;captiontextcolor=#cc004869;buttonheight=9%;valuefontsize=18;elementwidth=25%;groupname=RIGWvhLo</itemdefinitions>
+                </item>
+                <item id="8lyHf1HJ" contenttype="spacer" caption="">
+                    <itemdefinitions>height=50;elementwidth=4;groupname=RIGWvhLo</itemdefinitions>
+                </item>
+                <item id="8RkxsSMd" contenttype="spacer" caption="">
+                    <itemdefinitions>height=9%;groupname=RIGWvhLo</itemdefinitions>
+                </item>
+                <item id="39JSmYik" contenttype="spacer">
+                    <itemdefinitions>height=15</itemdefinitions>
+                </item>
+                <item id="cazqktPd" caption="cazqktPd" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="t1zzk1J1" caption="Netto-netto-Verkaufspreis (€ / to)" inputtype="output" contenttype="result" address="Thrimmoptimierung!c44">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;valuefontstyle=regular;valuetextcolor=#cc004869;buttonradius=12;captionvertalign=center;captionhorzalign=left;captiontextcolor=#cc004869;buttonheight=9%;valuefontsize=18;elementwidth=25%;groupname=cazqktPd</itemdefinitions>
+                </item>
+                <item id="Ge500g9w" contenttype="spacer" caption="">
+                    <itemdefinitions>height=5;elementwidth=4;groupname=cazqktPd</itemdefinitions>
+                </item>
+                <item id="XgXTUMwT" contenttype="spacer" caption="">
+                    <itemdefinitions>height=9%;groupname=cazqktPd</itemdefinitions>
+                </item>
+                <item id="FJ0ZSFX9" contenttype="spacer">
+                    <itemdefinitions>height=15</itemdefinitions>
+                </item>
+                <item id="yRx3cgeh" caption="yRx3cgeh" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="uCe4Nje2" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=yRx3cgeh;elementwidth=4*</itemdefinitions>
+                </item>
+                <item id="3F5nIQV3" caption="Weiter" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#cc004869;linkinfo=page:5;captionhorzalign=center;backgroundcolorcell=rgba(0, 72, 105, 0.8);groupname=yRx3cgeh;elementwidth=1*;textfontsize=18;buttonradius=12</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="5" caption="Produktions-Einzelkosten" definitions="actionbuttontype=none">
+        <excelcontent id="1">
+            <items>
+                <item id="sqzqM4C6" caption="sqzqM4C6" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="bRRaSsO6" caption="Auftragserfassung" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;textfontsize=8;captionhorzalign=left;groupname=sqzqM4C6</itemdefinitions>
+                </item>
+                <item id="v6AFpEk9" caption="Fracht &amp; Erlösschmälerungen" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;captionhorzalign=left;textfontsize=8;groupname=sqzqM4C6</itemdefinitions>
+                </item>
+                <item id="PHgxUKIa" caption="Maschinentrimm" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;captionhorzalign=left;textfontsize=8;groupname=sqzqM4C6</itemdefinitions>
+                </item>
+                <item id="Qx9vcwy0" caption="Nebenbahn: Auftragserfassung" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;captionhorzalign=left;textfontsize=8;groupname=sqzqM4C6</itemdefinitions>
+                </item>
+                <item id="IL7dQjPo" caption="Nebenbahn: Fracht &amp; Erlösschmälerung" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;captionhorzalign=left;textfontsize=8;groupname=sqzqM4C6</itemdefinitions>
+                </item>
+                <item id="Qi5wNCv7" caption="Produktions-Einzelkosten" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;captionhorzalign=left;textfontsize=8;groupname=sqzqM4C6</itemdefinitions>
+                </item>
+                <item id="wKwH1XMA" caption="Ergebnisübersicht" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ccffffff;textcolor=#cc004869;captionhorzalign=left;textfontsize=8;groupname=sqzqM4C6</itemdefinitions>
+                </item>
+                <item id="uwAsazEk" caption="Dokumentation" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ccffffff;textcolor=#cc004869;captionhorzalign=left;textfontsize=8;groupname=sqzqM4C6</itemdefinitions>
+                </item>
+                <item id="lCGcq5ui" contenttype="spacer">
+                    <itemdefinitions>height=50</itemdefinitions>
+                </item>
+                <item id="YS7Wo2pw" caption="YS7Wo2pw" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="jvZmAG3I" caption="Systemvorschlag Kalkulation" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;groupname=YS7Wo2pw;elementwidth=6*;height=9%;textfontsize=18;captionhorzalign=center</itemdefinitions>
+                </item>
+                <item id="OqXSiDIU" contenttype="spacer">
+                    <itemdefinitions>height=9%;groupname=YS7Wo2pw;elementwidth=4</itemdefinitions>
+                </item>
+                <item id="7a6qNBxX" caption="Manuelle Anpassungen" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;groupname=YS7Wo2pw;elementwidth=5*;height=9%;textfontsize=18</itemdefinitions>
+                </item>
+                <item id="1cJfKsSU" contenttype="spacer">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="R0g7hD8L" caption="R0g7hD8L" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="M8HxCg2l" caption="Produktionseinzelkosten / to Fertigerzeugnis" inputtype="output" contenttype="result" address="Thrimmoptimierung!B55">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=R0g7hD8L;valuefontstyle=regular;elementwidth=6*;buttonheight=9%;valuefontsize=18;captiontextcolor=#cc004869;valuetextcolor=#cc004869;buttonradius=12</itemdefinitions>
+                </item>
+                <item id="6rv7VI8s" contenttype="spacer" caption="">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="ljQeMuWh" caption="ljQeMuWh" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="l28JRkx7" caption="davon Altpapierkosten (bei 10% Stoffverlust)" inputtype="output" contenttype="result" address="Thrimmoptimierung!B56">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=ljQeMuWh;valuefontstyle=regular;elementwidth=6*;buttonheight=9%;valuefontsize=18;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionvertalign=center;captionhorzalign=left;buttonradius=12</itemdefinitions>
+                </item>
+                <item id="sUFhVzYY" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=ljQeMuWh;elementwidth=5*</itemdefinitions>
+                </item>
+                <item id="NrFs7Ewo" contenttype="spacer" caption="">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="UOePy9xi" caption="UOePy9xi" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="nkzVMnnD" contenttype="spacer">
+                    <itemdefinitions>height=9%;groupname=UOePy9xi;elementwidth=2*</itemdefinitions>
+                </item>
+                <item caption="Mix" inputtype="output" contenttype="result" address="Thrimmoptimierung!D98" id="LU8Ixd3B">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=UOePy9xi;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionvertalign=center;captionhorzalign=left;elementwidth=1*;captionfontsize=8</itemdefinitions>
+                </item>
+                <item id="OqS0a30Z" caption="EK-Preis 1.02" inputtype="output" contenttype="result" address="Thrimmoptimierung!B20">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=UOePy9xi;valuefontstyle=regular;elementwidth=4*;buttonheight=9%;valuefontsize=18;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionvertalign=center;captionhorzalign=left;buttonradius=12</itemdefinitions>
+                </item>
+                <item id="0slFxYfw" contenttype="spacer" caption="">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="8geo6kG7" caption="8geo6kG7" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="6kdR3ZfI" contenttype="spacer">
+                    <itemdefinitions>height=9%;groupname=8geo6kG7;elementwidth=2*</itemdefinitions>
+                </item>
+                <item caption="Mix" inputtype="output" contenttype="result" address="Thrimmoptimierung!D100" id="rKmlkHyZ">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=8geo6kG7;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionvertalign=center;captionhorzalign=left;elementwidth=1*;captionfontsize=8</itemdefinitions>
+                </item>
+                <item id="WBYKlpyV" caption="EK-Preis 4.01" inputtype="output" contenttype="result" address="Thrimmoptimierung!B22">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=8geo6kG7;valuefontstyle=regular;buttonheight=9%;valuefontsize=18;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionvertalign=center;captionhorzalign=left;elementwidth=4*;buttonradius=12</itemdefinitions>
+                </item>
+                <item id="m9A0UW2T" contenttype="spacer" caption="">
+                    <itemdefinitions>height=9%;elementwidth=4;groupname=8geo6kG7</itemdefinitions>
+                </item>
+                <item caption="Mix" inputtype="output" contenttype="result" address="Thrimmoptimierung!D101" id="GSurKSiL">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=8geo6kG7;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionvertalign=center;captionhorzalign=left;elementwidth=1*;captionfontsize=8</itemdefinitions>
+                </item>
+                <item id="Azyy8JQM" caption="EK-Preis 4.03" inputtype="output" contenttype="result" address="Thrimmoptimierung!B23">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=8geo6kG7;valuefontstyle=regular;buttonheight=9%;valuefontsize=18;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionvertalign=center;captionhorzalign=left;elementwidth=4*;buttonradius=12</itemdefinitions>
+                </item>
+                <item id="rkQ2cpkA" contenttype="spacer" caption="">
+                    <itemdefinitions>height=9%;elementwidth=4;groupname=8geo6kG7</itemdefinitions>
+                </item>
+                <item id="pNXaf8Xv" caption="Anp. EK-Preis 4.01" inputtype="input" contenttype="integer" address="Thrimmoptimierung!H18">
+                    <itemdefinitions>backgroundcolor=#cc004869;elementcolor=#ccffffff;valuetextcolor=#ccffffff;usecellformat=true;groupname=8geo6kG7;valuefontstyle=regular;buttonheight=9%;valuefontsize=18;captiontextcolor=#ccffffff;captionvertalign=center;captionhorzalign=left;metrictextcolor=#ccffffff;elementwidth=5*;buttonradius=12</itemdefinitions>
+                </item>
+                <item id="fZikHB1o" contenttype="spacer" caption="">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="H1oUgzAf" contenttype="spacer">
+                    <itemdefinitions>height=9%;groupname=R0g7hD8L;elementwidth=5*</itemdefinitions>
+                </item>
+                <item id="zZddsvUM" caption="zZddsvUM" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="xGFaw5Im" caption="davon Weizenstärkekosten" inputtype="output" contenttype="result" address="Thrimmoptimierung!B58">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;valuefontstyle=regular;buttonheight=9%;valuefontsize=18;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionvertalign=center;captionhorzalign=left;groupname=zZddsvUM;elementwidth=6*;buttonradius=12</itemdefinitions>
+                </item>
+                <item id="lSir1YlY" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=zZddsvUM;elementwidth=5*</itemdefinitions>
+                </item>
+                <item id="kY3SfcM0" contenttype="spacer" caption="">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="lYuNUb0Y" caption="lYuNUb0Y" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="xvtJtVIg" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=lYuNUb0Y;elementwidth=1*</itemdefinitions>
+                </item>
+                <item id="Rq4LEz8l" caption="EK-Preis Weizenstärke (€ / to)" inputtype="output" contenttype="result" address="Thrimmoptimierung!B19">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=lYuNUb0Y;valuefontstyle=regular;buttonheight=9%;valuefontsize=18;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionvertalign=center;captionhorzalign=left;elementwidth=5*;buttonradius=12</itemdefinitions>
+                </item>
+                <item id="gzXYMfts" contenttype="spacer" caption="">
+                    <itemdefinitions>height=9%;elementwidth=4;groupname=lYuNUb0Y</itemdefinitions>
+                </item>
+                <item id="TfNnQw4l" caption="Anp. EK-Preis Weizenstärke" inputtype="input" contenttype="integer" address="Thrimmoptimierung!H15">
+                    <itemdefinitions>backgroundcolor=#cc004869;elementcolor=#ccffffff;valuetextcolor=#ccffffff;usecellformat=true;groupname=lYuNUb0Y;valuefontstyle=regular;buttonheight=9%;valuefontsize=18;captiontextcolor=#ccffffff;captionvertalign=center;captionhorzalign=left;metrictextcolor=#ccffffff;elementwidth=5*;buttonradius=12</itemdefinitions>
+                </item>
+                <item id="IenjLAZu" contenttype="spacer" caption="">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="zm2Fn7Px" caption="zm2Fn7Px" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="4kABOqzc" caption="davon Energiekosten" inputtype="output" contenttype="result" address="Thrimmoptimierung!B57">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=zm2Fn7Px;valuefontstyle=regular;buttonheight=9%;valuefontsize=18;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionvertalign=center;captionhorzalign=left;buttonradius=12;elementwidth=6*</itemdefinitions>
+                </item>
+                <item id="fVvad1vX" contenttype="spacer">
+                    <itemdefinitions>height=9%;groupname=zm2Fn7Px;elementwidth=4</itemdefinitions>
+                </item>
+                <item id="AvtkXBoY" contenttype="spacer" caption="">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="7IpAjjK4" caption="7IpAjjK4" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="jEkgbn6t" caption="davon Kosten Chem. + Farben" inputtype="output" contenttype="result" address="Thrimmoptimierung!B59">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=7IpAjjK4;valuefontstyle=regular;buttonheight=9%;valuefontsize=18;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionvertalign=center;captionhorzalign=left;buttonradius=12;elementwidth=6*</itemdefinitions>
+                </item>
+                <item id="XL4Kry3G" contenttype="spacer">
+                    <itemdefinitions>height=9%;groupname=7IpAjjK4;elementwidth=4</itemdefinitions>
+                </item>
+                <item id="FmjMcDdm" contenttype="spacer">
+                    <itemdefinitions>height=9%;groupname=zm2Fn7Px;elementwidth=5*</itemdefinitions>
+                </item>
+                <item id="ZKDUjqyt" contenttype="spacer">
+                    <itemdefinitions>height=9%;groupname=7IpAjjK4;elementwidth=1*</itemdefinitions>
+                </item>
+                <item id="ob6xFsT2" contenttype="spacer" caption="">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="GuiWzzTR" contenttype="spacer">
+                    <itemdefinitions>height=50;elementwidth=3*</itemdefinitions>
+                </item>
+                <item id="2DZLPGy0" contenttype="spacer" caption="">
+                    <itemdefinitions>height=9%;elementwidth=4;groupname=UOePy9xi</itemdefinitions>
+                </item>
+                <item caption="Mix" inputtype="output" contenttype="result" address="Thrimmoptimierung!D99" id="uarUpAuH">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=UOePy9xi;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionvertalign=center;captionhorzalign=left;elementwidth=1*;captionfontsize=8</itemdefinitions>
+                </item>
+                <item id="FPn8PMqA" caption="EK-Preis 1.04" inputtype="output" contenttype="result" address="Thrimmoptimierung!B21">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=UOePy9xi;valuefontstyle=regular;buttonheight=9%;valuefontsize=18;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionvertalign=center;captionhorzalign=left;elementwidth=4*;buttonradius=12</itemdefinitions>
+                </item>
+                <item id="s1kn61WP" contenttype="spacer" caption="">
+                    <itemdefinitions>height=9%;elementwidth=4;groupname=UOePy9xi</itemdefinitions>
+                </item>
+                <item id="M8sJM41p" caption="Anp. EK-Preis 1.02" inputtype="input" contenttype="integer" address="Thrimmoptimierung!H16">
+                    <itemdefinitions>backgroundcolor=#cc004869;elementcolor=#ccffffff;valuetextcolor=#ccffffff;usecellformat=true;groupname=UOePy9xi;valuefontstyle=regular;elementwidth=5*;buttonheight=9%;valuefontsize=18;captiontextcolor=#ccffffff;metrictextcolor=#ccffffff;showeditbuttons=true;buttonradius=12</itemdefinitions>
+                </item>
+                <item id="8jkgZkZ1" contenttype="spacer">
+                    <itemdefinitions>height=9%;elementwidth=4;groupname=UOePy9xi</itemdefinitions>
+                </item>
+                <item id="YXM56OZS" caption="Anp. EK-Preis 1.04" inputtype="input" contenttype="integer" address="Thrimmoptimierung!H17">
+                    <itemdefinitions>backgroundcolor=#cc004869;elementcolor=#ccffffff;valuetextcolor=#ccffffff;usecellformat=true;valuefontstyle=regular;buttonheight=9%;valuefontsize=18;captiontextcolor=#ccffffff;captionvertalign=center;captionhorzalign=left;metrictextcolor=#ccffffff;elementwidth=5*;buttonradius=12;groupname=UOePy9xi</itemdefinitions>
+                </item>
+                <item id="P2zqkHUQ" contenttype="spacer">
+                    <itemdefinitions>height=9%;elementwidth=4;groupname=8geo6kG7</itemdefinitions>
+                </item>
+                <item id="MsGMIKdI" caption="Anp. EK-Preis 4.03" inputtype="input" contenttype="integer" address="Thrimmoptimierung!H19">
+                    <itemdefinitions>backgroundcolor=#cc004869;elementcolor=#ccffffff;valuetextcolor=#ccffffff;usecellformat=true;valuefontstyle=regular;buttonheight=9%;valuefontsize=18;captiontextcolor=#ccffffff;captionvertalign=center;captionhorzalign=left;metrictextcolor=#ccffffff;elementwidth=5*;buttonradius=12;groupname=8geo6kG7</itemdefinitions>
+                </item>
+                <item id="nYLfinm8" caption="Zurück" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#cc004869;linkinfo=page:4;captionhorzalign=center;buttonheight=9%;textfontsize=18;metrictextcolor=#ccffffff;elementwidth=2*;buttonradius=12;groupname=7IpAjjK4</itemdefinitions>
+                </item>
+                <item id="qUga1DhQ" caption="Weiter" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#cc004869;linkinfo=page:6;captionhorzalign=center;buttonheight=9%;textfontsize=18;metrictextcolor=#ccffffff;elementwidth=2*;buttonradius=12;groupname=7IpAjjK4</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="6" caption="Ergebnisübersicht" definitions="actionbuttontype=none">
+        <excelcontent id="1">
+            <items>
+                <item id="Lcw00ZNl" caption="Lcw00ZNl" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="vknduAmV" caption="Auftragserfassung" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;textfontsize=8;captionhorzalign=left;groupname=Lcw00ZNl</itemdefinitions>
+                </item>
+                <item id="Ey2cvk3b" caption="Fracht &amp; Erlösschmälerungen" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;captionhorzalign=left;textfontsize=8;groupname=Lcw00ZNl</itemdefinitions>
+                </item>
+                <item id="ifjCcOiR" caption="Maschinentrimm" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;captionhorzalign=left;textfontsize=8;groupname=Lcw00ZNl</itemdefinitions>
+                </item>
+                <item id="a3TOn1Pd" caption="Nebenbahn: Auftragserfassung" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;captionhorzalign=left;textfontsize=8;groupname=Lcw00ZNl</itemdefinitions>
+                </item>
+                <item id="GrguxfGP" caption="Nebenbahn: Fracht &amp; Erlösschmälerung" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;captionhorzalign=left;textfontsize=8;groupname=Lcw00ZNl</itemdefinitions>
+                </item>
+                <item id="Jwp3es5v" caption="Produktions-Einzelkosten" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;captionhorzalign=left;textfontsize=8;groupname=Lcw00ZNl</itemdefinitions>
+                </item>
+                <item id="CBGmD9rb" caption="Ergebnisübersicht" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;captionhorzalign=left;textfontsize=8;groupname=Lcw00ZNl</itemdefinitions>
+                </item>
+                <item id="MZPviepA" caption="Dokumentation" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#ccffffff;textcolor=#cc004869;captionhorzalign=left;textfontsize=8;groupname=Lcw00ZNl</itemdefinitions>
+                </item>
+                <item id="gvvfFhSi" contenttype="spacer">
+                    <itemdefinitions>height=50</itemdefinitions>
+                </item>
+                <item id="1dOfJkZO" caption="1dOfJkZO" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=6%</itemdefinitions>
+                </item>
+                <item id="j6nCGB2R" caption="Kunde Hauptauftrag" inputtype="output" contenttype="result" address="Thrimmoptimierung!B10">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#cc004869;usecellformat=true;groupname=1dOfJkZO;captionhorzalign=left;valuefontstyle=regular;valuetextcolor=#ccffffff;captiontextcolor=#ccffffff;markertextcolor=#ccffffff;metrictextcolor=#ccffffff;valuefontsize=12;captionfontsize=8</itemdefinitions>
+                </item>
+                <item caption="Auftragsvol. in to" inputtype="output" contenttype="result" address="Thrimmoptimierung!E110" id="teC0mMkg">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#cc004869;usecellformat=true;groupname=1dOfJkZO;valuefontstyle=regular;valuefontsize=12;valuetextcolor=#ccffffff;captiontextcolor=#ccffffff;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#ccffffff;metrictextcolor=#ccffffff</itemdefinitions>
+                </item>
+                <item id="jgsxZGxP" caption="Kunde Nebenbahn" inputtype="output" contenttype="string" address="Thrimmoptimierung!C10">
+                    <itemdefinitions>backgroundcolor=#cc004869;elementcolor=#004869;valuetextcolor=#ccffffff;usecellformat=true;groupname=1dOfJkZO;captionhorzalign=left;valuefontstyle=regular;valuefontsize=12;captionfontsize=8;metrictextcolor=#ccffffff;markertextcolor=#ccffffff;captiontextcolor=#ccffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item caption="Auftragsvol. in to" inputtype="output" contenttype="result" address="Thrimmoptimierung!H110" id="RV1Qo5Ma">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#cc004869;usecellformat=true;groupname=1dOfJkZO;valuefontstyle=regular;valuefontsize=12;valuetextcolor=#ccffffff;captiontextcolor=#ccffffff;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#ccffffff;metrictextcolor=#ccffffff</itemdefinitions>
+                </item>
+                <item id="CpgDCK9X" caption="" inputtype="output" contenttype="string" address="Thrimmoptimierung!E2">
+                    <itemdefinitions>backgroundcolor=#cc004869;elementcolor=#004869;valuetextcolor=#ccffffff;usecellformat=true;groupname=1dOfJkZO;captionhorzalign=left;valuefontstyle=regular;valuefontsize=12;captionfontsize=8;metrictextcolor=#ccffffff;markertextcolor=#ccffffff;captiontextcolor=#ccffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="QU109hZU" contenttype="spacer">
+                    <itemdefinitions>height=15</itemdefinitions>
+                </item>
+                <item id="xcr89BHq" caption="Nettoerlös" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;captionhorzalign=center;textfontsize=12</itemdefinitions>
+                </item>
+                <item id="UbZ9bRkw" contenttype="spacer">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="P5P6gkFN" caption="P5P6gkFN" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=6%</itemdefinitions>
+                </item>
+                <item id="bPfmk7aX" caption="€/to" inputtype="output" contenttype="result" address="Thrimmoptimierung!c113">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=P5P6gkFN;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;markertextcolor=#cc004869;metrictextcolor=#cc004869;buttonradius=12;valuefontsize=10;buttonheight=9%;captionfontsize=8</itemdefinitions>
+                </item>
+                <item id="E3Z5YQY2" contenttype="spacer">
+                    <itemdefinitions>height=15</itemdefinitions>
+                </item>
+                <item id="DZ3LA37w" caption="Fertigungseinzelkosten" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;textfontsize=12;captionhorzalign=center</itemdefinitions>
+                </item>
+                <item id="7yjbpUlc" contenttype="spacer" caption="">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="Azb0USb6" caption="Azb0USb6" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=6%</itemdefinitions>
+                </item>
+                <item id="MefJ7azP" caption="€/to" inputtype="output" contenttype="result" address="Thrimmoptimierung!c117">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=Azb0USb6;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="xqeScbwJ" caption="€/h" inputtype="output" contenttype="result" address="Thrimmoptimierung!d117">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=Azb0USb6;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="G1t3Zl3Y" contenttype="spacer">
+                    <itemdefinitions>height=15</itemdefinitions>
+                </item>
+                <item id="5kJPplqc" caption="Deckungsbeitrag nach Fertigungseinzelkosten" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;textfontsize=12;captionhorzalign=center</itemdefinitions>
+                </item>
+                <item id="ZrlOC1fn" contenttype="spacer" caption="">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="EjVm4WOu" caption="EjVm4WOu" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=6%</itemdefinitions>
+                </item>
+                <item id="n8UlipuB" caption="€/to" inputtype="output" contenttype="result" address="Thrimmoptimierung!c121">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=EjVm4WOu;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="plBHv6i1" caption="€/h" inputtype="output" contenttype="result" address="Thrimmoptimierung!d121">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=EjVm4WOu;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="MbtteKPg" caption="€/Auftrag" inputtype="output" contenttype="result" address="Thrimmoptimierung!e121">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=EjVm4WOu;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="4a6gQDpO" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=EjVm4WOu;elementwidth=8</itemdefinitions>
+                </item>
+                <item id="e35pAtC0" caption="€/to" inputtype="output" contenttype="result" address="Thrimmoptimierung!f121">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=EjVm4WOu;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="GbfaEEwP" caption="€/h" inputtype="output" contenttype="result" address="Thrimmoptimierung!g121">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=EjVm4WOu;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="8z2HYPab" caption="€/Auftrag" inputtype="output" contenttype="result" address="Thrimmoptimierung!h121">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=EjVm4WOu;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="0zTtDq6t" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=EjVm4WOu;elementwidth=8</itemdefinitions>
+                </item>
+                <item id="smeeADHn" caption="€/to" inputtype="output" contenttype="result" address="Thrimmoptimierung!i121">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=EjVm4WOu;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="uNKS2V1t" contenttype="spacer">
+                    <itemdefinitions>height=15</itemdefinitions>
+                </item>
+                <item id="1N7ppv4z" caption="€/h" inputtype="output" contenttype="result" address="Thrimmoptimierung!d113">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=P5P6gkFN;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="d0Zdkr3g" caption="€/Auftrag" inputtype="output" contenttype="result" address="Thrimmoptimierung!e113">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=P5P6gkFN;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="Gf1J4N5p" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=P5P6gkFN;elementwidth=8</itemdefinitions>
+                </item>
+                <item id="JG7aFOEZ" caption="€/to" inputtype="output" contenttype="result" address="Thrimmoptimierung!f113">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=P5P6gkFN;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="BlAEF0QG" caption="€/h" inputtype="output" contenttype="result" address="Thrimmoptimierung!g113">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=P5P6gkFN;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="SusXoUy1" caption="€/Auftrag" inputtype="output" contenttype="result" address="Thrimmoptimierung!h113">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=P5P6gkFN;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="skGNYpTF" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=P5P6gkFN;elementwidth=8</itemdefinitions>
+                </item>
+                <item id="pBWGWbVs" caption="€/to" inputtype="output" contenttype="result" address="Thrimmoptimierung!i113">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=P5P6gkFN;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="B0BcHTRV" caption="€/h" inputtype="output" contenttype="result" address="Thrimmoptimierung!j113">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=P5P6gkFN;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="pz6iCsK7" caption="€/Auftrag" inputtype="output" contenttype="result" address="Thrimmoptimierung!k113">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=P5P6gkFN;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="U7k274H7" caption="Ergebnis nach Deckungsbedarf I (Deckungsbedarf für neutrales Vorsteuer-Ergebnis 2019: 122 € / to; 3.845,14 € / h)" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;textfontsize=12;captionhorzalign=center</itemdefinitions>
+                </item>
+                <item id="WPYkEFnp" contenttype="spacer" caption="">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="6mgcqPD9" caption="6mgcqPD9" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=6%</itemdefinitions>
+                </item>
+                <item id="sFxBtxuD" caption="€/to" inputtype="output" contenttype="result" address="Thrimmoptimierung!c125">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=6mgcqPD9;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="Ey4V2MTd" caption="€/h" inputtype="output" contenttype="result" address="Thrimmoptimierung!d125">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=6mgcqPD9;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="YSJzOF3w" caption="€/Auftrag" inputtype="output" contenttype="result" address="Thrimmoptimierung!e125">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=6mgcqPD9;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="75vULQbF" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=6mgcqPD9;elementwidth=8</itemdefinitions>
+                </item>
+                <item id="aPH1l28j" caption="€/to" inputtype="output" contenttype="result" address="Thrimmoptimierung!f125">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=6mgcqPD9;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="uEisT746" caption="€/h" inputtype="output" contenttype="result" address="Thrimmoptimierung!g125">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=6mgcqPD9;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="pLqOzrn6" caption="€/Auftrag" inputtype="output" contenttype="result" address="Thrimmoptimierung!h125">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=6mgcqPD9;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="r5QG1Wyv" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=6mgcqPD9;elementwidth=8</itemdefinitions>
+                </item>
+                <item id="FbKYtr3M" caption="€/to" inputtype="output" contenttype="result" address="Thrimmoptimierung!i125">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=6mgcqPD9;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="Zzaa9Cu2" caption="€/h" inputtype="output" contenttype="result" address="Thrimmoptimierung!j125">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=6mgcqPD9;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="0Lkar4in" caption="€/Auftrag" inputtype="output" contenttype="result" address="Thrimmoptimierung!k125">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=6mgcqPD9;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="kJhEbaQX" contenttype="spacer">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="0gyWFyTR" caption="Ergebnis Gesamtauftrag nach Deckungsbedarf I" inputtype="output" contenttype="result" address="Thrimmoptimierung!b127">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869;buttonheight=6%</itemdefinitions>
+                </item>
+                <item id="qkfGIV3o" contenttype="spacer">
+                    <itemdefinitions>height=15</itemdefinitions>
+                </item>
+                <item id="m5aN3N8j" caption="Ergebnis nach Deckungsbedarf II (Deckungsbedarf für Erreichung Vorsteuer-Planergebnis 2019: 152,29 € / to; 4.792,24 € / h)" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;textfontsize=12;captionhorzalign=center</itemdefinitions>
+                </item>
+                <item id="esGCeT7v" contenttype="spacer">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="UAOqG7Bp" caption="UAOqG7Bp" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=6%</itemdefinitions>
+                </item>
+                <item id="GDuwC7KM" caption="€/to" inputtype="output" contenttype="result" address="Thrimmoptimierung!c132">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=UAOqG7Bp;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="MJV79qIh" caption="€/h" inputtype="output" contenttype="result" address="Thrimmoptimierung!d132">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=UAOqG7Bp;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="QDif7iTJ" caption="€/Auftrag" inputtype="output" contenttype="result" address="Thrimmoptimierung!e132">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=UAOqG7Bp;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="DKNlsS2Q" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=UAOqG7Bp;elementwidth=8</itemdefinitions>
+                </item>
+                <item id="rx3dVb6w" caption="€/to" inputtype="output" contenttype="result" address="Thrimmoptimierung!f132">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=UAOqG7Bp;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="oltBFCD8" caption="€/h" inputtype="output" contenttype="result" address="Thrimmoptimierung!g132">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=UAOqG7Bp;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="U6doE8fo" caption="€/Auftrag" inputtype="output" contenttype="result" address="Thrimmoptimierung!h132">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=UAOqG7Bp;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="43v6FNrw" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=UAOqG7Bp;elementwidth=8</itemdefinitions>
+                </item>
+                <item id="d62cIgNL" caption="€/to" inputtype="output" contenttype="result" address="Thrimmoptimierung!i132">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=UAOqG7Bp;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="RZ4T8DWL" caption="€/h" inputtype="output" contenttype="result" address="Thrimmoptimierung!j132">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=UAOqG7Bp;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="2k8FB5jc" caption="€/Auftrag" inputtype="output" contenttype="result" address="Thrimmoptimierung!k132">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=UAOqG7Bp;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="mV17OIEU" contenttype="spacer">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="9x6VI5g7" caption="Ergebnis Gesamtauftrag nach Deckungsbedarf II" inputtype="output" contenttype="result" address="Thrimmoptimierung!B134">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869;buttonheight=6%</itemdefinitions>
+                </item>
+                <item id="otb3GGWx" contenttype="spacer">
+                    <itemdefinitions>height=15</itemdefinitions>
+                </item>
+                <item id="aSGZWf77" caption="€/Auftrag" inputtype="output" contenttype="result" address="Thrimmoptimierung!e117">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=Azb0USb6;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="oqNeCZnE" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=Azb0USb6;elementwidth=8</itemdefinitions>
+                </item>
+                <item id="LfvYzn4O" caption="€/to" inputtype="output" contenttype="result" address="Thrimmoptimierung!f117">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=Azb0USb6;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="FbxBfShZ" caption="€/h" inputtype="output" contenttype="result" address="Thrimmoptimierung!g117">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=Azb0USb6;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="ju8Fswbo" caption="€/Auftrag" inputtype="output" contenttype="result" address="Thrimmoptimierung!h117">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=Azb0USb6;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="JqZuZXS6" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=Azb0USb6;elementwidth=8</itemdefinitions>
+                </item>
+                <item id="1PaPjsnG" caption="€/to" inputtype="output" contenttype="result" address="Thrimmoptimierung!i117">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=Azb0USb6;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="ovmBPKqR" caption="€/h" inputtype="output" contenttype="result" address="Thrimmoptimierung!j117">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=Azb0USb6;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="qvJtN03t" caption="€/Auftrag" inputtype="output" contenttype="result" address="Thrimmoptimierung!k117">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=Azb0USb6;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="1DUM8fmy" caption="€/h" inputtype="output" contenttype="result" address="Thrimmoptimierung!j121">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=EjVm4WOu;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="2vKjpXYu" caption="€/Auftrag" inputtype="output" contenttype="result" address="Thrimmoptimierung!k121">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#ccffffff;usecellformat=true;groupname=EjVm4WOu;buttonradius=12;valuefontsize=10;valuefontstyle=regular;valuetextcolor=#cc004869;captiontextcolor=#cc004869;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#cc004869;metrictextcolor=#cc004869</itemdefinitions>
+                </item>
+                <item id="NIUJGfXo" caption="NIUJGfXo" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="LBQeZwZp" contenttype="spacer">
+                    <itemdefinitions>height=9%;groupname=NIUJGfXo;elementwidth=3*</itemdefinitions>
+                </item>
+                <item id="7CgNCQUO" caption="Zurück" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#cc004869;elementwidth=1*;linkinfo=page:5;groupname=NIUJGfXo;textcolor=#ccffffff;textfontsize=18;captionhorzalign=center;buttonheight=9%;buttonradius=12</itemdefinitions>
+                </item>
+                <item id="M6QUrnlS" caption="Weiter" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#cc004869;groupname=NIUJGfXo;elementwidth=1*;linkinfo=page:1w;textcolor=#ccffffff;textfontsize=18;captionhorzalign=center;buttonheight=9%;buttonradius=12</itemdefinitions>
+                </item>
+                <item caption="Auftragsvol. in to" inputtype="output" contenttype="result" address="Thrimmoptimierung!K110" id="ct8mbL7s">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#cc004869;usecellformat=true;groupname=1dOfJkZO;valuefontstyle=regular;valuefontsize=12;valuetextcolor=#ccffffff;captiontextcolor=#ccffffff;captionfontsize=8;captionvertalign=center;captionhorzalign=left;markertextcolor=#ccffffff;metrictextcolor=#ccffffff</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="1w" caption="Dokumentation">
+        <excelcontent id="1">
+            <items>
+                <item id="qUOPB5xA" caption="qUOPB5xA" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="cHWrAdpm" caption="Auftragserfassung" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;textfontsize=8;captionhorzalign=left;groupname=qUOPB5xA</itemdefinitions>
+                </item>
+                <item id="mOKvqIdA" caption="Fracht &amp; Erlösschmälerungen" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;captionhorzalign=left;textfontsize=8;groupname=qUOPB5xA</itemdefinitions>
+                </item>
+                <item id="DmsZAVZI" caption="Maschinentrimm" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;captionhorzalign=left;textfontsize=8;groupname=qUOPB5xA</itemdefinitions>
+                </item>
+                <item id="chUqhMPA" caption="Nebenbahn: Auftragserfassung" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;captionhorzalign=left;textfontsize=8;groupname=qUOPB5xA</itemdefinitions>
+                </item>
+                <item id="z8wE7M0f" caption="Nebenbahn: Fracht &amp; Erlösschmälerung" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;captionhorzalign=left;textfontsize=8;groupname=qUOPB5xA</itemdefinitions>
+                </item>
+                <item id="okW7khKR" caption="Produktions-Einzelkosten" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;captionhorzalign=left;textfontsize=8;groupname=qUOPB5xA</itemdefinitions>
+                </item>
+                <item id="71VZPyjk" caption="Ergebnisübersicht" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;captionhorzalign=left;textfontsize=8;groupname=qUOPB5xA</itemdefinitions>
+                </item>
+                <item id="915yMRr2" caption="Dokumentation" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;captionhorzalign=left;textfontsize=8;groupname=qUOPB5xA</itemdefinitions>
+                </item>
+                <item id="2V90o5Ka" contenttype="spacer">
+                    <itemdefinitions>height=50</itemdefinitions>
+                </item>
+                <item id="zVh0MrnR" caption="Dokumentation" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cc004869;textcolor=#ccffffff;textfontsize=16;captionhorzalign=center</itemdefinitions>
+                </item>
+                <item id="Oc70pFZP" contenttype="spacer">
+                    <itemdefinitions>height=15</itemdefinitions>
+                </item>
+                <item id="OrQ2QrKJ" caption="OrQ2QrKJ" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item caption="Kunde" inputtype="input" contenttype="string" address="Thrimmoptimierung!Q3" id="gJrPgXRj">
+                    <itemdefinitions>backgroundcolor=#cc004869;elementcolor=#09679B;valuetextcolor=#ccffffff;usecellformat=true;groupname=OrQ2QrKJ;buttonradius=12;valuefontsize=18;valuefontstyle=regular;captiontextcolor=#ccffffff;captionvertalign=center;captionhorzalign=left;metrictextcolor=#ccffffff</itemdefinitions>
+                </item>
+                <item id="iBXoXDDO" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=OrQ2QrKJ;elementwidth=4</itemdefinitions>
+                </item>
+                <item caption="Teilnehmer" inputtype="input" contenttype="string" address="Thrimmoptimierung!Q4" id="KeF8dlyg">
+                    <itemdefinitions>backgroundcolor=#cc004869;elementcolor=#09679B;valuetextcolor=#ccffffff;usecellformat=true;groupname=OrQ2QrKJ;buttonradius=12;valuefontsize=18;valuefontstyle=regular;captiontextcolor=#ccffffff;captionvertalign=center;captionhorzalign=left;metrictextcolor=#ccffffff</itemdefinitions>
+                </item>
+                <item id="RRb9Rg26" contenttype="spacer">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="yLCaj9Cd" caption="yLCaj9Cd" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item caption="Ort" inputtype="input" contenttype="string" address="Thrimmoptimierung!Q5" id="7mm26K1M">
+                    <itemdefinitions>backgroundcolor=#cc004869;elementcolor=#09679B;valuetextcolor=#ccffffff;usecellformat=true;groupname=yLCaj9Cd;buttonradius=12;valuefontsize=18;valuefontstyle=regular;captiontextcolor=#ccffffff;captionvertalign=center;captionhorzalign=left;metrictextcolor=#ccffffff</itemdefinitions>
+                </item>
+                <item id="XqUDmijR" contenttype="spacer" caption="">
+                    <itemdefinitions>height=50;elementwidth=4;groupname=yLCaj9Cd</itemdefinitions>
+                </item>
+                <item caption="Allgemeiner Kommentar" inputtype="input" contenttype="string" address="Thrimmoptimierung!Q7" id="vPY0Aou6">
+                    <itemdefinitions>backgroundcolor=#cc004869;elementcolor=#09679B;valuetextcolor=#ccffffff;usecellformat=true;groupname=yLCaj9Cd;buttonradius=12;valuefontsize=18;valuefontstyle=regular;captiontextcolor=#ccffffff;captionvertalign=center;captionhorzalign=left;metrictextcolor=#ccffffff</itemdefinitions>
+                </item>
+                <item id="wbgs39Nr" contenttype="spacer">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="KnUfVzmz" caption="KnUfVzmz" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item caption="Mengenkommentar" inputtype="input" contenttype="string" address="Thrimmoptimierung!Q8" id="TmFEMqek">
+                    <itemdefinitions>backgroundcolor=#cc004869;elementcolor=#09679B;valuetextcolor=#ccffffff;usecellformat=true;groupname=KnUfVzmz;buttonradius=12;valuefontsize=18;valuefontstyle=regular;captiontextcolor=#ccffffff;captionvertalign=center;captionhorzalign=left;metrictextcolor=#ccffffff</itemdefinitions>
+                </item>
+                <item id="88HXiRkp" contenttype="spacer" caption="">
+                    <itemdefinitions>height=50;elementwidth=4;groupname=KnUfVzmz</itemdefinitions>
+                </item>
+                <item caption="Preiskommentar" inputtype="input" contenttype="string" address="Thrimmoptimierung!Q9" id="UnZbdAZH">
+                    <itemdefinitions>backgroundcolor=#cc004869;elementcolor=#09679B;valuetextcolor=#ccffffff;usecellformat=true;groupname=KnUfVzmz;buttonradius=12;valuefontsize=18;valuefontstyle=regular;captiontextcolor=#ccffffff;captionvertalign=center;captionhorzalign=left;metrictextcolor=#ccffffff</itemdefinitions>
+                </item>
+                <item id="sXPhNyET" contenttype="spacer">
+                    <itemdefinitions>height=5</itemdefinitions>
+                </item>
+                <item id="vVI016x2" caption="vVI016x2" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item caption="Logistikkommentar" inputtype="input" contenttype="string" address="Thrimmoptimierung!Q10" id="9VflO4DN">
+                    <itemdefinitions>backgroundcolor=#cc004869;elementcolor=#09679B;valuetextcolor=#ccffffff;usecellformat=true;groupname=vVI016x2;buttonradius=12;valuefontsize=18;valuefontstyle=regular;captiontextcolor=#ccffffff;captionvertalign=center;captionhorzalign=left;metrictextcolor=#ccffffff</itemdefinitions>
+                </item>
+                <item id="mJwn5Q2t" contenttype="spacer" caption="">
+                    <itemdefinitions>height=50;elementwidth=4;groupname=vVI016x2</itemdefinitions>
+                </item>
+                <item id="3Uj1uEfA" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=vVI016x2</itemdefinitions>
+                </item>
+                <item id="8LmKSSlb" contenttype="spacer">
+                    <itemdefinitions>height=30%</itemdefinitions>
+                </item>
+                <item id="u6wUwUoR" caption="u6wUwUoR" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=9%</itemdefinitions>
+                </item>
+                <item id="Lvlf13m3" contenttype="spacer">
+                    <itemdefinitions>height=50;groupname=u6wUwUoR;elementwidth=2*</itemdefinitions>
+                </item>
+                <item id="9wGhXe3i" caption="Zurück" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#cc004869;textcolor=#ccffffff;textfontsize=18;captionhorzalign=center;elementwidth=1*;linkinfo=page:6;groupname=u6wUwUoR;buttonradius=12</itemdefinitions>
+                </item>
+                <item id="4LHLAfQ4" caption="Drucken" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#cc004869;actioninfo=print;textcolor=#ccffffff;textfontsize=18;captionhorzalign=center;groupname=u6wUwUoR;elementwidth=1*;buttonradius=12</itemdefinitions>
+                </item>
+                <item id="wI7Lk6TV" caption="Home" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#cc004869;textcolor=#ccffffff;textfontsize=18;captionhorzalign=center;elementwidth=1*;groupname=u6wUwUoR;linkinfo=page:1;buttonradius=12</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+</pages>
