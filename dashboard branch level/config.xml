@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages
+    xmlns="urn:WunderApp"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <page caption="Main" definitions="sheetname=_branchComparison;summarywidth=110;summaryopacity=6;summarybackgroundcolor=AC190D;mainpadding=10,10,10,10" pageid="1">
+        <excelcontent id="1">
+            <items>
+                <item id="0ZJHEIBV" caption="" inputtype="output" contenttype="string" address="_app!D6">
+                    <itemdefinitions>nocaption=true;backgroundcolor=#e6013825;usecellformat=true;</itemdefinitions>
+                </item>
+                <item caption="spacer" contenttype="spacer" id="6aobxH2e" inputtype="">
+                    <itemdefinitions>height=8%;backgroundcolor=#00000000;</itemdefinitions>
+                </item>
+                <item caption="Branch Overview" contenttype="header" id="stY6MvXI">
+                    <itemdefinitions>height=10%;backgroundcolor=#e6013825;textcolor=white;textfontsize=21;separatorcolor=transparent;bordercolor=transparent;</itemdefinitions>
+                </item>
+                <item caption="spacer" contenttype="spacer" id="pGjIIgPN" inputtype="">
+                    <itemdefinitions>height=5;backgroundcolor=#00000000;</itemdefinitions>
+                </item>
+                <item id="ZcUkffro" caption="ZcUkffro" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=90;metrictext=;separatorcolor=transparent;bordercolor=transparent;buttonradius=0;backgroundcolor=ff0000;elementcolor=000000;valuetextcolor=000000;columnspacing=5;</itemdefinitions>
+                </item>
+                <item caption="Current week score" contenttype="result" address="_condForm!J12" id="WrbvNZMg" inputtype="output">
+                    <itemdefinitions>captiontextcolor=white;elementcolor=#1EA070;valuetextcolor=white;showeditbuttons=true;groupname=ZcUkffro;backgroundcolorcell=_condForm!J11;usecellformat=true;separatorcolor=transparent;bordercolor=transparent;</itemdefinitions>
+                </item>
+                <item caption="Past week score" contenttype="result" address="_condForm!K12" id="A9Ru6l46" inputtype="output">
+                    <itemdefinitions>captiontextcolor=white;elementcolor=#1EA070;valuetextcolor=white;showeditbuttons=true;groupname=ZcUkffro;backgroundcolorcell=_condForm!K11;usecellformat=true;separatorcolor=transparent;bordercolor=transparent;</itemdefinitions>
+                </item>
+                <item caption="spacer" contenttype="spacer" id="zsMGpmqd" inputtype="">
+                    <itemdefinitions>height=5;backgroundcolor=#00000000;</itemdefinitions>
+                </item>
+                <item id="ZcUkffr2" caption="ZcUkffr2" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=90;metrictext=;separatorcolor=transparent;bordercolor=transparent;buttonradius=0;backgroundcolor=ff0000;elementcolor=000000;valuetextcolor=000000;columnspacing=5;</itemdefinitions>
+                </item>
+                <item caption="Current ranking" contenttype="integer" address="_condForm!L12" id="PrdirEfo" inputtype="output">
+                    <itemdefinitions>captiontextcolor=white;elementcolor=#1EA070;valuetextcolor=white;showeditbuttons=true;groupname=ZcUkffr2;usecellformat=true;separatorcolor=transparent;bordercolor=transparent;backgroundcolor=#e6013825;</itemdefinitions>
+                </item>
+                <item caption="Previous ranking" contenttype="integer" address="_condForm!M12" id="Pf5p14uH" inputtype="output">
+                    <itemdefinitions>captiontextcolor=white;elementcolor=#1EA070;valuetextcolor=white;showeditbuttons=true;groupname=ZcUkffr2;usecellformat=true;separatorcolor=transparent;bordercolor=transparent;backgroundcolor=#e6013825;</itemdefinitions>
+                </item>
+                <item caption="spacer" contenttype="spacer" id="hBA2ACAH" inputtype="">
+                    <itemdefinitions>height=5;backgroundcolor=#00000000;</itemdefinitions>
+                </item>
+                <item id="ZcUkffr1" caption="ZcUkffr1" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=90;metrictext=;separatorcolor=transparent;bordercolor=transparent;buttonradius=0;backgroundcolor=ff0000;elementcolor=000000;valuetextcolor=000000;columnspacing=5;</itemdefinitions>
+                </item>
+                <item caption="Best metric" contenttype="integer" address="_condForm!N12" id="6sJqrrY1" inputtype="output">
+                    <itemdefinitions>captiontextcolor=white;elementcolor=#1EA070;valuetextcolor=white;showeditbuttons=true;groupname=ZcUkffr1;usecellformat=true;separatorcolor=transparent;bordercolor=transparent;metricvertalign=bottomright;metrictext=fromcell:_condForm!N13;metrictextcolor=white;backgroundcolorcell=_condForm!N11;</itemdefinitions>
+                </item>
+                <item caption="Worst metric" contenttype="integer" address="_condForm!O12" id="H8MZTLfM" inputtype="output">
+                    <itemdefinitions>captiontextcolor=white;elementcolor=#1EA070;valuetextcolor=white;showeditbuttons=true;groupname=ZcUkffr1;usecellformat=true;separatorcolor=transparent;bordercolor=transparent;metricvertalign=bottomright;metrictext=fromcell:_condForm!O13;metrictextcolor=white;backgroundcolorcell=_condForm!O11;</itemdefinitions>
+                </item>
+                <item caption="spacer" contenttype="spacer" id="3hZQoVwz" inputtype="">
+                    <itemdefinitions>height=5%;backgroundcolor=#00000000;</itemdefinitions>
+                </item>
+                <item id="ZcUsffr1" caption="ZcUsffr1" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=90;metrictext=;separatorcolor=transparent;bordercolor=transparent;buttonradius=0;backgroundcolor=ff0000;elementcolor=000000;valuetextcolor=000000;columnspacing=5;</itemdefinitions>
+                </item>
+                <item caption="" contenttype="integer" address="_branchDetails!P10" id="A9Rt6l46" inputtype="output">
+                    <itemdefinitions>captiontextcolor=transparent;backgroundcolor=transparent;elementcolor=transparent;valuetextcolor=transparent;showeditbuttons=false;groupname=ZcUsffr1;separatorcolor=transparent;bordercolor=transparent;</itemdefinitions>
+                </item>
+                <item id="bt2" caption="      Go to Region" contenttype="string" inputtype="actionbutton">
+                    <itemdefinitions>runapp=b4cb73c8-1da6-4112-bffa-23ee2cf34e15;buttonheight=10%;bordercolor=transparent;valuefontsize=22;buttonradius=0;backgroundcolor=#e6013825;groupname=ZcUsffr1;</itemdefinitions>
+                </item>
+                <item caption="spacer" contenttype="spacer" id="6aohxH2e" inputtype="">
+                    <itemdefinitions>height=8%;backgroundcolor=#00000000;</itemdefinitions>
+                </item>
+                <item caption="spacer" contenttype="spacer" id="annfTk8J" inputtype="">
+                    <itemdefinitions>height=5;backgroundcolor=#00000000;</itemdefinitions>
+                </item>
+                <item caption="spacer" contenttype="spacer" id="6agbxH2e" inputtype="">
+                    <itemdefinitions>height=8%;backgroundcolor=#00000000;</itemdefinitions>
+                </item>
+                <item caption="Branch KPIs (latest week)" contenttype="header" id="EheqKUHb">
+                    <itemdefinitions>height=10%;backgroundcolor=#e6013825;textcolor=white;textfontsize=21;</itemdefinitions>
+                </item>
+                <item caption="spacer" contenttype="spacer" id="w4aSAP4S" inputtype="">
+                    <itemdefinitions>height=5;backgroundcolor=#00000000;</itemdefinitions>
+                </item>
+                <item id="ZcUkfdro" caption="ZcUkfdro" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=90;metrictext=;separatorcolor=transparent;bordercolor=transparent;buttonradius=0;backgroundcolor=ff0000;elementcolor=000000;valuetextcolor=000000;usecellformat=true;columnspacing=5;</itemdefinitions>
+                </item>
+                <item caption="Below HF % Sales" contenttype="result" address="_condForm!A12" id="cnSVolqG" inputtype="output">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#1EA070;valuetextcolor=white;showeditbuttons=true;groupname=ZcUkfdro;backgroundcolorcell=_condForm!A11;usecellformat=true;separatorcolor=transparent;bordercolor=transparent;</itemdefinitions>
+                </item>
+                <item caption="Below HF % Lines" contenttype="result" address="_condForm!B12" id="4Sxqsszq" inputtype="output">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#1EA070;valuetextcolor=white;showeditbuttons=true;groupname=ZcUkfdro;backgroundcolorcell=_condForm!B11;usecellformat=true;separatorcolor=transparent;bordercolor=transparent;</itemdefinitions>
+                </item>
+                <item caption="spacer" contenttype="spacer" id="a5XuUkNL" inputtype="">
+                    <itemdefinitions>height=5;backgroundcolor=#00000000;</itemdefinitions>
+                </item>
+                <item id="ZcU4fdro" caption="ZcU4fdro" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=90;metrictext=;separatorcolor=transparent;bordercolor=transparent;buttonradius=0;backgroundcolor=ff0000;elementcolor=000000;valuetextcolor=000000;columnspacing=5;</itemdefinitions>
+                </item>
+                <item caption="% CSAs" contenttype="result" address="_condForm!C12" id="stkOkuRj" inputtype="output">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#1EA070;valuetextcolor=white;showeditbuttons=true;groupname=ZcU4fdro;backgroundcolorcell=_condForm!C11;usecellformat=true;separatorcolor=transparent;bordercolor=transparent;</itemdefinitions>
+                </item>
+                <item caption="% Template" contenttype="result" address="_condForm!D12" id="WymqDMx7" inputtype="output">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#1EA070;valuetextcolor=white;showeditbuttons=true;groupname=ZcU4fdro;backgroundcolorcell=_condForm!D11;usecellformat=true;separatorcolor=transparent;bordercolor=transparent;</itemdefinitions>
+                </item>
+                <item caption="spacer" contenttype="spacer" id="BdGm40D2" inputtype="">
+                    <itemdefinitions>height=5;backgroundcolor=#00000000;</itemdefinitions>
+                </item>
+                <item id="Zcfkfdro" caption="Zcfkfdro" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=90;metrictext=;separatorcolor=transparent;bordercolor=transparent;buttonradius=0;backgroundcolor=ff0000;elementcolor=000000;valuetextcolor=000000;columnspacing=5;</itemdefinitions>
+                </item>
+                <item caption="Manual % Sales" contenttype="result" address="_condForm!E12" id="p1Pf7gIW" inputtype="output">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#1EA070;valuetextcolor=white;showeditbuttons=true;groupname=Zcfkfdro;backgroundcolorcell=_condForm!E11;usecellformat=true;separatorcolor=transparent;bordercolor=transparent;</itemdefinitions>
+                </item>
+                <item caption="Manual % Lines" contenttype="result" address="_condForm!F12" id="xy8XuMHE" inputtype="output">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#1EA070;valuetextcolor=white;showeditbuttons=true;groupname=Zcfkfdro;backgroundcolorcell=_condForm!F11;usecellformat=true;separatorcolor=transparent;bordercolor=transparent;</itemdefinitions>
+                </item>
+                <item caption="spacer" contenttype="spacer" id="cZ836jcP" inputtype="">
+                    <itemdefinitions>height=5;backgroundcolor=#00000000;</itemdefinitions>
+                </item>
+                <item id="ZcUkfd1o" caption="ZcUkfd1o" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=90;metrictext=;separatorcolor=transparent;bordercolor=transparent;buttonradius=0;backgroundcolor=ff0000;elementcolor=000000;valuetextcolor=000000;columnspacing=5;</itemdefinitions>
+                </item>
+                <item caption="% Discount" contenttype="result" address="_condForm!G12" id="7B3T0pO8" inputtype="output">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#1EA070;valuetextcolor=white;showeditbuttons=true;groupname=ZcUkfd1o;backgroundcolorcell=_condForm!G11;usecellformat=true;separatorcolor=transparent;bordercolor=transparent;</itemdefinitions>
+                </item>
+                <item caption="% Walk in Cash" contenttype="result" address="_condForm!H12" id="VSruOTvd" inputtype="output">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#1EA070;valuetextcolor=white;showeditbuttons=true;groupname=ZcUkfd1o;backgroundcolorcell=_condForm!H11;usecellformat=true;separatorcolor=transparent;bordercolor=transparent;</itemdefinitions>
+                </item>
+                <item caption="spacer" contenttype="spacer" id="6aobdH2e" inputtype="">
+                    <itemdefinitions>height=8%;backgroundcolor=#00000000;</itemdefinitions>
+                </item>
+                <item caption="Branch Trend / Score, KPIs" contenttype="header" id="U0k2jwS2">
+                    <itemdefinitions>height=10%;backgroundcolor=#e6013825;textcolor=white;textfontsize=21;</itemdefinitions>
+                </item>
+                <item caption="spacer" contenttype="spacer" id="o6WSuHwa" inputtype="">
+                    <itemdefinitions>height=5;backgroundcolor=#00000000;</itemdefinitions>
+                </item>
+                <item id="QwIev2N0" inputtype="input" contenttype="toggle" address="_branchDetails!AK8">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#013825;valuetextcolor=#013825;showeditbuttons=true</itemdefinitions>
+                </item>
+                <item caption="" contenttype="chart" address="_branchDetails!A10:A15;_branchDetails!AM10:AM15;_branchDetails!AM156:AM161" id="Zl3AbVam" inputtype="output">
+                    <itemdefinitions>height=30%;charttype=column;usecellformat=true;backgroundcolor=#e6ffffff;colorpalette=#e6013825,#fcad1d;showdatamarker=true;showlegend=true;seriescaptions=This branch,Branch average in Region;</itemdefinitions>
+                </item>
+                <item caption="spacer" contenttype="spacer" id="6aobxs2e" inputtype="">
+                    <itemdefinitions>height=8%;backgroundcolor=#00000000;</itemdefinitions>
+                </item>
+                <item caption="Branch Performance Gaps" contenttype="header" id="g6t2AkS3">
+                    <itemdefinitions>height=10%;backgroundcolor=#e6013825;textcolor=white;textfontsize=21;</itemdefinitions>
+                </item>
+                <item caption="spacer" contenttype="spacer" id="5jH00Ixr" inputtype="">
+                    <itemdefinitions>height=5;backgroundcolor=#00000000;</itemdefinitions>
+                </item>
+                <item id="8ej18CJb" caption="" inputtype="output" contenttype="chart" address="_spiker!B3:H3;_spiker!B8:H8;_spiker!B10:H10">
+                    <itemdefinitions>height=50%;charttype=columnstacked;backgroundcolor=white;seriescolor=e6013825;showdatamarker=true;colorpalette=#e6013825,#e6ff5959;showlegend=true;seriescaptions=This branch,Potential;</itemdefinitions>
+                </item>
+                <item caption="spacer" contenttype="spacer" id="6eobxH2e" inputtype="">
+                    <itemdefinitions>height=8%;backgroundcolor=#00000000;</itemdefinitions>
+                </item>
+                <item caption="Link to Employees" contenttype="header" id="g6t2AjS3">
+                    <itemdefinitions>height=10%;backgroundcolor=#e6013825;textcolor=white;textfontsize=21;</itemdefinitions>
+                </item>
+                <item caption="spacer" contenttype="spacer" id="Tl9Y9aTQ" inputtype="">
+                    <itemdefinitions>height=5;backgroundcolor=#00000000;</itemdefinitions>
+                </item>
+                <item caption="" contenttype="chart" address="_employees!A10:A15;_employees!C10:C15" id="gzWlmQog" inputtype="output">
+                    <itemdefinitions>height=50%;charttype=bar;backgroundcolor=white;seriescolor=e6013825;targetappid=942712a1-78d8-4b82-87f6-0d2818921867;showdatamarker=true;</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+</pages>

@@ -1,0 +1,1 @@
+backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/b4cb73c8-1da6-4112-bffa-23ee2cf34e15/public/cardBackgroundImage.png?v=wzVIXhdv;backgroundcolor=white;paddinghorz=0;paddingvert=0;functionbuttoncolor=#e6fcad1d;pagecount=1;headeropacity=6
