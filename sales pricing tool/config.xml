@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages>
+    <page pageid="1" caption="Main" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent id="1">
+            <items>
+                <item caption="Anzahl Lizenzen" inputtype="input" contenttype="integer" address="Eingaben!B3" id="wQBhZP8H">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#2a2a2a;captiontextcolor=#f8cc55;elementcolor=#f8cc55;valuetextcolor=#f8cc55;valuefontstyle=regular;valuefontsize=16;deltastep=50;minvalue=0</itemdefinitions>
+                </item>
+                <item id="C7qIWBbe" caption="C7qIWBbe" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item caption="Partner" inputtype="input" contenttype="toggle" address="Eingaben!B4" id="XbtxRM9o">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#2a2a2a;captiontextcolor=#f8cc55;elementcolor=#f8cc55;valuetextcolor=#f8cc55;valuefontstyle=regular;valuefontsize=16;groupname=C7qIWBbe</itemdefinitions>
+                </item>
+                <item id="cWMgu97R" caption="" inputtype="infobutton" address="Eingaben!A33">
+                    <itemdefinitions>elementcolor=#f8cc55;groupname=C7qIWBbe;elementwidth=50;backgroundcolor=#2a2a2a</itemdefinitions>
+                </item>
+                <item caption="Projektrabatt" inputtype="input" contenttype="percent" address="Eingaben!B5" id="lidQoItA">
+                    <itemdefinitions>usecellformat=true;deltastep=0.01;backgroundcolor=#2a2a2a;captiontextcolor=#f8cc55;elementcolor=#f8cc55;valuetextcolor=#f8cc55;valuefontstyle=regular;valuefontsize=16;minvalue=0</itemdefinitions>
+                </item>
+                <item caption="Lizenzlaufzeit (Jahre)" inputtype="input" contenttype="toggle" address="app!B1" id="w2uAB34h">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#2a2a2a;captiontextcolor=#f8cc55;elementcolor=#f8cc55;valuetextcolor=#f8cc55;valuefontstyle=regular;valuefontsize=16</itemdefinitions>
+                </item>
+                <item id="CzNBs1CE" caption="CzNBs1CE" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;captiontextcolor=#f8cc55;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;buttonradius=0;columnspacing=1;separatorcolor=#000000</itemdefinitions>
+                </item>
+                <item caption="Ø Netto-Lizenzpreis Partner" inputtype="output" contenttype="result" address="app!B2" id="xmqFxzGW">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=CzNBs1CE;backgroundcolor=#f8cc55;captiontextcolor=#2a2a2a;elementcolor=#f8cc55;valuetextcolor=#2a2a2a;valuefontstyle=regular;valuefontsize=16</itemdefinitions>
+                </item>
+                <item caption="Gesamtpreis Partner-EK" inputtype="output" contenttype="result" address="app!B3" id="McK4d3C9">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=CzNBs1CE;backgroundcolor=#f8cc55;captiontextcolor=#2a2a2a;elementcolor=#f8cc55;valuetextcolor=#2a2a2a;valuefontstyle=regular;valuefontsize=16</itemdefinitions>
+                </item>
+                <item id="M6u7qkO5" caption="M6u7qkO5" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;captiontextcolor=#f8cc55;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;buttonradius=0;columnspacing=1;separatorcolor=#000000</itemdefinitions>
+                </item>
+                <item caption="Ø Netto-Lizenzpreis Endkunde" inputtype="output" contenttype="result" address="app!B4" id="5w9QivVq">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=M6u7qkO5;backgroundcolor=#f8cc55;captiontextcolor=#2a2a2a;elementcolor=#f8cc55;valuetextcolor=#2a2a2a;valuefontstyle=regular;valuefontsize=16</itemdefinitions>
+                </item>
+                <item caption="Gesamtpreis Endkunden-VK" inputtype="output" contenttype="result" address="app!B5" id="gGxdfs6w">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=M6u7qkO5;backgroundcolor=#f8cc55;captiontextcolor=#2a2a2a;elementcolor=#f8cc55;valuetextcolor=#2a2a2a;valuefontstyle=regular;valuefontsize=16</itemdefinitions>
+                </item>
+                <item id="upWWasv7" caption="Print PDF" inputtype="actionbutton" address="">
+                    <itemdefinitions>captiontextcolor=white;valuetextcolor=white;backgroundcolor=#2a2a2a;actioninfo=print;metrictextcolor=#f8cc55;textcolor=#f8cc55</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+</pages>

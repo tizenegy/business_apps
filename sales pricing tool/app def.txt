@@ -1,0 +1,1 @@
+pagetabsfillmode=auto;backgroundcolor=#101214;functionbuttoncolor=#f8cc55;pagetabsselectioncolor=#f8cc55;headeropacity=6;paddinghorz=0;paddingvert=0;spacing=0;topareaheight=30%;topareaimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/a177556d-7983-4add-afa5-dae7ae2b2a0d/public/topAreaImage.jpeg?v=l4lx8lo5;printsheet=print;menuentries=print
