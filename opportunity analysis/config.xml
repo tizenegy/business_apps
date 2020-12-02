@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages>
+    <page pageid="2" caption="Data" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent id="2">
+            <items>
+                <item caption="" inputtype="" contenttype="list" address="VC_DE!A1" id="er2bbAyP">
+                    <itemdefinitions>componentname=liste;gridrowheight=40;gridcollapsegroups=false;gridallowedit=false;height=400;headeravailable=true;showcolumnheader=true;drilldowncolumns=2,9,7,5,4,6;sumcolumns=8;listcolumns=1::text,2::text,9::text,distance::;detailcolumns=1:text:,5:country:,2:text:,3:text:,4:text:,8::,12::,13:currency:,9:text:,6:text:,7:text:,distance::,map::;locationcolumns=11,10;backgroundcolor=#80ffffff;buttonradius=6;captiontextcolor=#1182cb;elementcolor=#1182cb;valuetextcolor=#1182cb;GridRowBackgroundColor=#0073ba;GridAlternateRowBackgroundColor=#005185;GridRowForegroundColor=white;GridSelectionBackgroundColor=#005185;GridSelectionForegroundColor=white;GridHeaderBackgroundColor=white;GridHeaderForegroundColor=#005185;GridGroupBackgroundColor=#005185;GridGroupForegroundColor=white;sortcolumn=1</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page caption="Map" pageid="3" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent id="3">
+            <items>
+                <item caption="" contenttype="map" inputtype="" id="eowsdzbQ">
+                    <itemdefinitions>padding=4;componentname=map;height=;metrictext=;menuentries=send,print;namecolumn=1;detailcolumns=1:text:,5:country:,2:text:,3:text:,4:text:,8::,12::,13:currency:,9:text:,6:text:,7:text:,map::;locationcolumns=11,10;searchcolumns=1;</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="1" caption="Dashboard" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent id="2">
+            <items>
+                <item caption="Mitarbeiter" inputtype="input" contenttype="toggle" address="app!E1" id="fbP8qqDp">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#b3ffffff;buttonradius=6;captiontextcolor=#e6005185;elementcolor=#e6005185;valuetextcolor=#e6005185;buttonheight=75;valuefontsize=20</itemdefinitions>
+                </item>
+                <item id="122URVNZ" caption="122URVNZ" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#1182cb;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item caption="Summe Pipeline" inputtype="output" contenttype="result" address="app!E3" id="mjeZ52Uv">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=122URVNZ;backgroundcolor=#e6005185;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff;buttonheight=75;valuefontsize=20</itemdefinitions>
+                </item>
+                <item caption="Mittelwert Pipeline" inputtype="output" contenttype="result" address="app!E4" id="6sRtdtuf">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=122URVNZ;backgroundcolor=#e6005185;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff;buttonheight=75;valuefontsize=20</itemdefinitions>
+                </item>
+                <item id="XbornILo" caption="XbornILo" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#1182cb;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item caption="Erwartungswert Pipelinie" inputtype="output" contenttype="result" address="app!E5" id="toJMqB4Q">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=XbornILo;backgroundcolor=#e6005185;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff;buttonheight=75;valuefontsize=20</itemdefinitions>
+                </item>
+                <item caption="Anzahl Opps" inputtype="output" contenttype="result" address="app!E6" id="CoSMMKTp">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=XbornILo;backgroundcolor=#e6005185;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff;buttonheight=75;valuefontsize=20</itemdefinitions>
+                </item>
+                <item caption="Pipeline" inputtype="output" contenttype="chart" address="app!D3:D5;app!E3:E5" id="J5lWQHaM">
+                    <itemdefinitions>charttype=column;chartseriestypes=column;seriescaptions=Serie1;height=150;numberformat=N0;backgroundcolor=#80ffffff;buttonradius=8;captiontextcolor=#1182cb;elementcolor=#1182cb;valuetextcolor=#1182cb;axiscolor=#e6005185;colorpalette=#e6005185;legendtextcolor=#e6005185;seriescolor=#09679b;titletextcolor=#e6005185;showlegend=false;showdatamarker=true;yaxiscaption=Value in €</itemdefinitions>
+                </item>
+                <item caption="Land" inputtype="input" contenttype="toggle" address="app!K1" id="a9sgp48j">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#b3ffffff;buttonradius=6;captiontextcolor=#e6005185;elementcolor=#e6005185;valuetextcolor=#e6005185;buttonheight=75;valuefontsize=20</itemdefinitions>
+                </item>
+                <item id="l3lyb80i" caption="l3lyb80i" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#1182cb;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item caption="Summe Pipeline" inputtype="output" contenttype="result" address="app!K3" id="Wh8rZsZT">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=l3lyb80i;backgroundcolor=#e6005185;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff;buttonheight=75;valuefontsize=20</itemdefinitions>
+                </item>
+                <item caption="Mittelwert Pipeline" inputtype="output" contenttype="result" address="app!K4" id="b4Up86IG">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=l3lyb80i;backgroundcolor=#e6005185;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff;buttonheight=75;valuefontsize=20</itemdefinitions>
+                </item>
+                <item id="P6Y2ZfRy" caption="P6Y2ZfRy" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#1182cb;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item caption="Erwartungswert Pipelinie" inputtype="output" contenttype="result" address="app!K5" id="dxZC3toZ">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=P6Y2ZfRy;backgroundcolor=#e6005185;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff;buttonheight=75;valuefontsize=20</itemdefinitions>
+                </item>
+                <item caption="Anzahl Opps" inputtype="output" contenttype="result" address="app!K6" id="2n2EI6Lo">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=P6Y2ZfRy;backgroundcolor=#e6005185;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff;buttonheight=75;valuefontsize=20</itemdefinitions>
+                </item>
+                <item caption="Außendienstmitarbeiter" inputtype="output" contenttype="chart" address="app!A1:A7;app!B1:B7" id="cskcBFOR">
+                    <itemdefinitions>charttype=bar;chartseriestypes=bar;seriescaptions=Serie1;height=300;numberformat=N0;showdatamarker=true;backgroundcolor=#80ffffff;buttonradius=0;captiontextcolor=#1182cb;elementcolor=#1182cb;valuetextcolor=#1182cb;axiscolor=#e6005185;colorpalette=#e6005185;legendtextcolor=#e6005185;seriescolor=#09679b;titletextcolor=#e6005185;xaxiscaption=Pipeline in €;yaxiscaption=Mitarbeiter;linkinfo=component:liste,type:filter,data:Manager;</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+</pages>

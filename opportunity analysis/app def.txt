@@ -1,0 +1,1 @@
+pagecount=3;backgroundcolor=white;backgroundimage=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/0e3b7440-ab98-43b3-bd57-0358ed92eead/public/backgroundImage.png?v=j8ArM7KD;functionbuttoncolor=#ffcc00;headeropacity=8;paddinghorz=12;paddingvert=12;spacing=5;pagetabsselectioncolor=#005185;pagetabsheight=50

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages
+    xmlns="urn:WunderApp">
+    <page pageid="1" caption="BuyIn">
+        <excelcontent id="2">
+            <items>
+                <item caption="Target relevant" inputtype="input" contenttype="checkbox" address="BuyIn!A4" id="OOWEaB8s">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679b;valuetextcolor=#df2625;usecellformat=true;captiontextcolor=#df2625</itemdefinitions>
+                </item>
+                <item caption="Month" inputtype="input" contenttype="toggle" address="BuyIn!E3" id="29xKtWaK">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#df2625;valuetextcolor=#df2625;usecellformat=true;captionhorzalign=center</itemdefinitions>
+                </item>
+                <item id="NFImoWwJ" caption="NFImoWwJ" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item caption="O Target" inputtype="output" contenttype="result" address="BuyIn!L2" id="RXapNDai">
+                    <itemdefinitions>nocaption=true;buttonradius=0;backgroundcolor=#dadada;usecellformat=true;valuefontsize=16;buttonheight=60;captionfontsize=8;valuetextcolor=#df2625;captiontextcolor=#df2625;captionvertalign=center;groupname=NFImoWwJ</itemdefinitions>
+                </item>
+                <item caption="O Pipeline" inputtype="output" contenttype="result" address="BuyIn!L3" id="ft5GrSdx">
+                    <itemdefinitions>nocaption=true;buttonradius=0;backgroundcolor=#dadada;usecellformat=true;valuefontsize=16;buttonheight=60;captionfontsize=8;valuetextcolor=#df2625;captiontextcolor=#df2625;captionvertalign=center;groupname=NFImoWwJ</itemdefinitions>
+                </item>
+                <item caption="Orange" inputtype="output" contenttype="chart" address="BuyIn!F2:F5;BuyIn!G2:G5;BuyIn!H2:H5;BuyIn!I2:I5;BuyIn!J2:J5;BuyIn!K2:K5" id="KuKii3b0">
+                    <itemdefinitions>linkinfo=component:mydeals,type:filter,data:team;charttype=columnstacked;chartseriestypes=columnstacked,columnstacked,columnstacked,columnstacked,columnstacked;showlegend=true;seriescaptions=Target,Europe,France,Others,MEA;height=350;numberformat=C2;backgroundcolor=#dadada;captiontextcolor=#e06566;elementcolor=#e06566;valuetextcolor=#e06566;axiscolor=#ffffff;colorpalette=#df2625,#828282,#a3a3a3,#cbcbcb,#616161;legendtextcolor=#ffffff;seriescolor=#09679b;titletextcolor=#df2625</itemdefinitions>
+                </item>
+                <item id="WBXOxprj" caption="WBXOxprj" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item caption="DT Target" inputtype="output" contenttype="result" address="BuyIn!L11" id="P6Ux7i2a">
+                    <itemdefinitions>nocaption=true;buttonradius=0;backgroundcolor=#dadada;usecellformat=true;valuefontsize=16;buttonheight=60;captionfontsize=8;valuetextcolor=#df2625;captiontextcolor=#df2625;captionvertalign=center;groupname=WBXOxprj</itemdefinitions>
+                </item>
+                <item caption="DT Pipeline" inputtype="output" contenttype="result" address="BuyIn!L12" id="zohfMVds">
+                    <itemdefinitions>nocaption=true;buttonradius=0;backgroundcolor=#dadada;usecellformat=true;valuefontsize=16;buttonheight=60;captionfontsize=8;valuetextcolor=#df2625;captiontextcolor=#df2625;captionvertalign=center;groupname=WBXOxprj</itemdefinitions>
+                </item>
+                <item caption="O Secured" inputtype="output" contenttype="result" address="BuyIn!L4" id="hzax2cfj">
+                    <itemdefinitions>nocaption=true;buttonradius=0;backgroundcolor=#dadada;usecellformat=true;valuefontsize=16;buttonheight=60;captionfontsize=8;valuetextcolor=#df2625;captiontextcolor=#df2625;captionvertalign=center;groupname=NFImoWwJ</itemdefinitions>
+                </item>
+                <item caption="O Ackn." inputtype="output" contenttype="result" address="BuyIn!L5" id="5aVvtXkg">
+                    <itemdefinitions>nocaption=true;buttonradius=0;backgroundcolor=#dadada;usecellformat=true;valuefontsize=16;buttonheight=60;captionfontsize=8;valuetextcolor=#df2625;captiontextcolor=#df2625;captionvertalign=center;groupname=NFImoWwJ</itemdefinitions>
+                </item>
+                <item caption="DT Secured" inputtype="output" contenttype="result" address="BuyIn!L13" id="DFvWDCvq">
+                    <itemdefinitions>nocaption=true;buttonradius=0;backgroundcolor=#dadada;usecellformat=true;valuefontsize=16;buttonheight=60;captionfontsize=8;valuetextcolor=#df2625;captiontextcolor=#df2625;captionvertalign=center;groupname=WBXOxprj</itemdefinitions>
+                </item>
+                <item caption="DT Ackn." inputtype="output" contenttype="result" address="BuyIn!L14" id="10f7fcN2">
+                    <itemdefinitions>nocaption=true;buttonradius=0;backgroundcolor=#dadada;usecellformat=true;valuefontsize=16;buttonheight=60;captionfontsize=8;valuetextcolor=#df2625;captiontextcolor=#df2625;captionvertalign=center;groupname=WBXOxprj</itemdefinitions>
+                </item>
+                <item caption="Deutsche Telekom" inputtype="output" contenttype="chart" address="BuyIn!F11:F14;BuyIn!G11:G14;BuyIn!H11:H14;BuyIn!I11:I14;BuyIn!J11:J14;BuyIn!K11:K14" id="MLTAToZv">
+                    <itemdefinitions>charttype=columnstacked;chartseriestypes=columnstacked,columnstacked,columnstacked,columnstacked,columnstacked;showlegend=true;seriescaptions=Target,TDG,DT EU,,;height=350;numberformat=C2;backgroundcolor=#dadada;captiontextcolor=#e06566;elementcolor=#e06566;valuetextcolor=#e06566;axiscolor=#ffffff;colorpalette=#df2625,#828282,#a3a3a3,#cbcbcb,#616161;legendtextcolor=#ffffff;seriescolor=#09679b;titletextcolor=#df2625</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="2" caption="My Category">
+        <excelcontent id="2">
+            <items>
+                <item id="LZxNfAcY" caption="LZxNfAcY" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item caption="Welcome" inputtype="output" contenttype="result" address="Login!B2" id="8Te07tkw">
+                    <itemdefinitions>nocaption=true;buttonradius=0;backgroundcolor=#df2625;usecellformat=true;buttonheight=50;groupname=LZxNfAcY</itemdefinitions>
+                </item>
+                <item id="R0m5df3e" caption="R0m5df3e" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item caption="Target relevant" inputtype="input" contenttype="checkbox" address="MyCategory!A4" id="qDu4QCQu">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679b;valuetextcolor=#df2625;usecellformat=true;captionvertalign=top;groupname=R0m5df3e;captiontextcolor=#df2625</itemdefinitions>
+                </item>
+                <item caption="Category" inputtype="input" contenttype="toggle" address="MyCategory!D3" id="bBw7ruKm">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#09679B;valuetextcolor=#df2625;usecellformat=true;showeditbuttons=false;groupname=R0m5df3e;isvisiblecell=Login!E1</itemdefinitions>
+                </item>
+                <item caption="Month" inputtype="input" contenttype="toggle" address="MyCategory!E3" id="Py52wwtz">
+                    <itemdefinitions>backgroundcolor=#ffffff;elementcolor=#df2625;valuetextcolor=#df2625;usecellformat=true</itemdefinitions>
+                </item>
+                <item id="WeQOeDEE" caption="WeQOeDEE" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=50</itemdefinitions>
+                </item>
+                <item caption="O Target" inputtype="output" contenttype="result" address="MyCategory!L2" id="Vb1dkp6X">
+                    <itemdefinitions>nocaption=true;buttonradius=0;backgroundcolor=#dadada;usecellformat=true;valuefontsize=16;buttonheight=60;captionfontsize=8;valuetextcolor=#df2625;captiontextcolor=#df2625;captionvertalign=center;groupname=WeQOeDEE</itemdefinitions>
+                </item>
+                <item caption="O Pipeline" inputtype="output" contenttype="result" address="MyCategory!L3" id="y0H1K7R1">
+                    <itemdefinitions>nocaption=true;buttonradius=0;backgroundcolor=#dadada;usecellformat=true;valuefontsize=16;buttonheight=60;captionfontsize=8;valuetextcolor=#df2625;captiontextcolor=#df2625;captionvertalign=center;groupname=WeQOeDEE</itemdefinitions>
+                </item>
+                <item caption="Orange" inputtype="output" contenttype="chart" address="MyCategory!F2:F5;MyCategory!G2:G5;MyCategory!H2:H5;MyCategory!I2:I5;MyCategory!J2:J5;MyCategory!K2:K5" id="xcsWQDzC">
+                    <itemdefinitions>charttype=columnstacked;chartseriestypes=columnstacked,columnstacked,columnstacked,columnstacked,columnstacked;showlegend=true;seriescaptions=Target,Europe,France,Others,MEA;height=350;numberformat=C2;backgroundcolor=#dadada;captiontextcolor=#e06566;elementcolor=#e06566;valuetextcolor=#e06566;axiscolor=#ffffff;colorpalette=#df2625,#828282,#a3a3a3,#cbcbcb,#616161;legendtextcolor=#ffffff;seriescolor=#09679b;titletextcolor=#df2625</itemdefinitions>
+                </item>
+                <item id="LZYGNI10" caption="LZYGNI10" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item caption="DT Target" inputtype="output" contenttype="result" address="MyCategory!L11" id="3wEVl0VE">
+                    <itemdefinitions>nocaption=true;buttonradius=0;backgroundcolor=#dadada;usecellformat=true;valuefontsize=16;buttonheight=60;captionfontsize=8;valuetextcolor=#df2625;captiontextcolor=#df2625;captionvertalign=center;groupname=LZYGNI10</itemdefinitions>
+                </item>
+                <item caption="DT Pipeline" inputtype="output" contenttype="result" address="MyCategory!L12" id="9F3tV1MM">
+                    <itemdefinitions>nocaption=true;buttonradius=0;backgroundcolor=#dadada;usecellformat=true;valuefontsize=16;buttonheight=60;captionfontsize=8;valuetextcolor=#df2625;captiontextcolor=#df2625;captionvertalign=center;groupname=LZYGNI10</itemdefinitions>
+                </item>
+                <item caption="O Secured" inputtype="output" contenttype="result" address="MyCategory!L4" id="9diuTDLU">
+                    <itemdefinitions>nocaption=true;buttonradius=0;backgroundcolor=#dadada;usecellformat=true;valuefontsize=16;buttonheight=60;captionfontsize=8;valuetextcolor=#df2625;captiontextcolor=#df2625;captionvertalign=center;groupname=WeQOeDEE</itemdefinitions>
+                </item>
+                <item caption="O Ackn." inputtype="output" contenttype="result" address="MyCategory!L5" id="WFBsMuYK">
+                    <itemdefinitions>nocaption=true;buttonradius=0;backgroundcolor=#dadada;usecellformat=true;valuefontsize=16;buttonheight=60;captionfontsize=8;valuetextcolor=#df2625;captiontextcolor=#df2625;captionvertalign=center;groupname=WeQOeDEE</itemdefinitions>
+                </item>
+                <item caption="DT Secured" inputtype="output" contenttype="result" address="MyCategory!L13" id="MKK1pCTX">
+                    <itemdefinitions>nocaption=true;buttonradius=0;backgroundcolor=#dadada;usecellformat=true;valuefontsize=16;buttonheight=60;captionfontsize=8;valuetextcolor=#df2625;captiontextcolor=#df2625;captionvertalign=center;groupname=LZYGNI10</itemdefinitions>
+                </item>
+                <item caption="DT Ackn." inputtype="output" contenttype="result" address="MyCategory!L14" id="dVqD0IBk">
+                    <itemdefinitions>nocaption=true;buttonradius=0;backgroundcolor=#dadada;usecellformat=true;valuefontsize=16;buttonheight=60;captionfontsize=8;valuetextcolor=#df2625;captiontextcolor=#df2625;captionvertalign=center;groupname=LZYGNI10</itemdefinitions>
+                </item>
+                <item caption="Deutsche Telekom" inputtype="output" contenttype="chart" address="MyCategory!F11:F14;MyCategory!G11:G14;MyCategory!H11:H14;MyCategory!I11:I14;MyCategory!J11:J14;MyCategory!K11:K14" id="2H2wLl3B">
+                    <itemdefinitions>charttype=columnstacked;chartseriestypes=columnstacked,columnstacked,columnstacked,columnstacked,columnstacked;showlegend=true;seriescaptions=Target,TDG,DT EU,,;height=350;numberformat=C2;backgroundcolor=#dadada;captiontextcolor=#e06566;elementcolor=#e06566;valuetextcolor=#e06566;axiscolor=#ffffff;colorpalette=#df2625,#828282,#a3a3a3,#cbcbcb,#616161;legendtextcolor=#ffffff;seriescolor=#09679b;titletextcolor=#df2625</itemdefinitions>
+                </item>
+                <item caption="Team" inputtype="output" contenttype="result" address="MyCategory!C3" id="4YXNRonS">
+                    <itemdefinitions>nocaption=true;buttonradius=0;backgroundcolor=#df2625;usecellformat=true;groupname=LZxNfAcY;elementwidth=30%;buttonheight=50</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="3" caption="My list of deals">
+        <excelcontent id="2">
+            <items>
+                <item caption="" inputtype="" contenttype="list" address="DATASOURCE!A1" id="NZrm96kZ">
+                    <itemdefinitions>componentname=deallist;gridtheme=light;gridalternaterowbackgroundcolor=#f5f5f5;padding=0;gridrowheight=40;gridcollapsegroups=true;gridallowedit=false;height=400;headeravailable=true;showcolumnheader=true;listcolumns=1:1:text,2::text,10::number,11::number,4:1:text;detailcolumns=1:text:,2:text:,5:text:,4:text:,3:text:,7:text:,8:number:,9:text:,10:number:,11:number:,14:text:,6:text:,12:date:;startwithdashboard=false;showsearchpanel=false;isvisiblecell=Login!E1;isvisiblecolumn=15;groupcolumn=4</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="4" caption="List">
+        <excelcontent id="2">
+            <items>
+                <item caption="" inputtype="" contenttype="list" address="DATASOURCE!A1" id="Cr1yLKwj">
+                    <itemdefinitions>componentname=Cr1yLKwj;gridtheme=light;gridalternaterowbackgroundcolor=#f5f5f5;padding=0;gridrowheight=40;gridcollapsegroups=false;gridallowedit=false;height=400;headeravailable=true;showcolumnheader=true;listcolumns=1::text,2::text,3::text,4::text,5::text,7::text,8::number,9::text,10::number,11::number,14::text;detailcolumns=1:text,2:text,3:text,4:text,7:text,8:number,9:text,10:number,11:number,14:text;drilldowncolumns=4,5,7,9,3,8;isvisiblecolumn=15</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+</pages>
