@@ -1,0 +1,1 @@
+pagecount=1;backgroundcolor=fafafa;functionbuttoncolor=#ffe600;pagebuttoncolor=384042;pagetabsfillmode=auto;disablepageselection=true;pagetabsselectioncolor=#7f7e82;headercolor=#80000000
