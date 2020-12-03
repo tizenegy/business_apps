@@ -1,0 +1,1 @@
+allowuploadcalculations=true;allowpushtoserver=true;allowstorecalculations=false;backgroundcolor=white;functionbuttoncolor=#b42e6b;pagetabsselectioncolor=#b42e6b;headeropacity=6;paddinghorz=0;paddingvert=0;spacing=0;topareaheight=30%;topareaimage=https://oaafiles.blob.core.windows.net/images/themes/grayStrawberryTopImage.jpeg
