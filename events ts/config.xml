@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages
+    xmlns="urn:WunderApp"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <page definitions="actionbuttontype=home;summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D" caption="Welcome" pageid="16">
+        <excelcontent>
+            <items>
+                <item id="01krQpCT" caption="" address="event!A1" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4d4d4d;captiontextcolor=#4d4d4d;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="4qmd2gnu" caption="" address="app!A2" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;linkinfo=page:17;buttonradius=0;backgroundcolor=#0045ac;elementcolor=#4D4D4D;valuetextcolor=#ffffff;captiontextcolor=#4d4d4d;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="upHuwoPG" caption="" address="app!A7" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;linkinfo=component:Galerie;buttonradius=0;backgroundcolor=#0045ac;elementcolor=#4D4D4D;valuetextcolor=#ffffff;captiontextcolor=#4d4d4d;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="Y3mf14Jw" caption="" address="app!A4" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;linkinfo=component:map;buttonradius=0;backgroundcolor=#0045ac;elementcolor=#4D4D4D;valuetextcolor=#ffffff;captiontextcolor=#4d4d4d;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="YgssJrGq" caption="" address="app!A6" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;linkinfo=component:contact;buttonradius=0;backgroundcolor=#0045ac;elementcolor=#4D4D4D;valuetextcolor=#ffffff;captiontextcolor=#4d4d4d;valuefontsize=18</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page definitions="actionbuttontype=none;summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D" caption="Agenda" pageid="21">
+        <excelcontent id="1">
+            <items>
+                <item id="50O7OBbt" caption="" address="agenda!A3" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;componentname=agenda;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="XQFI4xCo" caption="XQFI4xCo" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions>buttonradius=0;backgroundcolor=#ff0000;elementcolor=#000000;valuetextcolor=#000000;captiontextcolor=#4D4D4D;bordercolor=transparent;columnspacing=4;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="k1BSAwUY" caption="" address="agenda!A5" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=XQFI4xCo;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4d4d4d;captiontextcolor=#4d4d4d;valuefontsize=18;elementwidth=20%</itemdefinitions>
+                </item>
+                <item id="QmZuKWIw" caption="" address="agenda!B5" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=XQFI4xCo;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="W6yTveP7" caption="W6yTveP7" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions>buttonradius=0;backgroundcolor=#ff0000;elementcolor=#000000;valuetextcolor=#000000;captiontextcolor=#4D4D4D;bordercolor=transparent;columnspacing=4;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="VC6byEpQ" caption="" address="agenda!A6" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=W6yTveP7;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;elementwidth=20%;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="ne7R8300" caption="" address="agenda!B6" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=W6yTveP7;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4d4d4d;captiontextcolor=#4d4d4d;valuefontsize=18;linkinfo=component:rooms</itemdefinitions>
+                </item>
+                <item id="iBFMVq1k" caption="iBFMVq1k" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions>buttonradius=0;backgroundcolor=#ff0000;elementcolor=#000000;valuetextcolor=#000000;captiontextcolor=#4D4D4D;bordercolor=transparent;columnspacing=4;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="QVdtAmG1" caption="" address="agenda!A7" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=iBFMVq1k;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4d4d4d;captiontextcolor=#4d4d4d;valuefontsize=18;elementwidth=20%</itemdefinitions>
+                </item>
+                <item id="PianFvfy" caption="" address="agenda!B7" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=iBFMVq1k;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="2f4z9Yn9" caption="2f4z9Yn9" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions>buttonradius=0;backgroundcolor=#ff0000;elementcolor=#000000;valuetextcolor=#000000;captiontextcolor=#4D4D4D;bordercolor=transparent;columnspacing=4;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="w8BgBxPG" caption="" address="agenda!A8" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=2f4z9Yn9;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4d4d4d;captiontextcolor=#4d4d4d;valuefontsize=18;elementwidth=20%</itemdefinitions>
+                </item>
+                <item id="6b1fKyH7" caption="" address="agenda!B8" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=2f4z9Yn9;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;valuefontsize=18;linkinfo=component:rooms</itemdefinitions>
+                </item>
+                <item id="9uYywZhq" caption="9uYywZhq" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions>buttonradius=0;backgroundcolor=#ff0000;elementcolor=#000000;valuetextcolor=#000000;captiontextcolor=#4D4D4D;bordercolor=transparent;columnspacing=4;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="PITNiIiK" caption="" address="agenda!A9" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=9uYywZhq;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4d4d4d;captiontextcolor=#4d4d4d;valuefontsize=18;elementwidth=20%</itemdefinitions>
+                </item>
+                <item id="pcpZoRVO" caption="" address="agenda!B9" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=9uYywZhq;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="dRSqECu2" caption="dRSqECu2" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions>buttonradius=0;backgroundcolor=#ff0000;elementcolor=#000000;valuetextcolor=#000000;captiontextcolor=#4D4D4D;bordercolor=transparent;columnspacing=4;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="LTu1e4ei" caption="" address="agenda!A10" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=dRSqECu2;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4d4d4d;captiontextcolor=#4d4d4d;valuefontsize=18;elementwidth=20%</itemdefinitions>
+                </item>
+                <item id="OdnUK5hK" caption="" address="agenda!B10" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=dRSqECu2;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;valuefontsize=18;linkinfo=component:rooms</itemdefinitions>
+                </item>
+                <item id="SZNyBgpY" caption="SZNyBgpY" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions>buttonradius=0;backgroundcolor=#ff0000;elementcolor=#000000;valuetextcolor=#000000;captiontextcolor=#4D4D4D;bordercolor=transparent;columnspacing=4;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="XFmJIkNw" caption="" address="agenda!A11" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=SZNyBgpY;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4d4d4d;captiontextcolor=#4d4d4d;valuefontsize=18;elementwidth=20%</itemdefinitions>
+                </item>
+                <item id="LDN8s2YD" caption="" address="agenda!B11" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=SZNyBgpY;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="HHP9swgV" caption="HHP9swgV" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions>buttonradius=0;backgroundcolor=#ff0000;elementcolor=#000000;valuetextcolor=#000000;captiontextcolor=#4D4D4D;bordercolor=transparent;columnspacing=4;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="CarJ77yI" caption="" address="agenda!A12" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=HHP9swgV;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4d4d4d;captiontextcolor=#4d4d4d;valuefontsize=18;elementwidth=20%</itemdefinitions>
+                </item>
+                <item id="Itu77Jv2" caption="" address="agenda!B12" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=HHP9swgV;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4d4d4d;captiontextcolor=#4d4d4d;valuefontsize=18;linkinfo=component:rooms</itemdefinitions>
+                </item>
+                <item id="P3ZSF5WP" caption="Print agenda to PDF" address="" inputtype="actionbutton">
+                    <itemdefinitions>actioninfo=print;buttonradius=0;backgroundcolor=#0045ac;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;valuefontsize=18;textcolor=#ffffff;textfontsize=18</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page definitions="actionbuttontype=none;summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D" caption="Agenda" pageid="17">
+        <excelcontent id="1">
+            <items>
+                <item id="jv1Ad3oO" caption="" address="talks!A1" contenttype="cardlist" inputtype="">
+                    <itemdefinitions>componentname=talks;gridcollapsegroups=false;gridallowedit=false;height=400;headeravailable=true;showcolumnheader=true;listcolumns=1::text,2::text;detailcolumns=1:text,2:text,3:text;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;categorycolumn=3;categorycolorpalette=#0045ac</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page definitions="sheetname=Gäste;summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D;actionbuttontype=none" caption="Gäste" pageid="1">
+        <excelcontent>
+            <items>
+                <item id="vJkoqsd0" caption="" address="Gäste!A1" contenttype="list" inputtype="">
+                    <itemdefinitions>componentname=guests;gridcollapsegroups=false;gridallowedit=false;headeravailable=true;showcolumnheader=true;listcolumns=1::text,2::address,3::text,4::phone,5::phone,6::email,7::text,distance::,10::,11::,12::,15::;detailcolumns=1:text,2:address,3:text,4:phone,5:phone,6:email,7:text,map;locationcolumns=8,9;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;gridtheme=light;gridalternaterowbackgroundcolor=#F5F5F5</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page definitions="sheetname=Anfahrt;summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D;actionbuttontype=none" caption="Anfahrt" pageid="2">
+        <excelcontent>
+            <items>
+                <item id="OZsQ5pTY" caption="spacer" inputtype="" contenttype="spacer">
+                    <itemdefinitions>height=25%;backgroundcolor=#00000000;</itemdefinitions>
+                </item>
+                <item id="OVeTF2jD" caption="TÜV SÜD AG   Westendstraße 199  80686 München  Tel.: 089 5791-2975 Fax: 089 5791-2269 www.tuev-sued.de" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#cbcbcb;textcolor=#ffffff;textfontsize=21</itemdefinitions>
+                </item>
+                <item id="xIoYuhXA" caption="Anfahrt" address="Anfahrt!A1" contenttype="map" inputtype="">
+                    <itemdefinitions>componentname=map;detailcolumns=1:text:,2:address:,3:text:,4:phone:,5:phone:,6:email:,7:web:,map::;locationcolumns=8,9;namecolumn=1;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4d4d4d;captiontextcolor=#4d4d4d;showsearchpanel=false</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D" caption="Voting" pageid="18">
+        <excelcontent id="1">
+            <items>
+                <item id="qOqqlsuB" caption="Feedback for…" address="feedback!B1" contenttype="toggle" inputtype="input">
+                    <itemdefinitions>usecellformat=true;componentname=voting;buttonradius=0;backgroundcolor=#ffffff;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="kEHNLlKr" caption="1. How likely is it that you would recommend the event to a friend or colleague?" address="feedback!B4" contenttype="toggle" inputtype="input">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#ffffff;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="d1a9oDdz" caption="2. Overall, how would you rate the event?" address="feedback!B6" contenttype="toggle" inputtype="input">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#ffffff;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="w9P6xQrV" caption="3. What did you like about the event?" address="feedback!B13" contenttype="string" inputtype="input">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="7BpvU5kW" caption="4. What did you dislike about the event?" address="feedback!B15" contenttype="string" inputtype="input">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="sxCYoO22" caption="5. How organized was the event?" address="feedback!B17" contenttype="toggle" inputtype="input">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#ffffff;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="jH6TFmMP" caption="6. How friendly was the staff?" address="feedback!B25" contenttype="toggle" inputtype="input">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#ffffff;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="v2hnMCp3" caption="7. How helpful was the staff?" address="feedback!B33" contenttype="toggle" inputtype="input">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#ffffff;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="G7uzLZGm" caption="8. Prior to the event, how much of the information that you needed did you get?" address="feedback!B41" contenttype="toggle" inputtype="input">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#ffffff;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="0i1NyMQ9" caption="9. Was the event length too long too short or about right?" address="feedback!B49" contenttype="toggle" inputtype="input">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#ffffff;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="a1Ntp3HS" caption="10. Is there anything else you’d like to share about the event?" address="feedback!B57" contenttype="string" inputtype="input">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;valuefontsize=18</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D" caption="Kontakt" pageid="19">
+        <excelcontent id="1">
+            <items>
+                <item id="dm8s4uVR" caption="" address="contact!A1" contenttype="string" inputtype="input">
+                    <itemdefinitions>usecellformat=true;componentname=contact;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="vtVfGuom" caption="vtVfGuom" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions>buttonradius=0;backgroundcolor=#ff0000;elementcolor=#000000;valuetextcolor=#000000;captiontextcolor=#4D4D4D;bordercolor=transparent;columnspacing=4;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="2VoNnvQ1" caption="Ansprechpartnerin" address="contact!A5" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=vtVfGuom;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="FRm4KkHo" caption="Image" address="" contenttype="image" inputtype="output">
+                    <itemdefinitions>groupname=vtVfGuom;imagefile=https://api.openasapp.net/v1/api/EntityImageStorage/AppStorage/233721af-0afb-4fcf-8425-f494822ff1e7/public/field-FRm4KkHo.jpeg?v=Tqc6MXLh;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="OehflsuD" caption="Funktion" address="Kontakt!A6" contenttype="string" inputtype="input">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="0sD59uw0" caption="Telefon" address="Kontakt!A7" contenttype="string" inputtype="input">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="XDyvlana" caption="E-Mail" address="Kontakt!A8" contenttype="string" inputtype="input">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="BTDqTVIr" caption="BTDqTVIr" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions>buttonradius=0;backgroundcolor=#ff0000;elementcolor=#000000;valuetextcolor=#000000;captiontextcolor=#4D4D4D;bordercolor=transparent;columnspacing=4;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="hranXhJ7" caption="Unternehmen" address="kontakt!B17" contenttype="string" inputtype="input">
+                    <itemdefinitions>usecellformat=true;groupname=BTDqTVIr;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="Zs2UZ6Or" caption="Anrede" address="contact!B18" contenttype="string" inputtype="input">
+                    <itemdefinitions>usecellformat=true;groupname=BTDqTVIr;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="HoOo0Qw3" caption="HoOo0Qw3" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions>buttonradius=0;backgroundcolor=#ff0000;elementcolor=#000000;valuetextcolor=#000000;captiontextcolor=#4D4D4D;bordercolor=transparent;columnspacing=4;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="GJsZFpMM" caption="Vorname" address="contact!B20" contenttype="string" inputtype="input">
+                    <itemdefinitions>usecellformat=true;groupname=HoOo0Qw3;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="uHJW0tj2" caption="Nachname" address="contact!B21" contenttype="string" inputtype="input">
+                    <itemdefinitions>usecellformat=true;groupname=HoOo0Qw3;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="y2Dw7eY0" caption="Adresse" address="contact!B23" contenttype="string" inputtype="input">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="NHqKC1zx" caption="NHqKC1zx" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions>buttonradius=0;backgroundcolor=#ff0000;elementcolor=#000000;valuetextcolor=#000000;captiontextcolor=#4D4D4D;bordercolor=transparent;columnspacing=4;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="TbMY8Lye" caption="E-Mail" address="contact!B22" contenttype="string" inputtype="input">
+                    <itemdefinitions>usecellformat=true;groupname=NHqKC1zx;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="mocMP5yU" caption="Telefon" address="contact!B24" contenttype="string" inputtype="input">
+                    <itemdefinitions>usecellformat=true;groupname=NHqKC1zx;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="yUlXPGHv" caption="Ihre Nachricht" address="contact!B25" contenttype="string" inputtype="input">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;valuefontsize=18</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page definitions="actionbuttontype=none;summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D" caption="Galerie" pageid="20">
+        <excelcontent id="1">
+            <items>
+                <item id="Gcrsts9K" caption="" address="Galerie!A7:c22" contenttype="cardlist" inputtype="">
+                    <itemdefinitions>componentname=Galerie;gridcollapsegroups=false;gridallowedit=false;headeravailable=true;showcolumnheader=true;listcolumns=1:60:text,2:60:image;detailcolumns=1:text:,2:image:,3::;showsearchpanel=false;cardtemplate=heroimage;height=2*;categorycolumn=2;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;categorycolorpalette=#0045ac</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D" caption="Anmeldung" pageid="22">
+        <excelcontent id="1">
+            <items>
+                <item id="6YZ4G8Uz" caption="6YZ4G8Uz" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions>buttonradius=0;backgroundcolor=#ff0000;elementcolor=#000000;valuetextcolor=#000000;captiontextcolor=#4D4D4D;bordercolor=transparent;columnspacing=4;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="6BdZVhc2" caption="Unternehmen" address="anmeldung!B1" contenttype="string" inputtype="input">
+                    <itemdefinitions>usecellformat=true;groupname=6YZ4G8Uz;componentname=anmeldung;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4d4d4d;captiontextcolor=#4d4d4d;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="v23KcAq3" caption="Anrede" address="anmeldung!B2" contenttype="toggle" inputtype="input">
+                    <itemdefinitions>usecellformat=true;groupname=6YZ4G8Uz;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4d4d4d;captiontextcolor=#4d4d4d;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="RRrjqzu4" caption="RRrjqzu4" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions>buttonradius=0;backgroundcolor=#ff0000;elementcolor=#000000;valuetextcolor=#000000;captiontextcolor=#4D4D4D;bordercolor=transparent;columnspacing=4;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="EVgJ7hZj" caption="Vorname" address="anmeldung!B4" contenttype="string" inputtype="input">
+                    <itemdefinitions>usecellformat=true;groupname=RRrjqzu4;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="y9FXdjo1" caption="Nachname" address="anmeldung!B5" contenttype="string" inputtype="input">
+                    <itemdefinitions>usecellformat=true;groupname=RRrjqzu4;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="ViwGiszp" caption="Adresse" address="anmeldung!B7" contenttype="string" inputtype="input">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="kUwpT5J4" caption="kUwpT5J4" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions>buttonradius=0;backgroundcolor=#ff0000;elementcolor=#000000;valuetextcolor=#000000;captiontextcolor=#4D4D4D;bordercolor=transparent;columnspacing=4;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="3ovEWBEf" caption="E-Mail" address="anmeldung!B6" contenttype="string" inputtype="input">
+                    <itemdefinitions>usecellformat=true;groupname=kUwpT5J4;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="uSfQCfgm" caption="Telefon" address="anmeldung!B8" contenttype="string" inputtype="input">
+                    <itemdefinitions>usecellformat=true;groupname=kUwpT5J4;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="rhWNFcve" caption="Ich nehme teil" address="anmeldung!B9" contenttype="checkbox" inputtype="input">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;valuefontsize=18</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page definitions="actionbuttontype=none;summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D" caption="Rooms" pageid="3">
+        <excelcontent>
+            <items>
+                <item id="nia1KFwC" caption="nia1KFwC" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions>buttonradius=0;backgroundcolor=#ff0000;elementcolor=#000000;valuetextcolor=#000000;captiontextcolor=#4D4D4D;bordercolor=transparent;columnspacing=4;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="W7vZnn9r" caption="" address="" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=nia1KFwC;componentname=rooms;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4d4d4d;captiontextcolor=#4d4d4d;elementwidth=15%;valuefontsize=18;buttonheight=60</itemdefinitions>
+                </item>
+                <item id="7eTkgr3h" caption="" address="rooms!B1" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=nia1KFwC;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4d4d4d;captiontextcolor=#4d4d4d;valuefontsize=18;buttonheight=60</itemdefinitions>
+                </item>
+                <item id="cCufMHaq" caption="cCufMHaq" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions>buttonradius=0;backgroundcolor=#ff0000;elementcolor=#000000;valuetextcolor=#000000;captiontextcolor=#4D4D4D;bordercolor=transparent;columnspacing=4;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="8SOblaU4" caption="" address="rooms!A2" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=cCufMHaq;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4d4d4d;captiontextcolor=#4d4d4d;elementwidth=15%;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="JPdIwfDM" caption="" address="rooms!B2" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=cCufMHaq;linkinfo=component:talk1;buttonradius=0;backgroundcolor=#0045ac;elementcolor=#4D4D4D;valuetextcolor=#ffffff;captiontextcolor=#4d4d4d;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="wfyBdYvC" caption="wfyBdYvC" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions>buttonradius=0;backgroundcolor=#ff0000;elementcolor=#000000;valuetextcolor=#000000;captiontextcolor=#4D4D4D;bordercolor=transparent;columnspacing=4;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="EOU0qa1p" caption="" address="rooms!A3" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=wfyBdYvC;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4d4d4d;captiontextcolor=#4d4d4d;valuefontsize=18;elementwidth=15%</itemdefinitions>
+                </item>
+                <item id="cH3HByEb" caption="" address="rooms!B3" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=wfyBdYvC;linkinfo=component:talk4;buttonradius=0;backgroundcolor=#0045ac;elementcolor=#4D4D4D;valuetextcolor=#ffffff;captiontextcolor=#4d4d4d;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="ZQOy8MCY" caption="ZQOy8MCY" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions>buttonradius=0;backgroundcolor=#ff0000;elementcolor=#000000;valuetextcolor=#000000;captiontextcolor=#4D4D4D;bordercolor=transparent;columnspacing=4;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="73kHs4RN" caption="" address="rooms!A4" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=ZQOy8MCY;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4d4d4d;captiontextcolor=#4d4d4d;valuefontsize=18;elementwidth=15%</itemdefinitions>
+                </item>
+                <item id="vvzKYLTy" caption="" address="rooms!B4" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=ZQOy8MCY;linkinfo=component:talk7;buttonradius=0;backgroundcolor=#0045ac;elementcolor=#4D4D4D;valuetextcolor=#ffffff;captiontextcolor=#4d4d4d;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="XLaNa47U" caption="XLaNa47U" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions>buttonradius=0;backgroundcolor=#ff0000;elementcolor=#000000;valuetextcolor=#000000;captiontextcolor=#4D4D4D;bordercolor=transparent;columnspacing=4;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item id="Udy1VBfB" caption="" address="rooms!A5" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=XLaNa47U;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4d4d4d;captiontextcolor=#4d4d4d;valuefontsize=18;elementwidth=15%</itemdefinitions>
+                </item>
+                <item id="PGbmMV9I" caption="" address="rooms!B5" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=XLaNa47U;linkinfo=component:talk10;buttonradius=0;backgroundcolor=#0045ac;elementcolor=#4D4D4D;valuetextcolor=#ffffff;captiontextcolor=#4d4d4d;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="swTOkRS7" caption="" address="rooms!C1" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=nia1KFwC;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4d4d4d;captiontextcolor=#4d4d4d;valuefontsize=18;buttonheight=60</itemdefinitions>
+                </item>
+                <item id="WBagG71X" caption="" address="rooms!D1" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=nia1KFwC;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4d4d4d;captiontextcolor=#4d4d4d;valuefontsize=18;buttonheight=60</itemdefinitions>
+                </item>
+                <item id="C2kyOYlx" caption="" address="rooms!C2" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=cCufMHaq;linkinfo=component:talk2;buttonradius=0;backgroundcolor=#0045ac;elementcolor=#4D4D4D;valuetextcolor=#ffffff;captiontextcolor=#4d4d4d;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="ENoVK6la" caption="" address="rooms!D2" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=cCufMHaq;linkinfo=component:talk3;buttonradius=0;backgroundcolor=#0045ac;elementcolor=#4D4D4D;valuetextcolor=#ffffff;captiontextcolor=#4d4d4d;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="qFrTfq10" caption="" address="rooms!C3" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=wfyBdYvC;linkinfo=component:talk5;buttonradius=0;backgroundcolor=#0045ac;elementcolor=#4D4D4D;valuetextcolor=#ffffff;captiontextcolor=#4d4d4d;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="ieA01KOG" caption="" address="rooms!D3" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=wfyBdYvC;linkinfo=component:talk6;buttonradius=0;backgroundcolor=#0045ac;elementcolor=#4D4D4D;valuetextcolor=#ffffff;captiontextcolor=#4d4d4d;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="vlWXWhNO" caption="" address="rooms!C4" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=ZQOy8MCY;linkinfo=component:talk8;buttonradius=0;backgroundcolor=#0045ac;elementcolor=#4D4D4D;valuetextcolor=#ffffff;captiontextcolor=#4d4d4d;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="xFH1c2sQ" caption="" address="rooms!D4" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=ZQOy8MCY;linkinfo=component:talk9;buttonradius=0;backgroundcolor=#0045ac;elementcolor=#4D4D4D;valuetextcolor=#ffffff;captiontextcolor=#4d4d4d;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="T8cwbIQR" caption="" address="rooms!C5" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=XLaNa47U;linkinfo=component:talk11;buttonradius=0;backgroundcolor=#0045ac;elementcolor=#4D4D4D;valuetextcolor=#ffffff;captiontextcolor=#4d4d4d;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="EK8W79N3" caption="" address="rooms!D5" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=XLaNa47U;linkinfo=component:talk12;buttonradius=0;backgroundcolor=#0045ac;elementcolor=#4D4D4D;valuetextcolor=#ffffff;captiontextcolor=#4d4d4d;valuefontsize=18</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D" caption="Talk 1" pageid="4">
+        <excelcontent>
+            <items>
+                <item id="PrrP92ck" caption="" address="talks!A2" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;componentname=talk1;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="yKKR3h6L" caption="yKKR3h6L" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="0MRj0RvI" caption="" address="talks!B2" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4d4d4d;captiontextcolor=#4d4d4d;valuefontsize=18;groupname=yKKR3h6L</itemdefinitions>
+                </item>
+                <item id="tRNYuqXK" caption="Image" contenttype="image" inputtype="output">
+                    <itemdefinitions>imagefile=https://oaa-web.azureedge.net/home/assets/images/kai_bielenberg.png;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;groupname=yKKR3h6L;elementwidth=100</itemdefinitions>
+                </item>
+                <item id="RdxpWj87" caption="" address="talks!D2" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="2Z7ALZf6" caption="spacer" contenttype="spacer" inputtype="">
+                    <itemdefinitions>height=50;backgroundcolor=#00000000</itemdefinitions>
+                </item>
+                <item id="36ThmgEW" caption="36ThmgEW" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="vfUpZBYX" caption="Enroll" address="talks!R2" contenttype="checkbox" inputtype="input">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4d4d4d;captiontextcolor=#4d4d4d;valuefontsize=18;groupname=36ThmgEW;elementwidth=130</itemdefinitions>
+                </item>
+                <item id="ULr5Pcei" caption="Your Question" address="talks!E2" contenttype="string" inputtype="input">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D;valuefontsize=18;groupname=36ThmgEW</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D" caption="Talk 2" pageid="5">
+        <excelcontent>
+            <items>
+                <item id="oiOlbQ6P" caption="" address="talks!A3" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;componentname=talk2;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="66FmMiPK" caption="" address="talks!B3" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="7paUDa1x" caption="Image" address="" contenttype="image" inputtype="output">
+                    <itemdefinitions>imagefile=https://oaa-web.azureedge.net/home/assets/images/bastian.jpg;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="UE4LsDLH" caption="" address="talks!D3" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="hC9KAce4" caption="Your Question" address="talks!E3" contenttype="string" inputtype="input">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="s1VwAlvh" caption="Enroll" address="talks!R3" contenttype="checkbox" inputtype="input">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D" caption="Talk 3" pageid="6">
+        <excelcontent>
+            <items>
+                <item id="hZVBLLhs" caption="" address="talks!A4" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;componentname=talk3;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="vsPPq6EB" caption="" address="talks!B4" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="4huWPrrr" caption="Image" address="" contenttype="image" inputtype="output">
+                    <itemdefinitions>imagefile=https://oaa-web.azureedge.net/home/assets/images/angelika.jpg;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="TLiD8bHh" caption="" address="talks!D4" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="RqD49fZL" caption="Your Question" address="talks!E4" contenttype="string" inputtype="input">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="MCeOwXPX" caption="Enroll" address="talks!R4" contenttype="checkbox" inputtype="input">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D" caption="Talk 4" pageid="7">
+        <excelcontent>
+            <items>
+                <item id="og7E6YJO" caption="" address="talks!A5" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;componentname=talk4;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="dsgST6A5" caption="" address="talks!B5" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="TocTHZxE" caption="Image" address="" contenttype="image" inputtype="output">
+                    <itemdefinitions>imagefile=https://oaa-web.azureedge.net/home/assets/images/kai_bielenberg.png;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="18UJ7HTe" caption="" address="talks!D5" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="6iVZvFZs" caption="Your Question" address="talks!E5" contenttype="string" inputtype="input">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="DynIl9Uu" caption="Enroll" address="talks!R5" contenttype="checkbox" inputtype="input">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D" caption="Talk 5" pageid="8">
+        <excelcontent>
+            <items>
+                <item id="Pn12HWFu" caption="" address="talks!A6" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;componentname=talk5;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="symaLYTX" caption="" address="talks!B6" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="WyvytFWt" caption="Image" address="" contenttype="image" inputtype="output">
+                    <itemdefinitions>imagefile=https://oaa-web.azureedge.net/home/assets/images/angelika.jpg;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="xUtlEATH" caption="" address="talks!D6" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="9hswIgLJ" caption="Your Question" address="talks!E6" contenttype="string" inputtype="input">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="1J6fcLOa" caption="Enroll" address="talks!R6" contenttype="checkbox" inputtype="input">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D" caption="Talk 6" pageid="9">
+        <excelcontent>
+            <items>
+                <item id="8Nf8Ys2G" caption="" address="talks!A7" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;componentname=talk6;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="FEFjbAek" caption="" address="talks!B7" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="7QRSxHJ5" caption="Image" address="" contenttype="image" inputtype="output">
+                    <itemdefinitions>imagefile=https://oaa-web.azureedge.net/home/assets/images/bastian.jpg;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="wyNTCh19" caption="" address="talks!D7" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="UFeLrORJ" caption="Your Question" address="talks!E7" contenttype="string" inputtype="input">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="kw24infO" caption="Enroll" address="talks!R7" contenttype="checkbox" inputtype="input">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D" caption="Talk 7" pageid="10">
+        <excelcontent>
+            <items>
+                <item id="euNkTi6S" caption="" address="talks!A8" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;componentname=talk7;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="oc7pySUt" caption="" address="talks!B8" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="BgPvfty9" caption="Image" address="" contenttype="image" inputtype="output">
+                    <itemdefinitions>imagefile=https://oaa-web.azureedge.net/home/assets/images/ahmet.jpg;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="kdGaPm7r" caption="" address="talks!D8" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="lykltFx3" caption="Your Question" address="talks!E8" contenttype="string" inputtype="input">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="ugW8ETA1" caption="Enroll" address="talks!R8" contenttype="checkbox" inputtype="input">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D" caption="Talk 8" pageid="11">
+        <excelcontent>
+            <items>
+                <item id="F76Icufc" caption="" address="talks!A9" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;componentname=talk8;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="smaJje2g" caption="" address="talks!B9" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="3hYWFQyP" caption="Image" address="" contenttype="image" inputtype="output">
+                    <itemdefinitions>imagefile=https://oaa-web.azureedge.net/home/assets/images/stephan_square.jpg;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="V7u7Vkfc" caption="" address="talks!D9" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="wyZxuUHp" caption="Your Question" address="talks!E9" contenttype="string" inputtype="input">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="DQ61rfv5" caption="Enroll" address="talks!R9" contenttype="checkbox" inputtype="input">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D" caption="Talk 9" pageid="12">
+        <excelcontent>
+            <items>
+                <item id="kvzw3EIa" caption="" address="talks!A10" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;componentname=talk9;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="qnkKg6Wi" caption="" address="talks!B10" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="We0BcLt5" caption="Image" address="" contenttype="image" inputtype="output">
+                    <itemdefinitions>imagefile=https://oaa-web.azureedge.net/home/assets/images/andre_square.jpg;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="llowQHNC" caption="" address="talks!D10" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="ahLBdYu0" caption="Your Question" address="talks!E10" contenttype="string" inputtype="input">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="r9EAyxCi" caption="Enroll" address="talks!R10" contenttype="checkbox" inputtype="input">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D" caption="Talk 10" pageid="13">
+        <excelcontent>
+            <items>
+                <item id="PbFpI583" caption="" address="talks!A11" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;componentname=talk10;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="uPWyD4vm" caption="" address="talks!B11" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="vRA6E12a" caption="Image" address="" contenttype="image" inputtype="output">
+                    <itemdefinitions>imagefile=https://oaa-web.azureedge.net/home/assets/images/simon.jpg;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="y2PpD4XH" caption="" address="talks!D11" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="N1KHTGja" caption="Your Question" address="talks!E11" contenttype="string" inputtype="input">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="xA5oFsis" caption="Enroll" address="talks!R11" contenttype="checkbox" inputtype="input">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D" caption="Talk 11" pageid="14">
+        <excelcontent>
+            <items>
+                <item id="0l3XwyfD" caption="" address="talks!A12" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;componentname=talk11;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="SVTmjjn2" caption="" address="talks!B12" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="zUx6piDl" caption="Image" address="" contenttype="image" inputtype="output">
+                    <itemdefinitions>imagefile=https://oaa-web.azureedge.net/home/assets/images/kai_bielenberg.png;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="hpLlvPQ9" caption="" address="talks!D12" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="VwDRd1Dh" caption="Your Question" address="talks!E12" contenttype="string" inputtype="input">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="yXLuNs4y" caption="Enroll" address="talks!R12" contenttype="checkbox" inputtype="input">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D" caption="Talk 12" pageid="15">
+        <excelcontent>
+            <items>
+                <item id="N4iFoDd1" caption="" address="talks!A13" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;componentname=talk12;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="9Dd0TUhz" caption="" address="talks!B13" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="cHgEoRma" caption="Image" address="" contenttype="image" inputtype="output">
+                    <itemdefinitions>imagefile=https://oaa-web.azureedge.net/home/assets/images/angelika.jpg;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="LvWTaOtr" caption="" address="talks!D13" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="SSnzmFcH" caption="Your Question" address="talks!E13" contenttype="string" inputtype="input">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+                <item id="U3KYN7HS" caption="Enroll" address="talks!R13" contenttype="checkbox" inputtype="input">
+                    <itemdefinitions>usecellformat=true;buttonradius=0;backgroundcolor=#f9f9f9;elementcolor=#4D4D4D;valuetextcolor=#4D4D4D;captiontextcolor=#4D4D4D</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+</pages>
