@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages
+    xmlns="urn:WunderApp"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <page caption="Hauptseite" pageid="1" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D;actionbuttontype=share">
+        <excelcontent>
+            <items>
+                <item id="kqI1FZKB" caption="Schnellrechner Zusatzversicherungen" contenttype="header">
+                    <itemdefinitions>height=17%;elementwidth=70%;textcolor=#33383e;textfontsize=24;captionhorzalign=center</itemdefinitions>
+                </item>
+                <item id="2DTSqKy5" caption="Geburtsjahr" address="App!C6" contenttype="toggle" inputtype="input">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#33383e</itemdefinitions>
+                </item>
+                <item id="X0dN86lY" caption="Ich möchte..." contenttype="header">
+                    <itemdefinitions>height=50;elementwidth=70%;textcolor=#33383e;textfontsize=24</itemdefinitions>
+                </item>
+                <item id="tOP5jl50" caption="mit Krankentagegeld souverän bleiben!" address="App!C9" contenttype="checkbox" inputtype="input">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=#ffffff;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="zqrtw3nR" caption="" address="App!C10" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;isvisiblecell=App!D10;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;valuefontsize=18</itemdefinitions>
+                </item>
+                <item id="T2nnwqfO" caption="T2nnwqfO" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="2Wn5Qkur" caption="Tarif 37/ KTG ab 43. Tag" address="App!C11" contenttype="currency" inputtype="input">
+                    <itemdefinitions>usecellformat=true;groupname=T2nnwqfO;showeditbuttons=false;isvisiblecell=App!D11;backgroundcolor=#f0f0f0;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#fd6357</itemdefinitions>
+                </item>
+                <item id="BrancHhI" caption="Tarif 37/ KTG ab 43. Tag" address="App!C12" contenttype="currency" inputtype="input">
+                    <itemdefinitions>usecellformat=true;groupname=T2nnwqfO;showeditbuttons=false;isvisiblecell=App!D12;backgroundcolor=#f0f0f0;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#fd6357</itemdefinitions>
+                </item>
+                <item id="rhFVt9BY" caption="rhFVt9BY" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="tCKbqtPQ" caption="Ihr Beitrag" address="App!C15" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=rhFVt9BY;isvisiblecell=App!D15;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="dxEXg160" caption="Ihr Beitrag" address="App!C16" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=rhFVt9BY;isvisiblecell=App!D16;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="POroycRS" caption="POroycRS" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="r52Urs3E" caption="" address="App!A1" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=POroycRS;elementwidth=10%;isvisiblecell=App!D17</itemdefinitions>
+                </item>
+                <item id="nDTHeGTE" caption="KT Lücke berechnen (für Arbeitnehmer)" address="App!D19" contenttype="checkbox" inputtype="input">
+                    <itemdefinitions>usecellformat=true;isvisiblecell=App!D17;elementwidth=90%;groupname=POroycRS;backgroundcolor=#ffffff;captiontextcolor=#66cacf;elementcolor=#33383e;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#33383e</itemdefinitions>
+                </item>
+                <item id="3Z3QVb86" caption="3Z3QVb86" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="QOK1Caag" caption="Bruttoeinkommen mtl." address="App!C21" contenttype="toggle" inputtype="input">
+                    <itemdefinitions>usecellformat=true;groupname=3Z3QVb86;isvisiblecell=App!E19;showeditbuttons=false;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#33383e</itemdefinitions>
+                </item>
+                <item id="zcU77k6P" caption="Krankengeld brutto:" address="App!G21" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=3Z3QVb86;isvisiblecell=App!E19;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="3HCUILLD" caption="3HCUILLD" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="kC4QrJiI" caption="Nettoeinkommen mtl." address="App!C22" contenttype="toggle" inputtype="input">
+                    <itemdefinitions>usecellformat=true;groupname=3HCUILLD;isvisiblecell=App!E19;showeditbuttons=false;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#33383e</itemdefinitions>
+                </item>
+                <item id="GmG0rfhF" caption="Rentenversicherung:" address="App!G22" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=3HCUILLD;isvisiblecell=App!E19;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="TZPDVnny" caption="Fehler" address="App!D22" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;isvisiblecell=App!D21;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="5CADJn6j" caption="5CADJn6j" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="HIARwPWa" caption="Anzahl Gehälter p.a." address="App!C23" contenttype="toggle" inputtype="input">
+                    <itemdefinitions>usecellformat=true;groupname=5CADJn6j;isvisiblecell=App!E19;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#33383e</itemdefinitions>
+                </item>
+                <item id="ihpYVALm" caption="Arbeitslosenversicherung:" address="App!G23" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=5CADJn6j;isvisiblecell=App!E19;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="pDEaNuJy" caption="pDEaNuJy" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="KtFpVCjD" caption="Kinderlos &amp; mind. 23 J." address="App!C24" contenttype="toggle" inputtype="input">
+                    <itemdefinitions>usecellformat=true;groupname=pDEaNuJy;isvisiblecell=App!E19;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#33383e</itemdefinitions>
+                </item>
+                <item id="Fgb7we8u" caption="Pflegepflichtversicherung:" address="App!G24" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=pDEaNuJy;isvisiblecell=App!E19;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="zxAurbhb" caption="zxAurbhb" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="guTIThCi" caption="Arbeitsplatz in Sachsen" address="App!C25" contenttype="toggle" inputtype="input">
+                    <itemdefinitions>usecellformat=true;groupname=zxAurbhb;isvisiblecell=App!E19;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#33383e</itemdefinitions>
+                </item>
+                <item id="cIai7sSb" caption="Krankengeld netto:" address="App!G25" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=zxAurbhb;isvisiblecell=App!E19;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="ApxHR2ve" caption="Nach 6 Wochen fehlen Ihnen*:" address="App!G27" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;isvisiblecell=App!E19;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="EAE70seY" caption="Tarif 37/ KTG ab 43. Tag" address="App!C13" contenttype="currency" inputtype="input">
+                    <itemdefinitions>usecellformat=true;groupname=T2nnwqfO;showeditbuttons=false;isvisiblecell=App!D13;backgroundcolor=#f0f0f0;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#fd6357</itemdefinitions>
+                </item>
+                <item id="D0h9ZuQa" caption="Ihr Beitrag" address="App!C17" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=rhFVt9BY;isvisiblecell=App!D17;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="WxG0YSZC" caption="" address="App!H27" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;isvisiblecell=App!E19;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="N6O4vDCj" caption="beim Zahnarzt lückenlos versorgt werden!" address="App!C48" contenttype="checkbox" inputtype="input">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=#fd6357;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="cFwOIocP" caption="cFwOIocP" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="6IRLG710" caption="Tarif" address="App!C50" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=cFwOIocP;isvisiblecell=App!C48;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="EyDBUa06" caption="Tarif" address="App!C51" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=cFwOIocP;isvisiblecell=App!C48;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="YYyC7FPn" caption="YYyC7FPn" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="L3LcKXo9" caption="" address="App!B50" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=YYyC7FPn;isvisiblecell=App!C48;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="IFjFOvJK" caption="" address="App!B51" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=YYyC7FPn;isvisiblecell=App!C48;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="b25orgeG" caption="b25orgeG" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="p4b661xi" caption="Ihr Beitrag" address="App!C55" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=b25orgeG;isvisiblecell=App!C48;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="BvNSpDrk" caption="Ihr Beitrag" address="App!C56" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=b25orgeG;isvisiblecell=App!C48;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="tEsxWiu6" caption="tEsxWiu6" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="bQrezi1O" caption="" address="App!A2" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=tEsxWiu6;isvisiblecell=App!C48;elementwidth=10%</itemdefinitions>
+                </item>
+                <item id="i3mcFvRT" caption="Zuschlag für fehlende Zähne berechnen?" address="App!D60" contenttype="checkbox" inputtype="input">
+                    <itemdefinitions>usecellformat=true;isvisiblecell=App!C48;groupname=tEsxWiu6;elementwidth=90%;backgroundcolor=#ffffff;captiontextcolor=#66cacf;elementcolor=#33383e;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#33383e</itemdefinitions>
+                </item>
+                <item id="MTldCkWs" caption="Anzahl" address="App!C61" contenttype="toggle" inputtype="input">
+                    <itemdefinitions>usecellformat=true;isvisiblecell=App!D61;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#33383e</itemdefinitions>
+                </item>
+                <item id="wJVJD8o1" caption="wJVJD8o1" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="RVG4mfdf" caption="Zuschlag" address="App!C62" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=wJVJD8o1;isvisiblecell=App!D61;backgroundcolor=#ffffff;captiontextcolor=#33383e;elementcolor=white;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="2kUT7rPs" caption="Zuschlag" address="App!C63" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=wJVJD8o1;isvisiblecell=App!D61;backgroundcolor=#ffffff;captiontextcolor=#33383e;elementcolor=white;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="HLqIWy5p" caption="Tarif" address="App!C52" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=cFwOIocP;isvisiblecell=App!C48;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="MAmHGHB9" caption="Tarif" address="App!C53" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=cFwOIocP;isvisiblecell=App!C48;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="xVMt3UfA" caption="Ihr Beitrag" address="App!C57" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=b25orgeG;isvisiblecell=App!C48;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="aYiWhSzW" caption="Ihr Beitrag" address="App!C58" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=b25orgeG;isvisiblecell=App!C48;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="BXNotg8b" caption="Zuschlag" address="App!C64" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=wJVJD8o1;isvisiblecell=App!D61;backgroundcolor=#ffffff;captiontextcolor=#33383e;elementcolor=white;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="FvTUEeqy" caption="Zuschlag" address="App!C65" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=wJVJD8o1;isvisiblecell=App!D61;backgroundcolor=#ffffff;captiontextcolor=#33383e;elementcolor=white;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="qef3tJC8" caption="" address="App!B52" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=YYyC7FPn;isvisiblecell=App!C48;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="6GnBsmgD" caption="" address="App!B53" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=YYyC7FPn;isvisiblecell=App!C48;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="GxHYC61o" caption="Alternativ: Die bewährten DentalPro Tarife" address="App!C29" contenttype="checkbox" inputtype="input">
+                    <itemdefinitions>usecellformat=true;isvisiblecell=App!D30;backgroundcolor=#ffffff;captiontextcolor=#33383e;elementcolor=#33383e;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#33383e</itemdefinitions>
+                </item>
+                <item id="D13EZiSr" caption="D13EZiSr" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="q0N2FtkP" caption="Tarif" address="App!C31" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=D13EZiSr;isvisiblecell=App!D31;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="tnRL89ag" caption="Tarif" address="App!C32" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=D13EZiSr;isvisiblecell=App!D32;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="AA9p6S2c" caption="Tarif" address="App!C33" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=D13EZiSr;isvisiblecell=App!D33;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="YZnNQftZ" caption="YZnNQftZ" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions>isvisiblecell=App!D23</itemdefinitions>
+                </item>
+                <item id="1Cy1TtMJ" caption="" address="App!B31" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=YZnNQftZ;isvisiblecell=App!D31;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="3SKWc2hC" caption="" address="App!B32" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=YZnNQftZ;isvisiblecell=App!D32;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="ZzJvT9z5" caption="" address="App!B33" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=YZnNQftZ;isvisiblecell=App!D33;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="5UFUZl6y" caption="5UFUZl6y" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="0Z5wO0Gk" caption="Ihr Beitrag" address="App!C35" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;isvisiblecell=App!D35;groupname=5UFUZl6y;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="uBMblFpg" caption="Ihr Beitrag" address="App!C36" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;isvisiblecell=App!D36;groupname=5UFUZl6y;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="ktFlp3GX" caption="Ihr Beitrag" address="App!C37" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;isvisiblecell=App!D37;groupname=5UFUZl6y;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="7VhJ0o8e" caption="7VhJ0o8e" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="z0xBm20F" caption="" address="App!A1" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=7VhJ0o8e;elementwidth=10%;isvisiblecell=App!D37;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="fgG9HUkm" caption="Zuschlag für fehlende Zähne berechnen?" address="App!D39" contenttype="checkbox" inputtype="input">
+                    <itemdefinitions>usecellformat=true;isvisiblecell=App!D37;groupname=7VhJ0o8e;elementwidth=90%;backgroundcolor=#ffffff;captiontextcolor=#66cacf;elementcolor=#33383e;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#33383e</itemdefinitions>
+                </item>
+                <item id="IUmwm6oo" caption="Anzahl" address="App!C40" contenttype="toggle" inputtype="input">
+                    <itemdefinitions>usecellformat=true;isvisiblecell=App!D40;backgroundcolor=#ffffff;captiontextcolor=#33383e;elementcolor=#66cacf;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="74ievz5t" caption="74ievz5t" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="VXkIkSwM" caption="Zuschlag" address="App!C41" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=74ievz5t;isvisiblecell=App!D40;backgroundcolor=#ffffff;captiontextcolor=#33383e;elementcolor=white;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="6aOEY39y" caption="Zuschlag" address="App!C42" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=74ievz5t;isvisiblecell=App!D40;backgroundcolor=#ffffff;captiontextcolor=#33383e;elementcolor=white;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="5y1NwH9z" caption="Zuschlag" address="App!C43" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=74ievz5t;isvisiblecell=App!D40;backgroundcolor=#ffffff;captiontextcolor=#33383e;elementcolor=white;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="hsnidJ1L" caption="im Pflegefall unabhängig leben!" address="App!C68" contenttype="checkbox" inputtype="input">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=#fd6357;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="Z2aeKuTk" caption="Z2aeKuTk" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="XC0WJhUw" caption="" address="App!C69" contenttype="currency" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=Z2aeKuTk;isvisiblecell=App!D69;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="1aZ4SVWw" caption="gewünschter Monatssatz" address="App!C70" contenttype="currency" inputtype="input">
+                    <itemdefinitions>usecellformat=true;groupname=Z2aeKuTk;showeditbuttons=false;isvisiblecell=App!D69;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#33383e</itemdefinitions>
+                </item>
+                <item id="sYh0AnFw" caption="sYh0AnFw" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="J2uYTDyX" caption="" address="App!C72" contenttype="currency" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=sYh0AnFw;isvisiblecell=App!D69;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="EJ1ZpQBL" caption="gewünschter Monatssatz" address="App!C73" contenttype="currency" inputtype="input">
+                    <itemdefinitions>usecellformat=true;groupname=sYh0AnFw;showeditbuttons=false;isvisiblecell=App!D69;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#33383e</itemdefinitions>
+                </item>
+                <item id="hT8vg1eM" caption="Beitrag" address="App!C74" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=sYh0AnFw;isvisiblecell=App!D69;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="wDm7mLFm" caption="wDm7mLFm" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="o45Cqpc4" caption="" address="App!C75" contenttype="currency" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=wDm7mLFm;isvisiblecell=App!D69;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="yMsmartH" caption="gewünschter Monatssatz" address="App!C76" contenttype="currency" inputtype="input">
+                    <itemdefinitions>usecellformat=true;groupname=wDm7mLFm;showeditbuttons=false;isvisiblecell=App!D69;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#33383e</itemdefinitions>
+                </item>
+                <item id="pjUVS1EL" caption="pjUVS1EL" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="5JrejsYD" caption="" address="App!C78" contenttype="currency" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=pjUVS1EL;isvisiblecell=App!D69;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="H7IlZdCF" caption="gewünschter Monatssatz" address="App!C79" contenttype="currency" inputtype="input">
+                    <itemdefinitions>usecellformat=true;groupname=pjUVS1EL;showeditbuttons=false;isvisiblecell=App!D69;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#33383e</itemdefinitions>
+                </item>
+                <item id="n26p7b9V" caption="n26p7b9V" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="jUi4R4Za" caption="" address="App!C81" contenttype="currency" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=n26p7b9V;isvisiblecell=App!D69;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="hV2K71SG" caption="gewünschter Monatssatz" address="App!C82" contenttype="currency" inputtype="input">
+                    <itemdefinitions>usecellformat=true;groupname=n26p7b9V;showeditbuttons=false;isvisiblecell=App!D69;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#33383e</itemdefinitions>
+                </item>
+                <item id="rPaRVBWf" caption="Gesamtbeitrag" address="App!C85" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;isvisiblecell=App!D69;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="CIxVlm9m" caption="CIxVlm9m" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="1KSm1VSY" caption="" address="App!A138" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=CIxVlm9m;elementwidth=10%;isvisiblecell=App!E138</itemdefinitions>
+                </item>
+                <item id="sbTL2Bds" caption="Pflegekostenrechner" address="App!C138" contenttype="checkbox" inputtype="input">
+                    <itemdefinitions>usecellformat=true;groupname=CIxVlm9m;elementwidth=90%;isvisiblecell=App!E138;backgroundcolor=#ffffff;captiontextcolor=#66cacf;elementcolor=#33383e;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#33383e</itemdefinitions>
+                </item>
+                <item id="M4bDGLpu" caption="Wo findet die Pflege statt?" address="App!C139" contenttype="toggle" inputtype="input">
+                    <itemdefinitions>usecellformat=true;isvisiblecell=App!E139;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#33383e</itemdefinitions>
+                </item>
+                <item id="hqfT7SCT" caption="hqfT7SCT" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="G4AxF0X6" caption="" address="App!B140" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=hqfT7SCT;isvisiblecell=App!E139;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="hdQB5tXa" caption="" address="App!C140" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=hqfT7SCT;isvisiblecell=App!E139;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="x4CSFdhQ" caption="" address="App!D140" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=hqfT7SCT;isvisiblecell=App!E139;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="VkhLN4jR" caption="VkhLN4jR" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="mHYwUpTp" caption="" address="App!B141" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=VkhLN4jR;isvisiblecell=App!E139;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="bbKZ6C8i" caption="" address="App!C141" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=VkhLN4jR;isvisiblecell=App!E139;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="vJkgXGfG" caption="" address="App!D141" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=VkhLN4jR;isvisiblecell=App!E139;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="lFhgQQrT" caption="lFhgQQrT" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="q4gplzsb" caption="" address="App!B142" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=lFhgQQrT;isvisiblecell=App!E139;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="iqu2ldFK" caption="" address="App!C142" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=lFhgQQrT;isvisiblecell=App!E139;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="nJAD2Efd" caption="" address="App!D142" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=lFhgQQrT;isvisiblecell=App!E139;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="uot7wIa1" caption="uot7wIa1" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="VvnIvSO2" caption="" address="App!B143" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=uot7wIa1;isvisiblecell=App!E139;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="1UT3aLe9" caption="" address="App!C143" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=uot7wIa1;isvisiblecell=App!E139;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="vY1FOioE" caption="" address="App!D143" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=uot7wIa1;isvisiblecell=App!E139;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="eXPpmdIb" caption="eXPpmdIb" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="hIPIllNs" caption="" address="App!B144" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=eXPpmdIb;isvisiblecell=App!E139;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="eytEqoXG" caption="" address="App!C144" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=eXPpmdIb;isvisiblecell=App!E139;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="DBBsXVNe" caption="" address="App!D144" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=eXPpmdIb;isvisiblecell=App!E139;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="SB8ru71v" caption="SB8ru71v" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="BQaZxThg" caption="" address="App!B145" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=SB8ru71v;isvisiblecell=App!E139;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="VPLF1ZAk" caption="" address="App!C145" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=SB8ru71v;isvisiblecell=App!E139;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="zITq87Hu" caption="" address="App!D145" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=SB8ru71v;isvisiblecell=App!E139;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="Qn45Qnms" caption="Alternativ: Die bewährten Pflegetarife" address="App!C87" contenttype="checkbox" inputtype="input">
+                    <itemdefinitions>usecellformat=true;isvisiblecell=App!D69;backgroundcolor=#ffffff;captiontextcolor=#33383e;elementcolor=#33383e;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#33383e</itemdefinitions>
+                </item>
+                <item id="0wk7PBDO" caption="0wk7PBDO" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="HabcfcGU" caption="Tarif" address="App!C89" contenttype="integer" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=0wk7PBDO;isvisiblecell=App!D89;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="sTSEt59k" caption="Leistungsstufe auswählen" address="App!C90" contenttype="toggle" inputtype="input">
+                    <itemdefinitions>usecellformat=true;deltastep=0.001;groupname=0wk7PBDO;showeditbuttons=false;isvisiblecell=App!D89;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#33383e</itemdefinitions>
+                </item>
+                <item id="wXLYBlTq" caption="wXLYBlTq" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="Ay5q6zei" caption="Tarif" address="App!C93" contenttype="currency" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=wXLYBlTq;isvisiblecell=App!D89;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="WhVamQ0G" caption="gewünschter Tagessatz" address="App!C94" contenttype="currency" inputtype="input">
+                    <itemdefinitions>usecellformat=true;groupname=wXLYBlTq;showeditbuttons=false;isvisiblecell=App!D89;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#33383e</itemdefinitions>
+                </item>
+                <item id="RjVPliPr" caption="bei Brille und Heilpraktiker mehr bekommen!" address="App!C98" contenttype="checkbox" inputtype="input">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=#fd6357;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="GKVNI7uv" caption="GKVNI7uv" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="ydDSQM95" caption="Tarif" address="App!C100" contenttype="integer" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=GKVNI7uv;isvisiblecell=App!D100;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="2RIetITe" caption="Tarif" address="App!C101" contenttype="integer" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=GKVNI7uv;isvisiblecell=App!D100;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="jyhKUFbi" caption="jyhKUFbi" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="myDx1nqL" caption="" address="App!B100" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=jyhKUFbi;isvisiblecell=App!D100;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="xOUs38nD" caption="" address="App!B101" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=jyhKUFbi;isvisiblecell=App!D100;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="UsOcvTml" caption="UsOcvTml" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="KoiWY7UC" caption="Ihr Beitrag" address="App!C104" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=UsOcvTml;isvisiblecell=App!D100;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="T9yFQlhv" caption="Ihr Beitrag" address="App!C105" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=UsOcvTml;isvisiblecell=App!D100;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="rkm6OSQU" caption="im Krankenhaus erstklassig behandelt werden!" address="App!C109" contenttype="checkbox" inputtype="input">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=#fd6357;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="vB1IHJrv" caption="vB1IHJrv" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="zshYu4nG" caption="Tarif" address="App!C111" contenttype="integer" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=vB1IHJrv;isvisiblecell=App!D111;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="F78Q5slY" caption="Tarif" address="App!C112" contenttype="integer" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=vB1IHJrv;isvisiblecell=App!D111;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="nz9WmRcQ" caption="nz9WmRcQ" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="aB5SNfst" caption="" address="App!B111" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=nz9WmRcQ;isvisiblecell=App!D111;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="7TRYrlQh" caption="" address="App!B112" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=nz9WmRcQ;isvisiblecell=App!D111;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="Mas2cMBb" caption="Mas2cMBb" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="QPLwVWID" caption="Ihr Beitrag" address="App!C116" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=Mas2cMBb;isvisiblecell=App!D111;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="BKZfLe3B" caption="Ihr Beitrag" address="App!C117" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=Mas2cMBb;isvisiblecell=App!D111;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="LtHSFOaC" caption="Ihr Beitrag" address="App!C118" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=Mas2cMBb;isvisiblecell=App!D111;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="zDeZouMQ" caption="Heilbehandlung nach Kostenerstattungsprinzip!" address="App!C121" contenttype="checkbox" inputtype="input">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=#fd6357;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="lBR8DkVL" caption="lBR8DkVL" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="dC5uJey1" caption="Tarif" address="App!C123" contenttype="integer" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=lBR8DkVL;isvisiblecell=App!D123;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="dNJmq7OU" caption="Tarif" address="App!C124" contenttype="integer" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=lBR8DkVL;isvisiblecell=App!D123;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="sTxUsWQQ" caption="sTxUsWQQ" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="5NhFQzjs" caption="" address="App!B123" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=sTxUsWQQ;isvisiblecell=App!D123;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="w5ajbYF5" caption="" address="App!B124" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=sTxUsWQQ;isvisiblecell=App!D123;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="H04zI5XG" caption="H04zI5XG" contenttype="grouplayout" inputtype="output">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="lw9ZUg0a" caption="Ihr Beitrag" address="App!C127" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=H04zI5XG;isvisiblecell=App!D123;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="WwqIRcMS" caption="Ihr Beitrag" address="App!C128" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=H04zI5XG;isvisiblecell=App!D123;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="hXpRAJcG" caption="mehr Vorsorge für die Gesundheit!" address="App!C131" contenttype="checkbox" inputtype="input">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=#fd6357;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="FWA7LPKh" caption="Tarif" address="App!C133" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;isvisiblecell=App!D133;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="dnEbR3IN" caption="" address="App!B133" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;isvisiblecell=App!D133;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="NASw1YRO" caption="Ihr Beitrag" address="App!C135" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;isvisiblecell=App!D133;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="VkqKMUAO" caption="Beitrag" address="App!C71" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=Z2aeKuTk;isvisiblecell=App!D69;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="2vTi6Kk9" caption="Beitrag" address="App!C77" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=wDm7mLFm;isvisiblecell=App!D69;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="YOzGN5jj" caption="Beitrag" address="App!C80" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=pjUVS1EL;isvisiblecell=App!D69;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="Z9AHFb3D" caption="Beitrag" address="App!C83" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=n26p7b9V;isvisiblecell=App!D69;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="EoHu14dM" caption="Beitrag" address="App!C91" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=0wk7PBDO;isvisiblecell=App!D89;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="sZSdAruf" caption="Beitrag" address="App!C95" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=wXLYBlTq;isvisiblecell=App!D89;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="iLef2Ppp" caption="Tarif" address="App!C102" contenttype="integer" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=GKVNI7uv;isvisiblecell=App!D100;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="eq80M2Av" caption="" address="App!B102" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=jyhKUFbi;isvisiblecell=App!D100;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="lclpCbmu" caption="Ihr Beitrag" address="App!C106" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=UsOcvTml;isvisiblecell=App!D100;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="GKs6unL1" caption="Tarif" address="App!C113" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=vB1IHJrv;isvisiblecell=App!D111;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="CdQu2iPD" caption="gewünschter Tagessatz" address="App!C114" contenttype="currency" inputtype="input">
+                    <itemdefinitions>usecellformat=true;groupname=nz9WmRcQ;showeditbuttons=false;isvisiblecell=App!D111;backgroundcolor=#ffffff;captiontextcolor=#33383e;elementcolor=#66cacf;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="pN28q7yf" caption="Tarif" address="App!C125" contenttype="integer" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=lBR8DkVL;isvisiblecell=App!D123;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="8w6nrVHq" caption="" address="App!B125" contenttype="string" inputtype="output">
+                    <itemdefinitions>usecellformat=true;groupname=sTxUsWQQ;isvisiblecell=App!D123;valuefontsize=16;valuefontstyle=regular;valuetextcolor=#33383e;captiontextcolor=#33383e;captionvertalign=center;backgroundcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="sU8gosxe" caption="Ihr Beitrag" address="App!C129" contenttype="result" inputtype="output">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=H04zI5XG;isvisiblecell=App!D123;backgroundcolor=#66cacf;captiontextcolor=#ffffff;elementcolor=white;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#ffffff;captionvertalign=center</itemdefinitions>
+                </item>
+                <item id="JoPc8rLM" caption="Angebot erstellen für..." contenttype="header">
+                    <itemdefinitions>height=17%;elementwidth=70%;textcolor=#33383e;textfontsize=24</itemdefinitions>
+                </item>
+                <item id="7nCdPT09" caption="Vorname" address="App!C4" contenttype="string" inputtype="input">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#33383e</itemdefinitions>
+                </item>
+                <item id="PasMZqFx" caption="Name" address="App!C5" contenttype="string" inputtype="input">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#ffffff;captiontextcolor=#3d3d3d;elementcolor=#66cacf;valuefontsize=22;valuefontstyle=regular;valuetextcolor=#33383e</itemdefinitions>
+                </item>
+                <item id="qnIzxwWK" caption="Angebot erzeugen!" inputtype="actionbutton" address="">
+                    <itemdefinitions>backgroundcolor=#fd6357;captiontextcolor=white;textcolor=#ffffff;textfontsize=22;valuetextcolor=white;actioninfo=print</itemdefinitions>
+                    <action xsi:type="print"/>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+</pages>
