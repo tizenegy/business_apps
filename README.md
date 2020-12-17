@@ -1,6 +1,4 @@
-# business_apps
-
-### Selection of mobile and web applications created by me.
+## Selection of mobile and web applications created by me.
 
 <br>
 
